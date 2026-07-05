@@ -1,46 +1,34 @@
-# CS336 Spring 2026 Assignment 2: Systems
+# CS336 2026 春季作业 2：系统
 
-For a full description of the assignment, see the assignment handout at
-[cs336_assignment2_systems.pdf](./cs336_assignment2_systems.pdf)
+完整作业说明见讲义：[cs336_assignment2_systems.pdf](./cs336_assignment2_systems.pdf)。
 
-If you see any issues with the assignment handout or code, please feel free to
-raise a GitHub issue or open a pull request with a fix.
+如果你发现作业讲义或代码有问题，可以提交 GitHub issue，或直接开 pull request 修复。
 
-## Setup
+## 配置
 
-This directory is organized as follows:
+本目录结构如下：
 
-- [`./cs336-basics`](./cs336-basics): directory containing a module
-  `cs336_basics` and its associated `pyproject.toml`. This module contains the staff 
-  implementation of the language model from assignment 1. If you want to use your own 
-  implementation, you can replace this directory with your own implementation.
-- [`./cs336_systems`](./cs336_systems): This folder is basically empty! This is the
-  module where you will implement your optimized Transformer language model. 
-  Feel free to take whatever code you need from assignment 1 (in `cs336-basics`) and copy it 
-  over as a starting point. In addition, you will implement distributed training and
-  optimization in this module.
+- [`./cs336-basics`](./cs336-basics)：包含 `cs336_basics` 模块及其 `pyproject.toml` 的目录。该模块提供课程组给出的作业 1 语言模型实现。如果你想使用自己的作业 1 实现，可以用自己的实现替换这个目录。
+- [`./cs336_systems`](./cs336_systems)：这个目录基本是空的。你将在这里实现优化后的 Transformer 语言模型。可以从作业 1 的 `cs336-basics` 中复制需要的代码作为起点。此外，你还会在这个模块中实现分布式训练和优化。
 
-Visually, it should look something like:
+目录大致应如下所示：
 
 ``` sh
 .
-├── cs336_basics  # A python module named cs336_basics
+├── cs336_basics  # 名为 cs336_basics 的 Python 模块
 │   ├── __init__.py
-│   └── ... other files in the cs336_basics module, taken from assignment 1 ...
-├── cs336_systems  # TODO(you): code that you'll write for assignment 2 
+│   └── ... 从作业 1 带来的 cs336_basics 模块中的其他文件 ...
+├── cs336_systems  # TODO(you): 你为作业 2 编写的代码
 │   ├── __init__.py
-│   └── ... TODO(you): any other files or folders you need for assignment 2 ...
+│   └── ... TODO(you): 作业 2 需要的其他文件或文件夹 ...
 ├── README.md
 ├── pyproject.toml
-└── ... TODO(you): other files or folders you need for assignment 2 ...
+└── ... TODO(you): 作业 2 需要的其他文件或文件夹 ...
 ```
 
-If you would like to use your own implementation of assignment 1, replace the `cs336-basics`
-directory with your own implementation, or edit the outer `pyproject.toml` file to point to your
-own implementation.
+如果要使用自己的作业 1 实现，可以用自己的实现替换 `cs336-basics` 目录，或修改外层 `pyproject.toml`，让它指向你的实现。
 
-0. We use `uv` to manage dependencies. You can verify that the code from the `cs336-basics`
-package is accessible by running:
+0. 本项目使用 `uv` 管理依赖。可以运行下面的命令，确认 `cs336-basics` 包中的代码可以被访问：
 
 ```sh
 $ uv run python
@@ -55,11 +43,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 ...
 ```
 
-`uv run` installs dependencies automatically as dictated in the `pyproject.toml` file.
+`uv run` 会根据 `pyproject.toml` 自动安装依赖。
 
-## Submitting
+## 提交
 
-To submit, run `./test_and_make_submission.sh` . This script will install your
-code's dependencies, run tests, and create a gzipped tarball with the output. We
-should be able to unzip your submitted tarball and run
-`./test_and_make_submission.sh` to verify your test results.
+提交时运行 `./test_and_make_submission.sh`。该脚本会安装代码依赖、运行测试，并创建包含输出的 gzip 压缩 tar 包。课程组应能解压你提交的压缩包，并运行 `./test_and_make_submission.sh` 来验证测试结果。

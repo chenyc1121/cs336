@@ -1,9 +1,5 @@
-# CS336 Spring 2024 Assignment 1: Basics
+# CS336 2024 春季作业 1：基础
 
-This folder contains the files from assignment 1 that you'll need for assignment
-2, so you can do assignment 2 without having done assignment 1. **If you've
-completed assignment 1, feel free to replace the contents of this directory with
-your own implementation.**
+本文件夹包含作业 2 需要用到的作业 1 文件，因此即使你没有完成作业 1，也可以继续完成作业 2。**如果你已经完成作业 1，可以用自己的实现替换本目录内容。**
 
-Note that this is not a complete implementation of assignment 1, just the bits
-that are carried forward for assignment 2.
+注意，这里不是作业 1 的完整实现，只包含作业 2 会继续使用的部分。
