@@ -1,0 +1,11562 @@
+[
+  {
+    "from": 1,
+    "to": 2.3,
+    "sid": 1,
+    "location": 2,
+    "content": "好咱们开始吧",
+    "music": 0
+  },
+  {
+    "from": 2.3,
+    "to": 4.58,
+    "sid": 2,
+    "location": 2,
+    "content": "这是后训练系列讲座的第二讲",
+    "music": 0
+  },
+  {
+    "from": 4.58,
+    "to": 7.06,
+    "sid": 3,
+    "location": 2,
+    "content": "今天聊聊RLVR",
+    "music": 0
+  },
+  {
+    "from": 7.06,
+    "to": 8.7,
+    "sid": 4,
+    "location": 2,
+    "content": "也就是可验证奖励",
+    "music": 0
+  },
+  {
+    "from": 8.7,
+    "to": 11.69,
+    "sid": 5,
+    "location": 2,
+    "content": "强化学习这方面进展很令人兴奋",
+    "music": 0
+  },
+  {
+    "from": 12.73,
+    "to": 14.54,
+    "sid": 6,
+    "location": 2,
+    "content": "我觉得这事儿挺及时",
+    "music": 0
+  },
+  {
+    "from": 14.54,
+    "to": 16.82,
+    "sid": 7,
+    "location": 2,
+    "content": "PPT没来得及改",
+    "music": 0
+  },
+  {
+    "from": 16.82,
+    "to": 18.7,
+    "sid": 8,
+    "location": 2,
+    "content": "不过OpenAI刚宣布",
+    "music": 0
+  },
+  {
+    "from": 18.7,
+    "to": 21.86,
+    "sid": 9,
+    "location": 2,
+    "content": "他们解出了一个earn his难题",
+    "music": 0
+  },
+  {
+    "from": 21.86,
+    "to": 25.78,
+    "sid": 10,
+    "location": 2,
+    "content": "他们用思维模型解出了一个未解的数学难题",
+    "music": 0
+  },
+  {
+    "from": 25.78,
+    "to": 26.78,
+    "sid": 11,
+    "location": 2,
+    "content": "他怎么做到的",
+    "music": 0
+  },
+  {
+    "from": 26.78,
+    "to": 28.54,
+    "sid": 12,
+    "location": 2,
+    "content": "讲的正是这个思维模型",
+    "music": 0
+  },
+  {
+    "from": 28.54,
+    "to": 29.82,
+    "sid": 13,
+    "location": 2,
+    "content": "也就是RLVR",
+    "music": 0
+  },
+  {
+    "from": 29.82,
+    "to": 32.96,
+    "sid": 14,
+    "location": 2,
+    "content": "目前我们处在图示的左侧对吧",
+    "music": 0
+  },
+  {
+    "from": 32.96,
+    "to": 34.22,
+    "sid": 15,
+    "location": 2,
+    "content": "上节课讲完",
+    "music": 0
+  },
+  {
+    "from": 34.22,
+    "to": 35.54,
+    "sid": 16,
+    "location": 2,
+    "content": "做了指令微调",
+    "music": 0
+  },
+  {
+    "from": 35.54,
+    "to": 36.74,
+    "sid": 17,
+    "location": 2,
+    "content": "有了RL hf",
+    "music": 0
+  },
+  {
+    "from": 36.74,
+    "to": 37.5,
+    "sid": 18,
+    "location": 2,
+    "content": "成果不错",
+    "music": 0
+  },
+  {
+    "from": 37.5,
+    "to": 38.58,
+    "sid": 19,
+    "location": 2,
+    "content": "都chat gbt",
+    "music": 0
+  },
+  {
+    "from": 38.58,
+    "to": 41.26,
+    "sid": 20,
+    "location": 2,
+    "content": "剩下的就是思维模型的前沿进展",
+    "music": 0
+  },
+  {
+    "from": 41.26,
+    "to": 43.34,
+    "sid": 21,
+    "location": 2,
+    "content": "模型能做超长思维链推理",
+    "music": 0
+  },
+  {
+    "from": 43.34,
+    "to": 46.12,
+    "sid": 22,
+    "location": 2,
+    "content": "解决数学编程这类可验证的难题",
+    "music": 0
+  },
+  {
+    "from": 46.12,
+    "to": 48.04,
+    "sid": 23,
+    "location": 2,
+    "content": "记得我上次结尾有点丧",
+    "music": 0
+  },
+  {
+    "from": 48.04,
+    "to": 49.6,
+    "sid": 24,
+    "location": 2,
+    "content": "因为过优化问题",
+    "music": 0
+  },
+  {
+    "from": 49.6,
+    "to": 52.55,
+    "sid": 25,
+    "location": 2,
+    "content": "RL hf没法带我们到想去的地方",
+    "music": 0
+  },
+  {
+    "from": 52.55,
+    "to": 55.27,
+    "sid": 26,
+    "location": 2,
+    "content": "所以咱们要去收集一堆偏好数据",
+    "music": 0
+  },
+  {
+    "from": 55.27,
+    "to": 56.3,
+    "sid": 27,
+    "location": 2,
+    "content": "这东西很有用",
+    "music": 0
+  },
+  {
+    "from": 56.3,
+    "to": 57.9,
+    "sid": 28,
+    "location": 2,
+    "content": "我们建个奖励模型",
+    "music": 0
+  },
+  {
+    "from": 57.9,
+    "to": 59.42,
+    "sid": 29,
+    "location": 2,
+    "content": "然后对着它做RL",
+    "music": 0
+  },
+  {
+    "from": 59.42,
+    "to": 61.94,
+    "sid": 30,
+    "location": 2,
+    "content": "但这事根本上卡在标注瓶颈上",
+    "music": 0
+  },
+  {
+    "from": 61.94,
+    "to": 62.7,
+    "sid": 31,
+    "location": 2,
+    "content": "对吧哦",
+    "music": 0
+  },
+  {
+    "from": 62.7,
+    "to": 64.48,
+    "sid": 32,
+    "location": 2,
+    "content": "因为我们有了奖励模型",
+    "music": 0
+  },
+  {
+    "from": 64.48,
+    "to": 66.9,
+    "sid": 33,
+    "location": 2,
+    "content": "可不能一直往同一个模型里堆算力",
+    "music": 0
+  },
+  {
+    "from": 66.9,
+    "to": 69.33,
+    "sid": 34,
+    "location": 2,
+    "content": "最后你会把奖励模型给过拟合了",
+    "music": 0
+  },
+  {
+    "from": 69.33,
+    "to": 70.81,
+    "sid": 35,
+    "location": 2,
+    "content": "正则化做的再好",
+    "music": 0
+  },
+  {
+    "from": 70.81,
+    "to": 71.91,
+    "sid": 36,
+    "location": 2,
+    "content": "也躲不过这个问题",
+    "music": 0
+  },
+  {
+    "from": 71.91,
+    "to": 73.57,
+    "sid": 37,
+    "location": 2,
+    "content": "所以这挺让人沮丧的",
+    "music": 0
+  },
+  {
+    "from": 73.57,
+    "to": 76.789,
+    "sid": 38,
+    "location": 2,
+    "content": "也不是强化学习真正的潜力所在",
+    "music": 0
+  },
+  {
+    "from": 76.789,
+    "to": 79.229,
+    "sid": 39,
+    "location": 2,
+    "content": "作为强化学习的坚定信徒",
+    "music": 0
+  },
+  {
+    "from": 79.229,
+    "to": 81.089,
+    "sid": 40,
+    "location": 2,
+    "content": "你会看到ALPHAGO这类案例",
+    "music": 0
+  },
+  {
+    "from": 81.089,
+    "to": 82.029,
+    "sid": 41,
+    "location": 2,
+    "content": "在这些领域",
+    "music": 0
+  },
+  {
+    "from": 82.029,
+    "to": 83.709,
+    "sid": 42,
+    "location": 2,
+    "content": "RL确实表现出色",
+    "music": 0
+  },
+  {
+    "from": 83.709,
+    "to": 87.939,
+    "sid": 43,
+    "location": 2,
+    "content": "那么我们在ra chef里做的事和那些更原生",
+    "music": 0
+  },
+  {
+    "from": 87.939,
+    "to": 90.899,
+    "sid": 44,
+    "location": 2,
+    "content": "更自然的RL领域取得的成果到底有什么区别",
+    "music": 0
+  },
+  {
+    "from": 90.899,
+    "to": 94.54,
+    "sid": 45,
+    "location": 2,
+    "content": "我觉得alpha go和RLHF之间有一个主要区别",
+    "music": 0
+  },
+  {
+    "from": 94.54,
+    "to": 97.16,
+    "sid": 46,
+    "location": 2,
+    "content": "就在于他们获得反馈的方式不同哦",
+    "music": 0
+  },
+  {
+    "from": 97.16,
+    "to": 98.18,
+    "sid": 47,
+    "location": 2,
+    "content": "在ALPHAGO里",
+    "music": 0
+  },
+  {
+    "from": 98.18,
+    "to": 99.84,
+    "sid": 48,
+    "location": 2,
+    "content": "我们优化的目标非常明确",
+    "music": 0
+  },
+  {
+    "from": 99.84,
+    "to": 101.44,
+    "sid": 49,
+    "location": 2,
+    "content": "比如围棋的胜负条件",
+    "music": 0
+  },
+  {
+    "from": 101.44,
+    "to": 103.08,
+    "sid": 50,
+    "location": 2,
+    "content": "这个定义没有任何模糊之处",
+    "music": 0
+  },
+  {
+    "from": 103.08,
+    "to": 104.88,
+    "sid": 51,
+    "location": 2,
+    "content": "所以你可以随意投入算力",
+    "music": 0
+  },
+  {
+    "from": 104.88,
+    "to": 106.4,
+    "sid": 52,
+    "location": 2,
+    "content": "只要目标在提升",
+    "music": 0
+  },
+  {
+    "from": 106.4,
+    "to": 107.93,
+    "sid": 53,
+    "location": 2,
+    "content": "就说明进展良好",
+    "music": 0
+  },
+  {
+    "from": 107.93,
+    "to": 108.77,
+    "sid": 54,
+    "location": 2,
+    "content": "某种意义上",
+    "music": 0
+  },
+  {
+    "from": 108.77,
+    "to": 110.03,
+    "sid": 55,
+    "location": 2,
+    "content": "这是搜索问题",
+    "music": 0
+  },
+  {
+    "from": 110.03,
+    "to": 112.41,
+    "sid": 56,
+    "location": 2,
+    "content": "而前者更像学习问题",
+    "music": 0
+  },
+  {
+    "from": 112.41,
+    "to": 113.93,
+    "sid": 57,
+    "location": 2,
+    "content": "这不算精确的区分",
+    "music": 0
+  },
+  {
+    "from": 113.93,
+    "to": 115.13,
+    "sid": 58,
+    "location": 2,
+    "content": "但可以这样去理解",
+    "music": 0
+  },
+  {
+    "from": 115.13,
+    "to": 117.21,
+    "sid": 59,
+    "location": 2,
+    "content": "所以形式数学甚至自然语言",
+    "music": 0
+  },
+  {
+    "from": 117.21,
+    "to": 119.85,
+    "sid": 60,
+    "location": 2,
+    "content": "数学等领域可能也具备这种可验证性",
+    "music": 0
+  },
+  {
+    "from": 119.85,
+    "to": 121.57,
+    "sid": 61,
+    "location": 2,
+    "content": "因而更适合强化学习",
+    "music": 0
+  },
+  {
+    "from": 121.57,
+    "to": 124.29,
+    "sid": 62,
+    "location": 2,
+    "content": "这就是我们研究这些内容的动机",
+    "music": 0
+  },
+  {
+    "from": 124.29,
+    "to": 126.45,
+    "sid": 63,
+    "location": 2,
+    "content": "算法在根本上没太大区别",
+    "music": 0
+  },
+  {
+    "from": 126.45,
+    "to": 128.85,
+    "sid": 64,
+    "location": 2,
+    "content": "但最终的成果会出乎意料的不同",
+    "music": 0
+  },
+  {
+    "from": 128.85,
+    "to": 130.25,
+    "sid": 65,
+    "location": 2,
+    "content": "今天讲座分两部分",
+    "music": 0
+  },
+  {
+    "from": 130.25,
+    "to": 132.39,
+    "sid": 66,
+    "location": 2,
+    "content": "这和咱们课程其他部分的安排差不多",
+    "music": 0
+  },
+  {
+    "from": 132.39,
+    "to": 133.69,
+    "sid": 67,
+    "location": 2,
+    "content": "第一部分我讲核心算法",
+    "music": 0
+  },
+  {
+    "from": 133.69,
+    "to": 135.53,
+    "sid": 68,
+    "location": 2,
+    "content": "这是大家必备的基础知识哦",
+    "music": 0
+  },
+  {
+    "from": 135.53,
+    "to": 137.53,
+    "sid": 69,
+    "location": 2,
+    "content": "呃作业里会用到这些",
+    "music": 0
+  },
+  {
+    "from": 137.53,
+    "to": 139.77,
+    "sid": 70,
+    "location": 2,
+    "content": "我会讲讲G是什么",
+    "music": 0
+  },
+  {
+    "from": 139.77,
+    "to": 141.39,
+    "sid": 71,
+    "location": 2,
+    "content": "而是PPO怎么运作",
+    "music": 0
+  },
+  {
+    "from": 141.39,
+    "to": 143.91,
+    "sid": 72,
+    "location": 2,
+    "content": "接着我会深挖一些开源发布",
+    "music": 0
+  },
+  {
+    "from": 143.91,
+    "to": 146.15,
+    "sid": 73,
+    "location": 2,
+    "content": "看看第一部分讲的内容怎么体",
+    "music": 0
+  },
+  {
+    "from": 146.15,
+    "to": 148.19,
+    "sid": 74,
+    "location": 2,
+    "content": "现在这些大模型的技术报告里",
+    "music": 0
+  },
+  {
+    "from": 148.19,
+    "to": 149.19,
+    "sid": 75,
+    "location": 2,
+    "content": "模型发布",
+    "music": 0
+  },
+  {
+    "from": 149.19,
+    "to": 152.01,
+    "sid": 76,
+    "location": 2,
+    "content": "咱们深入聊聊方法和基础部分",
+    "music": 0
+  },
+  {
+    "from": 152.01,
+    "to": 153.51,
+    "sid": 77,
+    "location": 2,
+    "content": "我先从PPO讲起",
+    "music": 0
+  },
+  {
+    "from": 153.51,
+    "to": 153.83,
+    "sid": 78,
+    "location": 2,
+    "content": "对吧",
+    "music": 0
+  },
+  {
+    "from": 153.83,
+    "to": 157.72,
+    "sid": 79,
+    "location": 2,
+    "content": "聊语言模型的RL绕不开PPO虽然讲过一次",
+    "music": 0
+  },
+  {
+    "from": 157.72,
+    "to": 158.84,
+    "sid": 80,
+    "location": 2,
+    "content": "但PPO挺绕的",
+    "music": 0
+  },
+  {
+    "from": 158.84,
+    "to": 159.64,
+    "sid": 81,
+    "location": 2,
+    "content": "我觉得再讲一遍",
+    "music": 0
+  },
+  {
+    "from": 159.64,
+    "to": 160.68,
+    "sid": 82,
+    "location": 2,
+    "content": "大家能受益更多",
+    "music": 0
+  },
+  {
+    "from": 161.72,
+    "to": 163.399,
+    "sid": 83,
+    "location": 2,
+    "content": "在语言建模的RL里",
+    "music": 0
+  },
+  {
+    "from": 163.399,
+    "to": 166.819,
+    "sid": 84,
+    "location": 2,
+    "content": "最该技术的核心概念是策略梯度",
+    "music": 0
+  },
+  {
+    "from": 166.819,
+    "to": 168.739,
+    "sid": 85,
+    "location": 2,
+    "content": "尤其是这种强化梯度技巧",
+    "music": 0
+  },
+  {
+    "from": 168.739,
+    "to": 171.42,
+    "sid": 86,
+    "location": 2,
+    "content": "我们本质上一直在对奖励做梯度下降",
+    "music": 0
+  },
+  {
+    "from": 171.42,
+    "to": 175.54,
+    "sid": 87,
+    "location": 2,
+    "content": "我们通过加权SFT更新来实现权重可正可负",
+    "music": 0
+  },
+  {
+    "from": 175.54,
+    "to": 177.94,
+    "sid": 88,
+    "location": 2,
+    "content": "今儿我们会定义R是什么",
+    "music": 0
+  },
+  {
+    "from": 177.94,
+    "to": 179.31,
+    "sid": 89,
+    "location": 2,
+    "content": "这个公式很重要",
+    "music": 0
+  },
+  {
+    "from": 179.31,
+    "to": 181.13,
+    "sid": 90,
+    "location": 2,
+    "content": "后续会反复出现",
+    "music": 0
+  },
+  {
+    "from": 181.13,
+    "to": 184.15,
+    "sid": 91,
+    "location": 2,
+    "content": "这在某种意义上是衍生出一切的核心",
+    "music": 0
+  },
+  {
+    "from": 184.15,
+    "to": 184.93,
+    "sid": 92,
+    "location": 2,
+    "content": "基于此",
+    "music": 0
+  },
+  {
+    "from": 184.93,
+    "to": 186.53,
+    "sid": 93,
+    "location": 2,
+    "content": "回想上一讲的直觉",
+    "music": 0
+  },
+  {
+    "from": 186.53,
+    "to": 188.56,
+    "sid": 94,
+    "location": 2,
+    "content": "我们想一次多走几步",
+    "music": 0
+  },
+  {
+    "from": 188.56,
+    "to": 189.32,
+    "sid": 95,
+    "location": 2,
+    "content": "策略梯度",
+    "music": 0
+  },
+  {
+    "from": 189.32,
+    "to": 192.48,
+    "sid": 96,
+    "location": 2,
+    "content": "要求每次梯度更新时都从策略中采样",
+    "music": 0
+  },
+  {
+    "from": 192.48,
+    "to": 193.98,
+    "sid": 97,
+    "location": 2,
+    "content": "能复用roll out吗",
+    "music": 0
+  },
+  {
+    "from": 193.98,
+    "to": 197.12,
+    "sid": 98,
+    "location": 2,
+    "content": "你可以用TRPOPPO等啊",
+    "music": 0
+  },
+  {
+    "from": 197.12,
+    "to": 198.48,
+    "sid": 99,
+    "location": 2,
+    "content": "我稍后会讲PPO",
+    "music": 0
+  },
+  {
+    "from": 198.48,
+    "to": 199.96,
+    "sid": 100,
+    "location": 2,
+    "content": "之前讲过TRPO",
+    "music": 0
+  },
+  {
+    "from": 199.96,
+    "to": 200.86,
+    "sid": 101,
+    "location": 2,
+    "content": "这里不展开",
+    "music": 0
+  },
+  {
+    "from": 200.86,
+    "to": 202.89,
+    "sid": 102,
+    "location": 2,
+    "content": "有上过RL课的话",
+    "music": 0
+  },
+  {
+    "from": 202.89,
+    "to": 205.53,
+    "sid": 103,
+    "location": 2,
+    "content": "PPO你自然很熟悉这个算法",
+    "music": 0
+  },
+  {
+    "from": 205.53,
+    "to": 206.05,
+    "sid": 104,
+    "location": 2,
+    "content": "你是懂的",
+    "music": 0
+  },
+  {
+    "from": 206.05,
+    "to": 209.39,
+    "sid": 105,
+    "location": 2,
+    "content": "不过我不会假设大家都上过RL课",
+    "music": 0
+  },
+  {
+    "from": 209.39,
+    "to": 210.77,
+    "sid": 106,
+    "location": 2,
+    "content": "或者都理解RF",
+    "music": 0
+  },
+  {
+    "from": 210.77,
+    "to": 212.63,
+    "sid": 107,
+    "location": 2,
+    "content": "所以要是你不熟悉PPO",
+    "music": 0
+  },
+  {
+    "from": 212.63,
+    "to": 215.31,
+    "sid": 108,
+    "location": 2,
+    "content": "它是RL领域的一种主力算法",
+    "music": 0
+  },
+  {
+    "from": 215.31,
+    "to": 220.03,
+    "sid": 109,
+    "location": 2,
+    "content": "dot RL它已被用于各种高难度的RL场景嗯",
+    "music": 0
+  },
+  {
+    "from": 220.03,
+    "to": 223.11,
+    "sid": 110,
+    "location": 2,
+    "content": "OpenAI在早期非常依赖RL时",
+    "music": 0
+  },
+  {
+    "from": 223.11,
+    "to": 224.96,
+    "sid": 111,
+    "location": 2,
+    "content": "做过不少这类工作",
+    "music": 0
+  },
+  {
+    "from": 224.96,
+    "to": 226.08,
+    "sid": 112,
+    "location": 2,
+    "content": "这是open a gm",
+    "music": 0
+  },
+  {
+    "from": 226.08,
+    "to": 227.62,
+    "sid": 113,
+    "location": 2,
+    "content": "他们当时讨论PPO算法",
+    "music": 0
+  },
+  {
+    "from": 227.62,
+    "to": 231.1,
+    "sid": 114,
+    "location": 2,
+    "content": "说我们可以做到让人形机器人用强化学习行走",
+    "music": 0
+  },
+  {
+    "from": 231.1,
+    "to": 233.2,
+    "sid": 115,
+    "location": 2,
+    "content": "更惊人的演示是他们的OpenAI bar",
+    "music": 0
+  },
+  {
+    "from": 233.2,
+    "to": 236.78,
+    "sid": 116,
+    "location": 2,
+    "content": "用PPO训练它在深度RL中表现优异",
+    "music": 0
+  },
+  {
+    "from": 236.78,
+    "to": 239.56,
+    "sid": 117,
+    "location": 2,
+    "content": "尤其在高危动作和状态空间那里",
+    "music": 0
+  },
+  {
+    "from": 239.56,
+    "to": 241.16,
+    "sid": 118,
+    "location": 2,
+    "content": "RL通常更复杂",
+    "music": 0
+  },
+  {
+    "from": 241.16,
+    "to": 244.19,
+    "sid": 119,
+    "location": 2,
+    "content": "还有那个到处跑的OpenAI人形机器人",
+    "music": 0
+  },
+  {
+    "from": 244.19,
+    "to": 245.71,
+    "sid": 120,
+    "location": 2,
+    "content": "从概念层面看",
+    "music": 0
+  },
+  {
+    "from": 245.71,
+    "to": 247.25,
+    "sid": 121,
+    "location": 2,
+    "content": "PPO其实非常简单",
+    "music": 0
+  },
+  {
+    "from": 247.25,
+    "to": 250.75,
+    "sid": 122,
+    "location": 2,
+    "content": "我记得我提过去掉PPO是这一切的重要一环",
+    "music": 0
+  },
+  {
+    "from": 250.75,
+    "to": 252.03,
+    "sid": 123,
+    "location": 2,
+    "content": "这激励了很多人",
+    "music": 0
+  },
+  {
+    "from": 252.03,
+    "to": 254.1,
+    "sid": 124,
+    "location": 2,
+    "content": "但你看PPO的伪代码",
+    "music": 0
+  },
+  {
+    "from": 254.1,
+    "to": 257.32,
+    "sid": 125,
+    "location": 2,
+    "content": "它来自OpenAI的RL入门文档哦",
+    "music": 0
+  },
+  {
+    "from": 257.32,
+    "to": 258.36,
+    "sid": 126,
+    "location": 2,
+    "content": "你会觉得这不难",
+    "music": 0
+  },
+  {
+    "from": 258.36,
+    "to": 259.18,
+    "sid": 127,
+    "location": 2,
+    "content": "甚至挺简单",
+    "music": 0
+  },
+  {
+    "from": 259.18,
+    "to": 262.529,
+    "sid": 128,
+    "location": 2,
+    "content": "我能一次性实现你采样一些轨迹",
+    "music": 0
+  },
+  {
+    "from": 262.529,
+    "to": 265.229,
+    "sid": 129,
+    "location": 2,
+    "content": "我用某种优势估计方法算出优势",
+    "music": 0
+  },
+  {
+    "from": 265.229,
+    "to": 268.32,
+    "sid": 130,
+    "location": 2,
+    "content": "我用这种有点怪但还行的方式裁剪优势",
+    "music": 0
+  },
+  {
+    "from": 268.32,
+    "to": 270.76,
+    "sid": 131,
+    "location": 2,
+    "content": "然后在裁剪后的优势下更新策略",
+    "music": 0
+  },
+  {
+    "from": 270.76,
+    "to": 271.46,
+    "sid": 132,
+    "location": 2,
+    "content": "这没问题",
+    "music": 0
+  },
+  {
+    "from": 271.46,
+    "to": 273.9,
+    "sid": 133,
+    "location": 2,
+    "content": "接着再拟合一个价值函数行",
+    "music": 0
+  },
+  {
+    "from": 273.9,
+    "to": 277.02,
+    "sid": 134,
+    "location": 2,
+    "content": "这些在实操中看起来都相对简单",
+    "music": 0
+  },
+  {
+    "from": 277.02,
+    "to": 277.52,
+    "sid": 135,
+    "location": 2,
+    "content": "P a x",
+    "music": 0
+  },
+  {
+    "from": 277.52,
+    "to": 280.09,
+    "sid": 136,
+    "location": 2,
+    "content": "所以我觉得大家会觉得这没什么",
+    "music": 0
+  },
+  {
+    "from": 280.09,
+    "to": 281.77,
+    "sid": 137,
+    "location": 2,
+    "content": "PPPO本身没问题",
+    "music": 0
+  },
+  {
+    "from": 281.77,
+    "to": 282.85,
+    "sid": 138,
+    "location": 2,
+    "content": "但看到这类博文",
+    "music": 0
+  },
+  {
+    "from": 282.85,
+    "to": 283.73,
+    "sid": 139,
+    "location": 2,
+    "content": "你得心里发毛",
+    "music": 0
+  },
+  {
+    "from": 283.73,
+    "to": 287.67,
+    "sid": 140,
+    "location": 2,
+    "content": "right博文若列出PPPO的37个实现细节",
+    "music": 0
+  },
+  {
+    "from": 287.67,
+    "to": 290.29,
+    "sid": 141,
+    "location": 2,
+    "content": "说明该算法对实现决策极敏感",
+    "music": 0
+  },
+  {
+    "from": 290.29,
+    "to": 292.07,
+    "sid": 142,
+    "location": 2,
+    "content": "嗯你可以做各种调整",
+    "music": 0
+  },
+  {
+    "from": 292.07,
+    "to": 294.05,
+    "sid": 143,
+    "location": 2,
+    "content": "也有不同的库和实现方式",
+    "music": 0
+  },
+  {
+    "from": 294.05,
+    "to": 295.97,
+    "sid": 144,
+    "location": 2,
+    "content": "他们给出的结果截然不同",
+    "music": 0
+  },
+  {
+    "from": 295.97,
+    "to": 297.39,
+    "sid": 145,
+    "location": 2,
+    "content": "取决于你用的组合",
+    "music": 0
+  },
+  {
+    "from": 297.39,
+    "to": 299.9,
+    "sid": 146,
+    "location": 2,
+    "content": "事实证明许多人实现有误报",
+    "music": 0
+  },
+  {
+    "from": 299.9,
+    "to": 300.98,
+    "sid": 147,
+    "location": 2,
+    "content": "有论文指出",
+    "music": 0
+  },
+  {
+    "from": 300.98,
+    "to": 303.74,
+    "sid": 148,
+    "location": 2,
+    "content": "PPO中某些人用的基线根本不算基线",
+    "music": 0
+  },
+  {
+    "from": 303.74,
+    "to": 306.68,
+    "sid": 149,
+    "location": 2,
+    "content": "他们从根本上改变了优化问题",
+    "music": 0
+  },
+  {
+    "from": 306.68,
+    "to": 307.38,
+    "sid": 150,
+    "location": 2,
+    "content": "所以这堂课",
+    "music": 0
+  },
+  {
+    "from": 307.38,
+    "to": 309.86,
+    "sid": 151,
+    "location": 2,
+    "content": "接下来我不得不带你们看看PPO的一些实现",
+    "music": 0
+  },
+  {
+    "from": 309.86,
+    "to": 311.88,
+    "sid": 152,
+    "location": 2,
+    "content": "语言模型的PPO实现",
+    "music": 0
+  },
+  {
+    "from": 311.88,
+    "to": 313.72,
+    "sid": 153,
+    "location": 2,
+    "content": "说实话并不令人愉快",
+    "music": 0
+  },
+  {
+    "from": 313.72,
+    "to": 314.76,
+    "sid": 154,
+    "location": 2,
+    "content": "这张图很典型",
+    "music": 0
+  },
+  {
+    "from": 314.76,
+    "to": 316.56,
+    "sid": 155,
+    "location": 2,
+    "content": "基本把PPU长什么样讲清楚了",
+    "music": 0
+  },
+  {
+    "from": 316.56,
+    "to": 320.2,
+    "sid": 156,
+    "location": 2,
+    "content": "但是优势估计中间那个大方块就是优势项",
+    "music": 0
+  },
+  {
+    "from": 320.2,
+    "to": 321.54,
+    "sid": 157,
+    "location": 2,
+    "content": "而且有点点缓冲区",
+    "music": 0
+  },
+  {
+    "from": 321.54,
+    "to": 322.74,
+    "sid": 158,
+    "location": 2,
+    "content": "因为得留点旧数据",
+    "music": 0
+  },
+  {
+    "from": 322.74,
+    "to": 323.96,
+    "sid": 159,
+    "location": 2,
+    "content": "你要训练价值模型",
+    "music": 0
+  },
+  {
+    "from": 323.96,
+    "to": 324.62,
+    "sid": 160,
+    "location": 2,
+    "content": "注意优势",
+    "music": 0
+  },
+  {
+    "from": 324.62,
+    "to": 326.35,
+    "sid": 161,
+    "location": 2,
+    "content": "估计你用的也是这个模型",
+    "music": 0
+  },
+  {
+    "from": 326.35,
+    "to": 328.49,
+    "sid": 162,
+    "location": 2,
+    "content": "绿色方框出现了两次",
+    "music": 0
+  },
+  {
+    "from": 328.49,
+    "to": 332.09,
+    "sid": 163,
+    "location": 2,
+    "content": "注意目标函数里的KL项是逐token计算的",
+    "music": 0
+  },
+  {
+    "from": 332.09,
+    "to": 334.53,
+    "sid": 164,
+    "location": 2,
+    "content": "所以这不只是个赌博机问题",
+    "music": 0
+  },
+  {
+    "from": 334.53,
+    "to": 337.91,
+    "sid": 165,
+    "location": 2,
+    "content": "而是个完整的多步强化学习问题",
+    "music": 0
+  },
+  {
+    "from": 337.91,
+    "to": 339.25,
+    "sid": 166,
+    "location": 2,
+    "content": "唉这一切都很困难",
+    "music": 0
+  },
+  {
+    "from": 339.25,
+    "to": 339.98,
+    "sid": 167,
+    "location": 2,
+    "content": "很复杂",
+    "music": 0
+  },
+  {
+    "from": 339.98,
+    "to": 344.04,
+    "sid": 168,
+    "location": 2,
+    "content": "所以就引出了许多你必须处理的棘手实现细节",
+    "music": 0
+  },
+  {
+    "from": 344.04,
+    "to": 348.15,
+    "sid": 169,
+    "location": 2,
+    "content": "你看各种实现会发现PPO有些实现细节挺怪",
+    "music": 0
+  },
+  {
+    "from": 348.15,
+    "to": 349.21,
+    "sid": 170,
+    "location": 2,
+    "content": "挺棘手的",
+    "music": 0
+  },
+  {
+    "from": 349.21,
+    "to": 350.21,
+    "sid": 171,
+    "location": 2,
+    "content": "我找找看",
+    "music": 0
+  },
+  {
+    "from": 350.21,
+    "to": 354.07,
+    "sid": 172,
+    "location": 2,
+    "content": "之前我有个学生做RNHF项目时实现了PPPO",
+    "music": 0
+  },
+  {
+    "from": 354.07,
+    "to": 356.71,
+    "sid": 173,
+    "location": 2,
+    "content": "大家还记得PPO在RLHF1的应用吧",
+    "music": 0
+  },
+  {
+    "from": 356.71,
+    "to": 358.95,
+    "sid": 174,
+    "location": 2,
+    "content": "所以我们手头有个很稳的PPO",
+    "music": 0
+  },
+  {
+    "from": 358.95,
+    "to": 360.83,
+    "sid": 175,
+    "location": 2,
+    "content": "参考实现交通花了挺久",
+    "music": 0
+  },
+  {
+    "from": 360.83,
+    "to": 362.07,
+    "sid": 176,
+    "location": 2,
+    "content": "我研究细节到底做了啥",
+    "music": 0
+  },
+  {
+    "from": 362.07,
+    "to": 362.97,
+    "sid": 177,
+    "location": 2,
+    "content": "才跑起来的",
+    "music": 0
+  },
+  {
+    "from": 362.97,
+    "to": 364.21,
+    "sid": 178,
+    "location": 2,
+    "content": "外层循环挺好",
+    "music": 0
+  },
+  {
+    "from": 364.21,
+    "to": 365.55,
+    "sid": 179,
+    "location": 2,
+    "content": "就是便利roll out",
+    "music": 0
+  },
+  {
+    "from": 365.55,
+    "to": 369.76,
+    "sid": 180,
+    "location": 2,
+    "content": "然后跑几步PPO把算算损失裁减梯度",
+    "music": 0
+  },
+  {
+    "from": 369.76,
+    "to": 370.92,
+    "sid": 181,
+    "location": 2,
+    "content": "再更新参数",
+    "music": 0
+  },
+  {
+    "from": 370.92,
+    "to": 372.7,
+    "sid": 182,
+    "location": 2,
+    "content": "这外层循环挺合理的",
+    "music": 0
+  },
+  {
+    "from": 372.7,
+    "to": 373.8,
+    "sid": 183,
+    "location": 2,
+    "content": "但细看的话",
+    "music": 0
+  },
+  {
+    "from": 373.8,
+    "to": 377.43,
+    "sid": 184,
+    "location": 2,
+    "content": "算损失那部分基本就是照搬PPO的更新逻辑",
+    "music": 0
+  },
+  {
+    "from": 377.43,
+    "to": 378.83,
+    "sid": 185,
+    "location": 2,
+    "content": "这也看着没问题",
+    "music": 0
+  },
+  {
+    "from": 378.83,
+    "to": 381.57,
+    "sid": 186,
+    "location": 2,
+    "content": "我们再算优势函数和裁减比率",
+    "music": 0
+  },
+  {
+    "from": 381.57,
+    "to": 382.83,
+    "sid": 187,
+    "location": 2,
+    "content": "接着就更新模型",
+    "music": 0
+  },
+  {
+    "from": 382.83,
+    "to": 384.71,
+    "sid": 188,
+    "location": 2,
+    "content": "所以整体看下来都挺好",
+    "music": 0
+  },
+  {
+    "from": 384.71,
+    "to": 385.97,
+    "sid": 189,
+    "location": 2,
+    "content": "但后面有些乱",
+    "music": 0
+  },
+  {
+    "from": 385.97,
+    "to": 387.15,
+    "sid": 190,
+    "location": 2,
+    "content": "roll out先跳过",
+    "music": 0
+  },
+  {
+    "from": 387.15,
+    "to": 388.29,
+    "sid": 191,
+    "location": 2,
+    "content": "得用kl惩罚",
+    "music": 0
+  },
+  {
+    "from": 388.29,
+    "to": 390.539,
+    "sid": 192,
+    "location": 2,
+    "content": "把模型往参考模型上拉",
+    "music": 0
+  },
+  {
+    "from": 390.539,
+    "to": 392.879,
+    "sid": 193,
+    "location": 2,
+    "content": "不是这得把kl散度在零处阶段才行",
+    "music": 0
+  },
+  {
+    "from": 392.879,
+    "to": 393.979,
+    "sid": 194,
+    "location": 2,
+    "content": "懂kl散度的都知道",
+    "music": 0
+  },
+  {
+    "from": 393.979,
+    "to": 395.88,
+    "sid": 195,
+    "location": 2,
+    "content": "这完全违背了他的本意对吧",
+    "music": 0
+  },
+  {
+    "from": 395.88,
+    "to": 397.44,
+    "sid": 196,
+    "location": 2,
+    "content": "正负值都在累加",
+    "music": 0
+  },
+  {
+    "from": 397.44,
+    "to": 398.76,
+    "sid": 197,
+    "location": 2,
+    "content": "要是去掉这个限制",
+    "music": 0
+  },
+  {
+    "from": 398.76,
+    "to": 400.06,
+    "sid": 198,
+    "location": 2,
+    "content": "数值立马就炸了",
+    "music": 0
+  },
+  {
+    "from": 400.06,
+    "to": 401.48,
+    "sid": 199,
+    "location": 2,
+    "content": "这类情况都可能发生",
+    "music": 0
+  },
+  {
+    "from": 401.48,
+    "to": 404.75,
+    "sid": 200,
+    "location": 2,
+    "content": "但这不代表你做PPO实现时就该这么搞哦",
+    "music": 0
+  },
+  {
+    "from": 404.75,
+    "to": 407.79,
+    "sid": 201,
+    "location": 2,
+    "content": "提这个是想说RL算法的实现挺棘手",
+    "music": 0
+  },
+  {
+    "from": 407.79,
+    "to": 408.45,
+    "sid": 202,
+    "location": 2,
+    "content": "很敏感",
+    "music": 0
+  },
+  {
+    "from": 408.45,
+    "to": 412.2,
+    "sid": 203,
+    "location": 2,
+    "content": "毕竟PPO组件多梯度估计的方差又大",
+    "music": 0
+  },
+  {
+    "from": 412.2,
+    "to": 413.98,
+    "sid": 204,
+    "location": 2,
+    "content": "这些细节都非常微妙",
+    "music": 0
+  },
+  {
+    "from": 413.98,
+    "to": 415,
+    "sid": 205,
+    "location": 2,
+    "content": "处理起来很复杂",
+    "music": 0
+  },
+  {
+    "from": 415,
+    "to": 417.06,
+    "sid": 206,
+    "location": 2,
+    "content": "还有个很常见的现象",
+    "music": 0
+  },
+  {
+    "from": 417.06,
+    "to": 418,
+    "sid": 207,
+    "location": 2,
+    "content": "不光我们这么干",
+    "music": 0
+  },
+  {
+    "from": 418,
+    "to": 418.98,
+    "sid": 208,
+    "location": 2,
+    "content": "大家都这么用",
+    "music": 0
+  },
+  {
+    "from": 418.98,
+    "to": 421.64,
+    "sid": 209,
+    "location": 2,
+    "content": "原始PPO论文里有个广义优势估计器",
+    "music": 0
+  },
+  {
+    "from": 421.64,
+    "to": 423.46,
+    "sid": 210,
+    "location": 2,
+    "content": "主要看GMA折扣奖励",
+    "music": 0
+  },
+  {
+    "from": 423.46,
+    "to": 426.3,
+    "sid": 211,
+    "location": 2,
+    "content": "用值函数估算每个token生成步骤的奖励",
+    "music": 0
+  },
+  {
+    "from": 426.3,
+    "to": 429.94,
+    "sid": 212,
+    "location": 2,
+    "content": "在但大家长直接把gamma和lambda都设成一",
+    "music": 0
+  },
+  {
+    "from": 429.94,
+    "to": 432.13,
+    "sid": 213,
+    "location": 2,
+    "content": "这其实是个退化的设置哦",
+    "music": 0
+  },
+  {
+    "from": 432.13,
+    "to": 433.77,
+    "sid": 214,
+    "location": 2,
+    "content": "这就变成了多臂老虎机",
+    "music": 0
+  },
+  {
+    "from": 433.77,
+    "to": 437.13,
+    "sid": 215,
+    "location": 2,
+    "content": "问题相当于你丢掉了PPO原本的结构",
+    "music": 0
+  },
+  {
+    "from": 437.13,
+    "to": 439.21,
+    "sid": 216,
+    "location": 2,
+    "content": "所以只要工程到位跑",
+    "music": 0
+  },
+  {
+    "from": 439.21,
+    "to": 441.14,
+    "sid": 217,
+    "location": 2,
+    "content": "这个算法就能达到预期效果",
+    "music": 0
+  },
+  {
+    "from": 441.14,
+    "to": 442.3,
+    "sid": 218,
+    "location": 2,
+    "content": "抛RL作业时",
+    "music": 0
+  },
+  {
+    "from": 442.3,
+    "to": 443.68,
+    "sid": 219,
+    "location": 2,
+    "content": "你会看到奖励上升",
+    "music": 0
+  },
+  {
+    "from": 443.68,
+    "to": 446.4,
+    "sid": 220,
+    "location": 2,
+    "content": "若做RLHF奖励模型得分也会升",
+    "music": 0
+  },
+  {
+    "from": 446.4,
+    "to": 448.34,
+    "sid": 221,
+    "location": 2,
+    "content": "而负KL正则化项则下降",
+    "music": 0
+  },
+  {
+    "from": 448.34,
+    "to": 449.38,
+    "sid": 222,
+    "location": 2,
+    "content": "B呃",
+    "music": 0
+  },
+  {
+    "from": 449.38,
+    "to": 451.22,
+    "sid": 223,
+    "location": 2,
+    "content": "Just just alex now",
+    "music": 0
+  },
+  {
+    "from": 451.22,
+    "to": 451.64,
+    "sid": 224,
+    "location": 2,
+    "content": "好",
+    "music": 0
+  },
+  {
+    "from": 451.64,
+    "to": 453.94,
+    "sid": 225,
+    "location": 2,
+    "content": "但总之PPO的实现挺折磨人",
+    "music": 0
+  },
+  {
+    "from": 453.94,
+    "to": 456.77,
+    "sid": 226,
+    "location": 2,
+    "content": "尤其看环境得靠技巧才能稳定",
+    "music": 0
+  },
+  {
+    "from": 456.77,
+    "to": 458.41,
+    "sid": 227,
+    "location": 2,
+    "content": "整个过程都很折磨人",
+    "music": 0
+  },
+  {
+    "from": 458.41,
+    "to": 459.41,
+    "sid": 228,
+    "location": 2,
+    "content": "当然不是不可能",
+    "music": 0
+  },
+  {
+    "from": 459.41,
+    "to": 461.55,
+    "sid": 229,
+    "location": 2,
+    "content": "很多人用PPO都训出了好模型",
+    "music": 0
+  },
+  {
+    "from": 461.55,
+    "to": 463.33,
+    "sid": 230,
+    "location": 2,
+    "content": "很多实验室都有现成方案",
+    "music": 0
+  },
+  {
+    "from": 463.33,
+    "to": 465.159,
+    "sid": 231,
+    "location": 2,
+    "content": "让PPO能大规模跑通",
+    "music": 0
+  },
+  {
+    "from": 465.159,
+    "to": 466.519,
+    "sid": 232,
+    "location": 2,
+    "content": "所以这事儿能做",
+    "music": 0
+  },
+  {
+    "from": 466.519,
+    "to": 469.3,
+    "sid": 233,
+    "location": 2,
+    "content": "但对从零实现的研究者来说",
+    "music": 0
+  },
+  {
+    "from": 469.3,
+    "to": 471.66,
+    "sid": 234,
+    "location": 2,
+    "content": "PPO既挑剔又复杂",
+    "music": 0
+  },
+  {
+    "from": 471.66,
+    "to": 474.26,
+    "sid": 235,
+    "location": 2,
+    "content": "嗯PPO在很多情况下不受青睐",
+    "music": 0
+  },
+  {
+    "from": 474.26,
+    "to": 475.02,
+    "sid": 236,
+    "location": 2,
+    "content": "还有一个原因",
+    "music": 0
+  },
+  {
+    "from": 475.02,
+    "to": 476.54,
+    "sid": 237,
+    "location": 2,
+    "content": "它需要一个价值模型",
+    "music": 0
+  },
+  {
+    "from": 476.54,
+    "to": 479.02,
+    "sid": 238,
+    "location": 2,
+    "content": "边生成边估算每个token的价值",
+    "music": 0
+  },
+  {
+    "from": 479.02,
+    "to": 480.22,
+    "sid": 239,
+    "location": 2,
+    "content": "价值模型有多大",
+    "music": 0
+  },
+  {
+    "from": 480.22,
+    "to": 481.42,
+    "sid": 240,
+    "location": 2,
+    "content": "跟原始模型一样大",
+    "music": 0
+  },
+  {
+    "from": 481.42,
+    "to": 482.4,
+    "sid": 241,
+    "location": 2,
+    "content": "就会占内存",
+    "music": 0
+  },
+  {
+    "from": 482.4,
+    "to": 484.46,
+    "sid": 242,
+    "location": 2,
+    "content": "而这些内存你本想留给模型",
+    "music": 0
+  },
+  {
+    "from": 484.46,
+    "to": 486.36,
+    "sid": 243,
+    "location": 2,
+    "content": "或推理服务器等用途",
+    "music": 0
+  },
+  {
+    "from": 486.36,
+    "to": 487.48,
+    "sid": 244,
+    "location": 2,
+    "content": "你现在可能会说",
+    "music": 0
+  },
+  {
+    "from": 487.48,
+    "to": 488.96,
+    "sid": 245,
+    "location": 2,
+    "content": "上一讲你提到了DPO",
+    "music": 0
+  },
+  {
+    "from": 488.96,
+    "to": 489.86,
+    "sid": 246,
+    "location": 2,
+    "content": "看起来挺不错",
+    "music": 0
+  },
+  {
+    "from": 489.86,
+    "to": 492.45,
+    "sid": 247,
+    "location": 2,
+    "content": "我那为什么不干脆全用DPO呢",
+    "music": 0
+  },
+  {
+    "from": 492.45,
+    "to": 496.37,
+    "sid": 248,
+    "location": 2,
+    "content": "问题是DPO是针对特定问题的特定解法",
+    "music": 0
+  },
+  {
+    "from": 496.37,
+    "to": 500.89,
+    "sid": 249,
+    "location": 2,
+    "content": "sense DP o适用于bradley terry形式的成对反馈",
+    "music": 0
+  },
+  {
+    "from": 500.89,
+    "to": 502.25,
+    "sid": 250,
+    "location": 2,
+    "content": "这太具体了对吧",
+    "music": 0
+  },
+  {
+    "from": 502.25,
+    "to": 503.55,
+    "sid": 251,
+    "location": 2,
+    "content": "如果我要解数学题",
+    "music": 0
+  },
+  {
+    "from": 503.55,
+    "to": 505.59,
+    "sid": 252,
+    "location": 2,
+    "content": "题目并不是天然的成对比较形式",
+    "music": 0
+  },
+  {
+    "from": 505.59,
+    "to": 508.5,
+    "sid": 253,
+    "location": 2,
+    "content": "由别的DPU变体想打破这种成对结构",
+    "music": 0
+  },
+  {
+    "from": 508.5,
+    "to": 510.58,
+    "sid": 254,
+    "location": 2,
+    "content": "但这其实是在用错工具对吧",
+    "music": 0
+  },
+  {
+    "from": 510.58,
+    "to": 511,
+    "sid": 255,
+    "location": 2,
+    "content": "For",
+    "music": 0
+  },
+  {
+    "from": 511,
+    "to": 514.549,
+    "sid": 256,
+    "location": 2,
+    "content": "别想着用DPO去做PPO通常做的事",
+    "music": 0
+  },
+  {
+    "from": 514.549,
+    "to": 516.449,
+    "sid": 257,
+    "location": 2,
+    "content": "PPO是更通用的工具",
+    "music": 0
+  },
+  {
+    "from": 516.449,
+    "to": 517.869,
+    "sid": 258,
+    "location": 2,
+    "content": "几乎什么问题都能解决",
+    "music": 0
+  },
+  {
+    "from": 517.869,
+    "to": 519.229,
+    "sid": 259,
+    "location": 2,
+    "content": "DPO一般是离线的",
+    "music": 0
+  },
+  {
+    "from": 519.229,
+    "to": 521.149,
+    "sid": 260,
+    "location": 2,
+    "content": "不过我觉得这个区别被过分夸大了",
+    "music": 0
+  },
+  {
+    "from": 521.149,
+    "to": 524.16,
+    "sid": 261,
+    "location": 2,
+    "content": "因为反复迭代DPO也能把它变成在线的",
+    "music": 0
+  },
+  {
+    "from": 524.16,
+    "to": 527.5,
+    "sid": 262,
+    "location": 2,
+    "content": "所以我觉得这差别没那么本质好了",
+    "music": 0
+  },
+  {
+    "from": 527.5,
+    "to": 529.56,
+    "sid": 263,
+    "location": 2,
+    "content": "这就是聊这些的背景",
+    "music": 0
+  },
+  {
+    "from": 529.56,
+    "to": 533.93,
+    "sid": 264,
+    "location": 2,
+    "content": "同样研究界也特别希望不必再用PPO了",
+    "music": 0
+  },
+  {
+    "from": 533.93,
+    "to": 536.8,
+    "sid": 265,
+    "location": 2,
+    "content": "DPO和gr po能被广泛采用",
+    "music": 0
+  },
+  {
+    "from": 536.8,
+    "to": 540.34,
+    "sid": 266,
+    "location": 2,
+    "content": "这本身就说明很多时候让PPO跑通有多痛苦",
+    "music": 0
+  },
+  {
+    "from": 540.34,
+    "to": 544.17,
+    "sid": 267,
+    "location": 2,
+    "content": "所以gr po和DPO一样是另一种选择",
+    "music": 0
+  },
+  {
+    "from": 544.17,
+    "to": 547.4,
+    "sid": 268,
+    "location": 2,
+    "content": "它是给可验证任务做强化学习的更简单的办法",
+    "music": 0
+  },
+  {
+    "from": 547.4,
+    "to": 549.36,
+    "sid": 269,
+    "location": 2,
+    "content": "在开源开放知识的社区里",
+    "music": 0
+  },
+  {
+    "from": 549.36,
+    "to": 552.67,
+    "sid": 270,
+    "location": 2,
+    "content": "RLVR基本已经被gr po接管了",
+    "music": 0
+  },
+  {
+    "from": 552.67,
+    "to": 554.59,
+    "sid": 271,
+    "location": 2,
+    "content": "他骨子里跟PPO非常像",
+    "music": 0
+  },
+  {
+    "from": 554.59,
+    "to": 556.31,
+    "sid": 272,
+    "location": 2,
+    "content": "只是砍掉了几个最复杂的部分",
+    "music": 0
+  },
+  {
+    "from": 556.31,
+    "to": 558.28,
+    "sid": 273,
+    "location": 2,
+    "content": "这样一来就让算法简单多了",
+    "music": 0
+  },
+  {
+    "from": 558.28,
+    "to": 561.08,
+    "sid": 274,
+    "location": 2,
+    "content": "dog r p l出自deep seek的一篇论文",
+    "music": 0
+  },
+  {
+    "from": 561.08,
+    "to": 563.64,
+    "sid": 275,
+    "location": 2,
+    "content": "我不想是他们那篇deep seek数学论文",
+    "music": 0
+  },
+  {
+    "from": 563.64,
+    "to": 565.19,
+    "sid": 276,
+    "location": 2,
+    "content": "从PPO起步",
+    "music": 0
+  },
+  {
+    "from": 565.19,
+    "to": 567.45,
+    "sid": 277,
+    "location": 2,
+    "content": "思路上是说PPO挺好",
+    "music": 0
+  },
+  {
+    "from": 567.45,
+    "to": 568.99,
+    "sid": 278,
+    "location": 2,
+    "content": "但我们只想改几个地方",
+    "music": 0
+  },
+  {
+    "from": 568.99,
+    "to": 570.96,
+    "sid": 279,
+    "location": 2,
+    "content": "真的那改了什么",
+    "music": 0
+  },
+  {
+    "from": 570.96,
+    "to": 573.84,
+    "sid": 280,
+    "location": 2,
+    "content": "改的是PPO里最复杂最烦人的部分",
+    "music": 0
+  },
+  {
+    "from": 573.84,
+    "to": 577.49,
+    "sid": 281,
+    "location": 2,
+    "content": "价值函数加之函数就是作为基线减去的那个量",
+    "music": 0
+  },
+  {
+    "from": 577.49,
+    "to": 579.78,
+    "sid": 282,
+    "location": 2,
+    "content": "用来降低梯度更新的方差",
+    "music": 0
+  },
+  {
+    "from": 579.78,
+    "to": 581.7,
+    "sid": 283,
+    "location": 2,
+    "content": "价值函数是一整个神经网络",
+    "music": 0
+  },
+  {
+    "from": 581.7,
+    "to": 582.76,
+    "sid": 284,
+    "location": 2,
+    "content": "会让训练不稳定",
+    "music": 0
+  },
+  {
+    "from": 582.76,
+    "to": 583.81,
+    "sid": 285,
+    "location": 2,
+    "content": "我们不想要它",
+    "music": 0
+  },
+  {
+    "from": 583.81,
+    "to": 584.97,
+    "sid": 286,
+    "location": 2,
+    "content": "那怎么办",
+    "music": 0
+  },
+  {
+    "from": 584.97,
+    "to": 586.03,
+    "sid": 287,
+    "location": 2,
+    "content": "去掉价值网络",
+    "music": 0
+  },
+  {
+    "from": 586.03,
+    "to": 587.25,
+    "sid": 288,
+    "location": 2,
+    "content": "但我们还需要优势",
+    "music": 0
+  },
+  {
+    "from": 587.25,
+    "to": 589.93,
+    "sid": 289,
+    "location": 2,
+    "content": "估计我不想用普通的ryan force",
+    "music": 0
+  },
+  {
+    "from": 589.93,
+    "to": 591.57,
+    "sid": 290,
+    "location": 2,
+    "content": "因为它的方差会非常非常高",
+    "music": 0
+  },
+  {
+    "from": 591.57,
+    "to": 592.29,
+    "sid": 291,
+    "location": 2,
+    "content": "Group",
+    "music": 0
+  },
+  {
+    "from": 592.29,
+    "to": 593.51,
+    "sid": 292,
+    "location": 2,
+    "content": "所以我们要做的是",
+    "music": 0
+  },
+  {
+    "from": 593.51,
+    "to": 596.61,
+    "sid": 293,
+    "location": 2,
+    "content": "在组内把优势算成一个Z分数",
+    "music": 0
+  },
+  {
+    "from": 596.61,
+    "to": 598.23,
+    "sid": 294,
+    "location": 2,
+    "content": "我稍后解释这是什么意思",
+    "music": 0
+  },
+  {
+    "from": 598.23,
+    "to": 599.71,
+    "sid": 295,
+    "location": 2,
+    "content": "基本思路是这样的",
+    "music": 0
+  },
+  {
+    "from": 599.71,
+    "to": 602.23,
+    "sid": 296,
+    "location": 2,
+    "content": "你通常你只看获得的奖励",
+    "music": 0
+  },
+  {
+    "from": 602.23,
+    "to": 603.43,
+    "sid": 297,
+    "location": 2,
+    "content": "如果有价值函数",
+    "music": 0
+  },
+  {
+    "from": 603.43,
+    "to": 605.87,
+    "sid": 298,
+    "location": 2,
+    "content": "你会拿它和你的预测值比较",
+    "music": 0
+  },
+  {
+    "from": 605.87,
+    "to": 607.09,
+    "sid": 299,
+    "location": 2,
+    "content": "也就是预测值",
+    "music": 0
+  },
+  {
+    "from": 607.09,
+    "to": 610.05,
+    "sid": 300,
+    "location": 2,
+    "content": "你会说我的神经网络说我本该得五分",
+    "music": 0
+  },
+  {
+    "from": 610.05,
+    "to": 611.27,
+    "sid": 301,
+    "location": 2,
+    "content": "结果我得了六分",
+    "music": 0
+  },
+  {
+    "from": 611.27,
+    "to": 612.53,
+    "sid": 302,
+    "location": 2,
+    "content": "所以这是个不错的展开",
+    "music": 0
+  },
+  {
+    "from": 612.53,
+    "to": 613.53,
+    "sid": 303,
+    "location": 2,
+    "content": "通常你会这么做",
+    "music": 0
+  },
+  {
+    "from": 613.53,
+    "to": 614.43,
+    "sid": 304,
+    "location": 2,
+    "content": "但换个做法",
+    "music": 0
+  },
+  {
+    "from": 614.43,
+    "to": 616.41,
+    "sid": 305,
+    "location": 2,
+    "content": "比如你拿到一个得五分的展开",
+    "music": 0
+  },
+  {
+    "from": 616.41,
+    "to": 618.41,
+    "sid": 306,
+    "location": 2,
+    "content": "然后你再采样另外十个展开",
+    "music": 0
+  },
+  {
+    "from": 618.41,
+    "to": 620.77,
+    "sid": 307,
+    "location": 2,
+    "content": "问自己比起这十个我表现得怎么样",
+    "music": 0
+  },
+  {
+    "from": 620.77,
+    "to": 623.77,
+    "sid": 308,
+    "location": 2,
+    "content": "嗯啊如果我比均值好",
+    "music": 0
+  },
+  {
+    "from": 623.77,
+    "to": 624.99,
+    "sid": 309,
+    "location": 2,
+    "content": "优势值就高",
+    "music": 0
+  },
+  {
+    "from": 624.99,
+    "to": 626.13,
+    "sid": 310,
+    "location": 2,
+    "content": "某种程度上",
+    "music": 0
+  },
+  {
+    "from": 626.13,
+    "to": 628.81,
+    "sid": 311,
+    "location": 2,
+    "content": "这是计算优势值很自然的一种方式",
+    "music": 0
+  },
+  {
+    "from": 628.81,
+    "to": 633.25,
+    "sid": 312,
+    "location": 2,
+    "content": "也适用于能从同一个提示词多次采样的场景",
+    "music": 0
+  },
+  {
+    "from": 633.25,
+    "to": 635.41,
+    "sid": 313,
+    "location": 2,
+    "content": "嗯GRPO正是这个思路啊",
+    "music": 0
+  },
+  {
+    "from": 635.41,
+    "to": 638.53,
+    "sid": 314,
+    "location": 2,
+    "content": "如果你看deep seal文里GRPO最初的定义",
+    "music": 0
+  },
+  {
+    "from": 638.53,
+    "to": 640.589,
+    "sid": 315,
+    "location": 2,
+    "content": "会发现这就是被优化的目标",
+    "music": 0
+  },
+  {
+    "from": 640.589,
+    "to": 642.609,
+    "sid": 316,
+    "location": 2,
+    "content": "那么会做标准的PPU更新",
+    "music": 0
+  },
+  {
+    "from": 642.609,
+    "to": 645.269,
+    "sid": 317,
+    "location": 2,
+    "content": "加上最小阶段优势项和kl项",
+    "music": 0
+  },
+  {
+    "from": 645.269,
+    "to": 647.79,
+    "sid": 318,
+    "location": 2,
+    "content": "让模型别偏离参考模型太远",
+    "music": 0
+  },
+  {
+    "from": 647.79,
+    "to": 651.07,
+    "sid": 319,
+    "location": 2,
+    "content": "接着是kl项目具体怎么算的倒不重要",
+    "music": 0
+  },
+  {
+    "from": 651.07,
+    "to": 655.36,
+    "sid": 320,
+    "location": 2,
+    "content": "关键是这个优势值是算一组输出样本",
+    "music": 0
+  },
+  {
+    "from": 655.36,
+    "to": 656.86,
+    "sid": 321,
+    "location": 2,
+    "content": "O1到OG的Z分数",
+    "music": 0
+  },
+  {
+    "from": 656.86,
+    "to": 657.78,
+    "sid": 322,
+    "location": 2,
+    "content": "不就是在组内",
+    "music": 0
+  },
+  {
+    "from": 657.78,
+    "to": 659.22,
+    "sid": 323,
+    "location": 2,
+    "content": "你算第I个样本的优势",
+    "music": 0
+  },
+  {
+    "from": 659.22,
+    "to": 661.03,
+    "sid": 324,
+    "location": 2,
+    "content": "这就是算优势的地方",
+    "music": 0
+  },
+  {
+    "from": 661.03,
+    "to": 664.55,
+    "sid": 325,
+    "location": 2,
+    "content": "做法是取组内roll out奖励减去均值",
+    "music": 0
+  },
+  {
+    "from": 664.55,
+    "to": 666.21,
+    "sid": 326,
+    "location": 2,
+    "content": "再除以标准差",
+    "music": 0
+  },
+  {
+    "from": 666.21,
+    "to": 668.41,
+    "sid": 327,
+    "location": 2,
+    "content": "所以每组得到一个Z分数",
+    "music": 0
+  },
+  {
+    "from": 668.41,
+    "to": 669.33,
+    "sid": 328,
+    "location": 2,
+    "content": "在线情况下",
+    "music": 0
+  },
+  {
+    "from": 669.33,
+    "to": 670.19,
+    "sid": 329,
+    "location": 2,
+    "content": "这点很关键",
+    "music": 0
+  },
+  {
+    "from": 670.19,
+    "to": 672.9,
+    "sid": 330,
+    "location": 2,
+    "content": "因为很多场景下你其实是在线跑",
+    "music": 0
+  },
+  {
+    "from": 672.9,
+    "to": 673.84,
+    "sid": 331,
+    "location": 2,
+    "content": "不是离线嗯",
+    "music": 0
+  },
+  {
+    "from": 673.84,
+    "to": 676.1,
+    "sid": 332,
+    "location": 2,
+    "content": "在线情况下截断向其实没用了",
+    "music": 0
+  },
+  {
+    "from": 676.1,
+    "to": 678.2,
+    "sid": 333,
+    "location": 2,
+    "content": "因为新旧策略的比率就是一",
+    "music": 0
+  },
+  {
+    "from": 678.2,
+    "to": 680.04,
+    "sid": 334,
+    "location": 2,
+    "content": "这个截断操作根本没用",
+    "music": 0
+  },
+  {
+    "from": 680.04,
+    "to": 682.61,
+    "sid": 335,
+    "location": 2,
+    "content": "你直接取main ini AI a就行",
+    "music": 0
+  },
+  {
+    "from": 682.61,
+    "to": 685.39,
+    "sid": 336,
+    "location": 2,
+    "content": "这就是优势函数减去KL惩罚",
+    "music": 0
+  },
+  {
+    "from": 685.39,
+    "to": 689.02,
+    "sid": 337,
+    "location": 2,
+    "content": "所以我要用这个定义的优势函数做强化学习",
+    "music": 0
+  },
+  {
+    "from": 689.02,
+    "to": 690.82,
+    "sid": 338,
+    "location": 2,
+    "content": "在在线roll out场景中",
+    "music": 0
+  },
+  {
+    "from": 690.82,
+    "to": 692.48,
+    "sid": 339,
+    "location": 2,
+    "content": "这是个非常简单的对象",
+    "music": 0
+  },
+  {
+    "from": 692.48,
+    "to": 694.54,
+    "sid": 340,
+    "location": 2,
+    "content": "很适合作为强化学习的目标",
+    "music": 0
+  },
+  {
+    "from": 694.54,
+    "to": 694.98,
+    "sid": 341,
+    "location": 2,
+    "content": "Here",
+    "music": 0
+  },
+  {
+    "from": 694.98,
+    "to": 696.86,
+    "sid": 342,
+    "location": 2,
+    "content": "要是gr b o的某些概念没搞清",
+    "music": 0
+  },
+  {
+    "from": 696.86,
+    "to": 697.98,
+    "sid": 343,
+    "location": 2,
+    "content": "我可以先停一下",
+    "music": 0
+  },
+  {
+    "from": 697.98,
+    "to": 698.78,
+    "sid": 344,
+    "location": 2,
+    "content": "某种程度上",
+    "music": 0
+  },
+  {
+    "from": 698.78,
+    "to": 700.78,
+    "sid": 345,
+    "location": 2,
+    "content": "它是那些精彩数学内容的基础",
+    "music": 0
+  },
+  {
+    "from": 700.78,
+    "to": 703.1,
+    "sid": 346,
+    "location": 2,
+    "content": "你甚至能用GERPU复现它们",
+    "music": 0
+  },
+  {
+    "from": 703.1,
+    "to": 705.96,
+    "sid": 347,
+    "location": 2,
+    "content": "所以在深入那些细节之前",
+    "music": 0
+  },
+  {
+    "from": 705.96,
+    "to": 707.98,
+    "sid": 348,
+    "location": 2,
+    "content": "咱们最好先透彻理解一下",
+    "music": 0
+  },
+  {
+    "from": 707.98,
+    "to": 708.88,
+    "sid": 349,
+    "location": 2,
+    "content": "好不错",
+    "music": 0
+  },
+  {
+    "from": 708.88,
+    "to": 709.56,
+    "sid": 350,
+    "location": 2,
+    "content": "google简单",
+    "music": 0
+  },
+  {
+    "from": 709.56,
+    "to": 711.38,
+    "sid": 351,
+    "location": 2,
+    "content": "大家一眼就懂了",
+    "music": 0
+  },
+  {
+    "from": 711.38,
+    "to": 715.9,
+    "sid": 352,
+    "location": 2,
+    "content": "这评价我收下了GRPO确实非常简单",
+    "music": 0
+  },
+  {
+    "from": 715.9,
+    "to": 716.42,
+    "sid": 353,
+    "location": 2,
+    "content": "First day",
+    "music": 0
+  },
+  {
+    "from": 716.42,
+    "to": 717.64,
+    "sid": 354,
+    "location": 2,
+    "content": "因为没有价值函数",
+    "music": 0
+  },
+  {
+    "from": 717.64,
+    "to": 719.14,
+    "sid": 355,
+    "location": 2,
+    "content": "GRPO的代码很简单",
+    "music": 0
+  },
+  {
+    "from": 719.14,
+    "to": 720.47,
+    "sid": 356,
+    "location": 2,
+    "content": "只需做case roll out",
+    "music": 0
+  },
+  {
+    "from": 720.47,
+    "to": 723.41,
+    "sid": 357,
+    "location": 2,
+    "content": "把结果和这K个参考值Z对比就行",
+    "music": 0
+  },
+  {
+    "from": 723.41,
+    "to": 724.65,
+    "sid": 358,
+    "location": 2,
+    "content": "对结果打分",
+    "music": 0
+  },
+  {
+    "from": 724.65,
+    "to": 727.83,
+    "sid": 359,
+    "location": 2,
+    "content": "然后针对这些权重做强化梯度更新",
+    "music": 0
+  },
+  {
+    "from": 727.83,
+    "to": 730.54,
+    "sid": 360,
+    "location": 2,
+    "content": "作业里就是几步简单操作",
+    "music": 0
+  },
+  {
+    "from": 730.54,
+    "to": 733.8,
+    "sid": 361,
+    "location": 2,
+    "content": "算出kids roll out的奖励并归一化",
+    "music": 0
+  },
+  {
+    "from": 733.8,
+    "to": 734.88,
+    "sid": 362,
+    "location": 2,
+    "content": "再加上KL项",
+    "music": 0
+  },
+  {
+    "from": 734.88,
+    "to": 738.8,
+    "sid": 363,
+    "location": 2,
+    "content": "最后把它们放一起更新梯度得动点脑筋",
+    "music": 0
+  },
+  {
+    "from": 738.8,
+    "to": 741.64,
+    "sid": 364,
+    "location": 2,
+    "content": "因为用自动微分实现时得在某处加个stop grad",
+    "music": 0
+  },
+  {
+    "from": 741.64,
+    "to": 743,
+    "sid": 365,
+    "location": 2,
+    "content": "不过其实没那么复杂",
+    "music": 0
+  },
+  {
+    "from": 743,
+    "to": 744.6,
+    "sid": 366,
+    "location": 2,
+    "content": "你看这个核心思想",
+    "music": 0
+  },
+  {
+    "from": 744.6,
+    "to": 745.86,
+    "sid": 367,
+    "location": 2,
+    "content": "一页代码就能实现",
+    "music": 0
+  },
+  {
+    "from": 745.86,
+    "to": 746.6,
+    "sid": 368,
+    "location": 2,
+    "content": "对吧啊",
+    "music": 0
+  },
+  {
+    "from": 746.6,
+    "to": 750.26,
+    "sid": 369,
+    "location": 2,
+    "content": "这是我从麦吉尔大学几位同事那里拿到的",
+    "music": 0
+  },
+  {
+    "from": 750.26,
+    "to": 751.64,
+    "sid": 370,
+    "location": 2,
+    "content": "gr po参考实现",
+    "music": 0
+  },
+  {
+    "from": 751.64,
+    "to": 753.49,
+    "sid": 371,
+    "location": 2,
+    "content": "有个很棒的简化版",
+    "music": 0
+  },
+  {
+    "from": 753.49,
+    "to": 754.81,
+    "sid": 372,
+    "location": 2,
+    "content": "足索引和标准差",
+    "music": 0
+  },
+  {
+    "from": 754.81,
+    "to": 757.31,
+    "sid": 373,
+    "location": 2,
+    "content": "这些计算半夜幻灯片就讲完了",
+    "music": 0
+  },
+  {
+    "from": 757.31,
+    "to": 759.19,
+    "sid": 374,
+    "location": 2,
+    "content": "跟论文写法唯一不同的是",
+    "music": 0
+  },
+  {
+    "from": 759.19,
+    "to": 762.33,
+    "sid": 375,
+    "location": 2,
+    "content": "他们在标准差计算里加了个极小的1E4",
+    "music": 0
+  },
+  {
+    "from": 762.33,
+    "to": 765.11,
+    "sid": 376,
+    "location": 2,
+    "content": "防止只有单个样本或样本奖励刚好相同",
+    "music": 0
+  },
+  {
+    "from": 765.11,
+    "to": 765.94,
+    "sid": 377,
+    "location": 2,
+    "content": "时数值爆炸",
+    "music": 0
+  },
+  {
+    "from": 765.94,
+    "to": 768.36,
+    "sid": 378,
+    "location": 2,
+    "content": "比如在某些领域奖励会精确为零",
+    "music": 0
+  },
+  {
+    "from": 768.36,
+    "to": 769.42,
+    "sid": 379,
+    "location": 2,
+    "content": "像没解出数学题",
+    "music": 0
+  },
+  {
+    "from": 769.42,
+    "to": 771.06,
+    "sid": 380,
+    "location": 2,
+    "content": "这种情况确实会发生的",
+    "music": 0
+  },
+  {
+    "from": 771.06,
+    "to": 773.42,
+    "sid": 381,
+    "location": 2,
+    "content": "希望这能让你看到GRPU有多简单",
+    "music": 0
+  },
+  {
+    "from": 773.42,
+    "to": 776.91,
+    "sid": 382,
+    "location": 2,
+    "content": "也明白为什么几乎所有开源工作都基于它",
+    "music": 0
+  },
+  {
+    "from": 776.91,
+    "to": 779.05,
+    "sid": 383,
+    "location": 2,
+    "content": "他好写也好懂",
+    "music": 0
+  },
+  {
+    "from": 779.05,
+    "to": 780.39,
+    "sid": 384,
+    "location": 2,
+    "content": "结果也显示",
+    "music": 0
+  },
+  {
+    "from": 780.39,
+    "to": 783.15,
+    "sid": 385,
+    "location": 2,
+    "content": "他给出的效果相当有说服力",
+    "music": 0
+  },
+  {
+    "from": 783.15,
+    "to": 788.41,
+    "sid": 386,
+    "location": 2,
+    "content": "他模拟了闭源实验室用PPO做过的那些事",
+    "music": 0
+  },
+  {
+    "from": 788.41,
+    "to": 790.04,
+    "sid": 387,
+    "location": 2,
+    "content": "他到底行不行",
+    "music": 0
+  },
+  {
+    "from": 790.04,
+    "to": 791.86,
+    "sid": 388,
+    "location": 2,
+    "content": "如果你搞数学AI",
+    "music": 0
+  },
+  {
+    "from": 791.86,
+    "to": 794.84,
+    "sid": 389,
+    "location": 2,
+    "content": "强烈建议读读那篇deep sc数学论文",
+    "music": 0
+  },
+  {
+    "from": 794.84,
+    "to": 795.84,
+    "sid": 390,
+    "location": 2,
+    "content": "结果显示",
+    "music": 0
+  },
+  {
+    "from": 795.84,
+    "to": 800.49,
+    "sid": 391,
+    "location": 2,
+    "content": "gr po黄线和蓝线比RFT拒绝微调强得多",
+    "music": 0
+  },
+  {
+    "from": 800.49,
+    "to": 801.93,
+    "sid": 392,
+    "location": 2,
+    "content": "你会把它当基线",
+    "music": 0
+  },
+  {
+    "from": 801.93,
+    "to": 804.23,
+    "sid": 393,
+    "location": 2,
+    "content": "只拿模型生成的正确答案来训练",
+    "music": 0
+  },
+  {
+    "from": 804.23,
+    "to": 807.94,
+    "sid": 394,
+    "location": 2,
+    "content": "其他的都扔掉次其他呢研究表明",
+    "music": 0
+  },
+  {
+    "from": 807.94,
+    "to": 810.16,
+    "sid": 395,
+    "location": 2,
+    "content": "过程监督即不仅看答案",
+    "music": 0
+  },
+  {
+    "from": 810.16,
+    "to": 813.25,
+    "sid": 396,
+    "location": 2,
+    "content": "还看中间步骤能带来提升",
+    "music": 0
+  },
+  {
+    "from": 813.25,
+    "to": 814.99,
+    "sid": 397,
+    "location": 2,
+    "content": "我后面细说",
+    "music": 0
+  },
+  {
+    "from": 814.99,
+    "to": 816.11,
+    "sid": 398,
+    "location": 2,
+    "content": "这很重要",
+    "music": 0
+  },
+  {
+    "from": 816.11,
+    "to": 819.11,
+    "sid": 399,
+    "location": 2,
+    "content": "因为这是这类强化学习问题的关键设计决策",
+    "music": 0
+  },
+  {
+    "from": 819.11,
+    "to": 822.53,
+    "sid": 400,
+    "location": 2,
+    "content": "现阶段大家只要记住GRPO有效就行",
+    "music": 0
+  },
+  {
+    "from": 822.53,
+    "to": 827.12,
+    "sid": 401,
+    "location": 2,
+    "content": "你看蓝线和黄线表现都优于其他组好",
+    "music": 0
+  },
+  {
+    "from": 827.12,
+    "to": 830.62,
+    "sid": 402,
+    "location": 2,
+    "content": "咱们再深入聊聊GRPO的目标函数啊",
+    "music": 0
+  },
+  {
+    "from": 830.62,
+    "to": 832.68,
+    "sid": 403,
+    "location": 2,
+    "content": "这目标函数里到底发生了什么",
+    "music": 0
+  },
+  {
+    "from": 832.68,
+    "to": 834.77,
+    "sid": 404,
+    "location": 2,
+    "content": "我们真的在用策略梯度吗",
+    "music": 0
+  },
+  {
+    "from": 834.77,
+    "to": 837.11,
+    "sid": 405,
+    "location": 2,
+    "content": "这几个关键概念咱们得好好想透",
+    "music": 0
+  },
+  {
+    "from": 837.11,
+    "to": 840.03,
+    "sid": 406,
+    "location": 2,
+    "content": "咱们回想下GRPO和PPO的区别啊",
+    "music": 0
+  },
+  {
+    "from": 840.03,
+    "to": 842.03,
+    "sid": 407,
+    "location": 2,
+    "content": "PPO里有个价值函数啊",
+    "music": 0
+  },
+  {
+    "from": 842.03,
+    "to": 843.38,
+    "sid": 408,
+    "location": 2,
+    "content": "用来计算优势的",
+    "music": 0
+  },
+  {
+    "from": 843.38,
+    "to": 845.3,
+    "sid": 409,
+    "location": 2,
+    "content": "而G2PO去掉了那部分",
+    "music": 0
+  },
+  {
+    "from": 845.3,
+    "to": 846.4,
+    "sid": 410,
+    "location": 2,
+    "content": "改用Z分数",
+    "music": 0
+  },
+  {
+    "from": 846.4,
+    "to": 849.78,
+    "sid": 411,
+    "location": 2,
+    "content": "也就是用奖励减均值再除以标准差来算优势",
+    "music": 0
+  },
+  {
+    "from": 849.78,
+    "to": 851.91,
+    "sid": 412,
+    "location": 2,
+    "content": "对这优势估计算好吗",
+    "music": 0
+  },
+  {
+    "from": 851.91,
+    "to": 855.05,
+    "sid": 413,
+    "location": 2,
+    "content": "上过二幺课的同学估计心里已经有答案了",
+    "music": 0
+  },
+  {
+    "from": 855.05,
+    "to": 857.21,
+    "sid": 414,
+    "location": 2,
+    "content": "那到底什么样的优势函数才算好",
+    "music": 0
+  },
+  {
+    "from": 857.21,
+    "to": 859.83,
+    "sid": 415,
+    "location": 2,
+    "content": "或者说有效的优势函数标准是什么",
+    "music": 0
+  },
+  {
+    "from": 859.83,
+    "to": 862.85,
+    "sid": 416,
+    "location": 2,
+    "content": "咱们看看SUTTONBARTO那本强化学习经典教材",
+    "music": 0
+  },
+  {
+    "from": 862.85,
+    "to": 866.27,
+    "sid": 417,
+    "location": 2,
+    "content": "里面提到了一个带基线的r in def or cs算法",
+    "music": 0
+  },
+  {
+    "from": 866.27,
+    "to": 867.65,
+    "sid": 418,
+    "location": 2,
+    "content": "做策略梯度时",
+    "music": 0
+  },
+  {
+    "from": 867.65,
+    "to": 870.42,
+    "sid": 419,
+    "location": 2,
+    "content": "你可以沿奖励方向更新参数",
+    "music": 0
+  },
+  {
+    "from": 870.42,
+    "to": 876.04,
+    "sid": 420,
+    "location": 2,
+    "content": "你可以用奖励减去所谓的状态依赖基线",
+    "music": 0
+  },
+  {
+    "from": 876.04,
+    "to": 877.5,
+    "sid": 421,
+    "location": 2,
+    "content": "在老虎机问题里",
+    "music": 0
+  },
+  {
+    "from": 877.5,
+    "to": 879.32,
+    "sid": 422,
+    "location": 2,
+    "content": "状态就是提示词",
+    "music": 0
+  },
+  {
+    "from": 879.32,
+    "to": 882.849,
+    "sid": 423,
+    "location": 2,
+    "content": "你可以减去依赖提示词的基线",
+    "music": 0
+  },
+  {
+    "from": 882.849,
+    "to": 885.329,
+    "sid": 424,
+    "location": 2,
+    "content": "只要这么做就是有效的策略",
+    "music": 0
+  },
+  {
+    "from": 885.329,
+    "to": 887.089,
+    "sid": 425,
+    "location": 2,
+    "content": "梯度方向不变",
+    "music": 0
+  },
+  {
+    "from": 887.089,
+    "to": 890.189,
+    "sid": 426,
+    "location": 2,
+    "content": "但基线选择会影响梯度下降的方差",
+    "music": 0
+  },
+  {
+    "from": 890.189,
+    "to": 893.11,
+    "sid": 427,
+    "location": 2,
+    "content": "诶注意我们不只是做减法",
+    "music": 0
+  },
+  {
+    "from": 893.11,
+    "to": 895.53,
+    "sid": 428,
+    "location": 2,
+    "content": "我们不只是减去一个常数",
+    "music": 0
+  },
+  {
+    "from": 895.53,
+    "to": 897.65,
+    "sid": 429,
+    "location": 2,
+    "content": "还除以标准差",
+    "music": 0
+  },
+  {
+    "from": 897.81,
+    "to": 898.81,
+    "sid": 430,
+    "location": 2,
+    "content": "这算个问题",
+    "music": 0
+  },
+  {
+    "from": 898.81,
+    "to": 900.11,
+    "sid": 431,
+    "location": 2,
+    "content": "但也未必bird",
+    "music": 0
+  },
+  {
+    "from": 900.11,
+    "to": 902.33,
+    "sid": 432,
+    "location": 2,
+    "content": "如果你真想要一个概念清晰",
+    "music": 0
+  },
+  {
+    "from": 902.33,
+    "to": 903.75,
+    "sid": 433,
+    "location": 2,
+    "content": "名副其实的算法",
+    "music": 0
+  },
+  {
+    "from": 903.75,
+    "to": 906.069,
+    "sid": 434,
+    "location": 2,
+    "content": "它其实是在让奖励下降",
+    "music": 0
+  },
+  {
+    "from": 906.069,
+    "to": 908.729,
+    "sid": 435,
+    "location": 2,
+    "content": "特g r p o boot这么做",
+    "music": 0
+  },
+  {
+    "from": 908.729,
+    "to": 912.31,
+    "sid": 436,
+    "location": 2,
+    "content": "总之我用红色标出的GRPO除以标准差",
+    "music": 0
+  },
+  {
+    "from": 912.31,
+    "to": 914.01,
+    "sid": 437,
+    "location": 2,
+    "content": "这违背了基线原则",
+    "music": 0
+  },
+  {
+    "from": 914.01,
+    "to": 915.67,
+    "sid": 438,
+    "location": 2,
+    "content": "我们不仅减去基线",
+    "music": 0
+  },
+  {
+    "from": 915.67,
+    "to": 918.7,
+    "sid": 439,
+    "location": 2,
+    "content": "还要除以标准差做归一化啊",
+    "music": 0
+  },
+  {
+    "from": 918.7,
+    "to": 919.74,
+    "sid": 440,
+    "location": 2,
+    "content": "针对我的奖励",
+    "music": 0
+  },
+  {
+    "from": 919.74,
+    "to": 920.6,
+    "sid": 441,
+    "location": 2,
+    "content": "嗯对了",
+    "music": 0
+  },
+  {
+    "from": 920.6,
+    "to": 921.88,
+    "sid": 442,
+    "location": 2,
+    "content": "GRPO还有个细节",
+    "music": 0
+  },
+  {
+    "from": 921.88,
+    "to": 922.56,
+    "sid": 443,
+    "location": 2,
+    "content": "我之前没提",
+    "music": 0
+  },
+  {
+    "from": 922.56,
+    "to": 923.28,
+    "sid": 444,
+    "location": 2,
+    "content": "有点棘手",
+    "music": 0
+  },
+  {
+    "from": 923.28,
+    "to": 925.91,
+    "sid": 445,
+    "location": 2,
+    "content": "它几乎是针对每个token操作的对吧",
+    "music": 0
+  },
+  {
+    "from": 925.91,
+    "to": 929.99,
+    "sid": 446,
+    "location": 2,
+    "content": "所以他们会用序列总长度作为归一化因子",
+    "music": 0
+  },
+  {
+    "from": 929.99,
+    "to": 931.079,
+    "sid": 447,
+    "location": 2,
+    "content": "来除本",
+    "music": 0
+  },
+  {
+    "from": 931.079,
+    "to": 934.13,
+    "sid": 448,
+    "location": 2,
+    "content": "但如果你遵循策略梯度和极限定理",
+    "music": 0
+  },
+  {
+    "from": 934.13,
+    "to": 938.09,
+    "sid": 449,
+    "location": 2,
+    "content": "从第一性原理推导GRPO结果会不同啊",
+    "music": 0
+  },
+  {
+    "from": 938.09,
+    "to": 939.47,
+    "sid": 450,
+    "location": 2,
+    "content": "你既没有长度归一化",
+    "music": 0
+  },
+  {
+    "from": 939.47,
+    "to": 941.75,
+    "sid": 451,
+    "location": 2,
+    "content": "也没有标准差归一化对吧",
+    "music": 0
+  },
+  {
+    "from": 941.75,
+    "to": 943.47,
+    "sid": 452,
+    "location": 2,
+    "content": "那GRPO刚出不久",
+    "music": 0
+  },
+  {
+    "from": 943.47,
+    "to": 944.51,
+    "sid": 453,
+    "location": 2,
+    "content": "有人注意到这点",
+    "music": 0
+  },
+  {
+    "from": 944.51,
+    "to": 946.17,
+    "sid": 454,
+    "location": 2,
+    "content": "并发表论文指出",
+    "music": 0
+  },
+  {
+    "from": 946.17,
+    "to": 947.99,
+    "sid": 455,
+    "location": 2,
+    "content": "如果不做这两处改动",
+    "music": 0
+  },
+  {
+    "from": 947.99,
+    "to": 949.43,
+    "sid": 456,
+    "location": 2,
+    "content": "结果会很不一样",
+    "music": 0
+  },
+  {
+    "from": 949.43,
+    "to": 951.37,
+    "sid": 457,
+    "location": 2,
+    "content": "甚至可能表现更好",
+    "music": 0
+  },
+  {
+    "from": 951.37,
+    "to": 953.09,
+    "sid": 458,
+    "location": 2,
+    "content": "等讲到DPC高一论文时",
+    "music": 0
+  },
+  {
+    "from": 953.09,
+    "to": 954.35,
+    "sid": 459,
+    "location": 2,
+    "content": "我也会聊这个呀",
+    "music": 0
+  },
+  {
+    "from": 954.35,
+    "to": 955.47,
+    "sid": 460,
+    "location": 2,
+    "content": "不过核心在于",
+    "music": 0
+  },
+  {
+    "from": 955.47,
+    "to": 958.29,
+    "sid": 461,
+    "location": 2,
+    "content": "GRPO并不是从第一性原理推导出来的",
+    "music": 0
+  },
+  {
+    "from": 958.29,
+    "to": 959.97,
+    "sid": 462,
+    "location": 2,
+    "content": "他其实做了些不一样的事",
+    "music": 0
+  },
+  {
+    "from": 959.97,
+    "to": 960.94,
+    "sid": 463,
+    "location": 2,
+    "content": "利弊兼有",
+    "music": 0
+  },
+  {
+    "from": 960.94,
+    "to": 962.6,
+    "sid": 464,
+    "location": 2,
+    "content": "那这两项怎么起作用",
+    "music": 0
+  },
+  {
+    "from": 962.6,
+    "to": 963.66,
+    "sid": 465,
+    "location": 2,
+    "content": "现在我们知道",
+    "music": 0
+  },
+  {
+    "from": 963.66,
+    "to": 966.72,
+    "sid": 466,
+    "location": 2,
+    "content": "GRPO并没有直接对奖励目标做下降",
+    "music": 0
+  },
+  {
+    "from": 966.72,
+    "to": 968.88,
+    "sid": 467,
+    "location": 2,
+    "content": "所以我们知道它有两个修正因子",
+    "music": 0
+  },
+  {
+    "from": 968.88,
+    "to": 969.44,
+    "sid": 468,
+    "location": 2,
+    "content": "干嘛",
+    "music": 0
+  },
+  {
+    "from": 969.44,
+    "to": 971.48,
+    "sid": 469,
+    "location": 2,
+    "content": "用的长度归一化比较好懂",
+    "music": 0
+  },
+  {
+    "from": 971.48,
+    "to": 972.44,
+    "sid": 470,
+    "location": 2,
+    "content": "我们在干嘛",
+    "music": 0
+  },
+  {
+    "from": 972.44,
+    "to": 976.06,
+    "sid": 471,
+    "location": 2,
+    "content": "是拿较长的序列去除以一个较大的数",
+    "music": 0
+  },
+  {
+    "from": 976.06,
+    "to": 978.47,
+    "sid": 472,
+    "location": 2,
+    "content": "就会鼓励模型生成长输出对吧",
+    "music": 0
+  },
+  {
+    "from": 978.47,
+    "to": 979.67,
+    "sid": 473,
+    "location": 2,
+    "content": "因为当你错了",
+    "music": 0
+  },
+  {
+    "from": 979.67,
+    "to": 981.51,
+    "sid": 474,
+    "location": 2,
+    "content": "他会鼓励你生成错误输出",
+    "music": 0
+  },
+  {
+    "from": 981.51,
+    "to": 983.53,
+    "sid": 475,
+    "location": 2,
+    "content": "比如我知道这道数学证明会做错",
+    "music": 0
+  },
+  {
+    "from": 983.53,
+    "to": 984.73,
+    "sid": 476,
+    "location": 2,
+    "content": "我会引入负值",
+    "music": 0
+  },
+  {
+    "from": 984.73,
+    "to": 985.85,
+    "sid": 477,
+    "location": 2,
+    "content": "比如一的负奖励",
+    "music": 0
+  },
+  {
+    "from": 985.85,
+    "to": 987.61,
+    "sid": 478,
+    "location": 2,
+    "content": "我就生成无限长的字符串",
+    "music": 0
+  },
+  {
+    "from": 987.61,
+    "to": 989.23,
+    "sid": 479,
+    "location": 2,
+    "content": "这样我就能除以无穷大",
+    "music": 0
+  },
+  {
+    "from": 989.23,
+    "to": 990.51,
+    "sid": 480,
+    "location": 2,
+    "content": "彻底抵消那个负惩罚",
+    "music": 0
+  },
+  {
+    "from": 990.51,
+    "to": 992.25,
+    "sid": 481,
+    "location": 2,
+    "content": "我们这是极端情况",
+    "music": 0
+  },
+  {
+    "from": 992.25,
+    "to": 993.31,
+    "sid": 482,
+    "location": 2,
+    "content": "但道理很清楚",
+    "music": 0
+  },
+  {
+    "from": 993.31,
+    "to": 996.41,
+    "sid": 483,
+    "location": 2,
+    "content": "除以输出长度会鼓励模型在解不出题时",
+    "music": 0
+  },
+  {
+    "from": 996.41,
+    "to": 997.03,
+    "sid": 484,
+    "location": 2,
+    "content": "一直废话",
+    "music": 0
+  },
+  {
+    "from": 997.03,
+    "to": 1000.689,
+    "sid": 485,
+    "location": 2,
+    "content": "这个是你最终要面对的长度问题啊",
+    "music": 0
+  },
+  {
+    "from": 1000.689,
+    "to": 1001.529,
+    "sid": 486,
+    "location": 2,
+    "content": "解决了它",
+    "music": 0
+  },
+  {
+    "from": 1001.529,
+    "to": 1004.889,
+    "sid": 487,
+    "location": 2,
+    "content": "你会发现GRPO里COT4位链的长度",
+    "music": 0
+  },
+  {
+    "from": 1004.889,
+    "to": 1007.22,
+    "sid": 488,
+    "location": 2,
+    "content": "往往最后会稳定在一个常数",
+    "music": 0
+  },
+  {
+    "from": 1007.22,
+    "to": 1008.46,
+    "sid": 489,
+    "location": 2,
+    "content": "而不是无限增长",
+    "music": 0
+  },
+  {
+    "from": 1008.46,
+    "to": 1009.72,
+    "sid": 490,
+    "location": 2,
+    "content": "就是看起来是好事",
+    "music": 0
+  },
+  {
+    "from": 1009.72,
+    "to": 1010.9,
+    "sid": 491,
+    "location": 2,
+    "content": "特别是在答错时",
+    "music": 0
+  },
+  {
+    "from": 1010.9,
+    "to": 1013.3,
+    "sid": 492,
+    "location": 2,
+    "content": "你肯定不想让输出越来越长",
+    "music": 0
+  },
+  {
+    "from": 1013.59,
+    "to": 1015.77,
+    "sid": 493,
+    "location": 2,
+    "content": "然后是标准差归一化",
+    "music": 0
+  },
+  {
+    "from": 1015.77,
+    "to": 1017.23,
+    "sid": 494,
+    "location": 2,
+    "content": "这个稍微复杂点",
+    "music": 0
+  },
+  {
+    "from": 1017.23,
+    "to": 1020.63,
+    "sid": 495,
+    "location": 2,
+    "content": "但你想我其实是在除以标准差",
+    "music": 0
+  },
+  {
+    "from": 1020.63,
+    "to": 1024.849,
+    "sid": 496,
+    "location": 2,
+    "content": "所以这相当于在强调那些标准差较小的问题",
+    "music": 0
+  },
+  {
+    "from": 1024.849,
+    "to": 1028.249,
+    "sid": 497,
+    "location": 2,
+    "content": "那什么时候二元奖励问题的标准差会小呢",
+    "music": 0
+  },
+  {
+    "from": 1028.249,
+    "to": 1031,
+    "sid": 498,
+    "location": 2,
+    "content": "就是问题太简单或太难的时候",
+    "music": 0
+  },
+  {
+    "from": 1031,
+    "to": 1032.74,
+    "sid": 499,
+    "location": 2,
+    "content": "如果问题很简单",
+    "music": 0
+  },
+  {
+    "from": 1032.74,
+    "to": 1034.14,
+    "sid": 500,
+    "location": 2,
+    "content": "我总是全对",
+    "music": 0
+  },
+  {
+    "from": 1034.14,
+    "to": 1035.78,
+    "sid": 501,
+    "location": 2,
+    "content": "那我就要做除法了",
+    "music": 0
+  },
+  {
+    "from": 1035.78,
+    "to": 1037.6,
+    "sid": 502,
+    "location": 2,
+    "content": "我基本上是在除以零对吧",
+    "music": 0
+  },
+  {
+    "from": 1037.6,
+    "to": 1039.88,
+    "sid": 503,
+    "location": 2,
+    "content": "因为我总是答对就没有波动",
+    "music": 0
+  },
+  {
+    "from": 1039.88,
+    "to": 1041.76,
+    "sid": 504,
+    "location": 2,
+    "content": "同理如果我总是答错",
+    "music": 0
+  },
+  {
+    "from": 1041.76,
+    "to": 1043.27,
+    "sid": 505,
+    "location": 2,
+    "content": "奖励也就没有波动了",
+    "music": 0
+  },
+  {
+    "from": 1043.27,
+    "to": 1045.53,
+    "sid": 506,
+    "location": 2,
+    "content": "我会显著加大它的权重对吧",
+    "music": 0
+  },
+  {
+    "from": 1045.53,
+    "to": 1047.29,
+    "sid": 507,
+    "location": 2,
+    "content": "所以标准差项放大了两端",
+    "music": 0
+  },
+  {
+    "from": 1047.29,
+    "to": 1049.84,
+    "sid": 508,
+    "location": 2,
+    "content": "也就是简单和难题的权重",
+    "music": 0
+  },
+  {
+    "from": 1049.84,
+    "to": 1051.64,
+    "sid": 509,
+    "location": 2,
+    "content": "这显然不是我们想要的",
+    "music": 0
+  },
+  {
+    "from": 1051.64,
+    "to": 1054.96,
+    "sid": 510,
+    "location": 2,
+    "content": "因为我们希望模型在他能力范围内的题目上",
+    "music": 0
+  },
+  {
+    "from": 1054.96,
+    "to": 1055.68,
+    "sid": 511,
+    "location": 2,
+    "content": "学习好了",
+    "music": 0
+  },
+  {
+    "from": 1055.68,
+    "to": 1058.34,
+    "sid": 512,
+    "location": 2,
+    "content": "以上就是RLVR的算法组件啊",
+    "music": 0
+  },
+  {
+    "from": 1058.34,
+    "to": 1061.58,
+    "sid": 513,
+    "location": 2,
+    "content": "接下来我会拆解几个最近的模型发布",
+    "music": 0
+  },
+  {
+    "from": 1061.58,
+    "to": 1063.94,
+    "sid": 514,
+    "location": 2,
+    "content": "聊聊我觉得关键的算法部分",
+    "music": 0
+  },
+  {
+    "from": 1063.94,
+    "to": 1066.25,
+    "sid": 515,
+    "location": 2,
+    "content": "比如我今年新增的智能体功能",
+    "music": 0
+  },
+  {
+    "from": 1066.25,
+    "to": 1068.73,
+    "sid": 516,
+    "location": 2,
+    "content": "这对模型部署和使用越来越重要",
+    "music": 0
+  },
+  {
+    "from": 1068.73,
+    "to": 1071.21,
+    "sid": 517,
+    "location": 2,
+    "content": "讲之前我先停一下",
+    "music": 0
+  },
+  {
+    "from": 1071.21,
+    "to": 1072.49,
+    "sid": 518,
+    "location": 2,
+    "content": "谁有算法问题",
+    "music": 0
+  },
+  {
+    "from": 1072.49,
+    "to": 1074.49,
+    "sid": 519,
+    "location": 2,
+    "content": "我先回答再继续往下讲",
+    "music": 0
+  },
+  {
+    "from": 1074.49,
+    "to": 1075.69,
+    "sid": 520,
+    "location": 2,
+    "content": "行没问题",
+    "music": 0
+  },
+  {
+    "from": 1075.69,
+    "to": 1077.47,
+    "sid": 521,
+    "location": 2,
+    "content": "那咱们先聊deep seek r1",
+    "music": 0
+  },
+  {
+    "from": 1077.47,
+    "to": 1079.15,
+    "sid": 522,
+    "location": 2,
+    "content": "毕竟他现在挺火的呃",
+    "music": 0
+  },
+  {
+    "from": 1079.15,
+    "to": 1081.11,
+    "sid": 523,
+    "location": 2,
+    "content": "大家都该了解一下deep seek r1",
+    "music": 0
+  },
+  {
+    "from": 1081.11,
+    "to": 1082.07,
+    "sid": 524,
+    "location": 2,
+    "content": "这论文很棒",
+    "music": 0
+  },
+  {
+    "from": 1082.07,
+    "to": 1085.52,
+    "sid": 525,
+    "location": 2,
+    "content": "开启了开源RLVR模型的浪潮",
+    "music": 0
+  },
+  {
+    "from": 1085.52,
+    "to": 1091.21,
+    "sid": 526,
+    "location": 2,
+    "content": "它最牛的地方是首个在表现上追平了OpenAI o e",
+    "music": 0
+  },
+  {
+    "from": 1091.21,
+    "to": 1095.34,
+    "sid": 527,
+    "location": 2,
+    "content": "open AI o e的关键在于它有很长的思维链",
+    "music": 0
+  },
+  {
+    "from": 1095.34,
+    "to": 1097.58,
+    "sid": 528,
+    "location": 2,
+    "content": "这显然是经过RL训练的",
+    "music": 0
+  },
+  {
+    "from": 1097.58,
+    "to": 1099.38,
+    "sid": 529,
+    "location": 2,
+    "content": "在难题上表现很好",
+    "music": 0
+  },
+  {
+    "from": 1099.38,
+    "to": 1102.96,
+    "sid": 530,
+    "location": 2,
+    "content": "他们还提供了一套任何人都能用的RL方案",
+    "music": 0
+  },
+  {
+    "from": 1102.96,
+    "to": 1104.08,
+    "sid": 531,
+    "location": 2,
+    "content": "从研发角度看",
+    "music": 0
+  },
+  {
+    "from": 1104.08,
+    "to": 1104.8,
+    "sid": 532,
+    "location": 2,
+    "content": "这很重要",
+    "music": 0
+  },
+  {
+    "from": 1104.8,
+    "to": 1107.56,
+    "sid": 533,
+    "location": 2,
+    "content": "要是只有deep sick能跑那套糟糕的PPO",
+    "music": 0
+  },
+  {
+    "from": 1107.56,
+    "to": 1108.56,
+    "sid": 534,
+    "location": 2,
+    "content": "影响就小多了",
+    "music": 0
+  },
+  {
+    "from": 1108.56,
+    "to": 1110.49,
+    "sid": 535,
+    "location": 2,
+    "content": "至少对我们研究者是这样子",
+    "music": 0
+  },
+  {
+    "from": 1110.49,
+    "to": 1112.95,
+    "sid": 536,
+    "location": 2,
+    "content": "这这种GRPO谁都能玩",
+    "music": 0
+  },
+  {
+    "from": 1112.95,
+    "to": 1115.33,
+    "sid": 537,
+    "location": 2,
+    "content": "哪怕你做作业时也能用",
+    "music": 0
+  },
+  {
+    "from": 1115.33,
+    "to": 1118.47,
+    "sid": 538,
+    "location": 2,
+    "content": "最后啊他们有些有趣的蒸馏见解",
+    "music": 0
+  },
+  {
+    "from": 1118.47,
+    "to": 1120.93,
+    "sid": 539,
+    "location": 2,
+    "content": "到现在依然管用的啊",
+    "music": 0
+  },
+  {
+    "from": 1120.93,
+    "to": 1122.31,
+    "sid": 540,
+    "location": 2,
+    "content": "deep seek r1的起点",
+    "music": 0
+  },
+  {
+    "from": 1122.31,
+    "to": 1124.99,
+    "sid": 541,
+    "location": 2,
+    "content": "你能看出他的专长是怎么一步步搭起来的",
+    "music": 0
+  },
+  {
+    "from": 1124.99,
+    "to": 1126.97,
+    "sid": 542,
+    "location": 2,
+    "content": "我们发了篇deep seek数学论文",
+    "music": 0
+  },
+  {
+    "from": 1126.97,
+    "to": 1129.86,
+    "sid": 543,
+    "location": 2,
+    "content": "搞GRPO早就把RL的门道摸透了",
+    "music": 0
+  },
+  {
+    "from": 1129.86,
+    "to": 1131.24,
+    "sid": 544,
+    "location": 2,
+    "content": "针对数学题",
+    "music": 0
+  },
+  {
+    "from": 1131.24,
+    "to": 1135.84,
+    "sid": 545,
+    "location": 2,
+    "content": "所以他们就从deep seek数学的那些组件起步呃",
+    "music": 0
+  },
+  {
+    "from": 1135.84,
+    "to": 1136.94,
+    "sid": 546,
+    "location": 2,
+    "content": "有个重要区别",
+    "music": 0
+  },
+  {
+    "from": 1136.94,
+    "to": 1138.52,
+    "sid": 547,
+    "location": 2,
+    "content": "他们放弃了过程监督",
+    "music": 0
+  },
+  {
+    "from": 1138.52,
+    "to": 1142.14,
+    "sid": 548,
+    "location": 2,
+    "content": "而这种方法在deep sk数学任务中曾很管用啊",
+    "music": 0
+  },
+  {
+    "from": 1142.14,
+    "to": 1143.5,
+    "sid": 549,
+    "location": 2,
+    "content": "他们只用结果监督",
+    "music": 0
+  },
+  {
+    "from": 1143.5,
+    "to": 1147.12,
+    "sid": 550,
+    "location": 2,
+    "content": "简单说就是只看最终答案对错来给奖励",
+    "music": 0
+  },
+  {
+    "from": 1147.12,
+    "to": 1149.68,
+    "sid": 551,
+    "location": 2,
+    "content": "过程监督则是用评分标准",
+    "music": 0
+  },
+  {
+    "from": 1149.68,
+    "to": 1152.88,
+    "sid": 552,
+    "location": 2,
+    "content": "比如检查证明中间步骤是否有效",
+    "music": 0
+  },
+  {
+    "from": 1152.88,
+    "to": 1155.48,
+    "sid": 553,
+    "location": 2,
+    "content": "很多人以为过程监督很重要",
+    "music": 0
+  },
+  {
+    "from": 1155.48,
+    "to": 1159.09,
+    "sid": 554,
+    "location": 2,
+    "content": "结果发现他对很多任务其实没那么关键词",
+    "music": 0
+  },
+  {
+    "from": 1159.09,
+    "to": 1160.77,
+    "sid": 555,
+    "location": 2,
+    "content": "所以RED很有意思",
+    "music": 0
+  },
+  {
+    "from": 1160.77,
+    "to": 1163.41,
+    "sid": 556,
+    "location": 2,
+    "content": "因为它包含不少不同的组件",
+    "music": 0
+  },
+  {
+    "from": 1163.41,
+    "to": 1166.49,
+    "sid": 557,
+    "location": 2,
+    "content": "但有个特别有趣的组件是R102in",
+    "music": 0
+  },
+  {
+    "from": 1166.49,
+    "to": 1168.84,
+    "sid": 558,
+    "location": 2,
+    "content": "他们在那没做太多后训练",
+    "music": 0
+  },
+  {
+    "from": 1168.84,
+    "to": 1170.14,
+    "sid": 559,
+    "location": 2,
+    "content": "他们有个基础模型",
+    "music": 0
+  },
+  {
+    "from": 1170.14,
+    "to": 1171.26,
+    "sid": 560,
+    "location": 2,
+    "content": "当然大家现在都知道",
+    "music": 0
+  },
+  {
+    "from": 1171.26,
+    "to": 1173.88,
+    "sid": 561,
+    "location": 2,
+    "content": "这个基础模型也经过中期训练哦",
+    "music": 0
+  },
+  {
+    "from": 1173.88,
+    "to": 1177.58,
+    "sid": 562,
+    "location": 2,
+    "content": "所以这个模型能做一些指令遵循",
+    "music": 0
+  },
+  {
+    "from": 1177.58,
+    "to": 1179.42,
+    "sid": 563,
+    "location": 2,
+    "content": "然后在这个基础模型之上",
+    "music": 0
+  },
+  {
+    "from": 1179.42,
+    "to": 1182.54,
+    "sid": 564,
+    "location": 2,
+    "content": "他们主要做RLVRGRPO算法的奖励",
+    "music": 0
+  },
+  {
+    "from": 1182.54,
+    "to": 1184.99,
+    "sid": 565,
+    "location": 2,
+    "content": "就是看能不能正确解出一堆数学题",
+    "music": 0
+  },
+  {
+    "from": 1184.99,
+    "to": 1186.39,
+    "sid": 566,
+    "location": 2,
+    "content": "问题与格式奖励",
+    "music": 0
+  },
+  {
+    "from": 1186.39,
+    "to": 1187.13,
+    "sid": 567,
+    "location": 2,
+    "content": "这很关键",
+    "music": 0
+  },
+  {
+    "from": 1187.13,
+    "to": 1189.97,
+    "sid": 568,
+    "location": 2,
+    "content": "因为格式奖励能让他们后续剥离思维链",
+    "music": 0
+  },
+  {
+    "from": 1189.97,
+    "to": 1194.32,
+    "sid": 569,
+    "location": 2,
+    "content": "他们希望模型规范使用思维标签来包裹COT",
+    "music": 0
+  },
+  {
+    "from": 1194.32,
+    "to": 1195.66,
+    "sid": 570,
+    "location": 2,
+    "content": "但这套方案很简单",
+    "music": 0
+  },
+  {
+    "from": 1195.66,
+    "to": 1196.6,
+    "sid": 571,
+    "location": 2,
+    "content": "GRPO很简单",
+    "music": 0
+  },
+  {
+    "from": 1196.6,
+    "to": 1197.98,
+    "sid": 572,
+    "location": 2,
+    "content": "准确性奖励也很简单",
+    "music": 0
+  },
+  {
+    "from": 1197.98,
+    "to": 1200.02,
+    "sid": 573,
+    "location": 2,
+    "content": "事实上你基本能浮现这些结果",
+    "music": 0
+  },
+  {
+    "from": 1200.02,
+    "to": 1201.12,
+    "sid": 574,
+    "location": 2,
+    "content": "只要照做",
+    "music": 0
+  },
+  {
+    "from": 1201.12,
+    "to": 1202.48,
+    "sid": 575,
+    "location": 2,
+    "content": "结果会怎样嗯",
+    "music": 0
+  },
+  {
+    "from": 1202.48,
+    "to": 1205.48,
+    "sid": 576,
+    "location": 2,
+    "content": "效果只比OpenAI o e略差一点对吧",
+    "music": 0
+  },
+  {
+    "from": 1205.48,
+    "to": 1206.76,
+    "sid": 577,
+    "location": 2,
+    "content": "所以这个非常纯粹",
+    "music": 0
+  },
+  {
+    "from": 1206.76,
+    "to": 1207.52,
+    "sid": 578,
+    "location": 2,
+    "content": "我喜欢这个结果",
+    "music": 0
+  },
+  {
+    "from": 1207.52,
+    "to": 1209.32,
+    "sid": 579,
+    "location": 2,
+    "content": "因为他没有真实训练流程的那种杂乱",
+    "music": 0
+  },
+  {
+    "from": 1209.32,
+    "to": 1212.4,
+    "sid": 580,
+    "location": 2,
+    "content": "但没有把生产后训练流程混进来",
+    "music": 0
+  },
+  {
+    "from": 1212.4,
+    "to": 1215.26,
+    "sid": 581,
+    "location": 2,
+    "content": "你无需纠结是RLHF起了作用还是别的因素",
+    "music": 0
+  },
+  {
+    "from": 1215.26,
+    "to": 1217.42,
+    "sid": 582,
+    "location": 2,
+    "content": "极作模型加GRPO方案很简单",
+    "music": 0
+  },
+  {
+    "from": 1217.42,
+    "to": 1219.139,
+    "sid": 583,
+    "location": 2,
+    "content": "数学能力相当不错",
+    "music": 0
+  },
+  {
+    "from": 1219.139,
+    "to": 1222.11,
+    "sid": 584,
+    "location": 2,
+    "content": "我认为R1的走红部分",
+    "music": 0
+  },
+  {
+    "from": 1222.11,
+    "to": 1225.47,
+    "sid": 585,
+    "location": 2,
+    "content": "也源于论文中声称观察到的有趣现象",
+    "music": 0
+  },
+  {
+    "from": 1225.47,
+    "to": 1227.73,
+    "sid": 586,
+    "location": 2,
+    "content": "而他们声称观察到的现象之一是",
+    "music": 0
+  },
+  {
+    "from": 1227.73,
+    "to": 1229.17,
+    "sid": 587,
+    "location": 2,
+    "content": "随着训练时间延长",
+    "music": 0
+  },
+  {
+    "from": 1229.17,
+    "to": 1230.47,
+    "sid": 588,
+    "location": 2,
+    "content": "模型能思考更久",
+    "music": 0
+  },
+  {
+    "from": 1230.47,
+    "to": 1231.63,
+    "sid": 589,
+    "location": 2,
+    "content": "哈奇越来越长",
+    "music": 0
+  },
+  {
+    "from": 1231.63,
+    "to": 1234.36,
+    "sid": 590,
+    "location": 2,
+    "content": "他们还提到了网上疯传的顿悟时刻",
+    "music": 0
+  },
+  {
+    "from": 1234.36,
+    "to": 1235.64,
+    "sid": 591,
+    "location": 2,
+    "content": "训练足够久后",
+    "music": 0
+  },
+  {
+    "from": 1235.64,
+    "to": 1238.34,
+    "sid": 592,
+    "location": 2,
+    "content": "模型的COT就会出现顿悟tile",
+    "music": 0
+  },
+  {
+    "from": 1238.34,
+    "to": 1239.72,
+    "sid": 593,
+    "location": 2,
+    "content": "我觉得这一点挺有意思的",
+    "music": 0
+  },
+  {
+    "from": 1239.72,
+    "to": 1242.44,
+    "sid": 594,
+    "location": 2,
+    "content": "但我不确定这两种现象是否真的存在",
+    "music": 0
+  },
+  {
+    "from": 1244.26,
+    "to": 1246.52,
+    "sid": 595,
+    "location": 2,
+    "content": "COT其实是GRPO",
+    "music": 0
+  },
+  {
+    "from": 1246.52,
+    "to": 1250.17,
+    "sid": 596,
+    "location": 2,
+    "content": "算法长度归一化的自然结果",
+    "music": 0
+  },
+  {
+    "from": 1250.41,
+    "to": 1252.55,
+    "sid": 597,
+    "location": 2,
+    "content": "至于顿悟时刻",
+    "music": 0
+  },
+  {
+    "from": 1252.55,
+    "to": 1255.12,
+    "sid": 598,
+    "location": 2,
+    "content": "别人已经证明基础模型里就有",
+    "music": 0
+  },
+  {
+    "from": 1255.44,
+    "to": 1258.72,
+    "sid": 599,
+    "location": 2,
+    "content": "所以这肯定不只是强化学习算法的功劳",
+    "music": 0
+  },
+  {
+    "from": 1258.72,
+    "to": 1262.8,
+    "sid": 600,
+    "location": 2,
+    "content": "嗯很多人说顿悟这能帮我解数学题",
+    "music": 0
+  },
+  {
+    "from": 1262.8,
+    "to": 1265.1,
+    "sid": 601,
+    "location": 2,
+    "content": "模型在预训练时就学会了",
+    "music": 0
+  },
+  {
+    "from": 1265.1,
+    "to": 1267.1,
+    "sid": 602,
+    "location": 2,
+    "content": "因为它生成了很多数学token",
+    "music": 0
+  },
+  {
+    "from": 1267.1,
+    "to": 1269.42,
+    "sid": 603,
+    "location": 2,
+    "content": "强化学习时顺手提取出来",
+    "music": 0
+  },
+  {
+    "from": 1269.42,
+    "to": 1270.52,
+    "sid": 604,
+    "location": 2,
+    "content": "这太正常了",
+    "music": 0
+  },
+  {
+    "from": 1270.52,
+    "to": 1272.6,
+    "sid": 605,
+    "location": 2,
+    "content": "我觉得那个现象没那么特别或刺激",
+    "music": 0
+  },
+  {
+    "from": 1272.6,
+    "to": 1274.54,
+    "sid": 606,
+    "location": 2,
+    "content": "但R1确实是个重要里程碑",
+    "music": 0
+  },
+  {
+    "from": 1274.54,
+    "to": 1276.79,
+    "sid": 607,
+    "location": 2,
+    "content": "他展示了RLVR有多简单",
+    "music": 0
+  },
+  {
+    "from": 1276.79,
+    "to": 1278.71,
+    "sid": 608,
+    "location": 2,
+    "content": "这算是一种很干净的算法",
+    "music": 0
+  },
+  {
+    "from": 1278.71,
+    "to": 1280.45,
+    "sid": 609,
+    "location": 2,
+    "content": "也是解决难题的好方法",
+    "music": 0
+  },
+  {
+    "from": 1280.45,
+    "to": 1284.429,
+    "sid": 610,
+    "location": 2,
+    "content": "所以R1.0是个很干净受控的环境",
+    "music": 0
+  },
+  {
+    "from": 1284.429,
+    "to": 1288.68,
+    "sid": 611,
+    "location": 2,
+    "content": "接着re e是他们想把系统投入实际应用的尝试",
+    "music": 0
+  },
+  {
+    "from": 1288.68,
+    "to": 1289.96,
+    "sid": 612,
+    "location": 2,
+    "content": "R1有个好处",
+    "music": 0
+  },
+  {
+    "from": 1289.96,
+    "to": 1291.8,
+    "sid": 613,
+    "location": 2,
+    "content": "待会我会拿QUEN来对比诶",
+    "music": 0
+  },
+  {
+    "from": 1291.8,
+    "to": 1294.409,
+    "sid": 614,
+    "location": 2,
+    "content": "你能看到怎么把这些模块拼起来对吧",
+    "music": 0
+  },
+  {
+    "from": 1294.409,
+    "to": 1296.629,
+    "sid": 615,
+    "location": 2,
+    "content": "我们之前都孤立研究过这些部分",
+    "music": 0
+  },
+  {
+    "from": 1296.629,
+    "to": 1299.529,
+    "sid": 616,
+    "location": 2,
+    "content": "知道预训练RLHF和SFT在哪",
+    "music": 0
+  },
+  {
+    "from": 1299.529,
+    "to": 1301.52,
+    "sid": 617,
+    "location": 2,
+    "content": "但怎么把它们组合成最终系统呢",
+    "music": 0
+  },
+  {
+    "from": 1301.52,
+    "to": 1304.95,
+    "sid": 618,
+    "location": 2,
+    "content": "通常做法是我们先用中期训练好的模型诶",
+    "music": 0
+  },
+  {
+    "from": 1304.95,
+    "to": 1307.03,
+    "sid": 619,
+    "location": 2,
+    "content": "然后做推力训练和长上下文扩展",
+    "music": 0
+  },
+  {
+    "from": 1307.03,
+    "to": 1308.27,
+    "sid": 620,
+    "location": 2,
+    "content": "最后做RLAJEFF",
+    "music": 0
+  },
+  {
+    "from": 1308.27,
+    "to": 1310.09,
+    "sid": 621,
+    "location": 2,
+    "content": "毕竟这是直接面向用户的关键步骤",
+    "music": 0
+  },
+  {
+    "from": 1310.09,
+    "to": 1311.73,
+    "sid": 622,
+    "location": 2,
+    "content": "我们要确保格式规范",
+    "music": 0
+  },
+  {
+    "from": 1311.73,
+    "to": 1314.13,
+    "sid": 623,
+    "location": 2,
+    "content": "RLAJEFF能很好的辅助这一过程",
+    "music": 0
+  },
+  {
+    "from": 1314.13,
+    "to": 1317.69,
+    "sid": 624,
+    "location": 2,
+    "content": "另外他们给生产模型的coo t加了语言",
+    "music": 0
+  },
+  {
+    "from": 1317.69,
+    "to": 1318.9,
+    "sid": 625,
+    "location": 2,
+    "content": "一致性奖励",
+    "music": 0
+  },
+  {
+    "from": 1318.9,
+    "to": 1320.22,
+    "sid": 626,
+    "location": 2,
+    "content": "我记得报告提过",
+    "music": 0
+  },
+  {
+    "from": 1320.22,
+    "to": 1321.62,
+    "sid": 627,
+    "location": 2,
+    "content": "没加一致性奖励的话",
+    "music": 0
+  },
+  {
+    "from": 1321.62,
+    "to": 1324.52,
+    "sid": 628,
+    "location": 2,
+    "content": "R10风格的训练在COT里会乱切语言",
+    "music": 0
+  },
+  {
+    "from": 1324.52,
+    "to": 1327.27,
+    "sid": 629,
+    "location": 2,
+    "content": "just他们觉得这太难解释",
+    "music": 0
+  },
+  {
+    "from": 1327.27,
+    "to": 1328.94,
+    "sid": 630,
+    "location": 2,
+    "content": "看着也让人有些不安",
+    "music": 0
+  },
+  {
+    "from": 1328.94,
+    "to": 1330.5,
+    "sid": 631,
+    "location": 2,
+    "content": "所以想把它弄清楚",
+    "music": 0
+  },
+  {
+    "from": 1330.5,
+    "to": 1332.7,
+    "sid": 632,
+    "location": 2,
+    "content": "就让他统一输出一种语言",
+    "music": 0
+  },
+  {
+    "from": 1332.7,
+    "to": 1335.11,
+    "sid": 633,
+    "location": 2,
+    "content": "主要是出于可解释性考虑",
+    "music": 0
+  },
+  {
+    "from": 1335.11,
+    "to": 1338.47,
+    "sid": 634,
+    "location": 2,
+    "content": "他们还把一些不可验证的奖励塞进GRPO",
+    "music": 0
+  },
+  {
+    "from": 1338.47,
+    "to": 1340.97,
+    "sid": 635,
+    "location": 2,
+    "content": "几乎都融进ROHF流程里了",
+    "music": 0
+  },
+  {
+    "from": 1340.97,
+    "to": 1343.949,
+    "sid": 636,
+    "location": 2,
+    "content": "但除此之外两者非常相似",
+    "music": 0
+  },
+  {
+    "from": 1343.949,
+    "to": 1346.269,
+    "sid": 637,
+    "location": 2,
+    "content": "我觉得整个流程很清晰哦",
+    "music": 0
+  },
+  {
+    "from": 1346.269,
+    "to": 1350.72,
+    "sid": 638,
+    "location": 2,
+    "content": "嗯做SFT时他们的做法相当简单",
+    "music": 0
+  },
+  {
+    "from": 1350.72,
+    "to": 1353.7,
+    "sid": 639,
+    "location": 2,
+    "content": "R1.0里他们完全不想做SFT",
+    "music": 0
+  },
+  {
+    "from": 1353.7,
+    "to": 1356.199,
+    "sid": 640,
+    "location": 2,
+    "content": "但R1愿意用长CUT数据",
+    "music": 0
+  },
+  {
+    "from": 1356.199,
+    "to": 1358.839,
+    "sid": 641,
+    "location": 2,
+    "content": "读读这些开源技术报告时",
+    "music": 0
+  },
+  {
+    "from": 1358.839,
+    "to": 1361.49,
+    "sid": 642,
+    "location": 2,
+    "content": "琢磨字里行间的意思挺有意思",
+    "music": 0
+  },
+  {
+    "from": 1361.49,
+    "to": 1363.01,
+    "sid": 643,
+    "location": 2,
+    "content": "这儿也能看到他们说",
+    "music": 0
+  },
+  {
+    "from": 1363.01,
+    "to": 1366.09,
+    "sid": 644,
+    "location": 2,
+    "content": "我们构建并收集了少量长coo t数据",
+    "music": 0
+  },
+  {
+    "from": 1366.09,
+    "to": 1367.159,
+    "sid": 645,
+    "location": 2,
+    "content": "你可能会琢磨",
+    "music": 0
+  },
+  {
+    "from": 1367.159,
+    "to": 1369.559,
+    "sid": 646,
+    "location": 2,
+    "content": "我猜这是不是从别的模型蒸馏来的",
+    "music": 0
+  },
+  {
+    "from": 1369.559,
+    "to": 1372.139,
+    "sid": 647,
+    "location": 2,
+    "content": "这对开源模型倒不算坏事啊",
+    "music": 0
+  },
+  {
+    "from": 1372.139,
+    "to": 1373.079,
+    "sid": 648,
+    "location": 2,
+    "content": "但大家都这么干",
+    "music": 0
+  },
+  {
+    "from": 1373.079,
+    "to": 1374.519,
+    "sid": 649,
+    "location": 2,
+    "content": "但这措词写的这么小心",
+    "music": 0
+  },
+  {
+    "from": 1374.519,
+    "to": 1375.52,
+    "sid": 650,
+    "location": 2,
+    "content": "我觉得挺有意思",
+    "music": 0
+  },
+  {
+    "from": 1375.52,
+    "to": 1378.64,
+    "sid": 651,
+    "location": 2,
+    "content": "收集少量长COT数据啊",
+    "music": 0
+  },
+  {
+    "from": 1378.64,
+    "to": 1380.32,
+    "sid": 652,
+    "location": 2,
+    "content": "这是用来微调模型的",
+    "music": 0
+  },
+  {
+    "from": 1380.32,
+    "to": 1382.63,
+    "sid": 653,
+    "location": 2,
+    "content": "我们知道基础模型够强",
+    "music": 0
+  },
+  {
+    "from": 1382.63,
+    "to": 1384.77,
+    "sid": 654,
+    "location": 2,
+    "content": "光靠长cut做监督微调",
+    "music": 0
+  },
+  {
+    "from": 1384.77,
+    "to": 1386.949,
+    "sid": 655,
+    "location": 2,
+    "content": "就能激发大量类OE的能力",
+    "music": 0
+  },
+  {
+    "from": 1386.949,
+    "to": 1389.549,
+    "sid": 656,
+    "location": 2,
+    "content": "这是强化学习的绝佳起点",
+    "music": 0
+  },
+  {
+    "from": 1389.549,
+    "to": 1390.709,
+    "sid": 657,
+    "location": 2,
+    "content": "他们从这里起步",
+    "music": 0
+  },
+  {
+    "from": 1390.709,
+    "to": 1393.829,
+    "sid": 658,
+    "location": 2,
+    "content": "加入验证来过滤这些COT再继续处理",
+    "music": 0
+  },
+  {
+    "from": 1393.829,
+    "to": 1395.84,
+    "sid": 659,
+    "location": 2,
+    "content": "例如此后许多论文",
+    "music": 0
+  },
+  {
+    "from": 1395.84,
+    "to": 1398.3,
+    "sid": 660,
+    "location": 2,
+    "content": "包括我学生的部分工作表明",
+    "music": 0
+  },
+  {
+    "from": 1398.3,
+    "to": 1401.16,
+    "sid": 661,
+    "location": 2,
+    "content": "只要蒸馏流程和基础模型合适",
+    "music": 0
+  },
+  {
+    "from": 1401.16,
+    "to": 1405.18,
+    "sid": 662,
+    "location": 2,
+    "content": "光靠监督微调就能获得长COT推理能力",
+    "music": 0
+  },
+  {
+    "from": 1405.18,
+    "to": 1407.24,
+    "sid": 663,
+    "location": 2,
+    "content": "并光靠监督微调就行",
+    "music": 0
+  },
+  {
+    "from": 1407.24,
+    "to": 1408.08,
+    "sid": 664,
+    "location": 2,
+    "content": "我觉得这很有趣",
+    "music": 0
+  },
+  {
+    "from": 1408.08,
+    "to": 1411.61,
+    "sid": 665,
+    "location": 2,
+    "content": "因为有个味觉问题是你真需要强化学习吗",
+    "music": 0
+  },
+  {
+    "from": 1411.61,
+    "to": 1414.61,
+    "sid": 666,
+    "location": 2,
+    "content": "谈到强化学习在语言建模中的作用",
+    "music": 0
+  },
+  {
+    "from": 1414.61,
+    "to": 1417.81,
+    "sid": 667,
+    "location": 2,
+    "content": "一种思路是它是极好的监督信号来源",
+    "music": 0
+  },
+  {
+    "from": 1417.81,
+    "to": 1420.32,
+    "sid": 668,
+    "location": 2,
+    "content": "is若解决前沿数学问题",
+    "music": 0
+  },
+  {
+    "from": 1420.32,
+    "to": 1423.26,
+    "sid": 669,
+    "location": 2,
+    "content": "你根本拿不到详细长COT的监督信号",
+    "music": 0
+  },
+  {
+    "from": 1423.26,
+    "to": 1425.28,
+    "sid": 670,
+    "location": 2,
+    "content": "强化学习能让你自我生成",
+    "music": 0
+  },
+  {
+    "from": 1425.28,
+    "to": 1427.2,
+    "sid": 671,
+    "location": 2,
+    "content": "但一旦有了这些长COT",
+    "music": 0
+  },
+  {
+    "from": 1427.2,
+    "to": 1428.98,
+    "sid": 672,
+    "location": 2,
+    "content": "你也可以从模仿中学习",
+    "music": 0
+  },
+  {
+    "from": 1428.98,
+    "to": 1432.06,
+    "sid": 673,
+    "location": 2,
+    "content": "这似乎部分印证了那些蒸馏结果",
+    "music": 0
+  },
+  {
+    "from": 1432.06,
+    "to": 1434.46,
+    "sid": 674,
+    "location": 2,
+    "content": "R1的强化学习部分跟20基本一样",
+    "music": 0
+  },
+  {
+    "from": 1434.46,
+    "to": 1436.83,
+    "sid": 675,
+    "location": 2,
+    "content": "只是去掉了我提到的语言一致性损失",
+    "music": 0
+  },
+  {
+    "from": 1436.83,
+    "to": 1441.72,
+    "sid": 676,
+    "location": 2,
+    "content": "我们主要用gr po做强化学习训练",
+    "music": 0
+  },
+  {
+    "from": 1441.72,
+    "to": 1444.66,
+    "sid": 677,
+    "location": 2,
+    "content": "这就构成了最后阶段",
+    "music": 0
+  },
+  {
+    "from": 1444.66,
+    "to": 1446.32,
+    "sid": 678,
+    "location": 2,
+    "content": "这就是上一讲的内容",
+    "music": 0
+  },
+  {
+    "from": 1446.32,
+    "to": 1447.48,
+    "sid": 679,
+    "location": 2,
+    "content": "先做基础指令",
+    "music": 0
+  },
+  {
+    "from": 1447.48,
+    "to": 1448.44,
+    "sid": 680,
+    "location": 2,
+    "content": "微调式的SFT",
+    "music": 0
+  },
+  {
+    "from": 1448.44,
+    "to": 1450.29,
+    "sid": 681,
+    "location": 2,
+    "content": "再做ROHF",
+    "music": 0
+  },
+  {
+    "from": 1450.89,
+    "to": 1452.45,
+    "sid": 682,
+    "location": 2,
+    "content": "对于不可验证的任务",
+    "music": 0
+  },
+  {
+    "from": 1452.45,
+    "to": 1455.03,
+    "sid": 683,
+    "location": 2,
+    "content": "他们基本还是沿用DPCV3那套方法",
+    "music": 0
+  },
+  {
+    "from": 1455.03,
+    "to": 1456.81,
+    "sid": 684,
+    "location": 2,
+    "content": "这里没什么好惊讶的",
+    "music": 0
+  },
+  {
+    "from": 1456.81,
+    "to": 1458.77,
+    "sid": 685,
+    "location": 2,
+    "content": "那效果到底怎么样哦",
+    "music": 0
+  },
+  {
+    "from": 1458.77,
+    "to": 1459.93,
+    "sid": 686,
+    "location": 2,
+    "content": "效果真的非常好",
+    "music": 0
+  },
+  {
+    "from": 1459.93,
+    "to": 1462.67,
+    "sid": 687,
+    "location": 2,
+    "content": "我想这就是deep seek引发恐慌广受关注的原因",
+    "music": 0
+  },
+  {
+    "from": 1462.67,
+    "to": 1465.08,
+    "sid": 688,
+    "location": 2,
+    "content": "毕竟R1确实是个很好的模型啊",
+    "music": 0
+  },
+  {
+    "from": 1465.08,
+    "to": 1467.34,
+    "sid": 689,
+    "location": 2,
+    "content": "它在很多类别上超过了O1",
+    "music": 0
+  },
+  {
+    "from": 1467.34,
+    "to": 1470.35,
+    "sid": 690,
+    "location": 2,
+    "content": "也符合大家预期的测试时扩展表现",
+    "music": 0
+  },
+  {
+    "from": 1470.35,
+    "to": 1472.43,
+    "sid": 691,
+    "location": 2,
+    "content": "而且它的配方非常简单",
+    "music": 0
+  },
+  {
+    "from": 1472.43,
+    "to": 1473.55,
+    "sid": 692,
+    "location": 2,
+    "content": "所以增益来自哪里",
+    "music": 0
+  },
+  {
+    "from": 1473.55,
+    "to": 1474.61,
+    "sid": 693,
+    "location": 2,
+    "content": "很容易理解",
+    "music": 0
+  },
+  {
+    "from": 1474.61,
+    "to": 1476.55,
+    "sid": 694,
+    "location": 2,
+    "content": "关于之前讨论的蒸馏",
+    "music": 0
+  },
+  {
+    "from": 1476.55,
+    "to": 1479.77,
+    "sid": 695,
+    "location": 2,
+    "content": "你可以把R1的思维链coo t输入给quin",
+    "music": 0
+  },
+  {
+    "from": 1479.77,
+    "to": 1480.65,
+    "sid": 696,
+    "location": 2,
+    "content": "2.5boss",
+    "music": 0
+  },
+  {
+    "from": 1480.65,
+    "to": 1484.29,
+    "sid": 697,
+    "location": 2,
+    "content": "这样做能显著提升这些模型的性能",
+    "music": 0
+  },
+  {
+    "from": 1484.29,
+    "to": 1487.7,
+    "sid": 698,
+    "location": 2,
+    "content": "在某些情况下能媲美许多专用模型I",
+    "music": 0
+  },
+  {
+    "from": 1487.7,
+    "to": 1488.64,
+    "sid": 699,
+    "location": 2,
+    "content": "也就是说",
+    "music": 0
+  },
+  {
+    "from": 1488.64,
+    "to": 1491.28,
+    "sid": 700,
+    "location": 2,
+    "content": "只要给模型能读懂的合适",
+    "music": 0
+  },
+  {
+    "from": 1491.28,
+    "to": 1494.85,
+    "sid": 701,
+    "location": 2,
+    "content": "长思维链通常就能让它长时间推理",
+    "music": 0
+  },
+  {
+    "from": 1494.85,
+    "to": 1497.01,
+    "sid": 702,
+    "location": 2,
+    "content": "基础模型本身就出奇的好",
+    "music": 0
+  },
+  {
+    "from": 1497.01,
+    "to": 1498.45,
+    "sid": 703,
+    "location": 2,
+    "content": "这对lama模型也适用",
+    "music": 0
+  },
+  {
+    "from": 1498.45,
+    "to": 1499.21,
+    "sid": 704,
+    "location": 2,
+    "content": "我觉得挺有意思",
+    "music": 0
+  },
+  {
+    "from": 1500.41,
+    "to": 1502.36,
+    "sid": 705,
+    "location": 2,
+    "content": "最后总结一下deep seek",
+    "music": 0
+  },
+  {
+    "from": 1502.36,
+    "to": 1504.36,
+    "sid": 706,
+    "location": 2,
+    "content": "我很喜欢他们的技术报告",
+    "music": 0
+  },
+  {
+    "from": 1504.36,
+    "to": 1506.2,
+    "sid": 707,
+    "location": 2,
+    "content": "因为既做消融实验",
+    "music": 0
+  },
+  {
+    "from": 1506.2,
+    "to": 1508.58,
+    "sid": 708,
+    "location": 2,
+    "content": "也坦诚公布失败的尝试",
+    "music": 0
+  },
+  {
+    "from": 1508.58,
+    "to": 1508.98,
+    "sid": 709,
+    "location": 2,
+    "content": "对",
+    "music": 0
+  },
+  {
+    "from": 1508.98,
+    "to": 1510.68,
+    "sid": 710,
+    "location": 2,
+    "content": "如果你一直关注他们的动态",
+    "music": 0
+  },
+  {
+    "from": 1510.68,
+    "to": 1512.68,
+    "sid": 711,
+    "location": 2,
+    "content": "deep sick math里这些都有哦",
+    "music": 0
+  },
+  {
+    "from": 1512.68,
+    "to": 1515.28,
+    "sid": 712,
+    "location": 2,
+    "content": "比如过程奖励模型说要验证每一步",
+    "music": 0
+  },
+  {
+    "from": 1515.28,
+    "to": 1518.34,
+    "sid": 713,
+    "location": 2,
+    "content": "可你读R1时会问过程奖励模型哪去了",
+    "music": 0
+  },
+  {
+    "from": 1518.34,
+    "to": 1521.32,
+    "sid": 714,
+    "location": 2,
+    "content": "其实论文里讲了过程奖励模型的下落",
+    "music": 0
+  },
+  {
+    "from": 1521.32,
+    "to": 1522.98,
+    "sid": 715,
+    "location": 2,
+    "content": "我们试过让它生效",
+    "music": 0
+  },
+  {
+    "from": 1522.98,
+    "to": 1524.48,
+    "sid": 716,
+    "location": 2,
+    "content": "他们没帮上什么忙",
+    "music": 0
+  },
+  {
+    "from": 1524.48,
+    "to": 1525.36,
+    "sid": 717,
+    "location": 2,
+    "content": "事实证明",
+    "music": 0
+  },
+  {
+    "from": 1525.36,
+    "to": 1527.79,
+    "sid": 718,
+    "location": 2,
+    "content": "结果奖励模型效果很好诶",
+    "music": 0
+  },
+  {
+    "from": 1527.79,
+    "to": 1528.89,
+    "sid": 719,
+    "location": 2,
+    "content": "数据量足够",
+    "music": 0
+  },
+  {
+    "from": 1528.89,
+    "to": 1529.93,
+    "sid": 720,
+    "location": 2,
+    "content": "也更容易扩展",
+    "music": 0
+  },
+  {
+    "from": 1529.93,
+    "to": 1532.23,
+    "sid": 721,
+    "location": 2,
+    "content": "过程奖励模型的主要争议在于分布",
+    "music": 0
+  },
+  {
+    "from": 1532.23,
+    "to": 1533.51,
+    "sid": 722,
+    "location": 2,
+    "content": "评分标准从哪儿来",
+    "music": 0
+  },
+  {
+    "from": 1533.51,
+    "to": 1534.75,
+    "sid": 723,
+    "location": 2,
+    "content": "这很难扩展",
+    "music": 0
+  },
+  {
+    "from": 1534.75,
+    "to": 1535.67,
+    "sid": 724,
+    "location": 2,
+    "content": "现在很清楚",
+    "music": 0
+  },
+  {
+    "from": 1535.67,
+    "to": 1537.09,
+    "sid": 725,
+    "location": 2,
+    "content": "结果奖励模型很好",
+    "music": 0
+  },
+  {
+    "from": 1537.09,
+    "to": 1538.94,
+    "sid": 726,
+    "location": 2,
+    "content": "这也是当下的重点所在啊",
+    "music": 0
+  },
+  {
+    "from": 1538.94,
+    "to": 1541.04,
+    "sid": 727,
+    "location": 2,
+    "content": "同样如果你关注过出版一",
+    "music": 0
+  },
+  {
+    "from": 1541.04,
+    "to": 1544.74,
+    "sid": 728,
+    "location": 2,
+    "content": "很多人曾猜测OpenAI的一内部到底用了什么",
+    "music": 0
+  },
+  {
+    "from": 1544.74,
+    "to": 1545.74,
+    "sid": 729,
+    "location": 2,
+    "content": "大家当时想哦",
+    "music": 0
+  },
+  {
+    "from": 1545.74,
+    "to": 1547.22,
+    "sid": 730,
+    "location": 2,
+    "content": "他们是用过程奖励模型吗",
+    "music": 0
+  },
+  {
+    "from": 1547.22,
+    "to": 1549.22,
+    "sid": 731,
+    "location": 2,
+    "content": "还是像ALFGO那样做数搜索",
+    "music": 0
+  },
+  {
+    "from": 1549.22,
+    "to": 1552.84,
+    "sid": 732,
+    "location": 2,
+    "content": "他们也试过尝试了大量蒙特卡洛树搜索",
+    "music": 0
+  },
+  {
+    "from": 1552.84,
+    "to": 1554.96,
+    "sid": 733,
+    "location": 2,
+    "content": "但表示没能很好地跑通",
+    "music": 0
+  },
+  {
+    "from": 1554.96,
+    "to": 1556.46,
+    "sid": 734,
+    "location": 2,
+    "content": "我想强调的是",
+    "music": 0
+  },
+  {
+    "from": 1556.46,
+    "to": 1560.1,
+    "sid": 735,
+    "location": 2,
+    "content": "他们很坦诚的公开了所有探索和失败的尝试",
+    "music": 0
+  },
+  {
+    "from": 1560.1,
+    "to": 1562.89,
+    "sid": 736,
+    "location": 2,
+    "content": "而不是说他们根本没试过好",
+    "music": 0
+  },
+  {
+    "from": 1562.89,
+    "to": 1563.75,
+    "sid": 737,
+    "location": 2,
+    "content": "那我先停一下",
+    "music": 0
+  },
+  {
+    "from": 1563.75,
+    "to": 1564.73,
+    "sid": 738,
+    "location": 2,
+    "content": "大家有问题可以提",
+    "music": 0
+  },
+  {
+    "from": 1564.73,
+    "to": 1567.45,
+    "sid": 739,
+    "location": 2,
+    "content": "虽然我也不确定有没有解释了",
+    "music": 0
+  },
+  {
+    "from": 1567.45,
+    "to": 1569.96,
+    "sid": 740,
+    "location": 2,
+    "content": "当内部处理不再适用时",
+    "music": 0
+  },
+  {
+    "from": 1569.96,
+    "to": 1572,
+    "sid": 741,
+    "location": 2,
+    "content": "阳性案例的情况",
+    "music": 0
+  },
+  {
+    "from": 1572,
+    "to": 1573.92,
+    "sid": 742,
+    "location": 2,
+    "content": "就像你说的阴性案例里",
+    "music": 0
+  },
+  {
+    "from": 1573.92,
+    "to": 1577.04,
+    "sid": 743,
+    "location": 2,
+    "content": "我们鼓励除以无穷大和零对阳性案例",
+    "music": 0
+  },
+  {
+    "from": 1577.04,
+    "to": 1578.1,
+    "sid": 744,
+    "location": 2,
+    "content": "我们倾向于这样做",
+    "music": 0
+  },
+  {
+    "from": 1578.1,
+    "to": 1580.97,
+    "sid": 745,
+    "location": 2,
+    "content": "问题是长度归一化器起什么作用",
+    "music": 0
+  },
+  {
+    "from": 1580.97,
+    "to": 1582.93,
+    "sid": 746,
+    "location": 2,
+    "content": "当然这能鼓励缩短COT",
+    "music": 0
+  },
+  {
+    "from": 1582.93,
+    "to": 1584.13,
+    "sid": 747,
+    "location": 2,
+    "content": "如果你想省退理成本",
+    "music": 0
+  },
+  {
+    "from": 1584.13,
+    "to": 1585.66,
+    "sid": 748,
+    "location": 2,
+    "content": "这很好啊",
+    "music": 0
+  },
+  {
+    "from": 1585.66,
+    "to": 1587.46,
+    "sid": 749,
+    "location": 2,
+    "content": "但要是准确率下降就不好了",
+    "music": 0
+  },
+  {
+    "from": 1587.46,
+    "to": 1590.61,
+    "sid": 750,
+    "location": 2,
+    "content": "主要问题是阴性案例会生成超长回复",
+    "music": 0
+  },
+  {
+    "from": 1590.61,
+    "to": 1592.19,
+    "sid": 751,
+    "location": 2,
+    "content": "阳性案例说不了那么多",
+    "music": 0
+  },
+  {
+    "from": 1592.19,
+    "to": 1595.01,
+    "sid": 752,
+    "location": 2,
+    "content": "因为解决特定问题的COT有长度下限",
+    "music": 0
+  },
+  {
+    "from": 1595.01,
+    "to": 1599.19,
+    "sid": 753,
+    "location": 2,
+    "content": "我想我是想弄懂刚才那个图表的解释",
+    "music": 0
+  },
+  {
+    "from": 1599.35,
+    "to": 1601.77,
+    "sid": 754,
+    "location": 2,
+    "content": "对DOCTRGRPO的图更直观",
+    "music": 0
+  },
+  {
+    "from": 1601.77,
+    "to": 1602.97,
+    "sid": 755,
+    "location": 2,
+    "content": "你看R1的图",
+    "music": 0
+  },
+  {
+    "from": 1602.97,
+    "to": 1605.35,
+    "sid": 756,
+    "location": 2,
+    "content": "这里把所有数据都汇总了嗯",
+    "music": 0
+  },
+  {
+    "from": 1605.35,
+    "to": 1607.59,
+    "sid": 757,
+    "location": 2,
+    "content": "这里囊括了评估里的所有回复",
+    "music": 0
+  },
+  {
+    "from": 1607.59,
+    "to": 1609.799,
+    "sid": 758,
+    "location": 2,
+    "content": "不只有那些正确的",
+    "music": 0
+  },
+  {
+    "from": 1609.799,
+    "to": 1612.399,
+    "sid": 759,
+    "location": 2,
+    "content": "咱们再看DOCTRGRPO的图",
+    "music": 0
+  },
+  {
+    "from": 1612.399,
+    "to": 1613.939,
+    "sid": 760,
+    "location": 2,
+    "content": "这条是平均长度",
+    "music": 0
+  },
+  {
+    "from": 1613.939,
+    "to": 1616.87,
+    "sid": 761,
+    "location": 2,
+    "content": "这条是错误长度则啊",
+    "music": 0
+  },
+  {
+    "from": 1616.87,
+    "to": 1618.31,
+    "sid": 762,
+    "location": 2,
+    "content": "你看正确长度在这",
+    "music": 0
+  },
+  {
+    "from": 1618.31,
+    "to": 1620.11,
+    "sid": 763,
+    "location": 2,
+    "content": "所以正如我们预期的增长",
+    "music": 0
+  },
+  {
+    "from": 1620.11,
+    "to": 1621.85,
+    "sid": 764,
+    "location": 2,
+    "content": "主要是由错误输出驱动的",
+    "music": 0
+  },
+  {
+    "from": 1621.85,
+    "to": 1623.85,
+    "sid": 765,
+    "location": 2,
+    "content": "所以在这些受控对比中",
+    "music": 0
+  },
+  {
+    "from": 1623.85,
+    "to": 1625.58,
+    "sid": 766,
+    "location": 2,
+    "content": "结论非常清晰哦",
+    "music": 0
+  },
+  {
+    "from": 1625.58,
+    "to": 1628.29,
+    "sid": 767,
+    "location": 2,
+    "content": "好呃",
+    "music": 0
+  },
+  {
+    "from": 1628.61,
+    "to": 1631.34,
+    "sid": 768,
+    "location": 2,
+    "content": "接下来我还会讲一种替代方案",
+    "music": 0
+  },
+  {
+    "from": 1631.34,
+    "to": 1632.66,
+    "sid": 769,
+    "location": 2,
+    "content": "Kimi k1.5",
+    "music": 0
+  },
+  {
+    "from": 1632.66,
+    "to": 1634.28,
+    "sid": 770,
+    "location": 2,
+    "content": "也就是另一篇论文的方法",
+    "music": 0
+  },
+  {
+    "from": 1634.28,
+    "to": 1635.36,
+    "sid": 771,
+    "location": 2,
+    "content": "聊到二一时",
+    "music": 0
+  },
+  {
+    "from": 1635.36,
+    "to": 1637.58,
+    "sid": 772,
+    "location": 2,
+    "content": "我觉得必须提一下KIMIK1.5",
+    "music": 0
+  },
+  {
+    "from": 1637.58,
+    "to": 1639.97,
+    "sid": 773,
+    "location": 2,
+    "content": "因为他们几乎是同时出的",
+    "music": 0
+  },
+  {
+    "from": 1639.97,
+    "to": 1641.55,
+    "sid": 774,
+    "location": 2,
+    "content": "他们还击败了O1",
+    "music": 0
+  },
+  {
+    "from": 1641.55,
+    "to": 1643.62,
+    "sid": 775,
+    "location": 2,
+    "content": "然而大家都在追捧deep seek",
+    "music": 0
+  },
+  {
+    "from": 1643.62,
+    "to": 1645.4,
+    "sid": 776,
+    "location": 2,
+    "content": "KIMI却很少被提起",
+    "music": 0
+  },
+  {
+    "from": 1645.4,
+    "to": 1647.34,
+    "sid": 777,
+    "location": 2,
+    "content": "尽管他们的模型非常出色",
+    "music": 0
+  },
+  {
+    "from": 1647.34,
+    "to": 1649.72,
+    "sid": 778,
+    "location": 2,
+    "content": "我说这些并不只是出于同情",
+    "music": 0
+  },
+  {
+    "from": 1649.72,
+    "to": 1652.08,
+    "sid": 779,
+    "location": 2,
+    "content": "我觉得KIMI有个不错的地方",
+    "music": 0
+  },
+  {
+    "from": 1652.08,
+    "to": 1654.34,
+    "sid": 780,
+    "location": 2,
+    "content": "他们在好些方面做的很不一样",
+    "music": 0
+  },
+  {
+    "from": 1654.34,
+    "to": 1656.04,
+    "sid": 781,
+    "location": 2,
+    "content": "跟deep sk不一样",
+    "music": 0
+  },
+  {
+    "from": 1656.04,
+    "to": 1657.64,
+    "sid": 782,
+    "location": 2,
+    "content": "这两套都行得通",
+    "music": 0
+  },
+  {
+    "from": 1657.64,
+    "to": 1659.74,
+    "sid": 783,
+    "location": 2,
+    "content": "我们能从中学到不少东西",
+    "music": 0
+  },
+  {
+    "from": 1659.74,
+    "to": 1661.67,
+    "sid": 784,
+    "location": 2,
+    "content": "这也是咱们这门课的主题之一",
+    "music": 0
+  },
+  {
+    "from": 1661.67,
+    "to": 1662.83,
+    "sid": 785,
+    "location": 2,
+    "content": "读读技术报告",
+    "music": 0
+  },
+  {
+    "from": 1662.83,
+    "to": 1664.11,
+    "sid": 786,
+    "location": 2,
+    "content": "看看更大的趋势",
+    "music": 0
+  },
+  {
+    "from": 1664.11,
+    "to": 1666.15,
+    "sid": 787,
+    "location": 2,
+    "content": "我们就能大致摸清哪些路子",
+    "music": 0
+  },
+  {
+    "from": 1666.15,
+    "to": 1667.6,
+    "sid": 788,
+    "location": 2,
+    "content": "能让这些算法跑通",
+    "music": 0
+  },
+  {
+    "from": 1667.6,
+    "to": 1671.52,
+    "sid": 789,
+    "location": 2,
+    "content": "所以他们在数据集构建和强化学习",
+    "music": 0
+  },
+  {
+    "from": 1671.52,
+    "to": 1673.32,
+    "sid": 790,
+    "location": 2,
+    "content": "课程生成上讲的很细",
+    "music": 0
+  },
+  {
+    "from": 1673.32,
+    "to": 1675.6,
+    "sid": 791,
+    "location": 2,
+    "content": "而很多人觉得这一点特别关键",
+    "music": 0
+  },
+  {
+    "from": 1675.6,
+    "to": 1678.559,
+    "sid": 792,
+    "location": 2,
+    "content": "他们用的强化学习算法也不一样",
+    "music": 0
+  },
+  {
+    "from": 1678.559,
+    "to": 1679.959,
+    "sid": 793,
+    "location": 2,
+    "content": "虽然有些思路相似",
+    "music": 0
+  },
+  {
+    "from": 1679.959,
+    "to": 1681.439,
+    "sid": 794,
+    "location": 2,
+    "content": "但并不是GRPO",
+    "music": 0
+  },
+  {
+    "from": 1681.439,
+    "to": 1683.409,
+    "sid": 795,
+    "location": 2,
+    "content": "所以这又是一个很好的验证",
+    "music": 0
+  },
+  {
+    "from": 1683.409,
+    "to": 1684.169,
+    "sid": 796,
+    "location": 2,
+    "content": "技术上讲",
+    "music": 0
+  },
+  {
+    "from": 1684.169,
+    "to": 1685.929,
+    "sid": 797,
+    "location": 2,
+    "content": "我觉得你未必非得用GRPO",
+    "music": 0
+  },
+  {
+    "from": 1685.929,
+    "to": 1687.369,
+    "sid": 798,
+    "location": 2,
+    "content": "才能让这些模型跑起来",
+    "music": 0
+  },
+  {
+    "from": 1687.369,
+    "to": 1688.329,
+    "sid": 799,
+    "location": 2,
+    "content": "谢谢好",
+    "music": 0
+  },
+  {
+    "from": 1688.329,
+    "to": 1690.639,
+    "sid": 800,
+    "location": 2,
+    "content": "我想先讲第一部分数据诶",
+    "music": 0
+  },
+  {
+    "from": 1690.639,
+    "to": 1693.379,
+    "sid": 801,
+    "location": 2,
+    "content": "数据对这些过程依然至关重要",
+    "music": 0
+  },
+  {
+    "from": 1693.379,
+    "to": 1697.239,
+    "sid": 802,
+    "location": 2,
+    "content": "而对RL来说还多了一层课程式设计的考量",
+    "music": 0
+  },
+  {
+    "from": 1697.239,
+    "to": 1699.56,
+    "sid": 803,
+    "location": 2,
+    "content": "你想投入什么难度的问题",
+    "music": 0
+  },
+  {
+    "from": 1699.56,
+    "to": 1701.88,
+    "sid": 804,
+    "location": 2,
+    "content": "ST里你不太用考虑难度",
+    "music": 0
+  },
+  {
+    "from": 1701.88,
+    "to": 1703.659,
+    "sid": 805,
+    "location": 2,
+    "content": "直接把数据塞进去就行对吧",
+    "music": 0
+  },
+  {
+    "from": 1703.659,
+    "to": 1705.159,
+    "sid": 806,
+    "location": 2,
+    "content": "不管你想要什么数据",
+    "music": 0
+  },
+  {
+    "from": 1705.159,
+    "to": 1708.94,
+    "sid": 807,
+    "location": 2,
+    "content": "都用预训练损失模型就被迫从中学习啊",
+    "music": 0
+  },
+  {
+    "from": 1708.94,
+    "to": 1710.76,
+    "sid": 808,
+    "location": 2,
+    "content": "SFT就要更微妙一点",
+    "music": 0
+  },
+  {
+    "from": 1710.76,
+    "to": 1712.38,
+    "sid": 809,
+    "location": 2,
+    "content": "我们聊过不少幻觉的问题",
+    "music": 0
+  },
+  {
+    "from": 1712.38,
+    "to": 1715.58,
+    "sid": 810,
+    "location": 2,
+    "content": "有时候你并不想用某些数据来训练right",
+    "music": 0
+  },
+  {
+    "from": 1715.58,
+    "to": 1718.36,
+    "sid": 811,
+    "location": 2,
+    "content": "但对RL来说还有个额外的麻烦",
+    "music": 0
+  },
+  {
+    "from": 1718.36,
+    "to": 1719.34,
+    "sid": 812,
+    "location": 2,
+    "content": "如果问题太难",
+    "music": 0
+  },
+  {
+    "from": 1719.34,
+    "to": 1720.98,
+    "sid": 813,
+    "location": 2,
+    "content": "你就拿不到奖励对吧",
+    "music": 0
+  },
+  {
+    "from": 1720.98,
+    "to": 1722.62,
+    "sid": 814,
+    "location": 2,
+    "content": "没有奖励就没有信号",
+    "music": 0
+  },
+  {
+    "from": 1722.62,
+    "to": 1724.05,
+    "sid": 815,
+    "location": 2,
+    "content": "没有信号就学不了",
+    "music": 0
+  },
+  {
+    "from": 1724.05,
+    "to": 1727.93,
+    "sid": 816,
+    "location": 2,
+    "content": "所以广泛覆盖正确类型的事例非常重要",
+    "music": 0
+  },
+  {
+    "from": 1727.93,
+    "to": 1729.78,
+    "sid": 817,
+    "location": 2,
+    "content": "那么KIMI团队的做法是",
+    "music": 0
+  },
+  {
+    "from": 1729.78,
+    "to": 1733.36,
+    "sid": 818,
+    "location": 2,
+    "content": "首先他们力求获得一大批广泛的数据覆盖",
+    "music": 0
+  },
+  {
+    "from": 1733.36,
+    "to": 1734.239,
+    "sid": 819,
+    "location": 2,
+    "content": "这不意外",
+    "music": 0
+  },
+  {
+    "from": 1734.239,
+    "to": 1735.719,
+    "sid": 820,
+    "location": 2,
+    "content": "他们排除多选题",
+    "music": 0
+  },
+  {
+    "from": 1735.719,
+    "to": 1737.839,
+    "sid": 821,
+    "location": 2,
+    "content": "因为很多领域都涉及了",
+    "music": 0
+  },
+  {
+    "from": 1737.839,
+    "to": 1740.599,
+    "sid": 822,
+    "location": 2,
+    "content": "他们想要需要深度思考的内容",
+    "music": 0
+  },
+  {
+    "from": 1740.599,
+    "to": 1743.49,
+    "sid": 823,
+    "location": 2,
+    "content": "理由可能是耶多选题没这效果",
+    "music": 0
+  },
+  {
+    "from": 1743.49,
+    "to": 1746.25,
+    "sid": 824,
+    "location": 2,
+    "content": "但最后这点我觉得可能是最重要的理念",
+    "music": 0
+  },
+  {
+    "from": 1746.25,
+    "to": 1748.6,
+    "sid": 825,
+    "location": 2,
+    "content": "而这在很多RL论文里都有对吧",
+    "music": 0
+  },
+  {
+    "from": 1748.6,
+    "to": 1751.74,
+    "sid": 826,
+    "location": 2,
+    "content": "你基本上是根据最佳K筛选器来过滤所有样本",
+    "music": 0
+  },
+  {
+    "from": 1751.74,
+    "to": 1752.9,
+    "sid": 827,
+    "location": 2,
+    "content": "看是否通过啊",
+    "music": 0
+  },
+  {
+    "from": 1752.9,
+    "to": 1755.4,
+    "sid": 828,
+    "location": 2,
+    "content": "抱歉是用最佳K筛选器来过滤",
+    "music": 0
+  },
+  {
+    "from": 1755.4,
+    "to": 1757.58,
+    "sid": 829,
+    "location": 2,
+    "content": "所以这里你拿样本来说",
+    "music": 0
+  },
+  {
+    "from": 1757.58,
+    "to": 1759.96,
+    "sid": 830,
+    "location": 2,
+    "content": "如果在最佳八次里成功了",
+    "music": 0
+  },
+  {
+    "from": 1759.96,
+    "to": 1762.72,
+    "sid": 831,
+    "location": 2,
+    "content": "比如采样八次模型至少成功一次",
+    "music": 0
+  },
+  {
+    "from": 1762.72,
+    "to": 1764.62,
+    "sid": 832,
+    "location": 2,
+    "content": "那它就不是好的RL样本",
+    "music": 0
+  },
+  {
+    "from": 1764.62,
+    "to": 1767.08,
+    "sid": 833,
+    "location": 2,
+    "content": "因为它已经卡在模型能力的边缘了",
+    "music": 0
+  },
+  {
+    "from": 1767.08,
+    "to": 1767.7,
+    "sid": 834,
+    "location": 2,
+    "content": "对吧",
+    "music": 0
+  },
+  {
+    "from": 1767.7,
+    "to": 1770.08,
+    "sid": 835,
+    "location": 2,
+    "content": "你教不了他什么特别新的东西",
+    "music": 0
+  },
+  {
+    "from": 1770.08,
+    "to": 1773.08,
+    "sid": 836,
+    "location": 2,
+    "content": "所以你只看那些没通过这关的样本",
+    "music": 0
+  },
+  {
+    "from": 1773.08,
+    "to": 1775.76,
+    "sid": 837,
+    "location": 2,
+    "content": "因为就能让我们挑出合适类型的问题",
+    "music": 0
+  },
+  {
+    "from": 1775.76,
+    "to": 1776.56,
+    "sid": 838,
+    "location": 2,
+    "content": "所以这能省算力",
+    "music": 0
+  },
+  {
+    "from": 1776.56,
+    "to": 1778.2,
+    "sid": 839,
+    "location": 2,
+    "content": "它让你能直接跳过某些问题",
+    "music": 0
+  },
+  {
+    "from": 1778.2,
+    "to": 1779.96,
+    "sid": 840,
+    "location": 2,
+    "content": "你也可以两头过滤",
+    "music": 0
+  },
+  {
+    "from": 1779.96,
+    "to": 1783.06,
+    "sid": 841,
+    "location": 2,
+    "content": "挑出既不太难也不太简单的问题呃",
+    "music": 0
+  },
+  {
+    "from": 1783.06,
+    "to": 1784.42,
+    "sid": 842,
+    "location": 2,
+    "content": "研究界普遍认为",
+    "music": 0
+  },
+  {
+    "from": 1784.42,
+    "to": 1787.41,
+    "sid": 843,
+    "location": 2,
+    "content": "如果你真想让RL稳步进步",
+    "music": 0
+  },
+  {
+    "from": 1787.41,
+    "to": 1790.13,
+    "sid": 844,
+    "location": 2,
+    "content": "做这种中等难度的筛选是非常好的",
+    "music": 0
+  },
+  {
+    "from": 1790.13,
+    "to": 1791.719,
+    "sid": 845,
+    "location": 2,
+    "content": "和deep sick一样",
+    "music": 0
+  },
+  {
+    "from": 1791.719,
+    "to": 1793.219,
+    "sid": 846,
+    "location": 2,
+    "content": "没提到SFT",
+    "music": 0
+  },
+  {
+    "from": 1793.219,
+    "to": 1794.559,
+    "sid": 847,
+    "location": 2,
+    "content": "我们可以推测那是什么",
+    "music": 0
+  },
+  {
+    "from": 1794.559,
+    "to": 1796.1,
+    "sid": 848,
+    "location": 2,
+    "content": "但没有具体信息哦",
+    "music": 0
+  },
+  {
+    "from": 1796.1,
+    "to": 1797.74,
+    "sid": 849,
+    "location": 2,
+    "content": "KIMI有趣之处在于",
+    "music": 0
+  },
+  {
+    "from": 1797.74,
+    "to": 1799.92,
+    "sid": 850,
+    "location": 2,
+    "content": "他用了受DPU启发的论证",
+    "music": 0
+  },
+  {
+    "from": 1799.92,
+    "to": 1802.56,
+    "sid": 851,
+    "location": 2,
+    "content": "但最终落点和GRPU非常相似",
+    "music": 0
+  },
+  {
+    "from": 1802.56,
+    "to": 1803.8,
+    "sid": 852,
+    "location": 2,
+    "content": "它们结果相似",
+    "music": 0
+  },
+  {
+    "from": 1803.8,
+    "to": 1805.66,
+    "sid": 853,
+    "location": 2,
+    "content": "说明设计新2L算法时",
+    "music": 0
+  },
+  {
+    "from": 1805.66,
+    "to": 1807.6,
+    "sid": 854,
+    "location": 2,
+    "content": "哪些组件可能有用啊",
+    "music": 0
+  },
+  {
+    "from": 1807.6,
+    "to": 1809.2,
+    "sid": 855,
+    "location": 2,
+    "content": "他们的起点和大家完全一样",
+    "music": 0
+  },
+  {
+    "from": 1809.2,
+    "to": 1811.71,
+    "sid": 856,
+    "location": 2,
+    "content": "所以这些你们现在应该都很眼熟了",
+    "music": 0
+  },
+  {
+    "from": 1811.71,
+    "to": 1814.44,
+    "sid": 857,
+    "location": 2,
+    "content": "也就是在策略下最大化期望奖励",
+    "music": 0
+  },
+  {
+    "from": 1814.44,
+    "to": 1816.34,
+    "sid": 858,
+    "location": 2,
+    "content": "右边的kl正则画像",
+    "music": 0
+  },
+  {
+    "from": 1816.34,
+    "to": 1818.12,
+    "sid": 859,
+    "location": 2,
+    "content": "让策略贴近基础策略",
+    "music": 0
+  },
+  {
+    "from": 1818.12,
+    "to": 1820.22,
+    "sid": 860,
+    "location": 2,
+    "content": "甚至贴近上一轮迭代的策略",
+    "music": 0
+  },
+  {
+    "from": 1820.22,
+    "to": 1821.92,
+    "sid": 861,
+    "location": 2,
+    "content": "具体取决于你怎么做",
+    "music": 0
+  },
+  {
+    "from": 1821.92,
+    "to": 1824.88,
+    "sid": 862,
+    "location": 2,
+    "content": "RL他们沿用DPO风格的推导",
+    "music": 0
+  },
+  {
+    "from": 1824.88,
+    "to": 1826.88,
+    "sid": 863,
+    "location": 2,
+    "content": "假设能解析D最大化",
+    "music": 0
+  },
+  {
+    "from": 1826.88,
+    "to": 1829.37,
+    "sid": 864,
+    "location": 2,
+    "content": "再解除对应的奖励模型",
+    "music": 0
+  },
+  {
+    "from": 1829.37,
+    "to": 1831.21,
+    "sid": 865,
+    "location": 2,
+    "content": "这就得到策略的比率",
+    "music": 0
+  },
+  {
+    "from": 1831.21,
+    "to": 1833.07,
+    "sid": 866,
+    "location": 2,
+    "content": "把它带回上面的目标函数",
+    "music": 0
+  },
+  {
+    "from": 1833.07,
+    "to": 1834.51,
+    "sid": 867,
+    "location": 2,
+    "content": "看看会得到什么",
+    "music": 0
+  },
+  {
+    "from": 1834.51,
+    "to": 1838.99,
+    "sid": 868,
+    "location": 2,
+    "content": "他们现在的思路是试着去匹配奖励模型",
+    "music": 0
+  },
+  {
+    "from": 1838.99,
+    "to": 1840.77,
+    "sid": 869,
+    "location": 2,
+    "content": "要让这个等式成立",
+    "music": 0
+  },
+  {
+    "from": 1840.77,
+    "to": 1842.85,
+    "sid": 870,
+    "location": 2,
+    "content": "它在最小值处确实成立",
+    "music": 0
+  },
+  {
+    "from": 1842.85,
+    "to": 1844.61,
+    "sid": 871,
+    "location": 2,
+    "content": "这是个大胆的启发式",
+    "music": 0
+  },
+  {
+    "from": 1844.61,
+    "to": 1846.39,
+    "sid": 872,
+    "location": 2,
+    "content": "既然在最小值数相等",
+    "music": 0
+  },
+  {
+    "from": 1846.39,
+    "to": 1849.62,
+    "sid": 873,
+    "location": 2,
+    "content": "何不直接对它加平方损失来最小化优化",
+    "music": 0
+  },
+  {
+    "from": 1849.62,
+    "to": 1850.58,
+    "sid": 874,
+    "location": 2,
+    "content": "专家看了会震惊",
+    "music": 0
+  },
+  {
+    "from": 1850.58,
+    "to": 1853.1,
+    "sid": 875,
+    "location": 2,
+    "content": "但这直觉在某些方面完全合理",
+    "music": 0
+  },
+  {
+    "from": 1853.1,
+    "to": 1854.1,
+    "sid": 876,
+    "location": 2,
+    "content": "模型好时",
+    "music": 0
+  },
+  {
+    "from": 1854.1,
+    "to": 1855.57,
+    "sid": 877,
+    "location": 2,
+    "content": "两者应该接近",
+    "music": 0
+  },
+  {
+    "from": 1855.57,
+    "to": 1858.95,
+    "sid": 878,
+    "location": 2,
+    "content": "所以把显示拉近二者当做代理目标也行",
+    "music": 0
+  },
+  {
+    "from": 1858.95,
+    "to": 1861.76,
+    "sid": 879,
+    "location": 2,
+    "content": "你看这推导和GRPO完全不一样",
+    "music": 0
+  },
+  {
+    "from": 1861.76,
+    "to": 1864.78,
+    "sid": 880,
+    "location": 2,
+    "content": "我们不走PPU路线来推导这个更新",
+    "music": 0
+  },
+  {
+    "from": 1864.78,
+    "to": 1866.6,
+    "sid": 881,
+    "location": 2,
+    "content": "对L求梯度结果惊人",
+    "music": 0
+  },
+  {
+    "from": 1866.6,
+    "to": 1868.46,
+    "sid": 882,
+    "location": 2,
+    "content": "内向加了正则项的GRPO",
+    "music": 0
+  },
+  {
+    "from": 1868.46,
+    "to": 1872.74,
+    "sid": 883,
+    "location": 2,
+    "content": "而最终得到待机线r bar的策略梯度",
+    "music": 0
+  },
+  {
+    "from": 1872.94,
+    "to": 1876.84,
+    "sid": 884,
+    "location": 2,
+    "content": "our bar其实就是各类X条件的平均值",
+    "music": 0
+  },
+  {
+    "from": 1876.84,
+    "to": 1879.39,
+    "sid": 885,
+    "location": 2,
+    "content": "有你还加了一个正则画像",
+    "music": 0
+  },
+  {
+    "from": 1879.39,
+    "to": 1881.909,
+    "sid": 886,
+    "location": 2,
+    "content": "本质上就是GRPO里的kl项",
+    "music": 0
+  },
+  {
+    "from": 1882.109,
+    "to": 1883.949,
+    "sid": 887,
+    "location": 2,
+    "content": "所以某种意义上",
+    "music": 0
+  },
+  {
+    "from": 1883.949,
+    "to": 1885.969,
+    "sid": 888,
+    "location": 2,
+    "content": "我们用完全不同的方法",
+    "music": 0
+  },
+  {
+    "from": 1885.969,
+    "to": 1890.189,
+    "sid": 889,
+    "location": 2,
+    "content": "重新发明了阻均值归一化基线",
+    "music": 0
+  },
+  {
+    "from": 1890.64,
+    "to": 1895.739,
+    "sid": 890,
+    "location": 2,
+    "content": "谢谢我觉得KIMI团队对长度问题的看法更透彻",
+    "music": 0
+  },
+  {
+    "from": 1895.739,
+    "to": 1897.699,
+    "sid": 891,
+    "location": 2,
+    "content": "我觉得GRPO团队会觉得",
+    "music": 0
+  },
+  {
+    "from": 1897.699,
+    "to": 1899.999,
+    "sid": 892,
+    "location": 2,
+    "content": "长度不受控的增长挺好啊",
+    "music": 0
+  },
+  {
+    "from": 1899.999,
+    "to": 1901.48,
+    "sid": 893,
+    "location": 2,
+    "content": "亚都can need this job",
+    "music": 0
+  },
+  {
+    "from": 1901.48,
+    "to": 1903.58,
+    "sid": 894,
+    "location": 2,
+    "content": "我敢肯定我们的模型变聪明了",
+    "music": 0
+  },
+  {
+    "from": 1903.58,
+    "to": 1904.68,
+    "sid": 895,
+    "location": 2,
+    "content": "这说法有点刻薄",
+    "music": 0
+  },
+  {
+    "from": 1904.68,
+    "to": 1906.92,
+    "sid": 896,
+    "location": 2,
+    "content": "但当你把这张图当成好事来展示时",
+    "music": 0
+  },
+  {
+    "from": 1906.92,
+    "to": 1909.62,
+    "sid": 897,
+    "location": 2,
+    "content": "潜台词就是我们的模型表现很出色",
+    "music": 0
+  },
+  {
+    "from": 1909.62,
+    "to": 1911.04,
+    "sid": 898,
+    "location": 2,
+    "content": "思考的更久了",
+    "music": 0
+  },
+  {
+    "from": 1911.04,
+    "to": 1914.06,
+    "sid": 899,
+    "location": 2,
+    "content": "但KIMI团队看长COT问题会说",
+    "music": 0
+  },
+  {
+    "from": 1914.06,
+    "to": 1917.05,
+    "sid": 900,
+    "location": 2,
+    "content": "生成这么长的COT太浪费了",
+    "music": 0
+  },
+  {
+    "from": 1917.05,
+    "to": 1919.67,
+    "sid": 901,
+    "location": 2,
+    "content": "我们其实不想要长coo t",
+    "music": 0
+  },
+  {
+    "from": 1919.67,
+    "to": 1921.84,
+    "sid": 902,
+    "location": 2,
+    "content": "毕竟coo t很烧推理成本",
+    "music": 0
+  },
+  {
+    "from": 1921.84,
+    "to": 1923.52,
+    "sid": 903,
+    "location": 2,
+    "content": "所以他们没长度问题",
+    "music": 0
+  },
+  {
+    "from": 1923.52,
+    "to": 1926.9,
+    "sid": 904,
+    "location": 2,
+    "content": "因为这个目标函数不按序列长度归一化啊",
+    "music": 0
+  },
+  {
+    "from": 1926.9,
+    "to": 1929.94,
+    "sid": 905,
+    "location": 2,
+    "content": "但他们还想更进一步压缩回复长度",
+    "music": 0
+  },
+  {
+    "from": 1929.94,
+    "to": 1933.54,
+    "sid": 906,
+    "location": 2,
+    "content": "这也是语言模型开发中常见的一个重要特征",
+    "music": 0
+  },
+  {
+    "from": 1933.54,
+    "to": 1935.5,
+    "sid": 907,
+    "location": 2,
+    "content": "比如我们希望COT越短越好",
+    "music": 0
+  },
+  {
+    "from": 1935.5,
+    "to": 1936.62,
+    "sid": 908,
+    "location": 2,
+    "content": "我们要解决难题",
+    "music": 0
+  },
+  {
+    "from": 1936.62,
+    "to": 1938.67,
+    "sid": 909,
+    "location": 2,
+    "content": "而我们不想想太久",
+    "music": 0
+  },
+  {
+    "from": 1938.67,
+    "to": 1940.91,
+    "sid": 910,
+    "location": 2,
+    "content": "否则本质上等于补贴用户来说",
+    "music": 0
+  },
+  {
+    "from": 1940.91,
+    "to": 1942.39,
+    "sid": 911,
+    "location": 2,
+    "content": "你是OpenAI用户",
+    "music": 0
+  },
+  {
+    "from": 1942.39,
+    "to": 1944.23,
+    "sid": 912,
+    "location": 2,
+    "content": "买了200美元的专业版模型",
+    "music": 0
+  },
+  {
+    "from": 1944.23,
+    "to": 1945.77,
+    "sid": 913,
+    "location": 2,
+    "content": "却思考一小时啊",
+    "music": 0
+  },
+  {
+    "from": 1945.77,
+    "to": 1946.81,
+    "sid": 914,
+    "location": 2,
+    "content": "这处境可不好对吧",
+    "music": 0
+  },
+  {
+    "from": 1946.81,
+    "to": 1948.29,
+    "sid": 915,
+    "location": 2,
+    "content": "要是每次只思考5分钟",
+    "music": 0
+  },
+  {
+    "from": 1948.29,
+    "to": 1949.49,
+    "sid": 916,
+    "location": 2,
+    "content": "那就很理想啊",
+    "music": 0
+  },
+  {
+    "from": 1949.49,
+    "to": 1952.87,
+    "sid": 917,
+    "location": 2,
+    "content": "ITH这些原因KIMI想压缩COT怎么做",
+    "music": 0
+  },
+  {
+    "from": 1952.87,
+    "to": 1957.57,
+    "sid": 918,
+    "location": 2,
+    "content": "最简单的RL做法是加个启发式长度奖励",
+    "music": 0
+  },
+  {
+    "from": 1957.57,
+    "to": 1959.03,
+    "sid": 919,
+    "location": 2,
+    "content": "并入RL流程",
+    "music": 0
+  },
+  {
+    "from": 1959.03,
+    "to": 1961.89,
+    "sid": 920,
+    "location": 2,
+    "content": "这个奖励机制复杂的出乎意料",
+    "music": 0
+  },
+  {
+    "from": 1961.89,
+    "to": 1965.63,
+    "sid": 921,
+    "location": 2,
+    "content": "他们做的是让更长的序列变得越来越短",
+    "music": 0
+  },
+  {
+    "from": 1965.63,
+    "to": 1967.67,
+    "sid": 922,
+    "location": 2,
+    "content": "right正确答案也应该短",
+    "music": 0
+  },
+  {
+    "from": 1967.67,
+    "to": 1969.45,
+    "sid": 923,
+    "location": 2,
+    "content": "这里的微妙平衡在于",
+    "music": 0
+  },
+  {
+    "from": 1969.45,
+    "to": 1972.17,
+    "sid": 924,
+    "location": 2,
+    "content": "如果把错误答案压得太短",
+    "music": 0
+  },
+  {
+    "from": 1972.17,
+    "to": 1974.77,
+    "sid": 925,
+    "location": 2,
+    "content": "他们就再也无法翻身了对吧",
+    "music": 0
+  },
+  {
+    "from": 1974.77,
+    "to": 1975.37,
+    "sid": 926,
+    "location": 2,
+    "content": "Serve",
+    "music": 0
+  },
+  {
+    "from": 1975.37,
+    "to": 1976.13,
+    "sid": 927,
+    "location": 2,
+    "content": "那我举个例子",
+    "music": 0
+  },
+  {
+    "from": 1976.13,
+    "to": 1977.45,
+    "sid": 928,
+    "location": 2,
+    "content": "假设我几何很差对吧",
+    "music": 0
+  },
+  {
+    "from": 1977.45,
+    "to": 1978.33,
+    "sid": 929,
+    "location": 2,
+    "content": "就像我是个AI",
+    "music": 0
+  },
+  {
+    "from": 1978.33,
+    "to": 1979.13,
+    "sid": 930,
+    "location": 2,
+    "content": "几何很差",
+    "music": 0
+  },
+  {
+    "from": 1979.13,
+    "to": 1980.4,
+    "sid": 931,
+    "location": 2,
+    "content": "会算错很多题",
+    "music": 0
+  },
+  {
+    "from": 1980.4,
+    "to": 1981.32,
+    "sid": 932,
+    "location": 2,
+    "content": "错误答案",
+    "music": 0
+  },
+  {
+    "from": 1981.32,
+    "to": 1985.32,
+    "sid": 933,
+    "location": 2,
+    "content": "而惩罚机制让我的几何COT变得非常短",
+    "music": 0
+  },
+  {
+    "from": 1985.32,
+    "to": 1987.4,
+    "sid": 934,
+    "location": 2,
+    "content": "现在我的几何COT归零",
+    "music": 0
+  },
+  {
+    "from": 1987.4,
+    "to": 1988.36,
+    "sid": 935,
+    "location": 2,
+    "content": "我几何太差",
+    "music": 0
+  },
+  {
+    "from": 1988.36,
+    "to": 1989.48,
+    "sid": 936,
+    "location": 2,
+    "content": "再也翻不了身了",
+    "music": 0
+  },
+  {
+    "from": 1989.48,
+    "to": 1991.48,
+    "sid": 937,
+    "location": 2,
+    "content": "我永远拿不到正的几何奖励",
+    "music": 0
+  },
+  {
+    "from": 1991.48,
+    "to": 1992.2,
+    "sid": 938,
+    "location": 2,
+    "content": "彻底卡死",
+    "music": 0
+  },
+  {
+    "from": 1992.2,
+    "to": 1993.32,
+    "sid": 939,
+    "location": 2,
+    "content": "所以你要做的是",
+    "music": 0
+  },
+  {
+    "from": 1993.32,
+    "to": 1995.52,
+    "sid": 940,
+    "location": 2,
+    "content": "别硬把错误答案压得太短啊",
+    "music": 0
+  },
+  {
+    "from": 1995.52,
+    "to": 1998.34,
+    "sid": 941,
+    "location": 2,
+    "content": "一直激励他们比平均水平稍短一点",
+    "music": 0
+  },
+  {
+    "from": 1998.34,
+    "to": 2000.5,
+    "sid": 942,
+    "location": 2,
+    "content": "这样错误内容就不会无限增长",
+    "music": 0
+  },
+  {
+    "from": 2000.5,
+    "to": 2002.84,
+    "sid": 943,
+    "location": 2,
+    "content": "因此最终结果出奇的合理",
+    "music": 0
+  },
+  {
+    "from": 2002.84,
+    "to": 2003.98,
+    "sid": 944,
+    "location": 2,
+    "content": "就像我之前说的",
+    "music": 0
+  },
+  {
+    "from": 2003.98,
+    "to": 2005.74,
+    "sid": 945,
+    "location": 2,
+    "content": "他们在做数据集筛选时",
+    "music": 0
+  },
+  {
+    "from": 2005.74,
+    "to": 2008.429,
+    "sid": 946,
+    "location": 2,
+    "content": "有一套很棒的RL思路给",
+    "music": 0
+  },
+  {
+    "from": 2008.429,
+    "to": 2010.729,
+    "sid": 947,
+    "location": 2,
+    "content": "所以他们不仅有筛选后的数据集",
+    "music": 0
+  },
+  {
+    "from": 2010.729,
+    "to": 2012.6,
+    "sid": 948,
+    "location": 2,
+    "content": "还关注成功率的",
+    "music": 0
+  },
+  {
+    "from": 2012.6,
+    "to": 2015.4,
+    "sid": 949,
+    "location": 2,
+    "content": "他们统计解决特定问题的频率",
+    "music": 0
+  },
+  {
+    "from": 2015.4,
+    "to": 2017.2,
+    "sid": 950,
+    "location": 2,
+    "content": "一旦模型掌握某问题",
+    "music": 0
+  },
+  {
+    "from": 2017.2,
+    "to": 2018.87,
+    "sid": 951,
+    "location": 2,
+    "content": "该问题就会被移出题库",
+    "music": 0
+  },
+  {
+    "from": 2018.87,
+    "to": 2020.11,
+    "sid": 952,
+    "location": 2,
+    "content": "我家能省点算力",
+    "music": 0
+  },
+  {
+    "from": 2020.11,
+    "to": 2022.45,
+    "sid": 953,
+    "location": 2,
+    "content": "我觉得做2L的都会用成功率来过滤",
+    "music": 0
+  },
+  {
+    "from": 2022.45,
+    "to": 2023.47,
+    "sid": 954,
+    "location": 2,
+    "content": "免得浪费算力",
+    "music": 0
+  },
+  {
+    "from": 2023.47,
+    "to": 2024.27,
+    "sid": 955,
+    "location": 2,
+    "content": "或者去啃模型",
+    "music": 0
+  },
+  {
+    "from": 2024.27,
+    "to": 2025.57,
+    "sid": 956,
+    "location": 2,
+    "content": "根本搞不定的难题",
+    "music": 0
+  },
+  {
+    "from": 2025.57,
+    "to": 2027.11,
+    "sid": 957,
+    "location": 2,
+    "content": "他们基本设有奖励机制",
+    "music": 0
+  },
+  {
+    "from": 2027.11,
+    "to": 2028.1,
+    "sid": 958,
+    "location": 2,
+    "content": "写代码的话",
+    "music": 0
+  },
+  {
+    "from": 2028.1,
+    "to": 2030.84,
+    "sid": 959,
+    "location": 2,
+    "content": "就用标准答案再生成一些新测试用例",
+    "music": 0
+  },
+  {
+    "from": 2030.84,
+    "to": 2031.94,
+    "sid": 960,
+    "location": 2,
+    "content": "做数学题的话",
+    "music": 0
+  },
+  {
+    "from": 2031.94,
+    "to": 2035.22,
+    "sid": 961,
+    "location": 2,
+    "content": "他们其实是用奖励模型来检查答案",
+    "music": 0
+  },
+  {
+    "from": 2035.22,
+    "to": 2036.22,
+    "sid": 962,
+    "location": 2,
+    "content": "是否等价",
+    "music": 0
+  },
+  {
+    "from": 2036.22,
+    "to": 2037.22,
+    "sid": 963,
+    "location": 2,
+    "content": "这挺有意思的",
+    "music": 0
+  },
+  {
+    "from": 2037.22,
+    "to": 2040.14,
+    "sid": 964,
+    "location": 2,
+    "content": "毕竟咱们讲座一开始就说要搞形式化",
+    "music": 0
+  },
+  {
+    "from": 2040.14,
+    "to": 2042.2,
+    "sid": 965,
+    "location": 2,
+    "content": "数学这类真正能验证的带的C",
+    "music": 0
+  },
+  {
+    "from": 2042.2,
+    "to": 2043.92,
+    "sid": 966,
+    "location": 2,
+    "content": "让编译器来检查数学",
+    "music": 0
+  },
+  {
+    "from": 2043.92,
+    "to": 2044.38,
+    "sid": 967,
+    "location": 2,
+    "content": "对不对",
+    "music": 0
+  },
+  {
+    "from": 2044.38,
+    "to": 2045.9,
+    "sid": 968,
+    "location": 2,
+    "content": "结果我们讲完了大半",
+    "music": 0
+  },
+  {
+    "from": 2045.9,
+    "to": 2048.12,
+    "sid": 969,
+    "location": 2,
+    "content": "最后呢咱们到底走到哪一步了",
+    "music": 0
+  },
+  {
+    "from": 2048.12,
+    "to": 2049.9,
+    "sid": 970,
+    "location": 2,
+    "content": "我们最终得到了一个奖励模型",
+    "music": 0
+  },
+  {
+    "from": 2049.9,
+    "to": 2051.16,
+    "sid": 971,
+    "location": 2,
+    "content": "用来检查数学答案",
+    "music": 0
+  },
+  {
+    "from": 2051.16,
+    "to": 2052.27,
+    "sid": 972,
+    "location": 2,
+    "content": "对不对啊",
+    "music": 0
+  },
+  {
+    "from": 2052.27,
+    "to": 2053.21,
+    "sid": 973,
+    "location": 2,
+    "content": "至于为什么",
+    "music": 0
+  },
+  {
+    "from": 2053.21,
+    "to": 2056.43,
+    "sid": 974,
+    "location": 2,
+    "content": "你做作业时或者动手试试就会明白了",
+    "music": 0
+  },
+  {
+    "from": 2056.43,
+    "to": 2057.989,
+    "sid": 975,
+    "location": 2,
+    "content": "你很快就会发现",
+    "music": 0
+  },
+  {
+    "from": 2057.989,
+    "to": 2061.32,
+    "sid": 976,
+    "location": 2,
+    "content": "判断答案是否等价是个特别难的问题",
+    "music": 0
+  },
+  {
+    "from": 2061.32,
+    "to": 2062.44,
+    "sid": 977,
+    "location": 2,
+    "content": "因为在数学里",
+    "music": 0
+  },
+  {
+    "from": 2062.44,
+    "to": 2064.52,
+    "sid": 978,
+    "location": 2,
+    "content": "同一个意思往往有很多种写法",
+    "music": 0
+  },
+  {
+    "from": 2064.52,
+    "to": 2065.32,
+    "sid": 979,
+    "location": 2,
+    "content": "不仅如此",
+    "music": 0
+  },
+  {
+    "from": 2065.32,
+    "to": 2067.689,
+    "sid": 980,
+    "location": 2,
+    "content": "语言模型给出答案的方式也五花八门",
+    "music": 0
+  },
+  {
+    "from": 2067.689,
+    "to": 2069.969,
+    "sid": 981,
+    "location": 2,
+    "content": "哪怕你让他用light te把答案框起来",
+    "music": 0
+  },
+  {
+    "from": 2069.969,
+    "to": 2071.4,
+    "sid": 982,
+    "location": 2,
+    "content": "他有时也会忘了加框",
+    "music": 0
+  },
+  {
+    "from": 2071.4,
+    "to": 2073.58,
+    "sid": 983,
+    "location": 2,
+    "content": "稍后者在框里多加些东西",
+    "music": 0
+  },
+  {
+    "from": 2073.58,
+    "to": 2075.2,
+    "sid": 984,
+    "location": 2,
+    "content": "严格的检查期会判错",
+    "music": 0
+  },
+  {
+    "from": 2075.2,
+    "to": 2077.08,
+    "sid": 985,
+    "location": 2,
+    "content": "哪怕模型的思路其实是对的",
+    "music": 0
+  },
+  {
+    "from": 2077.38,
+    "to": 2078.9,
+    "sid": 986,
+    "location": 2,
+    "content": "就是正因为这些原因",
+    "music": 0
+  },
+  {
+    "from": 2078.9,
+    "to": 2081.74,
+    "sid": 987,
+    "location": 2,
+    "content": "大多数RL项目都用了很复杂的检查器",
+    "music": 0
+  },
+  {
+    "from": 2081.74,
+    "to": 2083.28,
+    "sid": 988,
+    "location": 2,
+    "content": "比如正则或模型",
+    "music": 0
+  },
+  {
+    "from": 2083.28,
+    "to": 2085.389,
+    "sid": 989,
+    "location": 2,
+    "content": "就是为了避免这类问题",
+    "music": 0
+  },
+  {
+    "from": 2085.389,
+    "to": 2088.009,
+    "sid": 990,
+    "location": 2,
+    "content": "要把RLVR里呃",
+    "music": 0
+  },
+  {
+    "from": 2088.009,
+    "to": 2090.989,
+    "sid": 991,
+    "location": 2,
+    "content": "验证这部分做对真是个深坑",
+    "music": 0
+  },
+  {
+    "from": 2090.989,
+    "to": 2093.06,
+    "sid": 992,
+    "location": 2,
+    "content": "以one of the necessarily desigch carry against",
+    "music": 0
+  },
+  {
+    "from": 2093.06,
+    "to": 2095.02,
+    "sid": 993,
+    "location": 2,
+    "content": "最后一点就跟前面聊过的",
+    "music": 0
+  },
+  {
+    "from": 2095.02,
+    "to": 2097.06,
+    "sid": 994,
+    "location": 2,
+    "content": "系统架构和推理环节挂钩",
+    "music": 0
+  },
+  {
+    "from": 2097.06,
+    "to": 2098.38,
+    "sid": 995,
+    "location": 2,
+    "content": "就是强化学习",
+    "music": 0
+  },
+  {
+    "from": 2098.38,
+    "to": 2101.54,
+    "sid": 996,
+    "location": 2,
+    "content": "优化和底层基建真的相当难训练",
+    "music": 0
+  },
+  {
+    "from": 2101.54,
+    "to": 2104.4,
+    "sid": 997,
+    "location": 2,
+    "content": "难推理也难强化学习",
+    "music": 0
+  },
+  {
+    "from": 2104.4,
+    "to": 2105.82,
+    "sid": 998,
+    "location": 2,
+    "content": "把这两者揉在一起",
+    "music": 0
+  },
+  {
+    "from": 2105.82,
+    "to": 2108.81,
+    "sid": 999,
+    "location": 2,
+    "content": "难怪它既棘手又困难",
+    "music": 0
+  },
+  {
+    "from": 2108.81,
+    "to": 2109.49,
+    "sid": 1000,
+    "location": 2,
+    "content": "呃",
+    "music": 0
+  },
+  {
+    "from": 2109.49,
+    "to": 2110.69,
+    "sid": 1001,
+    "location": 2,
+    "content": "更麻烦的是",
+    "music": 0
+  },
+  {
+    "from": 2110.69,
+    "to": 2112.75,
+    "sid": 1002,
+    "location": 2,
+    "content": "大家一开始往往低估了",
+    "music": 0
+  },
+  {
+    "from": 2112.75,
+    "to": 2116.51,
+    "sid": 1003,
+    "location": 2,
+    "content": "让强化学习高效起来有多难",
+    "music": 0
+  },
+  {
+    "from": 2116.51,
+    "to": 2118.39,
+    "sid": 1004,
+    "location": 2,
+    "content": "咱们看个例子好不",
+    "music": 0
+  },
+  {
+    "from": 2118.39,
+    "to": 2121.09,
+    "sid": 1005,
+    "location": 2,
+    "content": "假设你有一批ROLOUT生成序列",
+    "music": 0
+  },
+  {
+    "from": 2121.09,
+    "to": 2123.11,
+    "sid": 1006,
+    "location": 2,
+    "content": "但其中有道题特别难",
+    "music": 0
+  },
+  {
+    "from": 2123.11,
+    "to": 2124.55,
+    "sid": 1007,
+    "location": 2,
+    "content": "Make sure you feed them big thing",
+    "music": 0
+  },
+  {
+    "from": 2124.55,
+    "to": 2126.13,
+    "sid": 1008,
+    "location": 2,
+    "content": "一道是黎曼猜想",
+    "music": 0
+  },
+  {
+    "from": 2126.13,
+    "to": 2129.18,
+    "sid": 1009,
+    "location": 2,
+    "content": "你的模型正在这道题上死磕",
+    "music": 0
+  },
+  {
+    "from": 2129.18,
+    "to": 2131.66,
+    "sid": 1010,
+    "location": 2,
+    "content": "它生成了超长的COT思维链",
+    "music": 0
+  },
+  {
+    "from": 2131.66,
+    "to": 2133.68,
+    "sid": 1011,
+    "location": 2,
+    "content": "这时候如果你用朴素推理",
+    "music": 0
+  },
+  {
+    "from": 2133.68,
+    "to": 2134.62,
+    "sid": 1012,
+    "location": 2,
+    "content": "其他人只能干",
+    "music": 0
+  },
+  {
+    "from": 2134.62,
+    "to": 2137.27,
+    "sid": 1013,
+    "location": 2,
+    "content": "等这一个roll跑完才能进入下一阶段",
+    "music": 0
+  },
+  {
+    "from": 2137.27,
+    "to": 2141.75,
+    "sid": 1014,
+    "location": 2,
+    "content": "所以作弊处理时常roll out会严重拖慢进度也在",
+    "music": 0
+  },
+  {
+    "from": 2141.75,
+    "to": 2145.34,
+    "sid": 1015,
+    "location": 2,
+    "content": "所以RL确实得处理所有这些棘手的底层细节",
+    "music": 0
+  },
+  {
+    "from": 2145.34,
+    "to": 2147.8,
+    "sid": 1016,
+    "location": 2,
+    "content": "你得应对COT可能极长的情况",
+    "music": 0
+  },
+  {
+    "from": 2147.8,
+    "to": 2149.2,
+    "sid": 1017,
+    "location": 2,
+    "content": "要截断他们吗",
+    "music": 0
+  },
+  {
+    "from": 2149.2,
+    "to": 2151.2,
+    "sid": 1018,
+    "location": 2,
+    "content": "怎么把它们放到别的机器上啊",
+    "music": 0
+  },
+  {
+    "from": 2151.2,
+    "to": 2152.08,
+    "sid": 1019,
+    "location": 2,
+    "content": "谁知道呢",
+    "music": 0
+  },
+  {
+    "from": 2152.08,
+    "to": 2154.18,
+    "sid": 1020,
+    "location": 2,
+    "content": "他都是你能做的决策对",
+    "music": 0
+  },
+  {
+    "from": 2154.18,
+    "to": 2156.84,
+    "sid": 1021,
+    "location": 2,
+    "content": "如果你在训练和roll out间切换",
+    "music": 0
+  },
+  {
+    "from": 2156.84,
+    "to": 2157.58,
+    "sid": 1022,
+    "location": 2,
+    "content": "比如跑一次",
+    "music": 0
+  },
+  {
+    "from": 2157.58,
+    "to": 2158.02,
+    "sid": 1023,
+    "location": 2,
+    "content": "训一次",
+    "music": 0
+  },
+  {
+    "from": 2158.02,
+    "to": 2160.42,
+    "sid": 1024,
+    "location": 2,
+    "content": "你就得想办法处理这个切换啊",
+    "music": 0
+  },
+  {
+    "from": 2160.42,
+    "to": 2163.3,
+    "sid": 1025,
+    "location": 2,
+    "content": "要么你的部分机器是纯roll out机",
+    "music": 0
+  },
+  {
+    "from": 2163.3,
+    "to": 2164.66,
+    "sid": 1026,
+    "location": 2,
+    "content": "器部分是训练机器",
+    "music": 0
+  },
+  {
+    "from": 2164.66,
+    "to": 2167.38,
+    "sid": 1027,
+    "location": 2,
+    "content": "要么你一直在切换框架right",
+    "music": 0
+  },
+  {
+    "from": 2167.38,
+    "to": 2169.29,
+    "sid": 1028,
+    "location": 2,
+    "content": "两者成本都很高",
+    "music": 0
+  },
+  {
+    "from": 2169.29,
+    "to": 2172.93,
+    "sid": 1029,
+    "location": 2,
+    "content": "最后你还面临一个极其棘手又糟糕的权衡",
+    "music": 0
+  },
+  {
+    "from": 2172.93,
+    "to": 2173.37,
+    "sid": 1030,
+    "location": 2,
+    "content": "策",
+    "music": 0
+  },
+  {
+    "from": 2173.37,
+    "to": 2174.01,
+    "sid": 1031,
+    "location": 2,
+    "content": "略内方法",
+    "music": 0
+  },
+  {
+    "from": 2174.01,
+    "to": 2177.24,
+    "sid": 1032,
+    "location": 2,
+    "content": "在数学和训练动力学上都非常理想对吧",
+    "music": 0
+  },
+  {
+    "from": 2177.24,
+    "to": 2180.74,
+    "sid": 1033,
+    "location": 2,
+    "content": "所以G2PO在简单的策略内形势下表现很好",
+    "music": 0
+  },
+  {
+    "from": 2180.74,
+    "to": 2183.3,
+    "sid": 1034,
+    "location": 2,
+    "content": "D你会在作业中体验到这一点",
+    "music": 0
+  },
+  {
+    "from": 2183.3,
+    "to": 2185.38,
+    "sid": 1035,
+    "location": 2,
+    "content": "然后你会变得有点贪婪",
+    "music": 0
+  },
+  {
+    "from": 2185.38,
+    "to": 2187.76,
+    "sid": 1036,
+    "location": 2,
+    "content": "你会说系统利用率太低",
+    "music": 0
+  },
+  {
+    "from": 2187.76,
+    "to": 2189.64,
+    "sid": 1037,
+    "location": 2,
+    "content": "要是能复用roll out就好了",
+    "music": 0
+  },
+  {
+    "from": 2189.64,
+    "to": 2191.66,
+    "sid": 1038,
+    "location": 2,
+    "content": "这样就能并行推理和计算",
+    "music": 0
+  },
+  {
+    "from": 2191.66,
+    "to": 2194.52,
+    "sid": 1039,
+    "location": 2,
+    "content": "还能做很多优化复用roll会引发离侧问题",
+    "music": 0
+  },
+  {
+    "from": 2194.52,
+    "to": 2195.56,
+    "sid": 1040,
+    "location": 2,
+    "content": "导致训练不稳定",
+    "music": 0
+  },
+  {
+    "from": 2195.56,
+    "to": 2196.5,
+    "sid": 1041,
+    "location": 2,
+    "content": "非常棘手",
+    "music": 0
+  },
+  {
+    "from": 2196.5,
+    "to": 2198.98,
+    "sid": 1042,
+    "location": 2,
+    "content": "所以这些环节最后都会变得非常棘手",
+    "music": 0
+  },
+  {
+    "from": 2198.98,
+    "to": 2202.12,
+    "sid": 1043,
+    "location": 2,
+    "content": "现在大多数开源技术报告都会专门讲",
+    "music": 0
+  },
+  {
+    "from": 2202.12,
+    "to": 2204.72,
+    "sid": 1044,
+    "location": 2,
+    "content": "他们的RL基础设施",
+    "music": 0
+  },
+  {
+    "from": 2204.8,
+    "to": 2207.83,
+    "sid": 1045,
+    "location": 2,
+    "content": "DORL基础设施得包含训练部分",
+    "music": 0
+  },
+  {
+    "from": 2207.83,
+    "to": 2210.09,
+    "sid": 1046,
+    "location": 2,
+    "content": "左边篮框和推理部分",
+    "music": 0
+  },
+  {
+    "from": 2210.09,
+    "to": 2211.11,
+    "sid": 1047,
+    "location": 2,
+    "content": "右边绿框",
+    "music": 0
+  },
+  {
+    "from": 2211.11,
+    "to": 2214.27,
+    "sid": 1048,
+    "location": 2,
+    "content": "你得把权重从训练部分移到推理部分",
+    "music": 0
+  },
+  {
+    "from": 2214.27,
+    "to": 2216.46,
+    "sid": 1049,
+    "location": 2,
+    "content": "所以需要设计传输方案",
+    "music": 0
+  },
+  {
+    "from": 2216.46,
+    "to": 2217.92,
+    "sid": 1050,
+    "location": 2,
+    "content": "他们得紧密配合",
+    "music": 0
+  },
+  {
+    "from": 2217.92,
+    "to": 2219.38,
+    "sid": 1051,
+    "location": 2,
+    "content": "有时甚至共用机器",
+    "music": 0
+  },
+  {
+    "from": 2219.38,
+    "to": 2222.24,
+    "sid": 1052,
+    "location": 2,
+    "content": "因为推理运行时训练可能闲置",
+    "music": 0
+  },
+  {
+    "from": 2222.24,
+    "to": 2223.82,
+    "sid": 1053,
+    "location": 2,
+    "content": "这些都是复杂的地方",
+    "music": 0
+  },
+  {
+    "from": 2223.82,
+    "to": 2226.12,
+    "sid": 1054,
+    "location": 2,
+    "content": "你得处理一大堆复杂的系统工作",
+    "music": 0
+  },
+  {
+    "from": 2226.12,
+    "to": 2228.74,
+    "sid": 1055,
+    "location": 2,
+    "content": "我们已经知道KIMI胜过open a l o e",
+    "music": 0
+  },
+  {
+    "from": 2228.74,
+    "to": 2230.32,
+    "sid": 1056,
+    "location": 2,
+    "content": "而且能看到很好的现象",
+    "music": 0
+  },
+  {
+    "from": 2230.32,
+    "to": 2231.48,
+    "sid": 1057,
+    "location": 2,
+    "content": "随着2L推进",
+    "music": 0
+  },
+  {
+    "from": 2231.48,
+    "to": 2232.76,
+    "sid": 1058,
+    "location": 2,
+    "content": "模型能想的更久",
+    "music": 0
+  },
+  {
+    "from": 2232.76,
+    "to": 2234.32,
+    "sid": 1059,
+    "location": 2,
+    "content": "性能也在提升",
+    "music": 0
+  },
+  {
+    "from": 2234.32,
+    "to": 2235.36,
+    "sid": 1060,
+    "location": 2,
+    "content": "但有些情况下",
+    "music": 0
+  },
+  {
+    "from": 2235.36,
+    "to": 2236.4,
+    "sid": 1061,
+    "location": 2,
+    "content": "我们并不是无限的对",
+    "music": 0
+  },
+  {
+    "from": 2236.4,
+    "to": 2239.16,
+    "sid": 1062,
+    "location": 2,
+    "content": "token army map就是个很好的例子",
+    "music": 0
+  },
+  {
+    "from": 2239.55,
+    "to": 2241.07,
+    "sid": 1063,
+    "location": 2,
+    "content": "思考时间没怎么变长",
+    "music": 0
+  },
+  {
+    "from": 2241.07,
+    "to": 2242.21,
+    "sid": 1064,
+    "location": 2,
+    "content": "但性能还在涨",
+    "music": 0
+  },
+  {
+    "from": 2242.21,
+    "to": 2244.45,
+    "sid": 1065,
+    "location": 2,
+    "content": "这正是长度控制起作用的好例子",
+    "music": 0
+  },
+  {
+    "from": 2244.45,
+    "to": 2245.53,
+    "sid": 1066,
+    "location": 2,
+    "content": "最后我想聊聊",
+    "music": 0
+  },
+  {
+    "from": 2245.53,
+    "to": 2246.79,
+    "sid": 1067,
+    "location": 2,
+    "content": "你可能会好奇",
+    "music": 0
+  },
+  {
+    "from": 2246.79,
+    "to": 2250.97,
+    "sid": 1068,
+    "location": 2,
+    "content": "真正的RL是不是比光用正确答案训练更好",
+    "music": 0
+  },
+  {
+    "from": 2250.97,
+    "to": 2252.19,
+    "sid": 1069,
+    "location": 2,
+    "content": "这叫专家迭代",
+    "music": 0
+  },
+  {
+    "from": 2252.19,
+    "to": 2254.22,
+    "sid": 1070,
+    "location": 2,
+    "content": "过去很多论文里效果都很好",
+    "music": 0
+  },
+  {
+    "from": 2254.22,
+    "to": 2256.7,
+    "sid": 1071,
+    "location": 2,
+    "content": "在处理特别不稳定的情况时",
+    "music": 0
+  },
+  {
+    "from": 2256.7,
+    "to": 2259.46,
+    "sid": 1072,
+    "location": 2,
+    "content": "你可能反而更想用专家迭代啊",
+    "music": 0
+  },
+  {
+    "from": 2259.46,
+    "to": 2263.58,
+    "sid": 1073,
+    "location": 2,
+    "content": "KIMIKE的大规模消融实验证实了这一点",
+    "music": 0
+  },
+  {
+    "from": 2263.58,
+    "to": 2266.73,
+    "sid": 1074,
+    "location": 2,
+    "content": "这类RL方法的表现一直优于专家迭代",
+    "music": 0
+  },
+  {
+    "from": 2266.73,
+    "to": 2269.91,
+    "sid": 1075,
+    "location": 2,
+    "content": "也就是橙色线在这里赢了蓝色线",
+    "music": 0
+  },
+  {
+    "from": 2269.91,
+    "to": 2272.74,
+    "sid": 1076,
+    "location": 2,
+    "content": "像榨干性能RL必不可少",
+    "music": 0
+  },
+  {
+    "from": 2272.74,
+    "to": 2273.68,
+    "sid": 1077,
+    "location": 2,
+    "content": "关于KIMI部分",
+    "music": 0
+  },
+  {
+    "from": 2273.68,
+    "to": 2274.64,
+    "sid": 1078,
+    "location": 2,
+    "content": "大家有问题可以打断",
+    "music": 0
+  },
+  {
+    "from": 2274.64,
+    "to": 2275.8,
+    "sid": 1079,
+    "location": 2,
+    "content": "接下来我咱们接着讲",
+    "music": 0
+  },
+  {
+    "from": 2275.8,
+    "to": 2277.71,
+    "sid": 1080,
+    "location": 2,
+    "content": "最后一个也就是quin3",
+    "music": 0
+  },
+  {
+    "from": 2278.819,
+    "to": 2280.959,
+    "sid": 1081,
+    "location": 2,
+    "content": "最后一个我想聊的是QUEN3",
+    "music": 0
+  },
+  {
+    "from": 2280.959,
+    "to": 2283.039,
+    "sid": 1082,
+    "location": 2,
+    "content": "还有quin3.5next coder",
+    "music": 0
+  },
+  {
+    "from": 2283.039,
+    "to": 2284.199,
+    "sid": 1083,
+    "location": 2,
+    "content": "名字越来越绕",
+    "music": 0
+  },
+  {
+    "from": 2284.199,
+    "to": 2285.619,
+    "sid": 1084,
+    "location": 2,
+    "content": "QUEN3虽然晚出",
+    "music": 0
+  },
+  {
+    "from": 2285.619,
+    "to": 2288.219,
+    "sid": 1085,
+    "location": 2,
+    "content": "但扩展和数据结果很有意思啊",
+    "music": 0
+  },
+  {
+    "from": 2290.019,
+    "to": 2291.819,
+    "sid": 1086,
+    "location": 2,
+    "content": "queen3.5next coder很有意思",
+    "music": 0
+  },
+  {
+    "from": 2291.819,
+    "to": 2293.739,
+    "sid": 1087,
+    "location": 2,
+    "content": "我觉得他披露了主流报告中",
+    "music": 0
+  },
+  {
+    "from": 2293.739,
+    "to": 2296.99,
+    "sid": 1088,
+    "location": 2,
+    "content": "关于AGGARLVR训练的最多细节",
+    "music": 0
+  },
+  {
+    "from": 2296.99,
+    "to": 2301.99,
+    "sid": 1089,
+    "location": 2,
+    "content": "Q文用的是一套成熟的RLVR方案",
+    "music": 0
+  },
+  {
+    "from": 2301.99,
+    "to": 2303.83,
+    "sid": 1090,
+    "location": 2,
+    "content": "好和deep sick一样",
+    "music": 0
+  },
+  {
+    "from": 2303.83,
+    "to": 2307.43,
+    "sid": 1091,
+    "location": 2,
+    "content": "QN报告的一个亮点是整体组织非常清晰",
+    "music": 0
+  },
+  {
+    "from": 2307.43,
+    "to": 2309.03,
+    "sid": 1092,
+    "location": 2,
+    "content": "这和DPC的结构很像",
+    "music": 0
+  },
+  {
+    "from": 2309.03,
+    "to": 2311.63,
+    "sid": 1093,
+    "location": 2,
+    "content": "咱们先拿基础模型做SFT再做推理",
+    "music": 0
+  },
+  {
+    "from": 2311.63,
+    "to": 2314.86,
+    "sid": 1094,
+    "location": 2,
+    "content": "RL他们还有思维模式融合要到一块细说",
+    "music": 0
+  },
+  {
+    "from": 2314.86,
+    "to": 2318.71,
+    "sid": 1095,
+    "location": 2,
+    "content": "接着他们做RAJEFF得到一个模型模型上限",
+    "music": 0
+  },
+  {
+    "from": 2318.71,
+    "to": 2321.15,
+    "sid": 1096,
+    "location": 2,
+    "content": "但他们当然不想直接拿它来服务",
+    "music": 0
+  },
+  {
+    "from": 2321.15,
+    "to": 2323.61,
+    "sid": 1097,
+    "location": 2,
+    "content": "所以做蒸馏来得到小模型",
+    "music": 0
+  },
+  {
+    "from": 2323.61,
+    "to": 2326.47,
+    "sid": 1098,
+    "location": 2,
+    "content": "说真的quin3是个挺靠谱的啊",
+    "music": 0
+  },
+  {
+    "from": 2326.47,
+    "to": 2327.41,
+    "sid": 1099,
+    "location": 2,
+    "content": "开源模型",
+    "music": 0
+  },
+  {
+    "from": 2327.41,
+    "to": 2331.659,
+    "sid": 1100,
+    "location": 2,
+    "content": "你可以把这当成前言语言模型构建的图景",
+    "music": 0
+  },
+  {
+    "from": 2331.659,
+    "to": 2333.099,
+    "sid": 1101,
+    "location": 2,
+    "content": "把组件拼起来",
+    "music": 0
+  },
+  {
+    "from": 2333.099,
+    "to": 2334.359,
+    "sid": 1102,
+    "location": 2,
+    "content": "这就挺合理了",
+    "music": 0
+  },
+  {
+    "from": 2334.359,
+    "to": 2338.689,
+    "sid": 1103,
+    "location": 2,
+    "content": "宽基本用了现在这套经过验证的RLV2打法",
+    "music": 0
+  },
+  {
+    "from": 2338.689,
+    "to": 2341.449,
+    "sid": 1104,
+    "location": 2,
+    "content": "我觉得他们吸收了KIMI和deep sig的长处",
+    "music": 0
+  },
+  {
+    "from": 2341.449,
+    "to": 2342.609,
+    "sid": 1105,
+    "location": 2,
+    "content": "做的挺好啊",
+    "music": 0
+  },
+  {
+    "from": 2342.609,
+    "to": 2344.169,
+    "sid": 1106,
+    "location": 2,
+    "content": "他们大量过滤难度",
+    "music": 0
+  },
+  {
+    "from": 2344.169,
+    "to": 2347.49,
+    "sid": 1107,
+    "location": 2,
+    "content": "毕竟这省算力也是拿好数据的好路子",
+    "music": 0
+  },
+  {
+    "from": 2347.49,
+    "to": 2349.07,
+    "sid": 1108,
+    "location": 2,
+    "content": "他们还会剔除模型",
+    "music": 0
+  },
+  {
+    "from": 2349.07,
+    "to": 2350.79,
+    "sid": 1109,
+    "location": 2,
+    "content": "不用coo t就能答对的题",
+    "music": 0
+  },
+  {
+    "from": 2350.79,
+    "to": 2352.41,
+    "sid": 1110,
+    "location": 2,
+    "content": "毕竟这不算思维问题",
+    "music": 0
+  },
+  {
+    "from": 2352.41,
+    "to": 2355.59,
+    "sid": 1111,
+    "location": 2,
+    "content": "他们还会剔除跟验证数据太像的内容",
+    "music": 0
+  },
+  {
+    "from": 2355.59,
+    "to": 2356.67,
+    "sid": 1112,
+    "location": 2,
+    "content": "给数据去污染",
+    "music": 0
+  },
+  {
+    "from": 2356.67,
+    "to": 2360.29,
+    "sid": 1113,
+    "location": 2,
+    "content": "接着他们会对参考coo t做一点人工筛选",
+    "music": 0
+  },
+  {
+    "from": 2360.29,
+    "to": 2362.89,
+    "sid": 1114,
+    "location": 2,
+    "content": "昆山最厉害的是他们的LOVR",
+    "music": 0
+  },
+  {
+    "from": 2362.89,
+    "to": 2365.21,
+    "sid": 1115,
+    "location": 2,
+    "content": "只用极少量样本才4000个",
+    "music": 0
+  },
+  {
+    "from": 2365.21,
+    "to": 2367.36,
+    "sid": 1116,
+    "location": 2,
+    "content": "不过只要其他环节没问题",
+    "music": 0
+  },
+  {
+    "from": 2367.36,
+    "to": 2369.64,
+    "sid": 1117,
+    "location": 2,
+    "content": "效果往往能超出预期啊",
+    "music": 0
+  },
+  {
+    "from": 2369.64,
+    "to": 2371.86,
+    "sid": 1118,
+    "location": 2,
+    "content": "ROVR的核心没啥新鲜的",
+    "music": 0
+  },
+  {
+    "from": 2371.86,
+    "to": 2375.87,
+    "sid": 1119,
+    "location": 2,
+    "content": "毕竟它确实基于deep seek r1和KIMI构建",
+    "music": 0
+  },
+  {
+    "from": 2375.87,
+    "to": 2379.37,
+    "sid": 1120,
+    "location": 2,
+    "content": "而QU3有些特有做法虽然部分被放弃了",
+    "music": 0
+  },
+  {
+    "from": 2379.37,
+    "to": 2380.67,
+    "sid": 1121,
+    "location": 2,
+    "content": "但思路挺有意思",
+    "music": 0
+  },
+  {
+    "from": 2380.67,
+    "to": 2381.43,
+    "sid": 1122,
+    "location": 2,
+    "content": "他们有个做法",
+    "music": 0
+  },
+  {
+    "from": 2381.43,
+    "to": 2384.83,
+    "sid": 1123,
+    "location": 2,
+    "content": "用标签把思维和非思维内容混在一起",
+    "music": 0
+  },
+  {
+    "from": 2384.83,
+    "to": 2388.01,
+    "sid": 1124,
+    "location": 2,
+    "content": "这就是为什么模型会有思考模式",
+    "music": 0
+  },
+  {
+    "from": 2388.01,
+    "to": 2389.93,
+    "sid": 1125,
+    "location": 2,
+    "content": "并生成很长的coo t",
+    "music": 0
+  },
+  {
+    "from": 2389.93,
+    "to": 2391.92,
+    "sid": 1126,
+    "location": 2,
+    "content": "他们能把这两种模式混用",
+    "music": 0
+  },
+  {
+    "from": 2391.92,
+    "to": 2393.48,
+    "sid": 1127,
+    "location": 2,
+    "content": "所以即使响应和长",
+    "music": 0
+  },
+  {
+    "from": 2393.48,
+    "to": 2395.54,
+    "sid": 1128,
+    "location": 2,
+    "content": "CUT模型其实都在同一个模型里",
+    "music": 0
+  },
+  {
+    "from": 2395.54,
+    "to": 2397.14,
+    "sid": 1129,
+    "location": 2,
+    "content": "很多情况下并非如此",
+    "music": 0
+  },
+  {
+    "from": 2397.14,
+    "to": 2401.5,
+    "sid": 1130,
+    "location": 2,
+    "content": "甚至在OpenAI思考模式和非思考模型也是分开的",
+    "music": 0
+  },
+  {
+    "from": 2401.5,
+    "to": 2403.46,
+    "sid": 1131,
+    "location": 2,
+    "content": "而还有个挺有意思的机制",
+    "music": 0
+  },
+  {
+    "from": 2403.46,
+    "to": 2405.569,
+    "sid": 1132,
+    "location": 2,
+    "content": "叫提前退出思考",
+    "music": 0
+  },
+  {
+    "from": 2405.569,
+    "to": 2408.529,
+    "sid": 1133,
+    "location": 2,
+    "content": "输入特定字符串模型就会中断",
+    "music": 0
+  },
+  {
+    "from": 2408.529,
+    "to": 2410.13,
+    "sid": 1134,
+    "location": 2,
+    "content": "coo t直接给出答案",
+    "music": 0
+  },
+  {
+    "from": 2410.13,
+    "to": 2412.45,
+    "sid": 1135,
+    "location": 2,
+    "content": "比如CHARGDT界面就有这功能",
+    "music": 0
+  },
+  {
+    "from": 2412.45,
+    "to": 2413.89,
+    "sid": 1136,
+    "location": 2,
+    "content": "你可以中途打断思考",
+    "music": 0
+  },
+  {
+    "from": 2413.89,
+    "to": 2415.7,
+    "sid": 1137,
+    "location": 2,
+    "content": "直接要个计时答案",
+    "music": 0
+  },
+  {
+    "from": 2415.7,
+    "to": 2416.98,
+    "sid": 1138,
+    "location": 2,
+    "content": "我挺惊讶的是",
+    "music": 0
+  },
+  {
+    "from": 2416.98,
+    "to": 2419.2,
+    "sid": 1139,
+    "location": 2,
+    "content": "当你调整思考预算",
+    "music": 0
+  },
+  {
+    "from": 2419.2,
+    "to": 2421.1,
+    "sid": 1140,
+    "location": 2,
+    "content": "用这种提前终止技巧时",
+    "music": 0
+  },
+  {
+    "from": 2421.1,
+    "to": 2426.13,
+    "sid": 1141,
+    "location": 2,
+    "content": "你会发现模型的性能PRISING是平滑下降的",
+    "music": 0
+  },
+  {
+    "from": 2426.13,
+    "to": 2428.21,
+    "sid": 1142,
+    "location": 2,
+    "content": "哪怕coo t被截断",
+    "music": 0
+  },
+  {
+    "from": 2428.21,
+    "to": 2431.7,
+    "sid": 1143,
+    "location": 2,
+    "content": "他们仍能给出让人惊讶的啊合理回答",
+    "music": 0
+  },
+  {
+    "from": 2431.7,
+    "to": 2432.92,
+    "sid": 1144,
+    "location": 2,
+    "content": "哪怕在那种时候",
+    "music": 0
+  },
+  {
+    "from": 2432.92,
+    "to": 2434.16,
+    "sid": 1145,
+    "location": 2,
+    "content": "我们一致观察到",
+    "music": 0
+  },
+  {
+    "from": 2434.16,
+    "to": 2435.82,
+    "sid": 1146,
+    "location": 2,
+    "content": "即使思维预算很小",
+    "music": 0
+  },
+  {
+    "from": 2435.82,
+    "to": 2438.989,
+    "sid": 1147,
+    "location": 2,
+    "content": "思维模式模型在数学和编码任务上",
+    "music": 0
+  },
+  {
+    "from": 2438.989,
+    "to": 2440.749,
+    "sid": 1148,
+    "location": 2,
+    "content": "也远胜即时响应模式",
+    "music": 0
+  },
+  {
+    "from": 2440.749,
+    "to": 2443.049,
+    "sid": 1149,
+    "location": 2,
+    "content": "后者更像经典的指令遵循加",
+    "music": 0
+  },
+  {
+    "from": 2443.049,
+    "to": 2446.31,
+    "sid": 1150,
+    "location": 2,
+    "content": "也就是传统的RL hf模型",
+    "music": 0
+  },
+  {
+    "from": 2446.31,
+    "to": 2448.67,
+    "sid": 1151,
+    "location": 2,
+    "content": "因此他们帮我们做了一件好事",
+    "music": 0
+  },
+  {
+    "from": 2448.67,
+    "to": 2452.97,
+    "sid": 1152,
+    "location": 2,
+    "content": "就是分析各个不同组件对性能的贡献",
+    "music": 0
+  },
+  {
+    "from": 2452.97,
+    "to": 2454.63,
+    "sid": 1153,
+    "location": 2,
+    "content": "这其实不太令人意外",
+    "music": 0
+  },
+  {
+    "from": 2454.63,
+    "to": 2456.35,
+    "sid": 1154,
+    "location": 2,
+    "content": "先做推理强化学习",
+    "music": 0
+  },
+  {
+    "from": 2456.35,
+    "to": 2459.06,
+    "sid": 1155,
+    "location": 2,
+    "content": "再做通用强化学习就能逐步获得提升",
+    "music": 0
+  },
+  {
+    "from": 2459.06,
+    "to": 2460.86,
+    "sid": 1156,
+    "location": 2,
+    "content": "在各种不同的任务里",
+    "music": 0
+  },
+  {
+    "from": 2460.86,
+    "to": 2464.19,
+    "sid": 1157,
+    "location": 2,
+    "content": "比如arena hard或COUNTERFEQA",
+    "music": 0
+  },
+  {
+    "from": 2464.19,
+    "to": 2467.77,
+    "sid": 1158,
+    "location": 2,
+    "content": "这些通用任务通常需要更常规的RL hf",
+    "music": 0
+  },
+  {
+    "from": 2467.77,
+    "to": 2470.45,
+    "sid": 1159,
+    "location": 2,
+    "content": "我们看到它们的性能全面显著提升",
+    "music": 0
+  },
+  {
+    "from": 2470.45,
+    "to": 2472.51,
+    "sid": 1160,
+    "location": 2,
+    "content": "数学和编码上确实有些下降",
+    "music": 0
+  },
+  {
+    "from": 2472.51,
+    "to": 2474.29,
+    "sid": 1161,
+    "location": 2,
+    "content": "因为我们融合了非思维组件",
+    "music": 0
+  },
+  {
+    "from": 2474.29,
+    "to": 2476.87,
+    "sid": 1162,
+    "location": 2,
+    "content": "但下降幅度并不严重啊",
+    "music": 0
+  },
+  {
+    "from": 2476.87,
+    "to": 2479.29,
+    "sid": 1163,
+    "location": 2,
+    "content": "我觉得虽然这些绝对数值不大",
+    "music": 0
+  },
+  {
+    "from": 2479.29,
+    "to": 2480.55,
+    "sid": 1164,
+    "location": 2,
+    "content": "但在后续版本",
+    "music": 0
+  },
+  {
+    "from": 2480.55,
+    "to": 2482.2,
+    "sid": 1165,
+    "location": 2,
+    "content": "比如某些宽3.5里",
+    "music": 0
+  },
+  {
+    "from": 2482.2,
+    "to": 2483.36,
+    "sid": 1166,
+    "location": 2,
+    "content": "他们又回到了",
+    "music": 0
+  },
+  {
+    "from": 2483.36,
+    "to": 2486.3,
+    "sid": 1167,
+    "location": 2,
+    "content": "把思维和非思维融合进单一模型的做法",
+    "music": 0
+  },
+  {
+    "from": 2486.3,
+    "to": 2488.12,
+    "sid": 1168,
+    "location": 2,
+    "content": "不他们以前管这叫混合模型",
+    "music": 0
+  },
+  {
+    "from": 2488.12,
+    "to": 2490.279,
+    "sid": 1169,
+    "location": 2,
+    "content": "因为觉得这种下降难以接受",
+    "music": 0
+  },
+  {
+    "from": 2490.279,
+    "to": 2492.839,
+    "sid": 1170,
+    "location": 2,
+    "content": "他们想彻底挖掘思维模式的潜力",
+    "music": 0
+  },
+  {
+    "from": 2492.839,
+    "to": 2495.319,
+    "sid": 1171,
+    "location": 2,
+    "content": "所以现在把这些模型分开了",
+    "music": 0
+  },
+  {
+    "from": 2495.319,
+    "to": 2495.839,
+    "sid": 1172,
+    "location": 2,
+    "content": "Two",
+    "music": 0
+  },
+  {
+    "from": 2495.839,
+    "to": 2497.239,
+    "sid": 1173,
+    "location": 2,
+    "content": "最后要讲困三",
+    "music": 0
+  },
+  {
+    "from": 2497.239,
+    "to": 2498.95,
+    "sid": 1174,
+    "location": 2,
+    "content": "抱歉我刚才顺序说反了",
+    "music": 0
+  },
+  {
+    "from": 2498.95,
+    "to": 2500.33,
+    "sid": 1175,
+    "location": 2,
+    "content": "它叫coder next",
+    "music": 0
+  },
+  {
+    "from": 2500.33,
+    "to": 2500.91,
+    "sid": 1176,
+    "location": 2,
+    "content": "不是next",
+    "music": 0
+  },
+  {
+    "from": 2500.91,
+    "to": 2501.23,
+    "sid": 1177,
+    "location": 2,
+    "content": "Coder",
+    "music": 0
+  },
+  {
+    "from": 2501.23,
+    "to": 2503.03,
+    "sid": 1178,
+    "location": 2,
+    "content": "是比较新的模型啊",
+    "music": 0
+  },
+  {
+    "from": 2503.03,
+    "to": 2504.83,
+    "sid": 1179,
+    "location": 2,
+    "content": "如果你对通用智能体感兴趣",
+    "music": 0
+  },
+  {
+    "from": 2504.83,
+    "to": 2505.59,
+    "sid": 1180,
+    "location": 2,
+    "content": "当然还有其他点",
+    "music": 0
+  },
+  {
+    "from": 2505.59,
+    "to": 2506.73,
+    "sid": 1181,
+    "location": 2,
+    "content": "比如harness de",
+    "music": 0
+  },
+  {
+    "from": 2506.73,
+    "to": 2508.77,
+    "sid": 1182,
+    "location": 2,
+    "content": "如果你想了解怎么构建智能体",
+    "music": 0
+  },
+  {
+    "from": 2508.77,
+    "to": 2510.03,
+    "sid": 1183,
+    "location": 2,
+    "content": "这份报告值得读",
+    "music": 0
+  },
+  {
+    "from": 2510.03,
+    "to": 2511.27,
+    "sid": 1184,
+    "location": 2,
+    "content": "Quit quarter next",
+    "music": 0
+  },
+  {
+    "from": 2511.27,
+    "to": 2514.359,
+    "sid": 1185,
+    "location": 2,
+    "content": "一篇优秀的智能体后训练论文",
+    "music": 0
+  },
+  {
+    "from": 2514.359,
+    "to": 2516.019,
+    "sid": 1186,
+    "location": 2,
+    "content": "智能体的后训练",
+    "music": 0
+  },
+  {
+    "from": 2516.019,
+    "to": 2518.199,
+    "sid": 1187,
+    "location": 2,
+    "content": "其实跟我们之前讲的内容差别不大",
+    "music": 0
+  },
+  {
+    "from": 2518.199,
+    "to": 2520.63,
+    "sid": 1188,
+    "location": 2,
+    "content": "并不是有什么新的智能体训练算法",
+    "music": 0
+  },
+  {
+    "from": 2520.63,
+    "to": 2525.07,
+    "sid": 1189,
+    "location": 2,
+    "content": "这一课要贯穿整节课去真正内化数据才是关键",
+    "music": 0
+  },
+  {
+    "from": 2525.07,
+    "to": 2529.21,
+    "sid": 1190,
+    "location": 2,
+    "content": "所以你要训练或后训练智能体时会怎么做",
+    "music": 0
+  },
+  {
+    "from": 2529.21,
+    "to": 2531.51,
+    "sid": 1191,
+    "location": 2,
+    "content": "你得先把数据凑齐",
+    "music": 0
+  },
+  {
+    "from": 2531.51,
+    "to": 2532.99,
+    "sid": 1192,
+    "location": 2,
+    "content": "数据分为两部分",
+    "music": 0
+  },
+  {
+    "from": 2532.99,
+    "to": 2534.19,
+    "sid": 1193,
+    "location": 2,
+    "content": "要获得大量能力",
+    "music": 0
+  },
+  {
+    "from": 2534.19,
+    "to": 2535.49,
+    "sid": 1194,
+    "location": 2,
+    "content": "不能只在最后注入",
+    "music": 0
+  },
+  {
+    "from": 2535.49,
+    "to": 2537.25,
+    "sid": 1195,
+    "location": 2,
+    "content": "你可能得更早开始",
+    "music": 0
+  },
+  {
+    "from": 2537.25,
+    "to": 2539.18,
+    "sid": 1196,
+    "location": 2,
+    "content": "所以有个很长的中间训练阶段",
+    "music": 0
+  },
+  {
+    "from": 2539.18,
+    "to": 2541.82,
+    "sid": 1197,
+    "location": 2,
+    "content": "尽量把代码和类智能体能力塞进模型",
+    "music": 0
+  },
+  {
+    "from": 2541.82,
+    "to": 2544.04,
+    "sid": 1198,
+    "location": 2,
+    "content": "比如他们会把仓库里的文件拼接起来",
+    "music": 0
+  },
+  {
+    "from": 2544.04,
+    "to": 2545.3,
+    "sid": 1199,
+    "location": 2,
+    "content": "生成很长的上下文",
+    "music": 0
+  },
+  {
+    "from": 2545.3,
+    "to": 2546.89,
+    "sid": 1200,
+    "location": 2,
+    "content": "数据喂给模型对吧",
+    "music": 0
+  },
+  {
+    "from": 2546.89,
+    "to": 2549.39,
+    "sid": 1201,
+    "location": 2,
+    "content": "模型最终会看到很长的cot轨迹",
+    "music": 0
+  },
+  {
+    "from": 2549.39,
+    "to": 2551.37,
+    "sid": 1202,
+    "location": 2,
+    "content": "比如智能体打开一堆文件",
+    "music": 0
+  },
+  {
+    "from": 2551.37,
+    "to": 2553.41,
+    "sid": 1203,
+    "location": 2,
+    "content": "这种预训练风格的数据很有用",
+    "music": 0
+  },
+  {
+    "from": 2553.41,
+    "to": 2554.73,
+    "sid": 1204,
+    "location": 2,
+    "content": "他们拿来拉取请求",
+    "music": 0
+  },
+  {
+    "from": 2554.73,
+    "to": 2556.71,
+    "sid": 1205,
+    "location": 2,
+    "content": "用rag生成合成上下文",
+    "music": 0
+  },
+  {
+    "from": 2556.71,
+    "to": 2558.24,
+    "sid": 1206,
+    "location": 2,
+    "content": "帮模型理解这个请求",
+    "music": 0
+  },
+  {
+    "from": 2558.24,
+    "to": 2560.2,
+    "sid": 1207,
+    "location": 2,
+    "content": "这些都在中期训练中处理",
+    "music": 0
+  },
+  {
+    "from": 2560.2,
+    "to": 2562.28,
+    "sid": 1208,
+    "location": 2,
+    "content": "他们通过自动化方法检测",
+    "music": 0
+  },
+  {
+    "from": 2562.28,
+    "to": 2564.28,
+    "sid": 1209,
+    "location": 2,
+    "content": "含有文本和代码的文档",
+    "music": 0
+  },
+  {
+    "from": 2564.28,
+    "to": 2567.32,
+    "sid": 1210,
+    "location": 2,
+    "content": "然后用大语言模型转换为规范的markdown格式",
+    "music": 0
+  },
+  {
+    "from": 2567.32,
+    "to": 2568.24,
+    "sid": 1211,
+    "location": 2,
+    "content": "一并纳入训练",
+    "music": 0
+  },
+  {
+    "from": 2568.24,
+    "to": 2571.8,
+    "sid": 1212,
+    "location": 2,
+    "content": "最后他们让大模型聊聊那些跟编程有关的网页",
+    "music": 0
+  },
+  {
+    "from": 2571.8,
+    "to": 2574.62,
+    "sid": 1213,
+    "location": 2,
+    "content": "以此生成一些类似编程的合成数据",
+    "music": 0
+  },
+  {
+    "from": 2574.62,
+    "to": 2577.08,
+    "sid": 1214,
+    "location": 2,
+    "content": "然后他们拿公开的编程智能体",
+    "music": 0
+  },
+  {
+    "from": 2577.08,
+    "to": 2578.54,
+    "sid": 1215,
+    "location": 2,
+    "content": "在各种环境里跑一跑",
+    "music": 0
+  },
+  {
+    "from": 2578.54,
+    "to": 2581.27,
+    "sid": 1216,
+    "location": 2,
+    "content": "这些运行记录全都放进中期训练哦",
+    "music": 0
+  },
+  {
+    "from": 2581.27,
+    "to": 2583.03,
+    "sid": 1217,
+    "location": 2,
+    "content": "他们也会做一些常规操作",
+    "music": 0
+  },
+  {
+    "from": 2583.03,
+    "to": 2584.16,
+    "sid": 1218,
+    "location": 2,
+    "content": "比如指令遵循",
+    "music": 0
+  },
+  {
+    "from": 2584.16,
+    "to": 2586.56,
+    "sid": 1219,
+    "location": 2,
+    "content": "还有个我觉得对我们关系不大的额外任务",
+    "music": 0
+  },
+  {
+    "from": 2586.56,
+    "to": 2587.58,
+    "sid": 1220,
+    "location": 2,
+    "content": "补全中间部分",
+    "music": 0
+  },
+  {
+    "from": 2587.58,
+    "to": 2589.76,
+    "sid": 1221,
+    "location": 2,
+    "content": "比如编程师补全代码中间部分很有用",
+    "music": 0
+  },
+  {
+    "from": 2589.76,
+    "to": 2592,
+    "sid": 1222,
+    "location": 2,
+    "content": "所以他们就把这类数据也加进中期训练",
+    "music": 0
+  },
+  {
+    "from": 2592,
+    "to": 2592.72,
+    "sid": 1223,
+    "location": 2,
+    "content": "总的来说",
+    "music": 0
+  },
+  {
+    "from": 2592.72,
+    "to": 2593.74,
+    "sid": 1224,
+    "location": 2,
+    "content": "这是一套标准",
+    "music": 0
+  },
+  {
+    "from": 2593.74,
+    "to": 2595.62,
+    "sid": 1225,
+    "location": 2,
+    "content": "但深入的数据收集流程",
+    "music": 0
+  },
+  {
+    "from": 2595.62,
+    "to": 2598.64,
+    "sid": 1226,
+    "location": 2,
+    "content": "目的是把一些智能体能力塞进中期训练",
+    "music": 0
+  },
+  {
+    "from": 2598.64,
+    "to": 2601.74,
+    "sid": 1227,
+    "location": 2,
+    "content": "而接着科研团队搞了个我头回见的操作",
+    "music": 0
+  },
+  {
+    "from": 2601.74,
+    "to": 2604.98,
+    "sid": 1228,
+    "location": 2,
+    "content": "他们拿中期训练好的Q3next的模型",
+    "music": 0
+  },
+  {
+    "from": 2604.98,
+    "to": 2606.74,
+    "sid": 1229,
+    "location": 2,
+    "content": "专门去训练一堆",
+    "music": 0
+  },
+  {
+    "from": 2606.74,
+    "to": 2609.96,
+    "sid": 1230,
+    "location": 2,
+    "content": "针对各类编程相关任务的专家模型",
+    "music": 0
+  },
+  {
+    "from": 2609.96,
+    "to": 2611.58,
+    "sid": 1231,
+    "location": 2,
+    "content": "最后得到四个专家智能体",
+    "music": 0
+  },
+  {
+    "from": 2611.58,
+    "to": 2613.63,
+    "sid": 1232,
+    "location": 2,
+    "content": "再把它们全部蒸馏回同一个模型",
+    "music": 0
+  },
+  {
+    "from": 2613.63,
+    "to": 2615.55,
+    "sid": 1233,
+    "location": 2,
+    "content": "我只能推测他们这么做的原因",
+    "music": 0
+  },
+  {
+    "from": 2615.55,
+    "to": 2618.17,
+    "sid": 1234,
+    "location": 2,
+    "content": "我好像没在其他研究里见过three",
+    "music": 0
+  },
+  {
+    "from": 2618.17,
+    "to": 2621.33,
+    "sid": 1235,
+    "location": 2,
+    "content": "我知道最接近的是deep sv3还是V3",
+    "music": 0
+  },
+  {
+    "from": 2621.33,
+    "to": 2623.81,
+    "sid": 1236,
+    "location": 2,
+    "content": "是V3.5",
+    "music": 0
+  },
+  {
+    "from": 2623.81,
+    "to": 2628.13,
+    "sid": 1237,
+    "location": 2,
+    "content": "deep sk v3.5或者3.2",
+    "music": 0
+  },
+  {
+    "from": 2628.13,
+    "to": 2630.25,
+    "sid": 1238,
+    "location": 2,
+    "content": "抱歉可的嗯",
+    "music": 0
+  },
+  {
+    "from": 2630.25,
+    "to": 2631.94,
+    "sid": 1239,
+    "location": 2,
+    "content": "这是3.2诶",
+    "music": 0
+  },
+  {
+    "from": 2631.94,
+    "to": 2633.14,
+    "sid": 1240,
+    "location": 2,
+    "content": "他们做过类似的事",
+    "music": 0
+  },
+  {
+    "from": 2633.14,
+    "to": 2635.98,
+    "sid": 1241,
+    "location": 2,
+    "content": "让专家专门负责数据格式和处理",
+    "music": 0
+  },
+  {
+    "from": 2635.98,
+    "to": 2640.35,
+    "sid": 1242,
+    "location": 2,
+    "content": "也就是数据处理专家负责生成全量训练数据",
+    "music": 0
+  },
+  {
+    "from": 2640.35,
+    "to": 2643.13,
+    "sid": 1243,
+    "location": 2,
+    "content": "但我没见过这种生成不同模型",
+    "music": 0
+  },
+  {
+    "from": 2643.13,
+    "to": 2645.8,
+    "sid": 1244,
+    "location": 2,
+    "content": "专家在蒸馏回去的做法啊",
+    "music": 0
+  },
+  {
+    "from": 2645.8,
+    "to": 2649.04,
+    "sid": 1245,
+    "location": 2,
+    "content": "这其实更像分支训练合并之类的学术研究",
+    "music": 0
+  },
+  {
+    "from": 2649.04,
+    "to": 2650.8,
+    "sid": 1246,
+    "location": 2,
+    "content": "这确实是人们常做的事",
+    "music": 0
+  },
+  {
+    "from": 2650.8,
+    "to": 2653.46,
+    "sid": 1247,
+    "location": 2,
+    "content": "但在前沿模型训练中并不常见",
+    "music": 0
+  },
+  {
+    "from": 2653.46,
+    "to": 2655.72,
+    "sid": 1248,
+    "location": 2,
+    "content": "不过这些专家其实都挺有意思",
+    "music": 0
+  },
+  {
+    "from": 2655.72,
+    "to": 2658.37,
+    "sid": 1249,
+    "location": 2,
+    "content": "他们主要采用完整的RL和S",
+    "music": 0
+  },
+  {
+    "from": 2658.37,
+    "to": 2662.57,
+    "sid": 1250,
+    "location": 2,
+    "content": "在他们定义的众多子任务上进行SFT训练",
+    "music": 0
+  },
+  {
+    "from": 2662.57,
+    "to": 2665.31,
+    "sid": 1251,
+    "location": 2,
+    "content": "比如他们设有web开发专家",
+    "music": 0
+  },
+  {
+    "from": 2665.31,
+    "to": 2670.15,
+    "sid": 1252,
+    "location": 2,
+    "content": "基于各类检查对有效web代码进行sf t诶",
+    "music": 0
+  },
+  {
+    "from": 2670.15,
+    "to": 2673.85,
+    "sid": 1253,
+    "location": 2,
+    "content": "他们会构建UX专家训练于多种工具格式",
+    "music": 0
+  },
+  {
+    "from": 2673.85,
+    "to": 2675.33,
+    "sid": 1254,
+    "location": 2,
+    "content": "并设有QA",
+    "music": 0
+  },
+  {
+    "from": 2675.33,
+    "to": 2678.75,
+    "sid": 1255,
+    "location": 2,
+    "content": "所以啊QA代理只是针对代码的更多",
+    "music": 0
+  },
+  {
+    "from": 2678.75,
+    "to": 2680.11,
+    "sid": 1256,
+    "location": 2,
+    "content": "合成数据进行训练",
+    "music": 0
+  },
+  {
+    "from": 2680.11,
+    "to": 2681.59,
+    "sid": 1257,
+    "location": 2,
+    "content": "但对我们来说",
+    "music": 0
+  },
+  {
+    "from": 2681.59,
+    "to": 2686.37,
+    "sid": 1258,
+    "location": 2,
+    "content": "最有趣也最复杂的是他们的软件工程代理",
+    "music": 0
+  },
+  {
+    "from": 2686.37,
+    "to": 2689.43,
+    "sid": 1259,
+    "location": 2,
+    "content": "他们所做的是大规模构建代理环境",
+    "music": 0
+  },
+  {
+    "from": 2689.43,
+    "to": 2693.16,
+    "sid": 1260,
+    "location": 2,
+    "content": "因此skid bench是这类任务的黄金标准",
+    "music": 0
+  },
+  {
+    "from": 2693.16,
+    "to": 2695.12,
+    "sid": 1261,
+    "location": 2,
+    "content": "他们想要升级版的sv bench",
+    "music": 0
+  },
+  {
+    "from": 2695.12,
+    "to": 2697.36,
+    "sid": 1262,
+    "location": 2,
+    "content": "用GITHUB自动化生成海量问题",
+    "music": 0
+  },
+  {
+    "from": 2697.36,
+    "to": 2700.4,
+    "sid": 1263,
+    "location": 2,
+    "content": "因此他们想在这些环境里做强化学习",
+    "music": 0
+  },
+  {
+    "from": 2700.4,
+    "to": 2702.18,
+    "sid": 1264,
+    "location": 2,
+    "content": "某种程度上并不意外",
+    "music": 0
+  },
+  {
+    "from": 2702.18,
+    "to": 2703.22,
+    "sid": 1265,
+    "location": 2,
+    "content": "结果如何",
+    "music": 0
+  },
+  {
+    "from": 2703.22,
+    "to": 2706.319,
+    "sid": 1266,
+    "location": 2,
+    "content": "强化学习的表现确实提升了",
+    "music": 0
+  },
+  {
+    "from": 2706.319,
+    "to": 2707.719,
+    "sid": 1267,
+    "location": 2,
+    "content": "这里有一点很重要",
+    "music": 0
+  },
+  {
+    "from": 2707.719,
+    "to": 2710.839,
+    "sid": 1268,
+    "location": 2,
+    "content": "我们之所以敢不断往强化学习里投入算力",
+    "music": 0
+  },
+  {
+    "from": 2710.839,
+    "to": 2714.17,
+    "sid": 1269,
+    "location": 2,
+    "content": "是因为相信奖励模型很难被攻破",
+    "music": 0
+  },
+  {
+    "from": 2714.17,
+    "to": 2715.95,
+    "sid": 1270,
+    "location": 2,
+    "content": "一旦这个假设失效",
+    "music": 0
+  },
+  {
+    "from": 2715.95,
+    "to": 2719.35,
+    "sid": 1271,
+    "location": 2,
+    "content": "强化学习就会找到越来越隐蔽的作弊方式",
+    "music": 0
+  },
+  {
+    "from": 2719.35,
+    "to": 2720.63,
+    "sid": 1272,
+    "location": 2,
+    "content": "偷走你的性能",
+    "music": 0
+  },
+  {
+    "from": 2720.63,
+    "to": 2722.29,
+    "sid": 1273,
+    "location": 2,
+    "content": "他们有个很棒的图表",
+    "music": 0
+  },
+  {
+    "from": 2722.29,
+    "to": 2723.13,
+    "sid": 1274,
+    "location": 2,
+    "content": "在get里",
+    "music": 0
+  },
+  {
+    "from": 2723.13,
+    "to": 2726.22,
+    "sid": 1275,
+    "location": 2,
+    "content": "你可以查看后续的提交或不同的提交",
+    "music": 0
+  },
+  {
+    "from": 2726.22,
+    "to": 2728.82,
+    "sid": 1276,
+    "location": 2,
+    "content": "如果有问题且有后续提交",
+    "music": 0
+  },
+  {
+    "from": 2728.82,
+    "to": 2730.78,
+    "sid": 1277,
+    "location": 2,
+    "content": "你就能直接查到修复方案",
+    "music": 0
+  },
+  {
+    "from": 2730.78,
+    "to": 2734.2,
+    "sid": 1278,
+    "location": 2,
+    "content": "模型很容易学会这种钻空子的手段",
+    "music": 0
+  },
+  {
+    "from": 2734.2,
+    "to": 2735.7,
+    "sid": 1279,
+    "location": 2,
+    "content": "他们设了一个奖励",
+    "music": 0
+  },
+  {
+    "from": 2735.7,
+    "to": 2739.109,
+    "sid": 1280,
+    "location": 2,
+    "content": "专门用来防止agent搞乱记历史记录",
+    "music": 0
+  },
+  {
+    "from": 2739.109,
+    "to": 2740.109,
+    "sid": 1281,
+    "location": 2,
+    "content": "如果不这么做",
+    "music": 0
+  },
+  {
+    "from": 2740.109,
+    "to": 2741.889,
+    "sid": 1282,
+    "location": 2,
+    "content": "你会看到模型一直在学",
+    "music": 0
+  },
+  {
+    "from": 2741.889,
+    "to": 2742.58,
+    "sid": 1283,
+    "location": 2,
+    "content": "一直在学",
+    "music": 0
+  },
+  {
+    "from": 2742.58,
+    "to": 2744.4,
+    "sid": 1284,
+    "location": 2,
+    "content": "然后突然性能跳涨",
+    "music": 0
+  },
+  {
+    "from": 2744.4,
+    "to": 2748.74,
+    "sid": 1285,
+    "location": 2,
+    "content": "其实他是学会了操纵get调用去拿到历史记录",
+    "music": 0
+  },
+  {
+    "from": 2748.74,
+    "to": 2752.26,
+    "sid": 1286,
+    "location": 2,
+    "content": "有时候它甚至能绕过你设定的某些限制",
+    "music": 0
+  },
+  {
+    "from": 2752.26,
+    "to": 2753.94,
+    "sid": 1287,
+    "location": 2,
+    "content": "所以你禁止它用get lock",
+    "music": 0
+  },
+  {
+    "from": 2753.94,
+    "to": 2755.66,
+    "sid": 1288,
+    "location": 2,
+    "content": "他可能就去加一个远程仓库",
+    "music": 0
+  },
+  {
+    "from": 2755.66,
+    "to": 2757.5,
+    "sid": 1289,
+    "location": 2,
+    "content": "再查特定提交里发生了什么",
+    "music": 0
+  },
+  {
+    "from": 2757.5,
+    "to": 2758.96,
+    "sid": 1290,
+    "location": 2,
+    "content": "所以套路五花八门",
+    "music": 0
+  },
+  {
+    "from": 2758.96,
+    "to": 2760.39,
+    "sid": 1291,
+    "location": 2,
+    "content": "RLDR稳不稳",
+    "music": 0
+  },
+  {
+    "from": 2760.39,
+    "to": 2762.09,
+    "sid": 1292,
+    "location": 2,
+    "content": "全看你的奖励设得好不好",
+    "music": 0
+  },
+  {
+    "from": 2762.09,
+    "to": 2764.349,
+    "sid": 1293,
+    "location": 2,
+    "content": "而奖励有时根本靠不住你啊",
+    "music": 0
+  },
+  {
+    "from": 2764.349,
+    "to": 2765.309,
+    "sid": 1294,
+    "location": 2,
+    "content": "顺便说个事儿",
+    "music": 0
+  },
+  {
+    "from": 2765.309,
+    "to": 2767.349,
+    "sid": 1295,
+    "location": 2,
+    "content": "我和一个学生做过一个项目",
+    "music": 0
+  },
+  {
+    "from": 2767.349,
+    "to": 2769.829,
+    "sid": 1296,
+    "location": 2,
+    "content": "类似在LIN上做强化学习",
+    "music": 0
+  },
+  {
+    "from": 2769.829,
+    "to": 2773.12,
+    "sid": 1297,
+    "location": 2,
+    "content": "LIN是个形式化数学验证语言",
+    "music": 0
+  },
+  {
+    "from": 2773.12,
+    "to": 2774.68,
+    "sid": 1298,
+    "location": 2,
+    "content": "当时我们天真的觉得",
+    "music": 0
+  },
+  {
+    "from": 2774.68,
+    "to": 2776.49,
+    "sid": 1299,
+    "location": 2,
+    "content": "这绝对不可能出问题",
+    "music": 0
+  },
+  {
+    "from": 2776.49,
+    "to": 2779.63,
+    "sid": 1300,
+    "location": 2,
+    "content": "很多人都搞过lean lean编译器很稳",
+    "music": 0
+  },
+  {
+    "from": 2779.63,
+    "to": 2782.74,
+    "sid": 1301,
+    "location": 2,
+    "content": "结果发现它并不具备对抗鲁棒性",
+    "music": 0
+  },
+  {
+    "from": 2782.74,
+    "to": 2784.34,
+    "sid": 1302,
+    "location": 2,
+    "content": "可以插入一些字符串",
+    "music": 0
+  },
+  {
+    "from": 2784.34,
+    "to": 2788.32,
+    "sid": 1303,
+    "location": 2,
+    "content": "验证那些在特定模式下本不该被验证的证明",
+    "music": 0
+  },
+  {
+    "from": 2788.32,
+    "to": 2791.36,
+    "sid": 1304,
+    "location": 2,
+    "content": "因此我认为可验证奖励这个概念",
+    "music": 0
+  },
+  {
+    "from": 2791.36,
+    "to": 2793.76,
+    "sid": 1305,
+    "location": 2,
+    "content": "其实比很多人最初想的要棘手得多",
+    "music": 0
+  },
+  {
+    "from": 2793.76,
+    "to": 2794.6,
+    "sid": 1306,
+    "location": 2,
+    "content": "无论如何",
+    "music": 0
+  },
+  {
+    "from": 2794.6,
+    "to": 2797.52,
+    "sid": 1307,
+    "location": 2,
+    "content": "当你大规模构建这些GITHUB仓库啊",
+    "music": 0
+  },
+  {
+    "from": 2797.52,
+    "to": 2798.74,
+    "sid": 1308,
+    "location": 2,
+    "content": "精力强化学习过程",
+    "music": 0
+  },
+  {
+    "from": 2798.74,
+    "to": 2800.16,
+    "sid": 1309,
+    "location": 2,
+    "content": "看到分数稳步上升",
+    "music": 0
+  },
+  {
+    "from": 2800.16,
+    "to": 2802.28,
+    "sid": 1310,
+    "location": 2,
+    "content": "最终你会得到一个系统哦",
+    "music": 0
+  },
+  {
+    "from": 2802.28,
+    "to": 2803.96,
+    "sid": 1311,
+    "location": 2,
+    "content": "他的表现惊人的好",
+    "music": 0
+  },
+  {
+    "from": 2803.96,
+    "to": 2806.42,
+    "sid": 1312,
+    "location": 2,
+    "content": "尽管基本上是个很小的模型",
+    "music": 0
+  },
+  {
+    "from": 2806.42,
+    "to": 2807.82,
+    "sid": 1313,
+    "location": 2,
+    "content": "30亿激活参数",
+    "music": 0
+  },
+  {
+    "from": 2807.82,
+    "to": 2811.38,
+    "sid": 1314,
+    "location": 2,
+    "content": "它在sw bench上却能达到约70.6%",
+    "music": 0
+  },
+  {
+    "from": 2811.38,
+    "to": 2812.66,
+    "sid": 1315,
+    "location": 2,
+    "content": "表现令人惊讶",
+    "music": 0
+  },
+  {
+    "from": 2812.66,
+    "to": 2815.219,
+    "sid": 1316,
+    "location": 2,
+    "content": "经在这些任务上做得很好",
+    "music": 0
+  },
+  {
+    "from": 2815.219,
+    "to": 2816.879,
+    "sid": 1317,
+    "location": 2,
+    "content": "不过某些方面我也说不准",
+    "music": 0
+  },
+  {
+    "from": 2816.879,
+    "to": 2818.59,
+    "sid": 1318,
+    "location": 2,
+    "content": "这是否真的令人意外",
+    "music": 0
+  },
+  {
+    "from": 2818.59,
+    "to": 2819.91,
+    "sid": 1319,
+    "location": 2,
+    "content": "毕竟是做RL",
+    "music": 0
+  },
+  {
+    "from": 2819.91,
+    "to": 2821.47,
+    "sid": 1320,
+    "location": 2,
+    "content": "你在训练过的环境里表现好",
+    "music": 0
+  },
+  {
+    "from": 2821.47,
+    "to": 2822.54,
+    "sid": 1321,
+    "location": 2,
+    "content": "这很正常",
+    "music": 0
+  },
+  {
+    "from": 2822.54,
+    "to": 2825.74,
+    "sid": 1322,
+    "location": 2,
+    "content": "你甚至可能像这里一样把能力泛化到验证集上",
+    "music": 0
+  },
+  {
+    "from": 2825.74,
+    "to": 2827.94,
+    "sid": 1323,
+    "location": 2,
+    "content": "但对比性能时你总得小心点",
+    "music": 0
+  },
+  {
+    "from": 2827.94,
+    "to": 2829.74,
+    "sid": 1324,
+    "location": 2,
+    "content": "比如在特定任务上表现好",
+    "music": 0
+  },
+  {
+    "from": 2829.74,
+    "to": 2832.08,
+    "sid": 1325,
+    "location": 2,
+    "content": "不代表它能泛化到更广泛的领域",
+    "music": 0
+  },
+  {
+    "from": 2832.08,
+    "to": 2834.85,
+    "sid": 1326,
+    "location": 2,
+    "content": "到RLVR这部分内容我就讲这么多",
+    "music": 0
+  },
+  {
+    "from": 2834.85,
+    "to": 2837.43,
+    "sid": 1327,
+    "location": 2,
+    "content": "记得抓住这次讲座的核心要点",
+    "music": 0
+  },
+  {
+    "from": 2837.43,
+    "to": 2839.03,
+    "sid": 1328,
+    "location": 2,
+    "content": "关键在于RL的奖励",
+    "music": 0
+  },
+  {
+    "from": 2839.03,
+    "to": 2842.48,
+    "sid": 1329,
+    "location": 2,
+    "content": "RL hf和RLV2解决的问题其实很像",
+    "music": 0
+  },
+  {
+    "from": 2842.48,
+    "to": 2845.56,
+    "sid": 1330,
+    "location": 2,
+    "content": "区别在于我们想要更难被钻空子的奖励",
+    "music": 0
+  },
+  {
+    "from": 2845.56,
+    "to": 2847.68,
+    "sid": 1331,
+    "location": 2,
+    "content": "这样我们就能投入更多算力",
+    "music": 0
+  },
+  {
+    "from": 2847.68,
+    "to": 2849.22,
+    "sid": 1332,
+    "location": 2,
+    "content": "让系统变得更好",
+    "music": 0
+  },
+  {
+    "from": 2849.22,
+    "to": 2850.12,
+    "sid": 1333,
+    "location": 2,
+    "content": "在研究圈",
+    "music": 0
+  },
+  {
+    "from": 2850.12,
+    "to": 2852.66,
+    "sid": 1334,
+    "location": 2,
+    "content": "GRPO确实推动了这些进展",
+    "music": 0
+  },
+  {
+    "from": 2852.66,
+    "to": 2854.06,
+    "sid": 1335,
+    "location": 2,
+    "content": "大家得熟悉gr po",
+    "music": 0
+  },
+  {
+    "from": 2854.06,
+    "to": 2856.26,
+    "sid": 1336,
+    "location": 2,
+    "content": "清除它的函数形式和更新方法",
+    "music": 0
+  },
+  {
+    "from": 2856.26,
+    "to": 2860.03,
+    "sid": 1337,
+    "location": 2,
+    "content": "这就像预训练损失是你们必须掌握的嗯",
+    "music": 0
+  },
+  {
+    "from": 2860.03,
+    "to": 2863.39,
+    "sid": 1338,
+    "location": 2,
+    "content": "最后我觉得现在很多人都会做RLVR了",
+    "music": 0
+  },
+  {
+    "from": 2863.39,
+    "to": 2865.29,
+    "sid": 1339,
+    "location": 2,
+    "content": "可惜RL还是很敏感",
+    "music": 0
+  },
+  {
+    "from": 2865.29,
+    "to": 2865.87,
+    "sid": 1340,
+    "location": 2,
+    "content": "噪声大",
+    "music": 0
+  },
+  {
+    "from": 2865.87,
+    "to": 2867.37,
+    "sid": 1341,
+    "location": 2,
+    "content": "用起来挺让人头疼",
+    "music": 0
+  },
+  {
+    "from": 2867.37,
+    "to": 2868.29,
+    "sid": 1342,
+    "location": 2,
+    "content": "其实没那么难",
+    "music": 0
+  },
+  {
+    "from": 2868.29,
+    "to": 2872.51,
+    "sid": 1343,
+    "location": 2,
+    "content": "不像以前在各种极受环境里调P",
+    "music": 0
+  },
+  {
+    "from": 2872.83,
+    "to": 2874.23,
+    "sid": 1344,
+    "location": 2,
+    "content": "其实比你想的顺多了",
+    "music": 0
+  },
+  {
+    "from": 2874.23,
+    "to": 2874.99,
+    "sid": 1345,
+    "location": 2,
+    "content": "好我停一下",
+    "music": 0
+  },
+  {
+    "from": 2874.99,
+    "to": 2875.91,
+    "sid": 1346,
+    "location": 2,
+    "content": "最后答几个问题",
+    "music": 0
+  },
+  {
+    "from": 2875.91,
+    "to": 2878.05,
+    "sid": 1347,
+    "location": 2,
+    "content": "再三会大家要是还有问题的话",
+    "music": 0
+  },
+  {
+    "from": 2878.05,
+    "to": 2881.19,
+    "sid": 1348,
+    "location": 2,
+    "content": "都刚才问的是思维模式和后台原理",
+    "music": 0
+  },
+  {
+    "from": 2881.19,
+    "to": 2882.11,
+    "sid": 1349,
+    "location": 2,
+    "content": "这模式有趣",
+    "music": 0
+  },
+  {
+    "from": 2882.11,
+    "to": 2883.71,
+    "sid": 1350,
+    "location": 2,
+    "content": "在它其实就一个模型",
+    "music": 0
+  },
+  {
+    "from": 2883.71,
+    "to": 2885.25,
+    "sid": 1351,
+    "location": 2,
+    "content": "只要加个提示标签",
+    "music": 0
+  },
+  {
+    "from": 2885.25,
+    "to": 2889.6,
+    "sid": 1352,
+    "location": 2,
+    "content": "就能在长COT和几乎无COT模式间切换",
+    "music": 0
+  },
+  {
+    "from": 2889.6,
+    "to": 2891.96,
+    "sid": 1353,
+    "location": 2,
+    "content": "要是光设个API开关什么的",
+    "music": 0
+  },
+  {
+    "from": 2891.96,
+    "to": 2893.32,
+    "sid": 1354,
+    "location": 2,
+    "content": "那就不难了啊",
+    "music": 0
+  },
+  {
+    "from": 2893.32,
+    "to": 2895.28,
+    "sid": 1355,
+    "location": 2,
+    "content": "两个这个结合使用挺有意思的",
+    "music": 0
+  },
+  {
+    "from": 2895.28,
+    "to": 2896.66,
+    "sid": 1356,
+    "location": 2,
+    "content": "你可以不选coo t",
+    "music": 0
+  },
+  {
+    "from": 2896.66,
+    "to": 2900.32,
+    "sid": 1357,
+    "location": 2,
+    "content": "但自己加提示词来引导coo t对",
+    "music": 0
+  },
+  {
+    "from": 2900.32,
+    "to": 2902.14,
+    "sid": 1358,
+    "location": 2,
+    "content": "这里的控制机制在提示磁力",
+    "music": 0
+  },
+  {
+    "from": 2902.14,
+    "to": 2903.92,
+    "sid": 1359,
+    "location": 2,
+    "content": "而不在API或服务层",
+    "music": 0
+  },
+  {
+    "from": 2905.08,
+    "to": 2907.17,
+    "sid": 1360,
+    "location": 2,
+    "content": "对假的哦",
+    "music": 0
+  },
+  {
+    "from": 2907.17,
+    "to": 2910.03,
+    "sid": 1361,
+    "location": 2,
+    "content": "对你提到了中期训练阶段",
+    "music": 0
+  },
+  {
+    "from": 2910.03,
+    "to": 2913.91,
+    "sid": 1362,
+    "location": 2,
+    "content": "我就在想中期训练里有多少格式化的内容",
+    "music": 0
+  },
+  {
+    "from": 2913.91,
+    "to": 2915.55,
+    "sid": 1363,
+    "location": 2,
+    "content": "这一过程怎么影响",
+    "music": 0
+  },
+  {
+    "from": 2915.55,
+    "to": 2917.61,
+    "sid": 1364,
+    "location": 2,
+    "content": "RLV2后训练能学到的东西",
+    "music": 0
+  },
+  {
+    "from": 2917.61,
+    "to": 2920.37,
+    "sid": 1365,
+    "location": 2,
+    "content": "另外如果中间缺了正确的数据",
+    "music": 0
+  },
+  {
+    "from": 2920.37,
+    "to": 2923.29,
+    "sid": 1366,
+    "location": 2,
+    "content": "那是不是可以说强化学习采不到真知剪",
+    "music": 0
+  },
+  {
+    "from": 2923.29,
+    "to": 2925.91,
+    "sid": 1367,
+    "location": 2,
+    "content": "所以学不会对",
+    "music": 0
+  },
+  {
+    "from": 2925.91,
+    "to": 2929.15,
+    "sid": 1368,
+    "location": 2,
+    "content": "这问题是关于中期训练在强化学习里的作用",
+    "music": 0
+  },
+  {
+    "from": 2929.15,
+    "to": 2933.46,
+    "sid": 1369,
+    "location": 2,
+    "content": "嗯我觉得这就是经验性的细节很多",
+    "music": 0
+  },
+  {
+    "from": 2933.46,
+    "to": 2936.18,
+    "sid": 1370,
+    "location": 2,
+    "content": "我没有那种放之四海皆准的答案bridge",
+    "music": 0
+  },
+  {
+    "from": 2936.18,
+    "to": 2939.76,
+    "sid": 1371,
+    "location": 2,
+    "content": "但细节上我认为预训练和sf t承担了主要工作",
+    "music": 0
+  },
+  {
+    "from": 2939.76,
+    "to": 2941.75,
+    "sid": 1372,
+    "location": 2,
+    "content": "前提是数据覆盖到位",
+    "music": 0
+  },
+  {
+    "from": 2941.75,
+    "to": 2942.71,
+    "sid": 1373,
+    "location": 2,
+    "content": "预训练没代码",
+    "music": 0
+  },
+  {
+    "from": 2942.71,
+    "to": 2943.47,
+    "sid": 1374,
+    "location": 2,
+    "content": "数据就麻烦了",
+    "music": 0
+  },
+  {
+    "from": 2943.47,
+    "to": 2944.55,
+    "sid": 1375,
+    "location": 2,
+    "content": "得靠中期训练",
+    "music": 0
+  },
+  {
+    "from": 2944.55,
+    "to": 2945.79,
+    "sid": 1376,
+    "location": 2,
+    "content": "但若预训练多样",
+    "music": 0
+  },
+  {
+    "from": 2945.79,
+    "to": 2946.43,
+    "sid": 1377,
+    "location": 2,
+    "content": "覆盖广",
+    "music": 0
+  },
+  {
+    "from": 2946.43,
+    "to": 2947.85,
+    "sid": 1378,
+    "location": 2,
+    "content": "咱们看回中期训练的页",
+    "music": 0
+  },
+  {
+    "from": 2947.85,
+    "to": 2952.7,
+    "sid": 1379,
+    "location": 2,
+    "content": "扫阿SA训练涵盖了文本代码以及大量GITHUB数据",
+    "music": 0
+  },
+  {
+    "from": 2952.7,
+    "to": 2953.54,
+    "sid": 1380,
+    "location": 2,
+    "content": "那当然好",
+    "music": 0
+  },
+  {
+    "from": 2953.54,
+    "to": 2954.34,
+    "sid": 1381,
+    "location": 2,
+    "content": "但未必关键",
+    "music": 0
+  },
+  {
+    "from": 2954.34,
+    "to": 2955.84,
+    "sid": 1382,
+    "location": 2,
+    "content": "因为后续总要做SFT",
+    "music": 0
+  },
+  {
+    "from": 2955.84,
+    "to": 2956.42,
+    "sid": 1383,
+    "location": 2,
+    "content": "S f t",
+    "music": 0
+  },
+  {
+    "from": 2956.42,
+    "to": 2958.1,
+    "sid": 1384,
+    "location": 2,
+    "content": "足以让模型接近到",
+    "music": 0
+  },
+  {
+    "from": 2958.1,
+    "to": 2961.68,
+    "sid": 1385,
+    "location": 2,
+    "content": "能开始拿到一些RL奖励的程度",
+    "music": 0
+  },
+  {
+    "from": 2961.68,
+    "to": 2963.72,
+    "sid": 1386,
+    "location": 2,
+    "content": "要是没有SFT那就麻烦大了",
+    "music": 0
+  },
+  {
+    "from": 2963.72,
+    "to": 2966.3,
+    "sid": 1387,
+    "location": 2,
+    "content": "但好在RL前我们总会做一定量的SFT",
+    "music": 0
+  },
+  {
+    "from": 2966.3,
+    "to": 2967.26,
+    "sid": 1388,
+    "location": 2,
+    "content": "这帮助很大",
+    "music": 0
+  },
+  {
+    "from": 2967.26,
+    "to": 2969.82,
+    "sid": 1389,
+    "location": 2,
+    "content": "而且但愿预训练覆盖足够",
+    "music": 0
+  },
+  {
+    "from": 2969.82,
+    "to": 2972.21,
+    "sid": 1390,
+    "location": 2,
+    "content": "让你能获得合理的泛化",
+    "music": 0
+  },
+  {
+    "from": 2972.21,
+    "to": 2974.03,
+    "sid": 1391,
+    "location": 2,
+    "content": "所以中期训练很有用",
+    "music": 0
+  },
+  {
+    "from": 2974.03,
+    "to": 2975.81,
+    "sid": 1392,
+    "location": 2,
+    "content": "对略微提升泛化很重要",
+    "music": 0
+  },
+  {
+    "from": 2975.81,
+    "to": 2976.97,
+    "sid": 1393,
+    "location": 2,
+    "content": "但我觉得未必是成败",
+    "music": 0
+  },
+  {
+    "from": 2976.97,
+    "to": 2977.84,
+    "sid": 1394,
+    "location": 2,
+    "content": "关键好",
+    "music": 0
+  },
+  {
+    "from": 2977.84,
+    "to": 2979.16,
+    "sid": 1395,
+    "location": 2,
+    "content": "对于KIMI模型",
+    "music": 0
+  },
+  {
+    "from": 2979.16,
+    "to": 2981.82,
+    "sid": 1396,
+    "location": 2,
+    "content": "你说过训练完每个专家模型后",
+    "music": 0
+  },
+  {
+    "from": 2981.82,
+    "to": 2985.92,
+    "sid": 1397,
+    "location": 2,
+    "content": "还有一步是把它们再蒸馏回单个模型之前",
+    "music": 0
+  },
+  {
+    "from": 2985.92,
+    "to": 2987.92,
+    "sid": 1398,
+    "location": 2,
+    "content": "那这种蒸馏是怎么做的",
+    "music": 0
+  },
+  {
+    "from": 2987.92,
+    "to": 2990.42,
+    "sid": 1399,
+    "location": 2,
+    "content": "需要设计某种混合流程吗",
+    "music": 0
+  },
+  {
+    "from": 2990.42,
+    "to": 2993.08,
+    "sid": 1400,
+    "location": 2,
+    "content": "这是很多流程需要你准备一组提示词",
+    "music": 0
+  },
+  {
+    "from": 2993.08,
+    "to": 2994.84,
+    "sid": 1401,
+    "location": 2,
+    "content": "专家模型将基于这些提示词",
+    "music": 0
+  },
+  {
+    "from": 2994.84,
+    "to": 2996.87,
+    "sid": 1402,
+    "location": 2,
+    "content": "蒸馏到最终模型里的",
+    "music": 0
+  },
+  {
+    "from": 2996.87,
+    "to": 2998.25,
+    "sid": 1403,
+    "location": 2,
+    "content": "这方法的优势很明显",
+    "music": 0
+  },
+  {
+    "from": 2998.25,
+    "to": 3001.13,
+    "sid": 1404,
+    "location": 2,
+    "content": "就是可以让不同团队分别负责各个专家模块",
+    "music": 0
+  },
+  {
+    "from": 3001.13,
+    "to": 3003.3,
+    "sid": 1405,
+    "location": 2,
+    "content": "这样团队分工容易得多",
+    "music": 0
+  },
+  {
+    "from": 3003.3,
+    "to": 3005.26,
+    "sid": 1406,
+    "location": 2,
+    "content": "而且只要算力充足",
+    "music": 0
+  },
+  {
+    "from": 3005.26,
+    "to": 3007.1,
+    "sid": 1407,
+    "location": 2,
+    "content": "聚合过程也可能很简单",
+    "music": 0
+  },
+  {
+    "from": 3007.1,
+    "to": 3008.5,
+    "sid": 1408,
+    "location": 2,
+    "content": "既然有了所有目标",
+    "music": 0
+  },
+  {
+    "from": 3008.5,
+    "to": 3011.08,
+    "sid": 1409,
+    "location": 2,
+    "content": "不如直接扔进大训练循环里跑神",
+    "music": 0
+  },
+  {
+    "from": 3011.08,
+    "to": 3013.2,
+    "sid": 1410,
+    "location": 2,
+    "content": "通常这才是大家偏好的做法",
+    "music": 0
+  },
+  {
+    "from": 3013.2,
+    "to": 3015.66,
+    "sid": 1411,
+    "location": 2,
+    "content": "这样就不用处理蒸馏带来的复杂性了",
+    "music": 0
+  },
+  {
+    "from": 3015.66,
+    "to": 3017.34,
+    "sid": 1412,
+    "location": 2,
+    "content": "你只需定一个大训练目标",
+    "music": 0
+  },
+  {
+    "from": 3017.34,
+    "to": 3018.64,
+    "sid": 1413,
+    "location": 2,
+    "content": "跑一次训练循环就行",
+    "music": 0
+  },
+  {
+    "from": 3018.64,
+    "to": 3019.54,
+    "sid": 1414,
+    "location": 2,
+    "content": "你看到了吗",
+    "music": 0
+  },
+  {
+    "from": 3019.54,
+    "to": 3022.86,
+    "sid": 1415,
+    "location": 2,
+    "content": "嗯问问题是长推理训练算不算中期训练",
+    "music": 0
+  },
+  {
+    "from": 3022.86,
+    "to": 3026.73,
+    "sid": 1416,
+    "location": 2,
+    "content": "我觉得R1和KIMI1.1里都有长coo t监督",
+    "music": 0
+  },
+  {
+    "from": 3026.73,
+    "to": 3027.74,
+    "sid": 1417,
+    "location": 2,
+    "content": "微调",
+    "music": 0
+  },
+  {
+    "from": 3027.98,
+    "to": 3031.4,
+    "sid": 1418,
+    "location": 2,
+    "content": "长COT本身并非传统中期训练的一部分",
+    "music": 0
+  },
+  {
+    "from": 3031.4,
+    "to": 3034.93,
+    "sid": 1419,
+    "location": 2,
+    "content": "但长COT类数据常用于长上下文扩展",
+    "music": 0
+  },
+  {
+    "from": 3034.93,
+    "to": 3036.47,
+    "sid": 1420,
+    "location": 2,
+    "content": "所以这点更微妙些",
+    "music": 0
+  },
+  {
+    "from": 3036.47,
+    "to": 3038.21,
+    "sid": 1421,
+    "location": 2,
+    "content": "我完全没提倡上下文扩展",
+    "music": 0
+  },
+  {
+    "from": 3038.21,
+    "to": 3039.79,
+    "sid": 1422,
+    "location": 2,
+    "content": "挺后悔的啊",
+    "music": 0
+  },
+  {
+    "from": 3039.79,
+    "to": 3043.77,
+    "sid": 1423,
+    "location": 2,
+    "content": "通常这是RNHF之前的一个额外阶段啊",
+    "music": 0
+  },
+  {
+    "from": 3043.77,
+    "to": 3045.45,
+    "sid": 1424,
+    "location": 2,
+    "content": "这里也是长COT",
+    "music": 0
+  },
+  {
+    "from": 3045.45,
+    "to": 3048.84,
+    "sid": 1425,
+    "location": 2,
+    "content": "即用任何长上下文数据来扩展上下文",
+    "music": 0
+  },
+  {
+    "from": 3049.73,
+    "to": 3053.87,
+    "sid": 1426,
+    "location": 2,
+    "content": "通常这是书籍代码合成数据的组合",
+    "music": 0
+  },
+  {
+    "from": 3053.87,
+    "to": 3055.57,
+    "sid": 1427,
+    "location": 2,
+    "content": "因为这些内容足够长",
+    "music": 0
+  },
+  {
+    "from": 3055.57,
+    "to": 3056.69,
+    "sid": 1428,
+    "location": 2,
+    "content": "适合做扩展",
+    "music": 0
+  },
+  {
+    "from": 3056.69,
+    "to": 3060.56,
+    "sid": 1429,
+    "location": 2,
+    "content": "所以结合当前这张图在做RLVR时",
+    "music": 0
+  },
+  {
+    "from": 3060.56,
+    "to": 3061.76,
+    "sid": 1430,
+    "location": 2,
+    "content": "比如你有数学",
+    "music": 0
+  },
+  {
+    "from": 3061.76,
+    "to": 3063.92,
+    "sid": 1431,
+    "location": 2,
+    "content": "化学等很多领域啊",
+    "music": 0
+  },
+  {
+    "from": 3063.92,
+    "to": 3066.86,
+    "sid": 1432,
+    "location": 2,
+    "content": "好这些训练是该病情好",
+    "music": 0
+  },
+  {
+    "from": 3066.86,
+    "to": 3069.78,
+    "sid": 1433,
+    "location": 2,
+    "content": "还是说你得按顺序一个个来啊",
+    "music": 0
+  },
+  {
+    "from": 3069.78,
+    "to": 3072.16,
+    "sid": 1434,
+    "location": 2,
+    "content": "为了避免以往前面学到的内容",
+    "music": 0
+  },
+  {
+    "from": 3072.16,
+    "to": 3075,
+    "sid": 1435,
+    "location": 2,
+    "content": "而回答是顺序还是并行处理",
+    "music": 0
+  },
+  {
+    "from": 3075,
+    "to": 3076.96,
+    "sid": 1436,
+    "location": 2,
+    "content": "最贴切的答案就是这类图",
+    "music": 0
+  },
+  {
+    "from": 3076.96,
+    "to": 3080.72,
+    "sid": 1437,
+    "location": 2,
+    "content": "你会把问题分成推理问题和非推理问题两类",
+    "music": 0
+  },
+  {
+    "from": 3080.72,
+    "to": 3082.08,
+    "sid": 1438,
+    "location": 2,
+    "content": "推理问题归为一类",
+    "music": 0
+  },
+  {
+    "from": 3082.08,
+    "to": 3083.28,
+    "sid": 1439,
+    "location": 2,
+    "content": "在第二阶段执行",
+    "music": 0
+  },
+  {
+    "from": 3083.28,
+    "to": 3084.2,
+    "sid": 1440,
+    "location": 2,
+    "content": "非推理问题",
+    "music": 0
+  },
+  {
+    "from": 3084.2,
+    "to": 3086.58,
+    "sid": 1441,
+    "location": 2,
+    "content": "则在最终的RLAJF阶段处理",
+    "music": 0
+  },
+  {
+    "from": 3086.58,
+    "to": 3088.86,
+    "sid": 1442,
+    "location": 2,
+    "content": "这个包括话多之类的方面啊",
+    "music": 0
+  },
+  {
+    "from": 3088.86,
+    "to": 3091.3,
+    "sid": 1443,
+    "location": 2,
+    "content": "这些都归入最后的第四阶段",
+    "music": 0
+  },
+  {
+    "from": 3091.3,
+    "to": 3092.42,
+    "sid": 1444,
+    "location": 2,
+    "content": "好的谢谢",
+    "music": 0
+  },
+  {
+    "from": 3093.5,
+    "to": 3094.04,
+    "sid": 1445,
+    "location": 2,
+    "content": "下周见",
+    "music": 0
+  }
+]

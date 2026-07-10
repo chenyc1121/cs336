@@ -1,0 +1,10818 @@
+[
+  {
+    "from": 0.08,
+    "to": 2.94,
+    "sid": 1,
+    "location": 2,
+    "content": "原本的计划是深入探讨强化学习",
+    "music": 0
+  },
+  {
+    "from": 2.94,
+    "to": 4.42,
+    "sid": 2,
+    "location": 2,
+    "content": "但考虑到课时有限",
+    "music": 0
+  },
+  {
+    "from": 4.42,
+    "to": 5.72,
+    "sid": 3,
+    "location": 2,
+    "content": "如果不介绍多模态",
+    "music": 0
+  },
+  {
+    "from": 5.72,
+    "to": 7.3,
+    "sid": 4,
+    "location": 2,
+    "content": "这门课就显得不够完整",
+    "music": 0
+  },
+  {
+    "from": 7.3,
+    "to": 11.42,
+    "sid": 5,
+    "location": 2,
+    "content": "毕竟你看如今的主流模型几乎都具备多模态能力",
+    "music": 0
+  },
+  {
+    "from": 11.42,
+    "to": 14.83,
+    "sid": 6,
+    "location": 2,
+    "content": "所以今天咱们就大致overview一下多模态模型",
+    "music": 0
+  },
+  {
+    "from": 14.83,
+    "to": 17.71,
+    "sid": 7,
+    "location": 2,
+    "content": "当然这部分内容单开一门课都绰绰有余",
+    "music": 0
+  },
+  {
+    "from": 17.71,
+    "to": 21.37,
+    "sid": 8,
+    "location": 2,
+    "content": "但我尽量在这一节课里把能讲的核心内容都涵盖进去",
+    "music": 0
+  },
+  {
+    "from": 21.37,
+    "to": 23.78,
+    "sid": 9,
+    "location": 2,
+    "content": "好咱们开始深入多模态模型",
+    "music": 0
+  },
+  {
+    "from": 23.78,
+    "to": 24.62,
+    "sid": 10,
+    "location": 2,
+    "content": "到目前为止",
+    "music": 0
+  },
+  {
+    "from": 24.62,
+    "to": 26.78,
+    "sid": 11,
+    "location": 2,
+    "content": "这门课一直只关注语言模型",
+    "music": 0
+  },
+  {
+    "from": 26.78,
+    "to": 28.44,
+    "sid": 12,
+    "location": 2,
+    "content": "语言模型其实已经非常通用",
+    "music": 0
+  },
+  {
+    "from": 28.44,
+    "to": 31.2,
+    "sid": 13,
+    "location": 2,
+    "content": "它能实现从任意文本到任意文本的转换",
+    "music": 0
+  },
+  {
+    "from": 31.2,
+    "to": 34.33,
+    "sid": 14,
+    "location": 2,
+    "content": "比如它可以处理各种语言代码",
+    "music": 0
+  },
+  {
+    "from": 34.33,
+    "to": 36.79,
+    "sid": 15,
+    "location": 2,
+    "content": "诗歌或者任何你喜欢的文本形式",
+    "music": 0
+  },
+  {
+    "from": 36.79,
+    "to": 39.01,
+    "sid": 16,
+    "location": 2,
+    "content": "甚至像DNA序列这样的数据",
+    "music": 0
+  },
+  {
+    "from": 39.01,
+    "to": 41.54,
+    "sid": 17,
+    "location": 2,
+    "content": "但现实世界是多模态的",
+    "music": 0
+  },
+  {
+    "from": 41.54,
+    "to": 44.52,
+    "sid": 18,
+    "location": 2,
+    "content": "我们面对的数据包括文本图像",
+    "music": 0
+  },
+  {
+    "from": 44.52,
+    "to": 45.76,
+    "sid": 19,
+    "location": 2,
+    "content": "音频和视频",
+    "music": 0
+  },
+  {
+    "from": 45.76,
+    "to": 48.82,
+    "sid": 20,
+    "location": 2,
+    "content": "咱们想想看最终想要达到的北极星目标",
+    "music": 0
+  },
+  {
+    "from": 48.82,
+    "to": 51.29,
+    "sid": 21,
+    "location": 2,
+    "content": "也就是大家所说的全模态模型",
+    "music": 0
+  },
+  {
+    "from": 51.29,
+    "to": 53.75,
+    "sid": 22,
+    "location": 2,
+    "content": "它能接收任意模态组合的输入",
+    "music": 0
+  },
+  {
+    "from": 53.75,
+    "to": 56.81,
+    "sid": 23,
+    "location": 2,
+    "content": "也能输出任意模态组合的结果",
+    "music": 0
+  },
+  {
+    "from": 56.81,
+    "to": 57.69,
+    "sid": 24,
+    "location": 2,
+    "content": "打个比方",
+    "music": 0
+  },
+  {
+    "from": 57.69,
+    "to": 60.09,
+    "sid": 25,
+    "location": 2,
+    "content": "我给你一张图像和一个视频",
+    "music": 0
+  },
+  {
+    "from": 60.09,
+    "to": 62,
+    "sid": 26,
+    "location": 2,
+    "content": "然后问你关于他们的问题",
+    "music": 0
+  },
+  {
+    "from": 62,
+    "to": 63.3,
+    "sid": 27,
+    "location": 2,
+    "content": "我能生成图像",
+    "music": 0
+  },
+  {
+    "from": 63.3,
+    "to": 65.38,
+    "sid": 28,
+    "location": 2,
+    "content": "甚至能把音频转换成图像",
+    "music": 0
+  },
+  {
+    "from": 65.38,
+    "to": 66.729,
+    "sid": 29,
+    "location": 2,
+    "content": "有了全模态模型",
+    "music": 0
+  },
+  {
+    "from": 66.729,
+    "to": 68.609,
+    "sid": 30,
+    "location": 2,
+    "content": "你就能想到各种各样的应用场景",
+    "music": 0
+  },
+  {
+    "from": 68.609,
+    "to": 71.54,
+    "sid": 31,
+    "location": 2,
+    "content": "这门课我不会带大家从头搭建一个全模态模型",
+    "music": 0
+  },
+  {
+    "from": 71.54,
+    "to": 73.32,
+    "sid": 32,
+    "location": 2,
+    "content": "但我会给你一些关键组件",
+    "music": 0
+  },
+  {
+    "from": 73.32,
+    "to": 75.56,
+    "sid": 33,
+    "location": 2,
+    "content": "让你至少能上手处理一些数据",
+    "music": 0
+  },
+  {
+    "from": 75.56,
+    "to": 76.92,
+    "sid": 34,
+    "location": 2,
+    "content": "以图像数据为例",
+    "music": 0
+  },
+  {
+    "from": 76.92,
+    "to": 78.83,
+    "sid": 35,
+    "location": 2,
+    "content": "这也是今天讨论的重点",
+    "music": 0
+  },
+  {
+    "from": 78.83,
+    "to": 80.77,
+    "sid": 36,
+    "location": 2,
+    "content": "那么如何构建这样的系统呢",
+    "music": 0
+  },
+  {
+    "from": 80.77,
+    "to": 82.43,
+    "sid": 37,
+    "location": 2,
+    "content": "这听起来可能有些抽象",
+    "music": 0
+  },
+  {
+    "from": 82.43,
+    "to": 85.29,
+    "sid": 38,
+    "location": 2,
+    "content": "但事实是transformer确实行之有效",
+    "music": 0
+  },
+  {
+    "from": 85.29,
+    "to": 87.37,
+    "sid": 39,
+    "location": 2,
+    "content": "尽管人们尝试过许多其他方法",
+    "music": 0
+  },
+  {
+    "from": 87.37,
+    "to": 89.54,
+    "sid": 40,
+    "location": 2,
+    "content": "但在处理多模态大规模任务时",
+    "music": 0
+  },
+  {
+    "from": 89.54,
+    "to": 91.84,
+    "sid": 41,
+    "location": 2,
+    "content": "它依然是我们目前的最优选择",
+    "music": 0
+  },
+  {
+    "from": 91.84,
+    "to": 95.039,
+    "sid": 42,
+    "location": 2,
+    "content": "因此我们需要找到充分发挥其优势的方法",
+    "music": 0
+  },
+  {
+    "from": 95.039,
+    "to": 95.959,
+    "sid": 43,
+    "location": 2,
+    "content": "需要注意的是",
+    "music": 0
+  },
+  {
+    "from": 95.959,
+    "to": 98.239,
+    "sid": 44,
+    "location": 2,
+    "content": "transformer最初是为文本任务设计的",
+    "music": 0
+  },
+  {
+    "from": 98.239,
+    "to": 101.019,
+    "sid": 45,
+    "location": 2,
+    "content": "它具备处理token的特性及输入",
+    "music": 0
+  },
+  {
+    "from": 101.019,
+    "to": 102.22,
+    "sid": 46,
+    "location": 2,
+    "content": "是一组token",
+    "music": 0
+  },
+  {
+    "from": 102.22,
+    "to": 102.74,
+    "sid": 47,
+    "location": 2,
+    "content": "输出",
+    "music": 0
+  },
+  {
+    "from": 102.74,
+    "to": 103.86,
+    "sid": 48,
+    "location": 2,
+    "content": "也是若干token",
+    "music": 0
+  },
+  {
+    "from": 103.86,
+    "to": 106.48,
+    "sid": 49,
+    "location": 2,
+    "content": "在此我将token的概念进行了扩展",
+    "music": 0
+  },
+  {
+    "from": 106.48,
+    "to": 108.24,
+    "sid": 50,
+    "location": 2,
+    "content": "它不再局限于文本中",
+    "music": 0
+  },
+  {
+    "from": 108.24,
+    "to": 109.16,
+    "sid": 51,
+    "location": 2,
+    "content": "离散的token",
+    "music": 0
+  },
+  {
+    "from": 109.16,
+    "to": 110.9,
+    "sid": 52,
+    "location": 2,
+    "content": "还可能包含连续的token",
+    "music": 0
+  },
+  {
+    "from": 110.9,
+    "to": 113.69,
+    "sid": 53,
+    "location": 2,
+    "content": "你可以将这些视为token的嵌入形式",
+    "music": 0
+  },
+  {
+    "from": 113.69,
+    "to": 117.57,
+    "sid": 54,
+    "location": 2,
+    "content": "核心在于token必须代表某种语义信息单元",
+    "music": 0
+  },
+  {
+    "from": 117.57,
+    "to": 119.29,
+    "sid": 55,
+    "location": 2,
+    "content": "例如在自然语言中",
+    "music": 0
+  },
+  {
+    "from": 119.29,
+    "to": 120.43,
+    "sid": 56,
+    "location": 2,
+    "content": "token是子词",
+    "music": 0
+  },
+  {
+    "from": 120.43,
+    "to": 121.45,
+    "sid": 57,
+    "location": 2,
+    "content": "具有一定的意义",
+    "music": 0
+  },
+  {
+    "from": 121.45,
+    "to": 124.65,
+    "sid": 58,
+    "location": 2,
+    "content": "但像像素这样的元素单独来看是没有意义的",
+    "music": 0
+  },
+  {
+    "from": 124.65,
+    "to": 131.03,
+    "sid": 59,
+    "location": 2,
+    "content": "因此我们需要将音频图像等数据转化为离散或连续的token",
+    "music": 0
+  },
+  {
+    "from": 131.03,
+    "to": 132.05,
+    "sid": 60,
+    "location": 2,
+    "content": "值得注意的是",
+    "music": 0
+  },
+  {
+    "from": 132.05,
+    "to": 133.03,
+    "sid": 61,
+    "location": 2,
+    "content": "对于文本数据",
+    "music": 0
+  },
+  {
+    "from": 133.03,
+    "to": 134.6,
+    "sid": 62,
+    "location": 2,
+    "content": "我们早已采用这种做法",
+    "music": 0
+  },
+  {
+    "from": 134.6,
+    "to": 135.56,
+    "sid": 63,
+    "location": 2,
+    "content": "在第一讲中",
+    "music": 0
+  },
+  {
+    "from": 135.56,
+    "to": 136.68,
+    "sid": 64,
+    "location": 2,
+    "content": "我们讨论过分词",
+    "music": 0
+  },
+  {
+    "from": 136.68,
+    "to": 138.08,
+    "sid": 65,
+    "location": 2,
+    "content": "当时的情况尚可",
+    "music": 0
+  },
+  {
+    "from": 138.08,
+    "to": 140.64,
+    "sid": 66,
+    "location": 2,
+    "content": "因为我们使用了BPE分词器",
+    "music": 0
+  },
+  {
+    "from": 140.64,
+    "to": 142.48,
+    "sid": 67,
+    "location": 2,
+    "content": "并且大家也亲手实现过",
+    "music": 0
+  },
+  {
+    "from": 142.48,
+    "to": 144.16,
+    "sid": 68,
+    "location": 2,
+    "content": "这虽然勉强可用",
+    "music": 0
+  },
+  {
+    "from": 144.16,
+    "to": 149.56,
+    "sid": 69,
+    "location": 2,
+    "content": "但大家心中或许都期待有更优秀的分词器出现",
+    "music": 0
+  },
+  {
+    "from": 149.56,
+    "to": 150.94,
+    "sid": 70,
+    "location": 2,
+    "content": "或者干脆不用分词器",
+    "music": 0
+  },
+  {
+    "from": 150.94,
+    "to": 152.48,
+    "sid": 71,
+    "location": 2,
+    "content": "这倒也不是什么大问题",
+    "music": 0
+  },
+  {
+    "from": 152.48,
+    "to": 154.16,
+    "sid": 72,
+    "location": 2,
+    "content": "处理非文本模态时",
+    "music": 0
+  },
+  {
+    "from": 154.16,
+    "to": 155.4,
+    "sid": 73,
+    "location": 2,
+    "content": "咱们得费点脑筋",
+    "music": 0
+  },
+  {
+    "from": 155.4,
+    "to": 158.66,
+    "sid": 74,
+    "location": 2,
+    "content": "想清楚怎么把BP分词器的逻辑牵引过来",
+    "music": 0
+  },
+  {
+    "from": 158.66,
+    "to": 161.1,
+    "sid": 75,
+    "location": 2,
+    "content": "让图像能变成transformer能处理的形式",
+    "music": 0
+  },
+  {
+    "from": 161.1,
+    "to": 164.29,
+    "sid": 76,
+    "location": 2,
+    "content": "好这里咱们得解决两个问题",
+    "music": 0
+  },
+  {
+    "from": 164.29,
+    "to": 166.08,
+    "sid": 77,
+    "location": 2,
+    "content": "第一面对图像",
+    "music": 0
+  },
+  {
+    "from": 166.08,
+    "to": 168.52,
+    "sid": 78,
+    "location": 2,
+    "content": "视频或音频这些非文本数据",
+    "music": 0
+  },
+  {
+    "from": 168.52,
+    "to": 171.3,
+    "sid": 79,
+    "location": 2,
+    "content": "咱们该怎么把它们喂给transformer",
+    "music": 0
+  },
+  {
+    "from": 171.3,
+    "to": 173.83,
+    "sid": 80,
+    "location": 2,
+    "content": "第二是怎么把它们生成出来",
+    "music": 0
+  },
+  {
+    "from": 173.83,
+    "to": 176.17,
+    "sid": 81,
+    "location": 2,
+    "content": "咱们这节课主要先讲第一个问题好",
+    "music": 0
+  },
+  {
+    "from": 176.17,
+    "to": 177.51,
+    "sid": 82,
+    "location": 2,
+    "content": "咱们往回倒带",
+    "music": 0
+  },
+  {
+    "from": 177.51,
+    "to": 179.78,
+    "sid": 83,
+    "location": 2,
+    "content": "回到2021年QUE模型",
+    "music": 0
+  },
+  {
+    "from": 179.78,
+    "to": 181.14,
+    "sid": 84,
+    "location": 2,
+    "content": "大家可能听说过",
+    "music": 0
+  },
+  {
+    "from": 181.14,
+    "to": 183.84,
+    "sid": 85,
+    "location": 2,
+    "content": "它是现代v o ms的许多基础",
+    "music": 0
+  },
+  {
+    "from": 183.84,
+    "to": 186.54,
+    "sid": 86,
+    "location": 2,
+    "content": "所以咱们可以稍微深入一点来看这个例子",
+    "music": 0
+  },
+  {
+    "from": 186.54,
+    "to": 189.48,
+    "sid": 87,
+    "location": 2,
+    "content": "KB的全称是对比语言图像预训练",
+    "music": 0
+  },
+  {
+    "from": 189.48,
+    "to": 191.02,
+    "sid": 88,
+    "location": 2,
+    "content": "稍微回顾一下历史背景",
+    "music": 0
+  },
+  {
+    "from": 191.02,
+    "to": 193.04,
+    "sid": 89,
+    "location": 2,
+    "content": "那时候GPT-3已经问世",
+    "music": 0
+  },
+  {
+    "from": 193.04,
+    "to": 197.4,
+    "sid": 90,
+    "location": 2,
+    "content": "GBT-2以及所有语言模型都已宣进入了基础模型时代",
+    "music": 0
+  },
+  {
+    "from": 197.4,
+    "to": 201.06,
+    "sid": 91,
+    "location": 2,
+    "content": "不过视觉领域当时还荣落有些尝试",
+    "music": 0
+  },
+  {
+    "from": 201.06,
+    "to": 204.1,
+    "sid": 92,
+    "location": 2,
+    "content": "但传统做法主要依赖大量标注或者数据集",
+    "music": 0
+  },
+  {
+    "from": 204.1,
+    "to": 205.269,
+    "sid": 93,
+    "location": 2,
+    "content": "比如image net",
+    "music": 0
+  },
+  {
+    "from": 205.269,
+    "to": 208.689,
+    "sid": 94,
+    "location": 2,
+    "content": "研究人员在这些数据集上训练RESNET等模型",
+    "music": 0
+  },
+  {
+    "from": 208.689,
+    "to": 210.309,
+    "sid": 95,
+    "location": 2,
+    "content": "配合数据增强等手段",
+    "music": 0
+  },
+  {
+    "from": 210.309,
+    "to": 212.72,
+    "sid": 96,
+    "location": 2,
+    "content": "最终取得了非常出色的性能",
+    "music": 0
+  },
+  {
+    "from": 212.72,
+    "to": 215.4,
+    "sid": 97,
+    "location": 2,
+    "content": "因此open night的研究人员提出一个问题",
+    "music": 0
+  },
+  {
+    "from": 215.4,
+    "to": 218.22,
+    "sid": 98,
+    "location": 2,
+    "content": "能否利用海量的图像及其文本描述",
+    "music": 0
+  },
+  {
+    "from": 218.22,
+    "to": 220.2,
+    "sid": 99,
+    "location": 2,
+    "content": "受语言领域这一思路的启发",
+    "music": 0
+  },
+  {
+    "from": 220.2,
+    "to": 222.38,
+    "sid": 100,
+    "location": 2,
+    "content": "只需抓取互联网上的文本",
+    "music": 0
+  },
+  {
+    "from": 222.38,
+    "to": 223.68,
+    "sid": 101,
+    "location": 2,
+    "content": "尽管数据噪声很大",
+    "music": 0
+  },
+  {
+    "from": 223.68,
+    "to": 225.62,
+    "sid": 102,
+    "location": 2,
+    "content": "但只要训练足够大的模型",
+    "music": 0
+  },
+  {
+    "from": 225.62,
+    "to": 227.34,
+    "sid": 103,
+    "location": 2,
+    "content": "就能从中提取意义",
+    "music": 0
+  },
+  {
+    "from": 227.34,
+    "to": 229.14,
+    "sid": 104,
+    "location": 2,
+    "content": "并生成有用的内容",
+    "music": 0
+  },
+  {
+    "from": 229.14,
+    "to": 232.06,
+    "sid": 105,
+    "location": 2,
+    "content": "那么图像领域的等效方案是什么",
+    "music": 0
+  },
+  {
+    "from": 232.06,
+    "to": 234.45,
+    "sid": 106,
+    "location": 2,
+    "content": "于是clip应运而生",
+    "music": 0
+  },
+  {
+    "from": 234.45,
+    "to": 237.05,
+    "sid": 107,
+    "location": 2,
+    "content": "clip的核心思路其实很简单很直接",
+    "music": 0
+  },
+  {
+    "from": 237.05,
+    "to": 240.63,
+    "sid": 108,
+    "location": 2,
+    "content": "那么针对图像对应的做法是什么呢",
+    "music": 0
+  },
+  {
+    "from": 240.63,
+    "to": 243.25,
+    "sid": 109,
+    "location": 2,
+    "content": "于是clip就这样诞生了",
+    "music": 0
+  },
+  {
+    "from": 243.25,
+    "to": 246.57,
+    "sid": 110,
+    "location": 2,
+    "content": "clip的核心思路其实很简单很直接",
+    "music": 0
+  },
+  {
+    "from": 246.57,
+    "to": 249.67,
+    "sid": 111,
+    "location": 2,
+    "content": "这样一来我就得到了3万2000个图像编码",
+    "music": 0
+  },
+  {
+    "from": 249.67,
+    "to": 250.47,
+    "sid": 112,
+    "location": 2,
+    "content": "对应的文本",
+    "music": 0
+  },
+  {
+    "from": 250.47,
+    "to": 252,
+    "sid": 113,
+    "location": 2,
+    "content": "我也会做同样的操作",
+    "music": 0
+  },
+  {
+    "from": 252,
+    "to": 253.6,
+    "sid": 114,
+    "location": 2,
+    "content": "从而得到T1到T1",
+    "music": 0
+  },
+  {
+    "from": 253.6,
+    "to": 255.08,
+    "sid": 115,
+    "location": 2,
+    "content": "这些是文本嵌入",
+    "music": 0
+  },
+  {
+    "from": 255.08,
+    "to": 256.78,
+    "sid": 116,
+    "location": 2,
+    "content": "那些则是图像嵌入",
+    "music": 0
+  },
+  {
+    "from": 256.78,
+    "to": 258.86,
+    "sid": 117,
+    "location": 2,
+    "content": "接下来我要设定一个目标",
+    "music": 0
+  },
+  {
+    "from": 258.86,
+    "to": 261.14,
+    "sid": 118,
+    "location": 2,
+    "content": "以图像I为例",
+    "music": 0
+  },
+  {
+    "from": 261.14,
+    "to": 263.36,
+    "sid": 119,
+    "location": 2,
+    "content": "I和T1是配对的",
+    "music": 0
+  },
+  {
+    "from": 263.36,
+    "to": 268.64,
+    "sid": 120,
+    "location": 2,
+    "content": "所以我要让这两个嵌入向量的点击远远大于I坏",
+    "music": 0
+  },
+  {
+    "from": 268.64,
+    "to": 271.66,
+    "sid": 121,
+    "location": 2,
+    "content": "与其他所有文本嵌入的点击同理",
+    "music": 0
+  },
+  {
+    "from": 271.66,
+    "to": 272.82,
+    "sid": 122,
+    "location": 2,
+    "content": "对于这段文本",
+    "music": 0
+  },
+  {
+    "from": 272.82,
+    "to": 274.06,
+    "sid": 123,
+    "location": 2,
+    "content": "我也希望如此",
+    "music": 0
+  },
+  {
+    "from": 274.06,
+    "to": 278.15,
+    "sid": 124,
+    "location": 2,
+    "content": "也就是说这个点击的值要大于T1与其余所有图像点击的值",
+    "music": 0
+  },
+  {
+    "from": 278.15,
+    "to": 279.34,
+    "sid": 125,
+    "location": 2,
+    "content": "简单总结一下",
+    "music": 0
+  },
+  {
+    "from": 279.34,
+    "to": 280.88,
+    "sid": 126,
+    "location": 2,
+    "content": "这就是clip的目标",
+    "music": 0
+  },
+  {
+    "from": 280.88,
+    "to": 285.97,
+    "sid": 127,
+    "location": 2,
+    "content": "你可以把它想象成执行了2N次不同的soft max分类来看代码",
+    "music": 0
+  },
+  {
+    "from": 285.97,
+    "to": 290.67,
+    "sid": 128,
+    "location": 2,
+    "content": "这里你会得到一个M乘D的矩阵来表示图像编码",
+    "music": 0
+  },
+  {
+    "from": 290.67,
+    "to": 294.13,
+    "sid": 129,
+    "location": 2,
+    "content": "另一个M乘D的矩阵表示文本嵌入",
+    "music": 0
+  },
+  {
+    "from": 294.13,
+    "to": 296.09,
+    "sid": 130,
+    "location": 2,
+    "content": "先做归一化再计算",
+    "music": 0
+  },
+  {
+    "from": 296.09,
+    "to": 298.27,
+    "sid": 131,
+    "location": 2,
+    "content": "点击这里会用到温度系数",
+    "music": 0
+  },
+  {
+    "from": 298.27,
+    "to": 300.33,
+    "sid": 132,
+    "location": 2,
+    "content": "接着计算交叉熵好的",
+    "music": 0
+  },
+  {
+    "from": 300.33,
+    "to": 303.38,
+    "sid": 133,
+    "location": 2,
+    "content": "所以这基本上就是一个多类分类问题",
+    "music": 0
+  },
+  {
+    "from": 303.38,
+    "to": 306.12,
+    "sid": 134,
+    "location": 2,
+    "content": "样本被组织成了M乘N的矩阵形式",
+    "music": 0
+  },
+  {
+    "from": 306.12,
+    "to": 309.1,
+    "sid": 135,
+    "location": 2,
+    "content": "好大家有什么问题吗",
+    "music": 0
+  },
+  {
+    "from": 309.1,
+    "to": 314.18,
+    "sid": 136,
+    "location": 2,
+    "content": "好那咱们继续接下来讲讲clip构建的一些细节",
+    "music": 0
+  },
+  {
+    "from": 314.18,
+    "to": 315.67,
+    "sid": 137,
+    "location": 2,
+    "content": "数据是从哪来的",
+    "music": 0
+  },
+  {
+    "from": 315.67,
+    "to": 318.57,
+    "sid": 138,
+    "location": 2,
+    "content": "论文里关于数据部分的细节并不多",
+    "music": 0
+  },
+  {
+    "from": 318.57,
+    "to": 321.97,
+    "sid": 139,
+    "location": 2,
+    "content": "简单来说就是先收集一批查询词",
+    "music": 0
+  },
+  {
+    "from": 321.97,
+    "to": 326.89,
+    "sid": 140,
+    "location": 2,
+    "content": "从某个来源获取这些查询词后去网上搜索",
+    "music": 0
+  },
+  {
+    "from": 326.89,
+    "to": 329.7,
+    "sid": 141,
+    "location": 2,
+    "content": "从中挖掘出大量的图文",
+    "music": 0
+  },
+  {
+    "from": 329.7,
+    "to": 332.22,
+    "sid": 142,
+    "location": 2,
+    "content": "谢谢最终得到了4亿个图文",
+    "music": 0
+  },
+  {
+    "from": 332.22,
+    "to": 333.92,
+    "sid": 143,
+    "location": 2,
+    "content": "该数据集并未公开",
+    "music": 0
+  },
+  {
+    "from": 333.92,
+    "to": 336.34,
+    "sid": 144,
+    "location": 2,
+    "content": "不过有人尝试过复现",
+    "music": 0
+  },
+  {
+    "from": 336.34,
+    "to": 340.03,
+    "sid": 145,
+    "location": 2,
+    "content": "有一篇名为open clip的论文进行了复现",
+    "music": 0
+  },
+  {
+    "from": 340.03,
+    "to": 342.23,
+    "sid": 146,
+    "location": 2,
+    "content": "并进一步扩展了clip的思路",
+    "music": 0
+  },
+  {
+    "from": 342.23,
+    "to": 345.17,
+    "sid": 147,
+    "location": 2,
+    "content": "例如发布了一个名为lion5B的数据集",
+    "music": 0
+  },
+  {
+    "from": 345.17,
+    "to": 347.59,
+    "sid": 148,
+    "location": 2,
+    "content": "包含50一张带文本描述的图像",
+    "music": 0
+  },
+  {
+    "from": 347.59,
+    "to": 349.66,
+    "sid": 149,
+    "location": 2,
+    "content": "期间还进行了一些数据处理",
+    "music": 0
+  },
+  {
+    "from": 349.66,
+    "to": 350.42,
+    "sid": 150,
+    "location": 2,
+    "content": "有趣的是",
+    "music": 0
+  },
+  {
+    "from": 350.42,
+    "to": 352.3,
+    "sid": 151,
+    "location": 2,
+    "content": "他们先用clip进行数据筛选",
+    "music": 0
+  },
+  {
+    "from": 352.3,
+    "to": 353.62,
+    "sid": 152,
+    "location": 2,
+    "content": "再训练open clip",
+    "music": 0
+  },
+  {
+    "from": 353.62,
+    "to": 355.31,
+    "sid": 153,
+    "location": 2,
+    "content": "这里存在一种自取过程",
+    "music": 0
+  },
+  {
+    "from": 355.31,
+    "to": 359.23,
+    "sid": 154,
+    "location": 2,
+    "content": "但至少这是一个能明确指明训练数据集的模型",
+    "music": 0
+  },
+  {
+    "from": 359.23,
+    "to": 361.789,
+    "sid": 155,
+    "location": 2,
+    "content": "期间还进行了一些数据处理",
+    "music": 0
+  },
+  {
+    "from": 361.789,
+    "to": 363.049,
+    "sid": 156,
+    "location": 2,
+    "content": "有趣的是",
+    "music": 0
+  },
+  {
+    "from": 363.049,
+    "to": 366.17,
+    "sid": 157,
+    "location": 2,
+    "content": "他们先用clip进行数据筛选",
+    "music": 0
+  },
+  {
+    "from": 366.17,
+    "to": 367.97,
+    "sid": 158,
+    "location": 2,
+    "content": "再训练open clip",
+    "music": 0
+  },
+  {
+    "from": 367.97,
+    "to": 370.05,
+    "sid": 159,
+    "location": 2,
+    "content": "这里存在一种自举过程",
+    "music": 0
+  },
+  {
+    "from": 370.05,
+    "to": 373.93,
+    "sid": 160,
+    "location": 2,
+    "content": "但至少这是一个能明确指明训练数据集的模型",
+    "music": 0
+  },
+  {
+    "from": 373.93,
+    "to": 375.65,
+    "sid": 161,
+    "location": 2,
+    "content": "还有代码好",
+    "music": 0
+  },
+  {
+    "from": 375.65,
+    "to": 377.77,
+    "sid": 162,
+    "location": 2,
+    "content": "咱们再补充几个细节啊",
+    "music": 0
+  },
+  {
+    "from": 377.77,
+    "to": 380.08,
+    "sid": 163,
+    "location": 2,
+    "content": "图像分辨率五花八门对吧",
+    "music": 0
+  },
+  {
+    "from": 380.08,
+    "to": 381.48,
+    "sid": 164,
+    "location": 2,
+    "content": "网上随便找张图",
+    "music": 0
+  },
+  {
+    "from": 381.48,
+    "to": 383.14,
+    "sid": 165,
+    "location": 2,
+    "content": "长宽比可能很不固定",
+    "music": 0
+  },
+  {
+    "from": 383.14,
+    "to": 384,
+    "sid": 166,
+    "location": 2,
+    "content": "要么细长",
+    "music": 0
+  },
+  {
+    "from": 384,
+    "to": 384.86,
+    "sid": 167,
+    "location": 2,
+    "content": "要么瘦长",
+    "music": 0
+  },
+  {
+    "from": 384.86,
+    "to": 386.299,
+    "sid": 168,
+    "location": 2,
+    "content": "尺寸完全随意",
+    "music": 0
+  },
+  {
+    "from": 386.299,
+    "to": 388.219,
+    "sid": 169,
+    "location": 2,
+    "content": "另外学神经网络时",
+    "music": 0
+  },
+  {
+    "from": 388.219,
+    "to": 391.039,
+    "sid": 170,
+    "location": 2,
+    "content": "你会知道他们不喜欢动态尺寸",
+    "music": 0
+  },
+  {
+    "from": 391.039,
+    "to": 393.14,
+    "sid": 171,
+    "location": 2,
+    "content": "偏好固定大小的输入",
+    "music": 0
+  },
+  {
+    "from": 393.14,
+    "to": 395.24,
+    "sid": 172,
+    "location": 2,
+    "content": "所以通常会做个启发式的预处理",
+    "music": 0
+  },
+  {
+    "from": 395.24,
+    "to": 396.24,
+    "sid": 173,
+    "location": 2,
+    "content": "把图像缩放",
+    "music": 0
+  },
+  {
+    "from": 396.24,
+    "to": 399.38,
+    "sid": 174,
+    "location": 2,
+    "content": "让短边变成336或者224这类目标尺寸",
+    "music": 0
+  },
+  {
+    "from": 399.38,
+    "to": 400.94,
+    "sid": 175,
+    "location": 2,
+    "content": "接着做中心裁剪",
+    "music": 0
+  },
+  {
+    "from": 400.94,
+    "to": 402.24,
+    "sid": 176,
+    "location": 2,
+    "content": "把它变成正方形",
+    "music": 0
+  },
+  {
+    "from": 402.24,
+    "to": 404.38,
+    "sid": 177,
+    "location": 2,
+    "content": "通常目标位于画面中央",
+    "music": 0
+  },
+  {
+    "from": 404.38,
+    "to": 406.86,
+    "sid": 178,
+    "location": 2,
+    "content": "因此只需裁剪掉背景即可",
+    "music": 0
+  },
+  {
+    "from": 406.86,
+    "to": 408.14,
+    "sid": 179,
+    "location": 2,
+    "content": "所以这倒不是问题",
+    "music": 0
+  },
+  {
+    "from": 408.14,
+    "to": 413.1,
+    "sid": 180,
+    "location": 2,
+    "content": "好那视觉编码器到底是什么",
+    "music": 0
+  },
+  {
+    "from": 413.1,
+    "to": 414.38,
+    "sid": 181,
+    "location": 2,
+    "content": "这是通用算法",
+    "music": 0
+  },
+  {
+    "from": 414.38,
+    "to": 417.88,
+    "sid": 182,
+    "location": 2,
+    "content": "但我尚未详细解释图像编码器和文本编码器的具体含义",
+    "music": 0
+  },
+  {
+    "from": 417.88,
+    "to": 424.44,
+    "sid": 183,
+    "location": 2,
+    "content": "对本本被输入序列的末尾",
+    "music": 0
+  },
+  {
+    "from": 424.84,
+    "to": 426.44,
+    "sid": 184,
+    "location": 2,
+    "content": "你是不是能量很大",
+    "music": 0
+  },
+  {
+    "from": 426.44,
+    "to": 430.22,
+    "sid": 185,
+    "location": 2,
+    "content": "一分钟内我们要去试摸黑总组件",
+    "music": 0
+  },
+  {
+    "from": 430.22,
+    "to": 433.58,
+    "sid": 186,
+    "location": 2,
+    "content": "新车六五背后都有相应的训练过程",
+    "music": 0
+  },
+  {
+    "from": 433.58,
+    "to": 436.42,
+    "sid": 187,
+    "location": 2,
+    "content": "这正是他们使用普外科技术训练",
+    "music": 0
+  },
+  {
+    "from": 436.42,
+    "to": 438.82,
+    "sid": 188,
+    "location": 2,
+    "content": "他可以坚持用不足下面原因",
+    "music": 0
+  },
+  {
+    "from": 438.82,
+    "to": 440.42,
+    "sid": 189,
+    "location": 2,
+    "content": "我认为核心问题在于",
+    "music": 0
+  },
+  {
+    "from": 440.42,
+    "to": 442.66,
+    "sid": 190,
+    "location": 2,
+    "content": "为何他们采用图文对训练",
+    "music": 0
+  },
+  {
+    "from": 442.66,
+    "to": 444.3,
+    "sid": 191,
+    "location": 2,
+    "content": "而不是单独使用图片",
+    "music": 0
+  },
+  {
+    "from": 444.3,
+    "to": 449.15,
+    "sid": 192,
+    "location": 2,
+    "content": "谢谢有一类研究致力于将图像编码为表示形式",
+    "music": 0
+  },
+  {
+    "from": 449.15,
+    "to": 453.07,
+    "sid": 193,
+    "location": 2,
+    "content": "谢谢有一类研究致力于将图像编码为表示形式",
+    "music": 0
+  },
+  {
+    "from": 453.07,
+    "to": 454.919,
+    "sid": 194,
+    "location": 2,
+    "content": "它们被视为同一张图像",
+    "music": 0
+  },
+  {
+    "from": 454.919,
+    "to": 457.33,
+    "sid": 195,
+    "location": 2,
+    "content": "因此应具有相似的嵌入表示",
+    "music": 0
+  },
+  {
+    "from": 457.33,
+    "to": 459.23,
+    "sid": 196,
+    "location": 2,
+    "content": "不过我们接着往下说",
+    "music": 0
+  },
+  {
+    "from": 459.23,
+    "to": 462.23,
+    "sid": 197,
+    "location": 2,
+    "content": "这种方法对捕捉低级细节很有用",
+    "music": 0
+  },
+  {
+    "from": 462.23,
+    "to": 464.72,
+    "sid": 198,
+    "location": 2,
+    "content": "但问题是仅靠数据增强",
+    "music": 0
+  },
+  {
+    "from": 464.72,
+    "to": 467,
+    "sid": 199,
+    "location": 2,
+    "content": "你无法将一只狗变成另一种狗",
+    "music": 0
+  },
+  {
+    "from": 467,
+    "to": 469.09,
+    "sid": 200,
+    "location": 2,
+    "content": "比如从一种狗变成另一种狗",
+    "music": 0
+  },
+  {
+    "from": 469.09,
+    "to": 470.03,
+    "sid": 201,
+    "location": 2,
+    "content": "引入文本",
+    "music": 0
+  },
+  {
+    "from": 470.03,
+    "to": 472.11,
+    "sid": 202,
+    "location": 2,
+    "content": "就能提供更高阶的语义信息",
+    "music": 0
+  },
+  {
+    "from": 472.11,
+    "to": 474.24,
+    "sid": 203,
+    "location": 2,
+    "content": "用于表征图像",
+    "music": 0
+  },
+  {
+    "from": 474.24,
+    "to": 475.66,
+    "sid": 204,
+    "location": 2,
+    "content": "这是个很好的问题",
+    "music": 0
+  },
+  {
+    "from": 475.66,
+    "to": 478.26,
+    "sid": 205,
+    "location": 2,
+    "content": "稍后我们会看到结合具体任务类型",
+    "music": 0
+  },
+  {
+    "from": 478.26,
+    "to": 480.38,
+    "sid": 206,
+    "location": 2,
+    "content": "这些语义表征能发挥多大作用",
+    "music": 0
+  },
+  {
+    "from": 480.38,
+    "to": 482.94,
+    "sid": 207,
+    "location": 2,
+    "content": "那么clip使用的视觉编码器是什么",
+    "music": 0
+  },
+  {
+    "from": 482.94,
+    "to": 484.42,
+    "sid": 208,
+    "location": 2,
+    "content": "他们尝试过多种架构",
+    "music": 0
+  },
+  {
+    "from": 484.42,
+    "to": 487.56,
+    "sid": 209,
+    "location": 2,
+    "content": "例如RESNET和当时刚发布的视觉transformer",
+    "music": 0
+  },
+  {
+    "from": 487.56,
+    "to": 487.8,
+    "sid": 210,
+    "location": 2,
+    "content": "试验",
+    "music": 0
+  },
+  {
+    "from": 487.8,
+    "to": 488.52,
+    "sid": 211,
+    "location": 2,
+    "content": "结果表明",
+    "music": 0
+  },
+  {
+    "from": 488.52,
+    "to": 490.46,
+    "sid": 212,
+    "location": 2,
+    "content": "视觉transformer的效果最佳",
+    "music": 0
+  },
+  {
+    "from": 490.46,
+    "to": 492.18,
+    "sid": 213,
+    "location": 2,
+    "content": "因此人们提到clip时",
+    "music": 0
+  },
+  {
+    "from": 492.18,
+    "to": 494.76,
+    "sid": 214,
+    "location": 2,
+    "content": "通常指的就是基于v it的那个版本",
+    "music": 0
+  },
+  {
+    "from": 494.76,
+    "to": 498.08,
+    "sid": 215,
+    "location": 2,
+    "content": "视觉transformer的处理流程如下",
+    "music": 0
+  },
+  {
+    "from": 498.08,
+    "to": 500.65,
+    "sid": 216,
+    "location": 2,
+    "content": "我们先取一张图像",
+    "music": 0
+  },
+  {
+    "from": 500.65,
+    "to": 503.05,
+    "sid": 217,
+    "location": 2,
+    "content": "然后将其切分为小块",
+    "music": 0
+  },
+  {
+    "from": 503.05,
+    "to": 506.53,
+    "sid": 218,
+    "location": 2,
+    "content": "原始论文中采用的是16X16的块大小",
+    "music": 0
+  },
+  {
+    "from": 506.53,
+    "to": 509.289,
+    "sid": 219,
+    "location": 2,
+    "content": "而clip使用的是14X14",
+    "music": 0
+  },
+  {
+    "from": 509.289,
+    "to": 510.549,
+    "sid": 220,
+    "location": 2,
+    "content": "无论尺寸如何",
+    "music": 0
+  },
+  {
+    "from": 510.549,
+    "to": 512.849,
+    "sid": 221,
+    "location": 2,
+    "content": "这些小块本质上都是向量",
+    "music": 0
+  },
+  {
+    "from": 512.849,
+    "to": 516.029,
+    "sid": 222,
+    "location": 2,
+    "content": "因此每个小块在某种程度上就是它的token",
+    "music": 0
+  },
+  {
+    "from": 516.029,
+    "to": 517.549,
+    "sid": 223,
+    "location": 2,
+    "content": "对于视觉transformer",
+    "music": 0
+  },
+  {
+    "from": 517.549,
+    "to": 520.569,
+    "sid": 224,
+    "location": 2,
+    "content": "你会像训练语言模型那样加入位置嵌入",
+    "music": 0
+  },
+  {
+    "from": 520.569,
+    "to": 523.329,
+    "sid": 225,
+    "location": 2,
+    "content": "然后将其输入到一个标准的transformer中",
+    "music": 0
+  },
+  {
+    "from": 523.329,
+    "to": 524.86,
+    "sid": 226,
+    "location": 2,
+    "content": "如果你要进行分类任务",
+    "music": 0
+  },
+  {
+    "from": 524.86,
+    "to": 529.16,
+    "sid": 227,
+    "location": 2,
+    "content": "通常的做法是取出序列的第一个token作为分类表示",
+    "music": 0
+  },
+  {
+    "from": 529.16,
+    "to": 533.09,
+    "sid": 228,
+    "location": 2,
+    "content": "transformer编码器会输出一组向量序列",
+    "music": 0
+  },
+  {
+    "from": 533.09,
+    "to": 534.46,
+    "sid": 229,
+    "location": 2,
+    "content": "以transformer为例",
+    "music": 0
+  },
+  {
+    "from": 534.46,
+    "to": 536.08,
+    "sid": 230,
+    "location": 2,
+    "content": "如果你要做分类任务",
+    "music": 0
+  },
+  {
+    "from": 536.08,
+    "to": 539.66,
+    "sid": 231,
+    "location": 2,
+    "content": "通常会取出序列的第一个token作为分类表示",
+    "music": 0
+  },
+  {
+    "from": 539.66,
+    "to": 540.98,
+    "sid": 232,
+    "location": 2,
+    "content": "通常的做法是",
+    "music": 0
+  },
+  {
+    "from": 540.98,
+    "to": 543.66,
+    "sid": 233,
+    "location": 2,
+    "content": "transformer编码器会输出一个向量序列",
+    "music": 0
+  },
+  {
+    "from": 543.66,
+    "to": 547.24,
+    "sid": 234,
+    "location": 2,
+    "content": "具体来说先对所有激活值做全局平均",
+    "music": 0
+  },
+  {
+    "from": 547.24,
+    "to": 552.88,
+    "sid": 235,
+    "location": 2,
+    "content": "再用这个查询向量与每个位置的键和值进行一轮注意力计算",
+    "music": 0
+  },
+  {
+    "from": 552.88,
+    "to": 556.86,
+    "sid": 236,
+    "location": 2,
+    "content": "这样得到的向量可能比直接求平均包含更多信息",
+    "music": 0
+  },
+  {
+    "from": 556.86,
+    "to": 558.24,
+    "sid": 237,
+    "location": 2,
+    "content": "谢谢好",
+    "music": 0
+  },
+  {
+    "from": 558.24,
+    "to": 563.48,
+    "sid": 238,
+    "location": 2,
+    "content": "这就是wait科勒文发现效果最好的模型是i i it减L14",
+    "music": 0
+  },
+  {
+    "from": 563.48,
+    "to": 566.54,
+    "sid": 239,
+    "location": 2,
+    "content": "这个名称的意思是这是一个大型weight",
+    "music": 0
+  },
+  {
+    "from": 566.54,
+    "to": 568.4,
+    "sid": 240,
+    "location": 2,
+    "content": "我估计它大概有24层",
+    "music": 0
+  },
+  {
+    "from": 568.4,
+    "to": 571.5,
+    "sid": 241,
+    "location": 2,
+    "content": "不太确定使用的是1414的patch",
+    "music": 0
+  },
+  {
+    "from": 571.5,
+    "to": 573.06,
+    "sid": 242,
+    "location": 2,
+    "content": "每个patch都是RGB的",
+    "music": 0
+  },
+  {
+    "from": 573.06,
+    "to": 574.04,
+    "sid": 243,
+    "location": 2,
+    "content": "所以有三个通道",
+    "music": 0
+  },
+  {
+    "from": 574.04,
+    "to": 577.34,
+    "sid": 244,
+    "location": 2,
+    "content": "他们使用336×336分辨率的图片进行训练",
+    "music": 0
+  },
+  {
+    "from": 577.34,
+    "to": 579.95,
+    "sid": 245,
+    "location": 2,
+    "content": "实际上他们先用低分辨率图片训练",
+    "music": 0
+  },
+  {
+    "from": 579.95,
+    "to": 581.07,
+    "sid": 246,
+    "location": 2,
+    "content": "然后再upscale",
+    "music": 0
+  },
+  {
+    "from": 581.07,
+    "to": 582.39,
+    "sid": 247,
+    "location": 2,
+    "content": "这主要是为了提速",
+    "music": 0
+  },
+  {
+    "from": 582.39,
+    "to": 584.31,
+    "sid": 248,
+    "location": 2,
+    "content": "毕竟高分辨率图片太耗时",
+    "music": 0
+  },
+  {
+    "from": 584.31,
+    "to": 585.49,
+    "sid": 249,
+    "location": 2,
+    "content": "在后续训练阶段",
+    "music": 0
+  },
+  {
+    "from": 585.49,
+    "to": 587.25,
+    "sid": 250,
+    "location": 2,
+    "content": "他们才使用高分辨率图片",
+    "music": 0
+  },
+  {
+    "from": 587.25,
+    "to": 587.71,
+    "sid": 251,
+    "location": 2,
+    "content": "对",
+    "music": 0
+  },
+  {
+    "from": 587.71,
+    "to": 591.91,
+    "sid": 252,
+    "location": 2,
+    "content": "那么位置编码在文本处理中是否会更复杂一些",
+    "music": 0
+  },
+  {
+    "from": 591.91,
+    "to": 598.62,
+    "sid": 253,
+    "location": 2,
+    "content": "比如三本及以为按左下键包含上下左右等方向信息没错",
+    "music": 0
+  },
+  {
+    "from": 598.62,
+    "to": 602.92,
+    "sid": 254,
+    "location": 2,
+    "content": "所以核心问题在于能否设计更智能的位置嵌入方法",
+    "music": 0
+  },
+  {
+    "from": 602.92,
+    "to": 605.81,
+    "sid": 255,
+    "location": 2,
+    "content": "因为目前采用的只是0~9的线性编码",
+    "music": 0
+  },
+  {
+    "from": 605.81,
+    "to": 609.75,
+    "sid": 256,
+    "location": 2,
+    "content": "我认为clip这篇论文其实尝试过该方法的二维和一维版本",
+    "music": 0
+  },
+  {
+    "from": 609.75,
+    "to": 611.87,
+    "sid": 257,
+    "location": 2,
+    "content": "结果显示两者差异并不显著",
+    "music": 0
+  },
+  {
+    "from": 611.87,
+    "to": 613.69,
+    "sid": 258,
+    "location": 2,
+    "content": "在解读这些结果时",
+    "music": 0
+  },
+  {
+    "from": 613.69,
+    "to": 616.71,
+    "sid": 259,
+    "location": 2,
+    "content": "需要意识到它们主要属于有趣的分类实验",
+    "music": 0
+  },
+  {
+    "from": 616.71,
+    "to": 618.79,
+    "sid": 260,
+    "location": 2,
+    "content": "因此对于分类任务而言",
+    "music": 0
+  },
+  {
+    "from": 618.79,
+    "to": 620.52,
+    "sid": 261,
+    "location": 2,
+    "content": "这一点或许并不关键",
+    "music": 0
+  },
+  {
+    "from": 620.52,
+    "to": 623.42,
+    "sid": 262,
+    "location": 2,
+    "content": "稍后我们会介绍更高级的位置嵌入方法",
+    "music": 0
+  },
+  {
+    "from": 623.42,
+    "to": 625.2,
+    "sid": 263,
+    "location": 2,
+    "content": "这些方法会考虑空间结构",
+    "music": 0
+  },
+  {
+    "from": 625.2,
+    "to": 628.94,
+    "sid": 264,
+    "location": 2,
+    "content": "接下来我们来看文本编码器",
+    "music": 0
+  },
+  {
+    "from": 628.94,
+    "to": 631.54,
+    "sid": 265,
+    "location": 2,
+    "content": "它采用标准的transformer架构",
+    "music": 0
+  },
+  {
+    "from": 631.54,
+    "to": 632.92,
+    "sid": 266,
+    "location": 2,
+    "content": "由于开发团队相同",
+    "music": 0
+  },
+  {
+    "from": 632.92,
+    "to": 635.72,
+    "sid": 267,
+    "location": 2,
+    "content": "这里使用的是GPT-2风格的transformer",
+    "music": 0
+  },
+  {
+    "from": 635.72,
+    "to": 638.56,
+    "sid": 268,
+    "location": 2,
+    "content": "为了从序列中提取一个向量",
+    "music": 0
+  },
+  {
+    "from": 638.56,
+    "to": 643.04,
+    "sid": 269,
+    "location": 2,
+    "content": "它们在序列开头添加boss结尾添加EOS",
+    "music": 0
+  },
+  {
+    "from": 643.04,
+    "to": 647.04,
+    "sid": 270,
+    "location": 2,
+    "content": "然后取最后一层中EOS位置的激活值",
+    "music": 0
+  },
+  {
+    "from": 647.04,
+    "to": 651.3,
+    "sid": 271,
+    "location": 2,
+    "content": "现在我们拥有了视觉编码器和文本编码器",
+    "music": 0
+  },
+  {
+    "from": 651.3,
+    "to": 654.58,
+    "sid": 272,
+    "location": 2,
+    "content": "随后即可利用这一流程来训练模型",
+    "music": 0
+  },
+  {
+    "from": 654.58,
+    "to": 655.98,
+    "sid": 273,
+    "location": 2,
+    "content": "它代表了整个序列",
+    "music": 0
+  },
+  {
+    "from": 655.98,
+    "to": 659.18,
+    "sid": 274,
+    "location": 2,
+    "content": "现在我们有了视觉编码器和文本编码器",
+    "music": 0
+  },
+  {
+    "from": 659.18,
+    "to": 660.03,
+    "sid": 275,
+    "location": 2,
+    "content": "明白了吗",
+    "music": 0
+  },
+  {
+    "from": 660.03,
+    "to": 664.71,
+    "sid": 276,
+    "location": 2,
+    "content": "因此clip在2021年引发广泛关注的关键成果是",
+    "music": 0
+  },
+  {
+    "from": 664.71,
+    "to": 668.57,
+    "sid": 277,
+    "location": 2,
+    "content": "在image net基准测试中实现了零样本分类",
+    "music": 0
+  },
+  {
+    "from": 668.57,
+    "to": 672.48,
+    "sid": 278,
+    "location": 2,
+    "content": "它的表现超越了在120万张图像上训练的模型",
+    "music": 0
+  },
+  {
+    "from": 672.48,
+    "to": 676,
+    "sid": 279,
+    "location": 2,
+    "content": "注意是图像images而非图片",
+    "music": 0
+  },
+  {
+    "from": 676,
+    "to": 677.04,
+    "sid": 280,
+    "location": 2,
+    "content": "我们可以想一下",
+    "music": 0
+  },
+  {
+    "from": 677.04,
+    "to": 679.06,
+    "sid": 281,
+    "location": 2,
+    "content": "处理120万张image图像",
+    "music": 0
+  },
+  {
+    "from": 679.06,
+    "to": 680.08,
+    "sid": 282,
+    "location": 2,
+    "content": "需要亚马逊机械",
+    "music": 0
+  },
+  {
+    "from": 680.08,
+    "to": 684.36,
+    "sid": 283,
+    "location": 2,
+    "content": "土耳其amazon mechanical turk的工人投入大量工时进行数据清洗",
+    "music": 0
+  },
+  {
+    "from": 684.36,
+    "to": 688.98,
+    "sid": 284,
+    "location": 2,
+    "content": "而现在你使用的是在更自然的网络数据上训练的clip",
+    "music": 0
+  },
+  {
+    "from": 688.98,
+    "to": 692.14,
+    "sid": 285,
+    "location": 2,
+    "content": "诚然这确实利用了网络上众人的劳动",
+    "music": 0
+  },
+  {
+    "from": 692.14,
+    "to": 694.4,
+    "sid": 286,
+    "location": 2,
+    "content": "但既然能直接利用这些线程数据",
+    "music": 0
+  },
+  {
+    "from": 694.4,
+    "to": 696.26,
+    "sid": 287,
+    "location": 2,
+    "content": "就能直接进行零样本推理",
+    "music": 0
+  },
+  {
+    "from": 696.26,
+    "to": 698.39,
+    "sid": 288,
+    "location": 2,
+    "content": "零样本技术的基本原理是",
+    "music": 0
+  },
+  {
+    "from": 698.39,
+    "to": 700.31,
+    "sid": 289,
+    "location": 2,
+    "content": "虽然这里没有幻灯片展示",
+    "music": 0
+  },
+  {
+    "from": 700.31,
+    "to": 701.81,
+    "sid": 290,
+    "location": 2,
+    "content": "但逻辑很简单",
+    "music": 0
+  },
+  {
+    "from": 701.81,
+    "to": 702.99,
+    "sid": 291,
+    "location": 2,
+    "content": "你拿一张图",
+    "music": 0
+  },
+  {
+    "from": 702.99,
+    "to": 704.65,
+    "sid": 292,
+    "location": 2,
+    "content": "再准备一堆文本",
+    "music": 0
+  },
+  {
+    "from": 704.65,
+    "to": 707.39,
+    "sid": 293,
+    "location": 2,
+    "content": "然后计算它们与各个标签的点击",
+    "music": 0
+  },
+  {
+    "from": 707.39,
+    "to": 709.25,
+    "sid": 294,
+    "location": 2,
+    "content": "看谁的得分最高",
+    "music": 0
+  },
+  {
+    "from": 709.25,
+    "to": 711.15,
+    "sid": 295,
+    "location": 2,
+    "content": "我们继续",
+    "music": 0
+  },
+  {
+    "from": 714.82,
+    "to": 715.94,
+    "sid": 296,
+    "location": 2,
+    "content": "对确实是这样",
+    "music": 0
+  },
+  {
+    "from": 715.94,
+    "to": 716.36,
+    "sid": 297,
+    "location": 2,
+    "content": "抱歉",
+    "music": 0
+  },
+  {
+    "from": 716.36,
+    "to": 718.56,
+    "sid": 298,
+    "location": 2,
+    "content": "这部分在侧面好的好问题",
+    "music": 0
+  },
+  {
+    "from": 718.56,
+    "to": 720.98,
+    "sid": 299,
+    "location": 2,
+    "content": "所以这是领养本预测嗯",
+    "music": 0
+  },
+  {
+    "from": 721.1,
+    "to": 723.56,
+    "sid": 300,
+    "location": 2,
+    "content": "就是你拿一张图片",
+    "music": 0
+  },
+  {
+    "from": 723.56,
+    "to": 724.22,
+    "sid": 301,
+    "location": 2,
+    "content": "然后你",
+    "music": 0
+  },
+  {
+    "from": 727.06,
+    "to": 730.12,
+    "sid": 302,
+    "location": 2,
+    "content": "对就像我之前说的有问题吗",
+    "music": 0
+  },
+  {
+    "from": 730.12,
+    "to": 731.75,
+    "sid": 303,
+    "location": 2,
+    "content": "律师的就这样",
+    "music": 0
+  },
+  {
+    "from": 731.75,
+    "to": 732.91,
+    "sid": 304,
+    "location": 2,
+    "content": "我们遇到了一个问题",
+    "music": 0
+  },
+  {
+    "from": 732.91,
+    "to": 734.93,
+    "sid": 305,
+    "location": 2,
+    "content": "比如这里有一张狗的图片",
+    "music": 0
+  },
+  {
+    "from": 734.93,
+    "to": 738.9,
+    "sid": 306,
+    "location": 2,
+    "content": "对于所有的标题也是不只是这个简单的标题",
+    "music": 0
+  },
+  {
+    "from": 738.9,
+    "to": 741.69,
+    "sid": 307,
+    "location": 2,
+    "content": "这只狗也许其他标题也和狗有关",
+    "music": 0
+  },
+  {
+    "from": 741.69,
+    "to": 743.87,
+    "sid": 308,
+    "location": 2,
+    "content": "这会让模型产生混淆吗",
+    "music": 0
+  },
+  {
+    "from": 743.87,
+    "to": 744.63,
+    "sid": 309,
+    "location": 2,
+    "content": "没错",
+    "music": 0
+  },
+  {
+    "from": 744.63,
+    "to": 745.65,
+    "sid": 310,
+    "location": 2,
+    "content": "所以问题是",
+    "music": 0
+  },
+  {
+    "from": 745.65,
+    "to": 746.71,
+    "sid": 311,
+    "location": 2,
+    "content": "如果你有一只狗",
+    "music": 0
+  },
+  {
+    "from": 746.71,
+    "to": 748.59,
+    "sid": 312,
+    "location": 2,
+    "content": "也许还有其他标题也提到狗",
+    "music": 0
+  },
+  {
+    "from": 748.59,
+    "to": 749.71,
+    "sid": 313,
+    "location": 2,
+    "content": "这会混淆模型吗",
+    "music": 0
+  },
+  {
+    "from": 749.71,
+    "to": 753.42,
+    "sid": 314,
+    "location": 2,
+    "content": "嗯一般来说这个过程是有噪声的",
+    "music": 0
+  },
+  {
+    "from": 753.42,
+    "to": 755.61,
+    "sid": 315,
+    "location": 2,
+    "content": "嗯如果有另一只狗也没关系",
+    "music": 0
+  },
+  {
+    "from": 755.61,
+    "to": 758.79,
+    "sid": 316,
+    "location": 2,
+    "content": "因为平均来看嗯不太可能总是出现梗",
+    "music": 0
+  },
+  {
+    "from": 758.79,
+    "to": 761.47,
+    "sid": 317,
+    "location": 2,
+    "content": "有时会是苹果或猫之类的东西啊",
+    "music": 0
+  },
+  {
+    "from": 761.47,
+    "to": 766.73,
+    "sid": 318,
+    "location": 2,
+    "content": "还有一点是这些图片是嗯嗯如果有另一只狗也没关系",
+    "music": 0
+  },
+  {
+    "from": 766.73,
+    "to": 770.25,
+    "sid": 319,
+    "location": 2,
+    "content": "因为平均来看不太可能总是出现狗嗯",
+    "music": 0
+  },
+  {
+    "from": 770.25,
+    "to": 772.41,
+    "sid": 320,
+    "location": 2,
+    "content": "还有一点是这些图片是呃",
+    "music": 0
+  },
+  {
+    "from": 772.41,
+    "to": 775.67,
+    "sid": 321,
+    "location": 2,
+    "content": "并不一定只是如实描述图像内容没错",
+    "music": 0
+  },
+  {
+    "from": 775.67,
+    "to": 777.23,
+    "sid": 322,
+    "location": 2,
+    "content": "因为如果图像是一只狗",
+    "music": 0
+  },
+  {
+    "from": 777.23,
+    "to": 778.55,
+    "sid": 323,
+    "location": 2,
+    "content": "你就不需要特意说明这只狗",
+    "music": 0
+  },
+  {
+    "from": 778.55,
+    "to": 780.15,
+    "sid": 324,
+    "location": 2,
+    "content": "因此这一过程噪声很大",
+    "music": 0
+  },
+  {
+    "from": 780.15,
+    "to": 782.01,
+    "sid": 325,
+    "location": 2,
+    "content": "也许令人有些意外",
+    "music": 0
+  },
+  {
+    "from": 782.01,
+    "to": 783.23,
+    "sid": 326,
+    "location": 2,
+    "content": "但有趣的是",
+    "music": 0
+  },
+  {
+    "from": 783.23,
+    "to": 784.11,
+    "sid": 327,
+    "location": 2,
+    "content": "它确实有效",
+    "music": 0
+  },
+  {
+    "from": 784.11,
+    "to": 786.819,
+    "sid": 328,
+    "location": 2,
+    "content": "我的意思是需要进行大量的数据过滤",
+    "music": 0
+  },
+  {
+    "from": 786.819,
+    "to": 789.939,
+    "sid": 329,
+    "location": 2,
+    "content": "因此如果随意选取网络上的图像和文本",
+    "music": 0
+  },
+  {
+    "from": 789.939,
+    "to": 791.019,
+    "sid": 330,
+    "location": 2,
+    "content": "噪声可能会过大",
+    "music": 0
+  },
+  {
+    "from": 791.019,
+    "to": 792.079,
+    "sid": 331,
+    "location": 2,
+    "content": "还有一点需要注意",
+    "music": 0
+  },
+  {
+    "from": 792.079,
+    "to": 794.159,
+    "sid": 332,
+    "location": 2,
+    "content": "这与我将在最后回到的一点有关",
+    "music": 0
+  },
+  {
+    "from": 794.159,
+    "to": 796,
+    "sid": 333,
+    "location": 2,
+    "content": "他们还尝试了另一种替代方案",
+    "music": 0
+  },
+  {
+    "from": 796,
+    "to": 797.94,
+    "sid": 334,
+    "location": 2,
+    "content": "既不进行这种排序",
+    "music": 0
+  },
+  {
+    "from": 797.94,
+    "to": 800.28,
+    "sid": 335,
+    "location": 2,
+    "content": "而是从图像中预测文本",
+    "music": 0
+  },
+  {
+    "from": 800.28,
+    "to": 802.609,
+    "sid": 336,
+    "location": 2,
+    "content": "因此它们可以设定一个目标",
+    "music": 0
+  },
+  {
+    "from": 802.609,
+    "to": 804.769,
+    "sid": 337,
+    "location": 2,
+    "content": "尝试从图像中预测文本",
+    "music": 0
+  },
+  {
+    "from": 804.769,
+    "to": 807.449,
+    "sid": 338,
+    "location": 2,
+    "content": "既可以作为磁带bag words形式",
+    "music": 0
+  },
+  {
+    "from": 807.449,
+    "to": 809.549,
+    "sid": 339,
+    "location": 2,
+    "content": "他们还尝试了另一种思路",
+    "music": 0
+  },
+  {
+    "from": 809.549,
+    "to": 810.8,
+    "sid": 340,
+    "location": 2,
+    "content": "放弃排序",
+    "music": 0
+  },
+  {
+    "from": 810.8,
+    "to": 814.3,
+    "sid": 341,
+    "location": 2,
+    "content": "改为让模型根据图像直接预测文本",
+    "music": 0
+  },
+  {
+    "from": 814.3,
+    "to": 816.29,
+    "sid": 342,
+    "location": 2,
+    "content": "于是他们设定了一个目标",
+    "music": 0
+  },
+  {
+    "from": 816.29,
+    "to": 818.71,
+    "sid": 343,
+    "location": 2,
+    "content": "即让模型根据图像预测文本",
+    "music": 0
+  },
+  {
+    "from": 818.71,
+    "to": 821.53,
+    "sid": 344,
+    "location": 2,
+    "content": "比如把文本当做磁带bag of words来处理",
+    "music": 0
+  },
+  {
+    "from": 821.53,
+    "to": 824.95,
+    "sid": 345,
+    "location": 2,
+    "content": "这和clip使用的磁带方法不同",
+    "music": 0
+  },
+  {
+    "from": 824.95,
+    "to": 829.23,
+    "sid": 346,
+    "location": 2,
+    "content": "所以我的观点是对于你真正想学习的表示",
+    "music": 0
+  },
+  {
+    "from": 829.23,
+    "to": 831.83,
+    "sid": 347,
+    "location": 2,
+    "content": "或者说看image net的准确率",
+    "music": 0
+  },
+  {
+    "from": 831.83,
+    "to": 833.89,
+    "sid": 348,
+    "location": 2,
+    "content": "也就是分类任务的表现",
+    "music": 0
+  },
+  {
+    "from": 833.89,
+    "to": 837.17,
+    "sid": 349,
+    "location": 2,
+    "content": "实际上精确建模字幕的token序列",
+    "music": 0
+  },
+  {
+    "from": 837.17,
+    "to": 841.19,
+    "sid": 350,
+    "location": 2,
+    "content": "对于获取图像的粗略表示来说并没有那么关键",
+    "music": 0
+  },
+  {
+    "from": 841.19,
+    "to": 844.31,
+    "sid": 351,
+    "location": 2,
+    "content": "好我们稍后再回到这一点",
+    "music": 0
+  },
+  {
+    "from": 844.31,
+    "to": 846.79,
+    "sid": 352,
+    "location": 2,
+    "content": "那么到目前为止我们学到了什么",
+    "music": 0
+  },
+  {
+    "from": 846.79,
+    "to": 848.41,
+    "sid": 353,
+    "location": 2,
+    "content": "我们已经对图像进行了编码",
+    "music": 0
+  },
+  {
+    "from": 848.41,
+    "to": 851.14,
+    "sid": 354,
+    "location": 2,
+    "content": "使用clip它能捕捉图像的语义",
+    "music": 0
+  },
+  {
+    "from": 851.14,
+    "to": 852.58,
+    "sid": 355,
+    "location": 2,
+    "content": "因为它与文本配对",
+    "music": 0
+  },
+  {
+    "from": 852.58,
+    "to": 854.64,
+    "sid": 356,
+    "location": 2,
+    "content": "而文本通常描述的正是羽翼",
+    "music": 0
+  },
+  {
+    "from": 854.64,
+    "to": 855.66,
+    "sid": 357,
+    "location": 2,
+    "content": "需要指出的是",
+    "music": 0
+  },
+  {
+    "from": 855.66,
+    "to": 858.62,
+    "sid": 358,
+    "location": 2,
+    "content": "这里的设计决策是基于图像分类的",
+    "music": 0
+  },
+  {
+    "from": 858.62,
+    "to": 861.19,
+    "sid": 359,
+    "location": 2,
+    "content": "因此它的力度并不十分精细",
+    "music": 0
+  },
+  {
+    "from": 861.19,
+    "to": 862.85,
+    "sid": 360,
+    "location": 2,
+    "content": "但正如我们将要提到的",
+    "music": 0
+  },
+  {
+    "from": 862.85,
+    "to": 867.98,
+    "sid": 361,
+    "location": 2,
+    "content": "它仍然为我们后续要做的所有事情提供了一个稳健的起点",
+    "music": 0
+  },
+  {
+    "from": 867.98,
+    "to": 869.84,
+    "sid": 362,
+    "location": 2,
+    "content": "clip在技术上的一个缺点是",
+    "music": 0
+  },
+  {
+    "from": 869.84,
+    "to": 871.58,
+    "sid": 363,
+    "location": 2,
+    "content": "它需要较大的批量大小",
+    "music": 0
+  },
+  {
+    "from": 871.58,
+    "to": 872.7,
+    "sid": 364,
+    "location": 2,
+    "content": "比如3×000",
+    "music": 0
+  },
+  {
+    "from": 872.7,
+    "to": 874.41,
+    "sid": 365,
+    "location": 2,
+    "content": "如果你的批量大小仅为一",
+    "music": 0
+  },
+  {
+    "from": 874.41,
+    "to": 875.61,
+    "sid": 366,
+    "location": 2,
+    "content": "显然他无法工作",
+    "music": 0
+  },
+  {
+    "from": 875.61,
+    "to": 876.89,
+    "sid": 367,
+    "location": 2,
+    "content": "即使是十也不行",
+    "music": 0
+  },
+  {
+    "from": 876.89,
+    "to": 880.45,
+    "sid": 368,
+    "location": 2,
+    "content": "此外soft matt操作是在整个批量上进行的",
+    "music": 0
+  },
+  {
+    "from": 880.45,
+    "to": 883.04,
+    "sid": 369,
+    "location": 2,
+    "content": "因此它缺乏良好的可分解性",
+    "music": 0
+  },
+  {
+    "from": 883.04,
+    "to": 883.94,
+    "sid": 370,
+    "location": 2,
+    "content": "相比之下",
+    "music": 0
+  },
+  {
+    "from": 883.94,
+    "to": 885.96,
+    "sid": 371,
+    "location": 2,
+    "content": "在常规语言模型训练中",
+    "music": 0
+  },
+  {
+    "from": 885.96,
+    "to": 888.8,
+    "sid": 372,
+    "location": 2,
+    "content": "一批样本中的所有序列会被并行处理",
+    "music": 0
+  },
+  {
+    "from": 888.8,
+    "to": 890.52,
+    "sid": 373,
+    "location": 2,
+    "content": "最后只需进行聚合",
+    "music": 0
+  },
+  {
+    "from": 890.52,
+    "to": 895.95,
+    "sid": 374,
+    "location": 2,
+    "content": "这一问题将由谷歌发布的另一篇名为seed clip的论文来解决",
+    "music": 0
+  },
+  {
+    "from": 895.95,
+    "to": 899.01,
+    "sid": 375,
+    "location": 2,
+    "content": "因此你可以将其基本视为clip的改进版本",
+    "music": 0
+  },
+  {
+    "from": 899.01,
+    "to": 902.48,
+    "sid": 376,
+    "location": 2,
+    "content": "它代表用于语言图像预训练的signal损失",
+    "music": 0
+  },
+  {
+    "from": 902.48,
+    "to": 904.18,
+    "sid": 377,
+    "location": 2,
+    "content": "这里的主要区别在于",
+    "music": 0
+  },
+  {
+    "from": 904.18,
+    "to": 906.91,
+    "sid": 378,
+    "location": 2,
+    "content": "clip执行的是多类别分类",
+    "music": 0
+  },
+  {
+    "from": 906.91,
+    "to": 910.29,
+    "sid": 379,
+    "location": 2,
+    "content": "其逻辑是既然拥有匹配的文本和图像对",
+    "music": 0
+  },
+  {
+    "from": 910.29,
+    "to": 912.26,
+    "sid": 380,
+    "location": 2,
+    "content": "就将这一对视为正样本",
+    "music": 0
+  },
+  {
+    "from": 912.26,
+    "to": 915.54,
+    "sid": 381,
+    "location": 2,
+    "content": "与其他所有不匹配的图像或文本进行对比",
+    "music": 0
+  },
+  {
+    "from": 915.54,
+    "to": 916.66,
+    "sid": 382,
+    "location": 2,
+    "content": "从某种意义上说",
+    "music": 0
+  },
+  {
+    "from": 916.66,
+    "to": 917.87,
+    "sid": 383,
+    "location": 2,
+    "content": "CCL简单的多",
+    "music": 0
+  },
+  {
+    "from": 917.87,
+    "to": 922.569,
+    "sid": 384,
+    "location": 2,
+    "content": "他基本只问对于任意给定的图像文本对他们是否对齐",
+    "music": 0
+  },
+  {
+    "from": 922.569,
+    "to": 923.209,
+    "sid": 385,
+    "location": 2,
+    "content": "没错",
+    "music": 0
+  },
+  {
+    "from": 923.209,
+    "to": 924.509,
+    "sid": 386,
+    "location": 2,
+    "content": "大家看上面这张图",
+    "music": 0
+  },
+  {
+    "from": 924.509,
+    "to": 926.409,
+    "sid": 387,
+    "location": 2,
+    "content": "这其实是个二分类问题",
+    "music": 0
+  },
+  {
+    "from": 926.409,
+    "to": 928.249,
+    "sid": 388,
+    "location": 2,
+    "content": "对角线上的元素是正样本",
+    "music": 0
+  },
+  {
+    "from": 928.249,
+    "to": 929.689,
+    "sid": 389,
+    "location": 2,
+    "content": "对角线外的就是负样本",
+    "music": 0
+  },
+  {
+    "from": 929.689,
+    "to": 930.67,
+    "sid": 390,
+    "location": 2,
+    "content": "就这么简单",
+    "music": 0
+  },
+  {
+    "from": 930.67,
+    "to": 932.41,
+    "sid": 391,
+    "location": 2,
+    "content": "咱们来看算法流程",
+    "music": 0
+  },
+  {
+    "from": 932.41,
+    "to": 934.01,
+    "sid": 392,
+    "location": 2,
+    "content": "拿到嵌入向量后",
+    "music": 0
+  },
+  {
+    "from": 934.01,
+    "to": 935.37,
+    "sid": 393,
+    "location": 2,
+    "content": "先做归一化",
+    "music": 0
+  },
+  {
+    "from": 935.37,
+    "to": 937.35,
+    "sid": 394,
+    "location": 2,
+    "content": "然后照常计算点击",
+    "music": 0
+  },
+  {
+    "from": 937.35,
+    "to": 940.07,
+    "sid": 395,
+    "location": 2,
+    "content": "不过现在咱们是在计算相似度",
+    "music": 0
+  },
+  {
+    "from": 940.07,
+    "to": 941.37,
+    "sid": 396,
+    "location": 2,
+    "content": "咱们来设定标签",
+    "music": 0
+  },
+  {
+    "from": 941.37,
+    "to": 943.91,
+    "sid": 397,
+    "location": 2,
+    "content": "非对角线位置标为一",
+    "music": 0
+  },
+  {
+    "from": 943.91,
+    "to": 945.95,
+    "sid": 398,
+    "location": 2,
+    "content": "对角线位置标为正一",
+    "music": 0
+  },
+  {
+    "from": 945.95,
+    "to": 948.37,
+    "sid": 399,
+    "location": 2,
+    "content": "接着执行交叉熵损失计算",
+    "music": 0
+  },
+  {
+    "from": 948.37,
+    "to": 950.41,
+    "sid": 400,
+    "location": 2,
+    "content": "也就是对数SIGMOID",
+    "music": 0
+  },
+  {
+    "from": 950.41,
+    "to": 952.89,
+    "sid": 401,
+    "location": 2,
+    "content": "所以这个目标函数非常简单",
+    "music": 0
+  },
+  {
+    "from": 952.89,
+    "to": 954.47,
+    "sid": 402,
+    "location": 2,
+    "content": "咱们来定义一下标签",
+    "music": 0
+  },
+  {
+    "from": 954.47,
+    "to": 956.65,
+    "sid": 403,
+    "location": 2,
+    "content": "所以对角线位置标记为一",
+    "music": 0
+  },
+  {
+    "from": 956.65,
+    "to": 958.51,
+    "sid": 404,
+    "location": 2,
+    "content": "对角线位置标记为正一",
+    "music": 0
+  },
+  {
+    "from": 958.51,
+    "to": 961.79,
+    "sid": 405,
+    "location": 2,
+    "content": "然后实行交叉熵损失计算也是对四对",
+    "music": 0
+  },
+  {
+    "from": 961.79,
+    "to": 966.62,
+    "sid": 406,
+    "location": 2,
+    "content": "最终因此这个目标还是非常简单",
+    "music": 0
+  },
+  {
+    "from": 966.62,
+    "to": 967.74,
+    "sid": 407,
+    "location": 2,
+    "content": "对那问题来了",
+    "music": 0
+  },
+  {
+    "from": 967.74,
+    "to": 969.82,
+    "sid": 408,
+    "location": 2,
+    "content": "这需要采用复杂的采样策略吗",
+    "music": 0
+  },
+  {
+    "from": 969.82,
+    "to": 972.12,
+    "sid": 409,
+    "location": 2,
+    "content": "呃在最早的那篇论文里",
+    "music": 0
+  },
+  {
+    "from": 972.12,
+    "to": 974.52,
+    "sid": 410,
+    "location": 2,
+    "content": "他们直接操作的是同一种类型的矩阵",
+    "music": 0
+  },
+  {
+    "from": 974.52,
+    "to": 975.72,
+    "sid": 411,
+    "location": 2,
+    "content": "我猜你大概在想",
+    "music": 0
+  },
+  {
+    "from": 975.72,
+    "to": 978.87,
+    "sid": 412,
+    "location": 2,
+    "content": "一般情况在进行这种对比学习时",
+    "music": 0
+  },
+  {
+    "from": 978.87,
+    "to": 980.21,
+    "sid": 413,
+    "location": 2,
+    "content": "负样本该怎么处理",
+    "music": 0
+  },
+  {
+    "from": 980.21,
+    "to": 982.33,
+    "sid": 414,
+    "location": 2,
+    "content": "比如是否需要平衡正负样本",
+    "music": 0
+  },
+  {
+    "from": 982.33,
+    "to": 984.31,
+    "sid": 415,
+    "location": 2,
+    "content": "或者让负样本选的更紧一些",
+    "music": 0
+  },
+  {
+    "from": 984.31,
+    "to": 986.35,
+    "sid": 416,
+    "location": 2,
+    "content": "以避免模型学到错误的关联",
+    "music": 0
+  },
+  {
+    "from": 986.35,
+    "to": 987.17,
+    "sid": 417,
+    "location": 2,
+    "content": "产生偏差",
+    "music": 0
+  },
+  {
+    "from": 987.17,
+    "to": 988.69,
+    "sid": 418,
+    "location": 2,
+    "content": "不过在最初版本里",
+    "music": 0
+  },
+  {
+    "from": 988.69,
+    "to": 989.93,
+    "sid": 419,
+    "location": 2,
+    "content": "这其实挺简单的",
+    "music": 0
+  },
+  {
+    "from": 989.93,
+    "to": 993.01,
+    "sid": 420,
+    "location": 2,
+    "content": "所以咱们来聊聊数据嗯",
+    "music": 0
+  },
+  {
+    "from": 993.01,
+    "to": 995.55,
+    "sid": 421,
+    "location": 2,
+    "content": "你知道这是谷歌做的",
+    "music": 0
+  },
+  {
+    "from": 995.55,
+    "to": 996.69,
+    "sid": 422,
+    "location": 2,
+    "content": "这是一个数据集",
+    "music": 0
+  },
+  {
+    "from": 996.69,
+    "to": 998.33,
+    "sid": 423,
+    "location": 2,
+    "content": "他们参考了另一篇论文",
+    "music": 0
+  },
+  {
+    "from": 998.33,
+    "to": 1002.21,
+    "sid": 424,
+    "location": 2,
+    "content": "即2022年左右出现的一款语言图像模型",
+    "music": 0
+  },
+  {
+    "from": 1002.21,
+    "to": 1004.27,
+    "sid": 425,
+    "location": 2,
+    "content": "该模型使用了web类数据集",
+    "music": 0
+  },
+  {
+    "from": 1004.27,
+    "to": 1006.27,
+    "sid": 426,
+    "location": 2,
+    "content": "其中包含11集的图像文本",
+    "music": 0
+  },
+  {
+    "from": 1006.27,
+    "to": 1007.97,
+    "sid": 427,
+    "location": 2,
+    "content": "对他们还做了一些额外处理",
+    "music": 0
+  },
+  {
+    "from": 1007.97,
+    "to": 1010.45,
+    "sid": 428,
+    "location": 2,
+    "content": "比如针对图片中包含文字的情况",
+    "music": 0
+  },
+  {
+    "from": 1010.45,
+    "to": 1011.73,
+    "sid": 429,
+    "location": 2,
+    "content": "他们使用了OCR技术",
+    "music": 0
+  },
+  {
+    "from": 1011.73,
+    "to": 1014.09,
+    "sid": 430,
+    "location": 2,
+    "content": "这也是构建图像文本对的一种方法",
+    "music": 0
+  },
+  {
+    "from": 1014.09,
+    "to": 1016.21,
+    "sid": 431,
+    "location": 2,
+    "content": "他们还进行了一些过滤",
+    "music": 0
+  },
+  {
+    "from": 1016.21,
+    "to": 1018.59,
+    "sid": 432,
+    "location": 2,
+    "content": "这个数据集是多语言的",
+    "music": 0
+  },
+  {
+    "from": 1018.59,
+    "to": 1022.78,
+    "sid": 433,
+    "location": 2,
+    "content": "这篇论文的核心观点是其训练效率远高于clip",
+    "music": 0
+  },
+  {
+    "from": 1022.78,
+    "to": 1026.18,
+    "sid": 434,
+    "location": 2,
+    "content": "clip是在256个TPUV上训练了十天",
+    "music": 0
+  },
+  {
+    "from": 1026.18,
+    "to": 1030.03,
+    "sid": 435,
+    "location": 2,
+    "content": "而C格勒仅用了32块vi显卡训练了五天",
+    "music": 0
+  },
+  {
+    "from": 1033.03,
+    "to": 1034.95,
+    "sid": 436,
+    "location": 2,
+    "content": "单看每秒浮点运算次数",
+    "music": 0
+  },
+  {
+    "from": 1034.95,
+    "to": 1036.39,
+    "sid": 437,
+    "location": 2,
+    "content": "他们其实并不更快",
+    "music": 0
+  },
+  {
+    "from": 1036.39,
+    "to": 1039.35,
+    "sid": 438,
+    "location": 2,
+    "content": "优势在于你可以在一个pod中部署更多设备",
+    "music": 0
+  },
+  {
+    "from": 1039.35,
+    "to": 1040.46,
+    "sid": 439,
+    "location": 2,
+    "content": "且互联性能更好",
+    "music": 0
+  },
+  {
+    "from": 1040.46,
+    "to": 1041.74,
+    "sid": 440,
+    "location": 2,
+    "content": "但在这个规模下",
+    "music": 0
+  },
+  {
+    "from": 1041.74,
+    "to": 1043.58,
+    "sid": 441,
+    "location": 2,
+    "content": "实际情况是效果非常显著",
+    "music": 0
+  },
+  {
+    "from": 1043.58,
+    "to": 1045.18,
+    "sid": 442,
+    "location": 2,
+    "content": "你知道并没有更快",
+    "music": 0
+  },
+  {
+    "from": 1045.18,
+    "to": 1047.54,
+    "sid": 443,
+    "location": 2,
+    "content": "实际上速度慢了大约60%",
+    "music": 0
+  },
+  {
+    "from": 1047.54,
+    "to": 1049.55,
+    "sid": 444,
+    "location": 2,
+    "content": "所以这种方式之所以更快",
+    "music": 0
+  },
+  {
+    "from": 1049.55,
+    "to": 1052.99,
+    "sid": 445,
+    "location": 2,
+    "content": "我认为clip可能并未针对最大吞吐量优化代码",
+    "music": 0
+  },
+  {
+    "from": 1052.99,
+    "to": 1054.9,
+    "sid": 446,
+    "location": 2,
+    "content": "当时只是想先把模型跑通",
+    "music": 0
+  },
+  {
+    "from": 1054.9,
+    "to": 1057.02,
+    "sid": 447,
+    "location": 2,
+    "content": "不过CIGAE论文展示了",
+    "music": 0
+  },
+  {
+    "from": 1057.02,
+    "to": 1058.68,
+    "sid": 448,
+    "location": 2,
+    "content": "我们可以这样进行并行化",
+    "music": 0
+  },
+  {
+    "from": 1058.68,
+    "to": 1062.33,
+    "sid": 449,
+    "location": 2,
+    "content": "所以大家可以回想一下之前的系统课",
+    "music": 0
+  },
+  {
+    "from": 1062.33,
+    "to": 1064.47,
+    "sid": 450,
+    "location": 2,
+    "content": "把它看作也就是DDP",
+    "music": 0
+  },
+  {
+    "from": 1064.47,
+    "to": 1068.639,
+    "sid": 451,
+    "location": 2,
+    "content": "每个设备各自存储一部分图像文本",
+    "music": 0
+  },
+  {
+    "from": 1068.639,
+    "to": 1071.85,
+    "sid": 452,
+    "location": 2,
+    "content": "对不过这里样本之间存在交互",
+    "music": 0
+  },
+  {
+    "from": 1071.85,
+    "to": 1073.27,
+    "sid": 453,
+    "location": 2,
+    "content": "不像语言模型训练那样",
+    "music": 0
+  },
+  {
+    "from": 1073.27,
+    "to": 1074.23,
+    "sid": 454,
+    "location": 2,
+    "content": "各项完全独立",
+    "music": 0
+  },
+  {
+    "from": 1074.23,
+    "to": 1075.8,
+    "sid": 455,
+    "location": 2,
+    "content": "所以在第一轮中",
+    "music": 0
+  },
+  {
+    "from": 1075.8,
+    "to": 1080.34,
+    "sid": 456,
+    "location": 2,
+    "content": "每个设备只计算他手头那些图像文本队的损失",
+    "music": 0
+  },
+  {
+    "from": 1080.34,
+    "to": 1082.12,
+    "sid": 457,
+    "location": 2,
+    "content": "接着输入文本",
+    "music": 0
+  },
+  {
+    "from": 1082.12,
+    "to": 1085.82,
+    "sid": 458,
+    "location": 2,
+    "content": "这样设备一就能拿到T5到T8",
+    "music": 0
+  },
+  {
+    "from": 1085.82,
+    "to": 1088.96,
+    "sid": 459,
+    "location": 2,
+    "content": "并据此计算这里的负样本",
+    "music": 0
+  },
+  {
+    "from": 1088.96,
+    "to": 1091.12,
+    "sid": 460,
+    "location": 2,
+    "content": "接着获取T9到T12",
+    "music": 0
+  },
+  {
+    "from": 1091.12,
+    "to": 1091.92,
+    "sid": 461,
+    "location": 2,
+    "content": "以此类推",
+    "music": 0
+  },
+  {
+    "from": 1091.92,
+    "to": 1092.76,
+    "sid": 462,
+    "location": 2,
+    "content": "不断轮换",
+    "music": 0
+  },
+  {
+    "from": 1092.76,
+    "to": 1095.78,
+    "sid": 463,
+    "location": 2,
+    "content": "直到覆盖所有非对角线块中的条目",
+    "music": 0
+  },
+  {
+    "from": 1095.78,
+    "to": 1098.33,
+    "sid": 464,
+    "location": 2,
+    "content": "好的cup的一个优势在于",
+    "music": 0
+  },
+  {
+    "from": 1098.33,
+    "to": 1102.39,
+    "sid": 465,
+    "location": 2,
+    "content": "它有效地将批量大小与损失解耦了",
+    "music": 0
+  },
+  {
+    "from": 1102.39,
+    "to": 1103.49,
+    "sid": 466,
+    "location": 2,
+    "content": "相比之下",
+    "music": 0
+  },
+  {
+    "from": 1103.49,
+    "to": 1104.7,
+    "sid": 467,
+    "location": 2,
+    "content": "在clip中",
+    "music": 0
+  },
+  {
+    "from": 1104.7,
+    "to": 1107.2,
+    "sid": 468,
+    "location": 2,
+    "content": "损失是依赖于批量大小的",
+    "music": 0
+  },
+  {
+    "from": 1107.2,
+    "to": 1108.66,
+    "sid": 469,
+    "location": 2,
+    "content": "如果你改变了批量大小",
+    "music": 0
+  },
+  {
+    "from": 1108.66,
+    "to": 1109.88,
+    "sid": 470,
+    "location": 2,
+    "content": "损失函数也就变了",
+    "music": 0
+  },
+  {
+    "from": 1109.88,
+    "to": 1112.16,
+    "sid": 471,
+    "location": 2,
+    "content": "所以他们得以用更小的批量大小做实验",
+    "music": 0
+  },
+  {
+    "from": 1112.16,
+    "to": 1113.53,
+    "sid": 472,
+    "location": 2,
+    "content": "比如小于16K",
+    "music": 0
+  },
+  {
+    "from": 1113.53,
+    "to": 1114.69,
+    "sid": 473,
+    "location": 2,
+    "content": "在这种设置下",
+    "music": 0
+  },
+  {
+    "from": 1114.69,
+    "to": 1116.429,
+    "sid": 474,
+    "location": 2,
+    "content": "它的表现远优于clip",
+    "music": 0
+  },
+  {
+    "from": 1116.429,
+    "to": 1119.469,
+    "sid": 475,
+    "location": 2,
+    "content": "因为在clip中如果批量大小过小",
+    "music": 0
+  },
+  {
+    "from": 1119.469,
+    "to": 1120.809,
+    "sid": 476,
+    "location": 2,
+    "content": "损失函数就会退化",
+    "music": 0
+  },
+  {
+    "from": 1120.809,
+    "to": 1122.05,
+    "sid": 477,
+    "location": 2,
+    "content": "而对于c clip",
+    "music": 0
+  },
+  {
+    "from": 1122.05,
+    "to": 1123.43,
+    "sid": 478,
+    "location": 2,
+    "content": "即使批量较小",
+    "music": 0
+  },
+  {
+    "from": 1123.43,
+    "to": 1124.77,
+    "sid": 479,
+    "location": 2,
+    "content": "会导致方差较大",
+    "music": 0
+  },
+  {
+    "from": 1124.77,
+    "to": 1127.48,
+    "sid": 480,
+    "location": 2,
+    "content": "但其期望值与标准损失是一致的",
+    "music": 0
+  },
+  {
+    "from": 1127.48,
+    "to": 1128.34,
+    "sid": 481,
+    "location": 2,
+    "content": "他们还提到",
+    "music": 0
+  },
+  {
+    "from": 1128.34,
+    "to": 1130.3,
+    "sid": 482,
+    "location": 2,
+    "content": "虽然可以使用更大的批量大小",
+    "music": 0
+  },
+  {
+    "from": 1130.3,
+    "to": 1132.42,
+    "sid": 483,
+    "location": 2,
+    "content": "但这其实并没有带来实质性的帮助",
+    "music": 0
+  },
+  {
+    "from": 1132.42,
+    "to": 1133.619,
+    "sid": 484,
+    "location": 2,
+    "content": "谢谢好",
+    "music": 0
+  },
+  {
+    "from": 1133.619,
+    "to": 1136.019,
+    "sid": 485,
+    "location": 2,
+    "content": "接下来我们看看clip和c clip",
+    "music": 0
+  },
+  {
+    "from": 1136.019,
+    "to": 1137.219,
+    "sid": 486,
+    "location": 2,
+    "content": "这些是图像编码器",
+    "music": 0
+  },
+  {
+    "from": 1138.299,
+    "to": 1139.69,
+    "sid": 487,
+    "location": 2,
+    "content": "负责接收图像",
+    "music": 0
+  },
+  {
+    "from": 1139.69,
+    "to": 1141.65,
+    "sid": 488,
+    "location": 2,
+    "content": "在这个版本中是固定尺寸",
+    "music": 0
+  },
+  {
+    "from": 1141.65,
+    "to": 1143.98,
+    "sid": 489,
+    "location": 2,
+    "content": "例如336×336的图像",
+    "music": 0
+  },
+  {
+    "from": 1143.98,
+    "to": 1145.58,
+    "sid": 490,
+    "location": 2,
+    "content": "并将其映射为向量",
+    "music": 0
+  },
+  {
+    "from": 1145.58,
+    "to": 1148.72,
+    "sid": 491,
+    "location": 2,
+    "content": "好的这个向量里包含了一些语义信息",
+    "music": 0
+  },
+  {
+    "from": 1148.72,
+    "to": 1151.6,
+    "sid": 492,
+    "location": 2,
+    "content": "好的这个向量里包含了一些语义信息",
+    "music": 0
+  },
+  {
+    "from": 1151.6,
+    "to": 1155.52,
+    "sid": 493,
+    "location": 2,
+    "content": "好接下来我们开始构建视觉语言模型",
+    "music": 0
+  },
+  {
+    "from": 1155.52,
+    "to": 1156.98,
+    "sid": 494,
+    "location": 2,
+    "content": "也就是VRMS",
+    "music": 0
+  },
+  {
+    "from": 1156.98,
+    "to": 1158.6,
+    "sid": 495,
+    "location": 2,
+    "content": "我要介绍两类模型",
+    "music": 0
+  },
+  {
+    "from": 1158.6,
+    "to": 1159.64,
+    "sid": 496,
+    "location": 2,
+    "content": "lava和鲲",
+    "music": 0
+  },
+  {
+    "from": 1159.64,
+    "to": 1162.84,
+    "sid": 497,
+    "location": 2,
+    "content": "这两类模型在整体架构模板上非常相似",
+    "music": 0
+  },
+  {
+    "from": 1162.84,
+    "to": 1164.52,
+    "sid": 498,
+    "location": 2,
+    "content": "具体细节上会有些不同",
+    "music": 0
+  },
+  {
+    "from": 1164.52,
+    "to": 1165.71,
+    "sid": 499,
+    "location": 2,
+    "content": "我们稍后展开",
+    "music": 0
+  },
+  {
+    "from": 1165.71,
+    "to": 1170.13,
+    "sid": 500,
+    "location": 2,
+    "content": "其基本思路是将这些嵌入向量注入到语言模型中",
+    "music": 0
+  },
+  {
+    "from": 1170.13,
+    "to": 1171.51,
+    "sid": 501,
+    "location": 2,
+    "content": "而不是从零开始训练",
+    "music": 0
+  },
+  {
+    "from": 1171.51,
+    "to": 1173.34,
+    "sid": 502,
+    "location": 2,
+    "content": "谢谢好的",
+    "music": 0
+  },
+  {
+    "from": 1173.54,
+    "to": 1176.54,
+    "sid": 503,
+    "location": 2,
+    "content": "拉A论文发表于2023年",
+    "music": 0
+  },
+  {
+    "from": 1176.54,
+    "to": 1177.6,
+    "sid": 504,
+    "location": 2,
+    "content": "这让大家很兴奋",
+    "music": 0
+  },
+  {
+    "from": 1177.6,
+    "to": 1180,
+    "sid": 505,
+    "location": 2,
+    "content": "因为那时候像GPT这样的闭源模型",
+    "music": 0
+  },
+  {
+    "from": 1180,
+    "to": 1182.58,
+    "sid": 506,
+    "location": 2,
+    "content": "我觉得是g p t-4已经能做视觉推理了",
+    "music": 0
+  },
+  {
+    "from": 1182.58,
+    "to": 1185.32,
+    "sid": 507,
+    "location": 2,
+    "content": "而且他们展示了自己确实能做视觉推理",
+    "music": 0
+  },
+  {
+    "from": 1185.32,
+    "to": 1187.6,
+    "sid": 508,
+    "location": 2,
+    "content": "当然效果不如g p t-4",
+    "music": 0
+  },
+  {
+    "from": 1187.6,
+    "to": 1189,
+    "sid": 509,
+    "location": 2,
+    "content": "但这是个开源模型",
+    "music": 0
+  },
+  {
+    "from": 1189,
+    "to": 1191.64,
+    "sid": 510,
+    "location": 2,
+    "content": "大家得以看到它的内部运作机制",
+    "music": 0
+  },
+  {
+    "from": 1191.64,
+    "to": 1196.11,
+    "sid": 511,
+    "location": 2,
+    "content": "所以嗯四个VRM这里有展示了多模态能力的提升",
+    "music": 0
+  },
+  {
+    "from": 1196.11,
+    "to": 1198.659,
+    "sid": 512,
+    "location": 2,
+    "content": "本质上这里主要分几块",
+    "music": 0
+  },
+  {
+    "from": 1198.659,
+    "to": 1200.259,
+    "sid": 513,
+    "location": 2,
+    "content": "一个是视觉编码器",
+    "music": 0
+  },
+  {
+    "from": 1200.259,
+    "to": 1202.719,
+    "sid": 514,
+    "location": 2,
+    "content": "他们用的是clip文本解码器部分",
+    "music": 0
+  },
+  {
+    "from": 1202.719,
+    "to": 1204.76,
+    "sid": 515,
+    "location": 2,
+    "content": "他们用了个叫VIKA的语言模型",
+    "music": 0
+  },
+  {
+    "from": 1204.76,
+    "to": 1208.44,
+    "sid": 516,
+    "location": 2,
+    "content": "这是首个在共享GBT对话数据上微调过的拉马模型",
+    "music": 0
+  },
+  {
+    "from": 1208.44,
+    "to": 1210.79,
+    "sid": 517,
+    "location": 2,
+    "content": "他们用的是clip文本解码器部分",
+    "music": 0
+  },
+  {
+    "from": 1210.79,
+    "to": 1213.07,
+    "sid": 518,
+    "location": 2,
+    "content": "他们用了一个叫VIKA的语言模型",
+    "music": 0
+  },
+  {
+    "from": 1213.07,
+    "to": 1216.97,
+    "sid": 519,
+    "location": 2,
+    "content": "这是首个在共享GPT对话数据上微调过的拉马模型",
+    "music": 0
+  },
+  {
+    "from": 1216.97,
+    "to": 1219.07,
+    "sid": 520,
+    "location": 2,
+    "content": "本质上它主要由几个部分构成",
+    "music": 0
+  },
+  {
+    "from": 1219.07,
+    "to": 1220.67,
+    "sid": 521,
+    "location": 2,
+    "content": "首先是视觉编码器",
+    "music": 0
+  },
+  {
+    "from": 1220.67,
+    "to": 1222.07,
+    "sid": 522,
+    "location": 2,
+    "content": "他们使用的是clip",
+    "music": 0
+  },
+  {
+    "from": 1222.07,
+    "to": 1223.61,
+    "sid": 523,
+    "location": 2,
+    "content": "对于文本解码器",
+    "music": 0
+  },
+  {
+    "from": 1223.61,
+    "to": 1226.45,
+    "sid": 524,
+    "location": 2,
+    "content": "他们采用了一个名为VIKA的语言模型",
+    "music": 0
+  },
+  {
+    "from": 1226.45,
+    "to": 1231.4,
+    "sid": 525,
+    "location": 2,
+    "content": "这是首个在共享gt对话数据上进行微调的LM模型",
+    "music": 0
+  },
+  {
+    "from": 1231.4,
+    "to": 1233.34,
+    "sid": 526,
+    "location": 2,
+    "content": "数据集是ms coo",
+    "music": 0
+  },
+  {
+    "from": 1233.34,
+    "to": 1235.6,
+    "sid": 527,
+    "location": 2,
+    "content": "这是一个经过标注的数据集",
+    "music": 0
+  },
+  {
+    "from": 1235.6,
+    "to": 1238.64,
+    "sid": 528,
+    "location": 2,
+    "content": "研究人员雇佣了mechanical turk上的工人",
+    "music": 0
+  },
+  {
+    "from": 1238.64,
+    "to": 1240.44,
+    "sid": 529,
+    "location": 2,
+    "content": "对大量图像进行标注",
+    "music": 0
+  },
+  {
+    "from": 1240.44,
+    "to": 1243.06,
+    "sid": 530,
+    "location": 2,
+    "content": "包括边界框以及描述图像内容的标题",
+    "music": 0
+  },
+  {
+    "from": 1243.06,
+    "to": 1246.19,
+    "sid": 531,
+    "location": 2,
+    "content": "他们基本上为模型合成了一套数据集",
+    "music": 0
+  },
+  {
+    "from": 1246.19,
+    "to": 1251.37,
+    "sid": 532,
+    "location": 2,
+    "content": "因此他们将标题或检测到的物体作为prompt输入给GPT-4",
+    "music": 0
+  },
+  {
+    "from": 1251.37,
+    "to": 1253.89,
+    "sid": 533,
+    "location": 2,
+    "content": "并要求GPT-4生成问题或对话",
+    "music": 0
+  },
+  {
+    "from": 1253.89,
+    "to": 1257.41,
+    "sid": 534,
+    "location": 2,
+    "content": "例如这是ms coco数据集中的一张图像",
+    "music": 0
+  },
+  {
+    "from": 1257.41,
+    "to": 1259.62,
+    "sid": 535,
+    "location": 2,
+    "content": "这是由人工标注的标题",
+    "music": 0
+  },
+  {
+    "from": 1259.62,
+    "to": 1261.8,
+    "sid": 536,
+    "location": 2,
+    "content": "此外这里也是有人工标注的",
+    "music": 0
+  },
+  {
+    "from": 1261.8,
+    "to": 1265.289,
+    "sid": 537,
+    "location": 2,
+    "content": "然后你让GPT-4生成一段对话",
+    "music": 0
+  },
+  {
+    "from": 1265.289,
+    "to": 1267.71,
+    "sid": 538,
+    "location": 2,
+    "content": "你可能会得到一个问题及其对应的答案",
+    "music": 0
+  },
+  {
+    "from": 1267.71,
+    "to": 1269.51,
+    "sid": 539,
+    "location": 2,
+    "content": "你可以向GBT-4提问",
+    "music": 0
+  },
+  {
+    "from": 1269.51,
+    "to": 1270.95,
+    "sid": 540,
+    "location": 2,
+    "content": "让它生成一段详细描述",
+    "music": 0
+  },
+  {
+    "from": 1270.95,
+    "to": 1273.72,
+    "sid": 541,
+    "location": 2,
+    "content": "它大概会生成类似caption的内容",
+    "music": 0
+  },
+  {
+    "from": 1273.72,
+    "to": 1276.52,
+    "sid": 542,
+    "location": 2,
+    "content": "然后你可以让g p t-4做复杂推理",
+    "music": 0
+  },
+  {
+    "from": 1276.52,
+    "to": 1277.9,
+    "sid": 543,
+    "location": 2,
+    "content": "它也能搞定好的",
+    "music": 0
+  },
+  {
+    "from": 1277.9,
+    "to": 1279.1,
+    "sid": 544,
+    "location": 2,
+    "content": "这是合成数据",
+    "music": 0
+  },
+  {
+    "from": 1279.1,
+    "to": 1281.9,
+    "sid": 545,
+    "location": 2,
+    "content": "共15万8000个样本呃",
+    "music": 0
+  },
+  {
+    "from": 1281.9,
+    "to": 1285.02,
+    "sid": 546,
+    "location": 2,
+    "content": "然后他们拿这些数据训练了一个模型",
+    "music": 0
+  },
+  {
+    "from": 1285.02,
+    "to": 1287.3,
+    "sid": 547,
+    "location": 2,
+    "content": "所以这个模型用的是clip",
+    "music": 0
+  },
+  {
+    "from": 1287.3,
+    "to": 1290.23,
+    "sid": 548,
+    "location": 2,
+    "content": "具体来说是表现最好的那个版本",
+    "music": 0
+  },
+  {
+    "from": 1290.23,
+    "to": 1291.57,
+    "sid": 549,
+    "location": 2,
+    "content": "YT减L14",
+    "music": 0
+  },
+  {
+    "from": 1291.57,
+    "to": 1295.34,
+    "sid": 550,
+    "location": 2,
+    "content": "也就是1414的patch",
+    "music": 0
+  },
+  {
+    "from": 1295.34,
+    "to": 1296.889,
+    "sid": 551,
+    "location": 2,
+    "content": "咱们直接看这张图",
+    "music": 0
+  },
+  {
+    "from": 1296.889,
+    "to": 1301.129,
+    "sid": 552,
+    "location": 2,
+    "content": "把图像输入视觉编码器clip就能得到一个向量",
+    "music": 0
+  },
+  {
+    "from": 1301.129,
+    "to": 1303.709,
+    "sid": 553,
+    "location": 2,
+    "content": "也就是1414的patch",
+    "music": 0
+  },
+  {
+    "from": 1303.709,
+    "to": 1305.429,
+    "sid": 554,
+    "location": 2,
+    "content": "咱们直接看这张图",
+    "music": 0
+  },
+  {
+    "from": 1305.429,
+    "to": 1310.17,
+    "sid": 555,
+    "location": 2,
+    "content": "把图像输入视觉编码器clip就能得到一个向量",
+    "music": 0
+  },
+  {
+    "from": 1310.17,
+    "to": 1313.35,
+    "sid": 556,
+    "location": 2,
+    "content": "对于文本直接用标准的嵌入生成向量即可",
+    "music": 0
+  },
+  {
+    "from": 1313.35,
+    "to": 1314.32,
+    "sid": 557,
+    "location": 2,
+    "content": "简单来说",
+    "music": 0
+  },
+  {
+    "from": 1314.32,
+    "to": 1317.2,
+    "sid": 558,
+    "location": 2,
+    "content": "文本和图像都被编码成向量",
+    "music": 0
+  },
+  {
+    "from": 1317.2,
+    "to": 1320.86,
+    "sid": 559,
+    "location": 2,
+    "content": "然后这一串向量序列直接送入标准的transformer",
+    "music": 0
+  },
+  {
+    "from": 1320.86,
+    "to": 1322.55,
+    "sid": 560,
+    "location": 2,
+    "content": "然后输出结果",
+    "music": 0
+  },
+  {
+    "from": 1322.55,
+    "to": 1324.21,
+    "sid": 561,
+    "location": 2,
+    "content": "从某种意义上说",
+    "music": 0
+  },
+  {
+    "from": 1324.21,
+    "to": 1327.53,
+    "sid": 562,
+    "location": 2,
+    "content": "我们把这些图像转换成了文本token",
+    "music": 0
+  },
+  {
+    "from": 1327.53,
+    "to": 1330.87,
+    "sid": 563,
+    "location": 2,
+    "content": "因此我们可以利用预训练的语言模型",
+    "music": 0
+  },
+  {
+    "from": 1330.87,
+    "to": 1332.33,
+    "sid": 564,
+    "location": 2,
+    "content": "为了训练这个模型",
+    "music": 0
+  },
+  {
+    "from": 1332.33,
+    "to": 1334.45,
+    "sid": 565,
+    "location": 2,
+    "content": "它们分两个阶段进行",
+    "music": 0
+  },
+  {
+    "from": 1334.45,
+    "to": 1338.03,
+    "sid": 566,
+    "location": 2,
+    "content": "第一阶段动机视觉编码器和语言模型",
+    "music": 0
+  },
+  {
+    "from": 1338.03,
+    "to": 1339.81,
+    "sid": 567,
+    "location": 2,
+    "content": "只训练这个矩阵W",
+    "music": 0
+  },
+  {
+    "from": 1339.81,
+    "to": 1341.71,
+    "sid": 568,
+    "location": 2,
+    "content": "他们称之为对齐阶段",
+    "music": 0
+  },
+  {
+    "from": 1341.71,
+    "to": 1346.52,
+    "sid": 569,
+    "location": 2,
+    "content": "本质上就是确保图像被映射到大致相同的空间",
+    "music": 0
+  },
+  {
+    "from": 1346.52,
+    "to": 1347.42,
+    "sid": 570,
+    "location": 2,
+    "content": "大家好",
+    "music": 0
+  },
+  {
+    "from": 1347.42,
+    "to": 1349.32,
+    "sid": 571,
+    "location": 2,
+    "content": "欢迎来到本系列课程",
+    "music": 0
+  },
+  {
+    "from": 1349.32,
+    "to": 1351.06,
+    "sid": 572,
+    "location": 2,
+    "content": "如果直接使用随机的W",
+    "music": 0
+  },
+  {
+    "from": 1351.06,
+    "to": 1352.5,
+    "sid": 573,
+    "location": 2,
+    "content": "这些图像根本无法生成",
+    "music": 0
+  },
+  {
+    "from": 1352.5,
+    "to": 1356.2,
+    "sid": 574,
+    "location": 2,
+    "content": "也就是说他们的输出肯定不是能表示自然语言token的嵌入向量",
+    "music": 0
+  },
+  {
+    "from": 1356.2,
+    "to": 1361.16,
+    "sid": 575,
+    "location": 2,
+    "content": "因此训练W的目的就是让他的输出尽可能接近自然语言",
+    "music": 0
+  },
+  {
+    "from": 1361.16,
+    "to": 1362.26,
+    "sid": 576,
+    "location": 2,
+    "content": "token的嵌入向量",
+    "music": 0
+  },
+  {
+    "from": 1362.26,
+    "to": 1365.13,
+    "sid": 577,
+    "location": 2,
+    "content": "第二阶段则是冻结视觉编码器",
+    "music": 0
+  },
+  {
+    "from": 1365.13,
+    "to": 1367.35,
+    "sid": 578,
+    "location": 2,
+    "content": "随后训练W和语言模型",
+    "music": 0
+  },
+  {
+    "from": 1367.35,
+    "to": 1371.37,
+    "sid": 579,
+    "location": 2,
+    "content": "也就是说他们是在用自己的数据对语言模型进行微调",
+    "music": 0
+  },
+  {
+    "from": 1371.37,
+    "to": 1372.27,
+    "sid": 580,
+    "location": 2,
+    "content": "大家还记得吧",
+    "music": 0
+  },
+  {
+    "from": 1372.27,
+    "to": 1373.68,
+    "sid": 581,
+    "location": 2,
+    "content": "他们的数据主要是图像",
+    "music": 0
+  },
+  {
+    "from": 1373.68,
+    "to": 1376.98,
+    "sid": 582,
+    "location": 2,
+    "content": "并配有对话描述或复杂的推理示例",
+    "music": 0
+  },
+  {
+    "from": 1376.98,
+    "to": 1379.66,
+    "sid": 583,
+    "location": 2,
+    "content": "因此这完全属于图像加文本到文本的任务",
+    "music": 0
+  },
+  {
+    "from": 1379.66,
+    "to": 1381.36,
+    "sid": 584,
+    "location": 2,
+    "content": "这是他们论文中的一个例子",
+    "music": 0
+  },
+  {
+    "from": 1381.36,
+    "to": 1382.18,
+    "sid": 585,
+    "location": 2,
+    "content": "很有意思",
+    "music": 0
+  },
+  {
+    "from": 1382.18,
+    "to": 1383.58,
+    "sid": 586,
+    "location": 2,
+    "content": "他们还特别指出",
+    "music": 0
+  },
+  {
+    "from": 1383.58,
+    "to": 1386.26,
+    "sid": 587,
+    "location": 2,
+    "content": "即便用户的提示词不够清晰",
+    "music": 0
+  },
+  {
+    "from": 1386.26,
+    "to": 1387.94,
+    "sid": 588,
+    "location": 2,
+    "content": "该模型也能表现出色",
+    "music": 0
+  },
+  {
+    "from": 1387.94,
+    "to": 1389.96,
+    "sid": 589,
+    "location": 2,
+    "content": "即使你没有直接问哪里出了问题",
+    "music": 0
+  },
+  {
+    "from": 1389.96,
+    "to": 1391.78,
+    "sid": 590,
+    "location": 2,
+    "content": "他也能给出合理的解释",
+    "music": 0
+  },
+  {
+    "from": 1391.78,
+    "to": 1393.76,
+    "sid": 591,
+    "location": 2,
+    "content": "g p t-4显然能做到这一点",
+    "music": 0
+  },
+  {
+    "from": 1393.76,
+    "to": 1395.44,
+    "sid": 592,
+    "location": 2,
+    "content": "但当时的其他模型却不行",
+    "music": 0
+  },
+  {
+    "from": 1395.44,
+    "to": 1397.4,
+    "sid": 593,
+    "location": 2,
+    "content": "关于拉瓦还有问题吗",
+    "music": 0
+  },
+  {
+    "from": 1397.4,
+    "to": 1401.05,
+    "sid": 594,
+    "location": 2,
+    "content": "好那我们先回到2000 023年",
+    "music": 0
+  },
+  {
+    "from": 1401.05,
+    "to": 1404.74,
+    "sid": 595,
+    "location": 2,
+    "content": "接下来我们直接看2024年的lava",
+    "music": 0
+  },
+  {
+    "from": 1404.74,
+    "to": 1405.36,
+    "sid": 596,
+    "location": 2,
+    "content": "One vision",
+    "music": 0
+  },
+  {
+    "from": 1405.36,
+    "to": 1405.78,
+    "sid": 597,
+    "location": 2,
+    "content": "Lava",
+    "music": 0
+  },
+  {
+    "from": 1405.78,
+    "to": 1406.7,
+    "sid": 598,
+    "location": 2,
+    "content": "论文发表后",
+    "music": 0
+  },
+  {
+    "from": 1406.7,
+    "to": 1408.6,
+    "sid": 599,
+    "location": 2,
+    "content": "又涌现出许多后续工作",
+    "music": 0
+  },
+  {
+    "from": 1408.6,
+    "to": 1409.66,
+    "sid": 600,
+    "location": 2,
+    "content": "比如lava1.5",
+    "music": 0
+  },
+  {
+    "from": 1409.66,
+    "to": 1410.49,
+    "sid": 601,
+    "location": 2,
+    "content": "lava next等",
+    "music": 0
+  },
+  {
+    "from": 1410.49,
+    "to": 1414.59,
+    "sid": 602,
+    "location": 2,
+    "content": "不过我认为我接下来要讲的内容基本涵盖了这些创新",
+    "music": 0
+  },
+  {
+    "from": 1414.59,
+    "to": 1416.29,
+    "sid": 603,
+    "location": 2,
+    "content": "其核心思路并未改变",
+    "music": 0
+  },
+  {
+    "from": 1416.29,
+    "to": 1418.03,
+    "sid": 604,
+    "location": 2,
+    "content": "仍沿用那套技术架构",
+    "music": 0
+  },
+  {
+    "from": 1418.03,
+    "to": 1421.44,
+    "sid": 605,
+    "location": 2,
+    "content": "但他们旨在拓展更多种类的多模态应用",
+    "music": 0
+  },
+  {
+    "from": 1421.44,
+    "to": 1424.78,
+    "sid": 606,
+    "location": 2,
+    "content": "因此该系统现在能够处理多张图片及视频",
+    "music": 0
+  },
+  {
+    "from": 1424.78,
+    "to": 1425.9,
+    "sid": 607,
+    "location": 2,
+    "content": "我们来看下面的例子",
+    "music": 0
+  },
+  {
+    "from": 1425.9,
+    "to": 1427.22,
+    "sid": 608,
+    "location": 2,
+    "content": "请看这张示意图",
+    "music": 0
+  },
+  {
+    "from": 1427.22,
+    "to": 1429.38,
+    "sid": 609,
+    "location": 2,
+    "content": "系统现已支持图像输入",
+    "music": 0
+  },
+  {
+    "from": 1429.38,
+    "to": 1431.14,
+    "sid": 610,
+    "location": 2,
+    "content": "例如单张图片输入",
+    "music": 0
+  },
+  {
+    "from": 1431.14,
+    "to": 1433.4,
+    "sid": 611,
+    "location": 2,
+    "content": "也可以是多张图片或者是视频",
+    "music": 0
+  },
+  {
+    "from": 1433.4,
+    "to": 1435.94,
+    "sid": 612,
+    "location": 2,
+    "content": "而视频本质上就是一系列连续的图像帧",
+    "music": 0
+  },
+  {
+    "from": 1435.94,
+    "to": 1438.53,
+    "sid": 613,
+    "location": 2,
+    "content": "这对应于对视频帧进行采样",
+    "music": 0
+  },
+  {
+    "from": 1438.53,
+    "to": 1442.17,
+    "sid": 614,
+    "location": 2,
+    "content": "在此视觉编码器被替换为c clip",
+    "music": 0
+  },
+  {
+    "from": 1442.17,
+    "to": 1443.83,
+    "sid": 615,
+    "location": 2,
+    "content": "在文本解码器方面",
+    "music": 0
+  },
+  {
+    "from": 1443.83,
+    "to": 1445.409,
+    "sid": 616,
+    "location": 2,
+    "content": "他们采用了queen2",
+    "music": 0
+  },
+  {
+    "from": 1445.409,
+    "to": 1448.749,
+    "sid": 617,
+    "location": 2,
+    "content": "这大概是当时性能最强的语言模型了",
+    "music": 0
+  },
+  {
+    "from": 1448.749,
+    "to": 1450.189,
+    "sid": 618,
+    "location": 2,
+    "content": "接着是投影器",
+    "music": 0
+  },
+  {
+    "from": 1450.189,
+    "to": 1457.44,
+    "sid": 619,
+    "location": 2,
+    "content": "也就是适配器负责将视觉编码器的输出转换为语言模型的输入",
+    "music": 0
+  },
+  {
+    "from": 1457.44,
+    "to": 1461.44,
+    "sid": 620,
+    "location": 2,
+    "content": "这里使用了一个两层的MLP多层感知机",
+    "music": 0
+  },
+  {
+    "from": 1461.44,
+    "to": 1463.28,
+    "sid": 621,
+    "location": 2,
+    "content": "而非简单的线性投影",
+    "music": 0
+  },
+  {
+    "from": 1463.28,
+    "to": 1464.18,
+    "sid": 622,
+    "location": 2,
+    "content": "综上所述",
+    "music": 0
+  },
+  {
+    "from": 1464.18,
+    "to": 1467.9,
+    "sid": 623,
+    "location": 2,
+    "content": "这些细微改动就好比你升级了系统内部的组件",
+    "music": 0
+  },
+  {
+    "from": 1467.9,
+    "to": 1471.909,
+    "sid": 624,
+    "location": 2,
+    "content": "但整体架构仍保持大致相同好了",
+    "music": 0
+  },
+  {
+    "from": 1471.909,
+    "to": 1473.709,
+    "sid": 625,
+    "location": 2,
+    "content": "所以这点小改动",
+    "music": 0
+  },
+  {
+    "from": 1473.709,
+    "to": 1475.089,
+    "sid": 626,
+    "location": 2,
+    "content": "这就好比你是个系统",
+    "music": 0
+  },
+  {
+    "from": 1475.089,
+    "to": 1476.95,
+    "sid": 627,
+    "location": 2,
+    "content": "只是升级了里面的零件",
+    "music": 0
+  },
+  {
+    "from": 1476.95,
+    "to": 1478.87,
+    "sid": 628,
+    "location": 2,
+    "content": "以支持更复杂的数据处理",
+    "music": 0
+  },
+  {
+    "from": 1478.87,
+    "to": 1482.37,
+    "sid": 629,
+    "location": 2,
+    "content": "但整体架构还是那种大致相同的系统嗯",
+    "music": 0
+  },
+  {
+    "from": 1482.37,
+    "to": 1484.97,
+    "sid": 630,
+    "location": 2,
+    "content": "OCR的关键在于保留细粒度的信息",
+    "music": 0
+  },
+  {
+    "from": 1484.97,
+    "to": 1488.09,
+    "sid": 631,
+    "location": 2,
+    "content": "不然的话J看着就像I这就麻烦了",
+    "music": 0
+  },
+  {
+    "from": 1488.09,
+    "to": 1492.01,
+    "sid": 632,
+    "location": 2,
+    "content": "大家记得clip会把图缩放到336336",
+    "music": 0
+  },
+  {
+    "from": 1492.01,
+    "to": 1493.85,
+    "sid": 633,
+    "location": 2,
+    "content": "你看这是一份文档",
+    "music": 0
+  },
+  {
+    "from": 1493.85,
+    "to": 1497.06,
+    "sid": 634,
+    "location": 2,
+    "content": "要是直接裁成336×336",
+    "music": 0
+  },
+  {
+    "from": 1497.06,
+    "to": 1498.26,
+    "sid": 635,
+    "location": 2,
+    "content": "你就没法读了",
+    "music": 0
+  },
+  {
+    "from": 1499.96,
+    "to": 1502.12,
+    "sid": 636,
+    "location": 2,
+    "content": "这其实是lava1.5论文里提过的",
+    "music": 0
+  },
+  {
+    "from": 1502.12,
+    "to": 1503.58,
+    "sid": 637,
+    "location": 2,
+    "content": "这个思路其实挺简单的",
+    "music": 0
+  },
+  {
+    "from": 1503.58,
+    "to": 1504.8,
+    "sid": 638,
+    "location": 2,
+    "content": "我是说很直接",
+    "music": 0
+  },
+  {
+    "from": 1504.8,
+    "to": 1506.91,
+    "sid": 639,
+    "location": 2,
+    "content": "你把一张图拆成好几块",
+    "music": 0
+  },
+  {
+    "from": 1506.91,
+    "to": 1507.97,
+    "sid": 640,
+    "location": 2,
+    "content": "简单来说",
+    "music": 0
+  },
+  {
+    "from": 1507.97,
+    "to": 1512.29,
+    "sid": 641,
+    "location": 2,
+    "content": "每一块的大小就是视觉编码器要处理的那个分辨率",
+    "music": 0
+  },
+  {
+    "from": 1512.29,
+    "to": 1514.09,
+    "sid": 642,
+    "location": 2,
+    "content": "比如336X336",
+    "music": 0
+  },
+  {
+    "from": 1514.09,
+    "to": 1517.02,
+    "sid": 643,
+    "location": 2,
+    "content": "所以咱们要把所有这些块都编码成向量",
+    "music": 0
+  },
+  {
+    "from": 1517.02,
+    "to": 1518.23,
+    "sid": 644,
+    "location": 2,
+    "content": "然后把它们拼在一起",
+    "music": 0
+  },
+  {
+    "from": 1518.23,
+    "to": 1522.45,
+    "sid": 645,
+    "location": 2,
+    "content": "说白了这就是为了解决视觉编码器搞不定高分辨率的问题",
+    "music": 0
+  },
+  {
+    "from": 1522.45,
+    "to": 1524.75,
+    "sid": 646,
+    "location": 2,
+    "content": "所以咱们不直接做下采样",
+    "music": 0
+  },
+  {
+    "from": 1524.75,
+    "to": 1528.3,
+    "sid": 647,
+    "location": 2,
+    "content": "而是直接裁剪图像去观察不同的局部区域",
+    "music": 0
+  },
+  {
+    "from": 1528.3,
+    "to": 1531.36,
+    "sid": 648,
+    "location": 2,
+    "content": "如果输入的是超高分辨率的图片或视频",
+    "music": 0
+  },
+  {
+    "from": 1531.36,
+    "to": 1533.14,
+    "sid": 649,
+    "location": 2,
+    "content": "生成的token数量会非常多",
+    "music": 0
+  },
+  {
+    "from": 1533.14,
+    "to": 1535.7,
+    "sid": 650,
+    "location": 2,
+    "content": "因此需要对这些token进行下采样处理",
+    "music": 0
+  },
+  {
+    "from": 1535.7,
+    "to": 1538.32,
+    "sid": 651,
+    "location": 2,
+    "content": "不过无论采用哪种分辨率调整方法",
+    "music": 0
+  },
+  {
+    "from": 1538.32,
+    "to": 1539.76,
+    "sid": 652,
+    "location": 2,
+    "content": "核心思路都是自适应",
+    "music": 0
+  },
+  {
+    "from": 1539.76,
+    "to": 1540.98,
+    "sid": 653,
+    "location": 2,
+    "content": "这一点非常关键",
+    "music": 0
+  },
+  {
+    "from": 1540.98,
+    "to": 1541.76,
+    "sid": 654,
+    "location": 2,
+    "content": "这很好",
+    "music": 0
+  },
+  {
+    "from": 1541.76,
+    "to": 1544.32,
+    "sid": 655,
+    "location": 2,
+    "content": "因为transformer本身就具备这种灵活性",
+    "music": 0
+  },
+  {
+    "from": 1544.32,
+    "to": 1545.78,
+    "sid": 656,
+    "location": 2,
+    "content": "无论序列长度如何",
+    "music": 0
+  },
+  {
+    "from": 1545.78,
+    "to": 1547.36,
+    "sid": 657,
+    "location": 2,
+    "content": "transformer都能很好地处理",
+    "music": 0
+  },
+  {
+    "from": 1547.36,
+    "to": 1550.09,
+    "sid": 658,
+    "location": 2,
+    "content": "这意味着图像也能支持任意分辨率",
+    "music": 0
+  },
+  {
+    "from": 1550.09,
+    "to": 1552.89,
+    "sid": 659,
+    "location": 2,
+    "content": "再次体现了这种动态适应能力",
+    "music": 0
+  },
+  {
+    "from": 1552.89,
+    "to": 1556.51,
+    "sid": 660,
+    "location": 2,
+    "content": "这就是他们在处理图像时实际采用的方法",
+    "music": 0
+  },
+  {
+    "from": 1556.51,
+    "to": 1558.98,
+    "sid": 661,
+    "location": 2,
+    "content": "假设你有一张论文截图",
+    "music": 0
+  },
+  {
+    "from": 1558.98,
+    "to": 1560.88,
+    "sid": 662,
+    "location": 2,
+    "content": "系统会先对其进行一下采样",
+    "music": 0
+  },
+  {
+    "from": 1560.88,
+    "to": 1562.98,
+    "sid": 663,
+    "location": 2,
+    "content": "同时保留一条路径",
+    "music": 0
+  },
+  {
+    "from": 1562.98,
+    "to": 1567.08,
+    "sid": 664,
+    "location": 2,
+    "content": "这本质上是对整篇论文进行下采样后的编码",
+    "music": 0
+  },
+  {
+    "from": 1567.08,
+    "to": 1569.1,
+    "sid": 665,
+    "location": 2,
+    "content": "接着将其分割成若干块",
+    "music": 0
+  },
+  {
+    "from": 1569.1,
+    "to": 1571.76,
+    "sid": 666,
+    "location": 2,
+    "content": "每块的分辨率都符合视觉编码器的要求",
+    "music": 0
+  },
+  {
+    "from": 1571.76,
+    "to": 1573.66,
+    "sid": 667,
+    "location": 2,
+    "content": "然后分别对每个块进行编码",
+    "music": 0
+  },
+  {
+    "from": 1573.66,
+    "to": 1576.08,
+    "sid": 668,
+    "location": 2,
+    "content": "随后将所有图像块拼接起来",
+    "music": 0
+  },
+  {
+    "from": 1576.08,
+    "to": 1577.16,
+    "sid": 669,
+    "location": 2,
+    "content": "如果数量过多",
+    "music": 0
+  },
+  {
+    "from": 1577.16,
+    "to": 1579.82,
+    "sid": 670,
+    "location": 2,
+    "content": "则通过插值方法减少图像块的数量",
+    "music": 0
+  },
+  {
+    "from": 1579.82,
+    "to": 1582.83,
+    "sid": 671,
+    "location": 2,
+    "content": "这样一来他们就能处理单张图像",
+    "music": 0
+  },
+  {
+    "from": 1582.83,
+    "to": 1584.83,
+    "sid": 672,
+    "location": 2,
+    "content": "多张图像以及视频了",
+    "music": 0
+  },
+  {
+    "from": 1584.83,
+    "to": 1585.85,
+    "sid": 673,
+    "location": 2,
+    "content": "你可以这样理解",
+    "music": 0
+  },
+  {
+    "from": 1585.85,
+    "to": 1587.21,
+    "sid": 674,
+    "location": 2,
+    "content": "虽然从技术上讲",
+    "music": 0
+  },
+  {
+    "from": 1587.21,
+    "to": 1589.12,
+    "sid": 675,
+    "location": 2,
+    "content": "所有这些都可以还原为图像",
+    "music": 0
+  },
+  {
+    "from": 1589.12,
+    "to": 1591.82,
+    "sid": 676,
+    "location": 2,
+    "content": "但他们还是稍微调整了权重",
+    "music": 0
+  },
+  {
+    "from": 1591.82,
+    "to": 1594.08,
+    "sid": 677,
+    "location": 2,
+    "content": "因为视频数据有其特殊性",
+    "music": 0
+  },
+  {
+    "from": 1594.08,
+    "to": 1597.34,
+    "sid": 678,
+    "location": 2,
+    "content": "他们希望确保所有模态之间大致具有可比性",
+    "music": 0
+  },
+  {
+    "from": 1597.34,
+    "to": 1598.32,
+    "sid": 679,
+    "location": 2,
+    "content": "你可以这样理解",
+    "music": 0
+  },
+  {
+    "from": 1598.32,
+    "to": 1599.54,
+    "sid": 680,
+    "location": 2,
+    "content": "虽然从技术上讲",
+    "music": 0
+  },
+  {
+    "from": 1599.54,
+    "to": 1601.6,
+    "sid": 681,
+    "location": 2,
+    "content": "这些内容最终都能还原为图像",
+    "music": 0
+  },
+  {
+    "from": 1601.6,
+    "to": 1603.78,
+    "sid": 682,
+    "location": 2,
+    "content": "但系统还是对它们进行了权重调整",
+    "music": 0
+  },
+  {
+    "from": 1603.78,
+    "to": 1605.24,
+    "sid": 683,
+    "location": 2,
+    "content": "因为视频数据量巨大",
+    "music": 0
+  },
+  {
+    "from": 1605.24,
+    "to": 1612.08,
+    "sid": 684,
+    "location": 2,
+    "content": "目的是确保不同模态之间的数据大致具备可比性好如果有多张图片",
+    "music": 0
+  },
+  {
+    "from": 1612.08,
+    "to": 1614.32,
+    "sid": 685,
+    "location": 2,
+    "content": "就直接用基础分辨率处理",
+    "music": 0
+  },
+  {
+    "from": 1614.32,
+    "to": 1615.76,
+    "sid": 686,
+    "location": 2,
+    "content": "也就是说只有一张图时",
+    "music": 0
+  },
+  {
+    "from": 1615.76,
+    "to": 1616.76,
+    "sid": 687,
+    "location": 2,
+    "content": "我能看得更细致",
+    "music": 0
+  },
+  {
+    "from": 1616.76,
+    "to": 1618.26,
+    "sid": 688,
+    "location": 2,
+    "content": "涂多了就只能粗略浏览",
+    "music": 0
+  },
+  {
+    "from": 1618.26,
+    "to": 1619.1,
+    "sid": 689,
+    "location": 2,
+    "content": "处理视频时",
+    "music": 0
+  },
+  {
+    "from": 1619.1,
+    "to": 1623.35,
+    "sid": 690,
+    "location": 2,
+    "content": "我们会用更低的分辨率或更少的token来表示每一帧",
+    "music": 0
+  },
+  {
+    "from": 1623.35,
+    "to": 1625.09,
+    "sid": 691,
+    "location": 2,
+    "content": "毕竟视频数据量很大",
+    "music": 0
+  },
+  {
+    "from": 1625.09,
+    "to": 1626.39,
+    "sid": 692,
+    "location": 2,
+    "content": "需要节省计算资源",
+    "music": 0
+  },
+  {
+    "from": 1626.39,
+    "to": 1628.51,
+    "sid": 693,
+    "location": 2,
+    "content": "他们最多只取32帧",
+    "music": 0
+  },
+  {
+    "from": 1628.51,
+    "to": 1631.47,
+    "sid": 694,
+    "location": 2,
+    "content": "但这样做会面临上下文长度限制的问题",
+    "music": 0
+  },
+  {
+    "from": 1631.47,
+    "to": 1633.03,
+    "sid": 695,
+    "location": 2,
+    "content": "稍后我们会看到",
+    "music": 0
+  },
+  {
+    "from": 1633.03,
+    "to": 1637.95,
+    "sid": 696,
+    "location": 2,
+    "content": "解决多模态问题的关键之一就在于如何处理长上下文好",
+    "music": 0
+  },
+  {
+    "from": 1637.95,
+    "to": 1641.159,
+    "sid": 697,
+    "location": 2,
+    "content": "那么关于这组数据",
+    "music": 0
+  },
+  {
+    "from": 1641.159,
+    "to": 1646.259,
+    "sid": 698,
+    "location": 2,
+    "content": "我认为他们阐述的核心理念是既要保证数据的高质量",
+    "music": 0
+  },
+  {
+    "from": 1646.259,
+    "to": 1647.739,
+    "sid": 699,
+    "location": 2,
+    "content": "也要保证数据的数量",
+    "music": 0
+  },
+  {
+    "from": 1647.739,
+    "to": 1648.82,
+    "sid": 700,
+    "location": 2,
+    "content": "换一个角度说",
+    "music": 0
+  },
+  {
+    "from": 1648.82,
+    "to": 1651.48,
+    "sid": 701,
+    "location": 2,
+    "content": "这些数据具有极强的针对性",
+    "music": 0
+  },
+  {
+    "from": 1651.48,
+    "to": 1654.66,
+    "sid": 702,
+    "location": 2,
+    "content": "你会发现他们大多是为特定任务定制的",
+    "music": 0
+  },
+  {
+    "from": 1654.66,
+    "to": 1658,
+    "sid": 703,
+    "location": 2,
+    "content": "比如视觉问答或是回答关于表格的问题",
+    "music": 0
+  },
+  {
+    "from": 1658,
+    "to": 1660.4,
+    "sid": 704,
+    "location": 2,
+    "content": "因此这显然属于后训练阶段",
+    "music": 0
+  },
+  {
+    "from": 1660.4,
+    "to": 1662.94,
+    "sid": 705,
+    "location": 2,
+    "content": "其目标是让模型更好地对齐人的意图",
+    "music": 0
+  },
+  {
+    "from": 1662.94,
+    "to": 1664.6,
+    "sid": 706,
+    "location": 2,
+    "content": "为了让模型执行这些任务",
+    "music": 0
+  },
+  {
+    "from": 1664.6,
+    "to": 1666.94,
+    "sid": 707,
+    "location": 2,
+    "content": "你会专门构建一批对应的任务数据",
+    "music": 0
+  },
+  {
+    "from": 1666.94,
+    "to": 1669.72,
+    "sid": 708,
+    "location": 2,
+    "content": "这项工作也毫不掩饰其目的",
+    "music": 0
+  },
+  {
+    "from": 1669.72,
+    "to": 1672.98,
+    "sid": 709,
+    "location": 2,
+    "content": "本质上这是在蒸馏GPT-4模型",
+    "music": 0
+  },
+  {
+    "from": 1672.98,
+    "to": 1674.699,
+    "sid": 710,
+    "location": 2,
+    "content": "以获取最佳性能",
+    "music": 0
+  },
+  {
+    "from": 1674.699,
+    "to": 1677.359,
+    "sid": 711,
+    "location": 2,
+    "content": "虽然这或许并非最理想的做法",
+    "music": 0
+  },
+  {
+    "from": 1677.359,
+    "to": 1678.419,
+    "sid": 712,
+    "location": 2,
+    "content": "但现实如此",
+    "music": 0
+  },
+  {
+    "from": 1678.419,
+    "to": 1679.799,
+    "sid": 713,
+    "location": 2,
+    "content": "如果没有标注预算",
+    "music": 0
+  },
+  {
+    "from": 1679.799,
+    "to": 1681.15,
+    "sid": 714,
+    "location": 2,
+    "content": "你只能这么做",
+    "music": 0
+  },
+  {
+    "from": 1681.15,
+    "to": 1685.01,
+    "sid": 715,
+    "location": 2,
+    "content": "此外他们使用的数据涵盖单张图片",
+    "music": 0
+  },
+  {
+    "from": 1685.01,
+    "to": 1686.57,
+    "sid": 716,
+    "location": 2,
+    "content": "多张图片以及视频",
+    "music": 0
+  },
+  {
+    "from": 1686.57,
+    "to": 1687.909,
+    "sid": 717,
+    "location": 2,
+    "content": "如果没有标注预算",
+    "music": 0
+  },
+  {
+    "from": 1687.909,
+    "to": 1689.029,
+    "sid": 718,
+    "location": 2,
+    "content": "你只能这么做",
+    "music": 0
+  },
+  {
+    "from": 1689.029,
+    "to": 1691.989,
+    "sid": 719,
+    "location": 2,
+    "content": "此外他们使用的数据涵盖单张图片",
+    "music": 0
+  },
+  {
+    "from": 1691.989,
+    "to": 1693.549,
+    "sid": 720,
+    "location": 2,
+    "content": "多张图片以及视频",
+    "music": 0
+  },
+  {
+    "from": 1693.549,
+    "to": 1695.54,
+    "sid": 721,
+    "location": 2,
+    "content": "训练思路与之前类似",
+    "music": 0
+  },
+  {
+    "from": 1695.54,
+    "to": 1697.3,
+    "sid": 722,
+    "location": 2,
+    "content": "第一阶段主要进行",
+    "music": 0
+  },
+  {
+    "from": 1697.3,
+    "to": 1701.27,
+    "sid": 723,
+    "location": 2,
+    "content": "对其具体来说你只训练投影器",
+    "music": 0
+  },
+  {
+    "from": 1701.27,
+    "to": 1703.27,
+    "sid": 724,
+    "location": 2,
+    "content": "也就是那个适配器",
+    "music": 0
+  },
+  {
+    "from": 1703.27,
+    "to": 1705.49,
+    "sid": 725,
+    "location": 2,
+    "content": "接着进行第二阶段训练",
+    "music": 0
+  },
+  {
+    "from": 1705.49,
+    "to": 1707.67,
+    "sid": 726,
+    "location": 2,
+    "content": "第三阶段则训练整个模型",
+    "music": 0
+  },
+  {
+    "from": 1707.67,
+    "to": 1708.87,
+    "sid": 727,
+    "location": 2,
+    "content": "以前是两个阶段",
+    "music": 0
+  },
+  {
+    "from": 1708.87,
+    "to": 1709.95,
+    "sid": 728,
+    "location": 2,
+    "content": "现在变成了三个",
+    "music": 0
+  },
+  {
+    "from": 1709.95,
+    "to": 1712.26,
+    "sid": 729,
+    "location": 2,
+    "content": "我不确定这背后有什么特别的原则",
+    "music": 0
+  },
+  {
+    "from": 1712.26,
+    "to": 1716.26,
+    "sid": 730,
+    "location": 2,
+    "content": "除了第二阶段似乎是想进一步提升模型的推理能力",
+    "music": 0
+  },
+  {
+    "from": 1716.26,
+    "to": 1717.46,
+    "sid": 731,
+    "location": 2,
+    "content": "使用高质量数据",
+    "music": 0
+  },
+  {
+    "from": 1717.46,
+    "to": 1718.94,
+    "sid": 732,
+    "location": 2,
+    "content": "但更侧重知识",
+    "music": 0
+  },
+  {
+    "from": 1718.94,
+    "to": 1722.48,
+    "sid": 733,
+    "location": 2,
+    "content": "最后阶段则侧重那些类似下游任务的事例",
+    "music": 0
+  },
+  {
+    "from": 1722.48,
+    "to": 1725.179,
+    "sid": 734,
+    "location": 2,
+    "content": "这篇论文发现了一个有趣的现象",
+    "music": 0
+  },
+  {
+    "from": 1725.179,
+    "to": 1727.739,
+    "sid": 735,
+    "location": 2,
+    "content": "即不同模态之间可以迁移",
+    "music": 0
+  },
+  {
+    "from": 1727.739,
+    "to": 1729.679,
+    "sid": 736,
+    "location": 2,
+    "content": "虽然使用高质量数据",
+    "music": 0
+  },
+  {
+    "from": 1729.679,
+    "to": 1731.27,
+    "sid": 737,
+    "location": 2,
+    "content": "但更侧重知识",
+    "music": 0
+  },
+  {
+    "from": 1731.27,
+    "to": 1735.09,
+    "sid": 738,
+    "location": 2,
+    "content": "在最后阶段则侧重那些类似下游任务的例子",
+    "music": 0
+  },
+  {
+    "from": 1735.09,
+    "to": 1737.52,
+    "sid": 739,
+    "location": 2,
+    "content": "好这篇论文里发现一个挺有意思的事儿",
+    "music": 0
+  },
+  {
+    "from": 1737.52,
+    "to": 1739.92,
+    "sid": 740,
+    "location": 2,
+    "content": "就是不同模态之间可以迁移",
+    "music": 0
+  },
+  {
+    "from": 1739.92,
+    "to": 1741.18,
+    "sid": 741,
+    "location": 2,
+    "content": "你会问他一些问题",
+    "music": 0
+  },
+  {
+    "from": 1741.18,
+    "to": 1744.01,
+    "sid": 742,
+    "location": 2,
+    "content": "但在测试时你会看到一张图里既有表格",
+    "music": 0
+  },
+  {
+    "from": 1744.01,
+    "to": 1744.83,
+    "sid": 743,
+    "location": 2,
+    "content": "也有图表",
+    "music": 0
+  },
+  {
+    "from": 1744.83,
+    "to": 1746.31,
+    "sid": 744,
+    "location": 2,
+    "content": "然后就能跟他聊聊天",
+    "music": 0
+  },
+  {
+    "from": 1746.31,
+    "to": 1750.18,
+    "sid": 745,
+    "location": 2,
+    "content": "训练的时候你只用单张图上的OCR数据",
+    "music": 0
+  },
+  {
+    "from": 1750.18,
+    "to": 1753.03,
+    "sid": 746,
+    "location": 2,
+    "content": "而且只在多张图之间做关系推理",
+    "music": 0
+  },
+  {
+    "from": 1753.03,
+    "to": 1755.41,
+    "sid": 747,
+    "location": 2,
+    "content": "但这能帮你搞定那些很有用的情况",
+    "music": 0
+  },
+  {
+    "from": 1755.41,
+    "to": 1757.5,
+    "sid": 748,
+    "location": 2,
+    "content": "比如用来驱动即为agent",
+    "music": 0
+  },
+  {
+    "from": 1757.5,
+    "to": 1758.78,
+    "sid": 749,
+    "location": 2,
+    "content": "给他看一堆截图",
+    "music": 0
+  },
+  {
+    "from": 1758.78,
+    "to": 1759.88,
+    "sid": 750,
+    "location": 2,
+    "content": "也就是多张图",
+    "music": 0
+  },
+  {
+    "from": 1759.88,
+    "to": 1762.96,
+    "sid": 751,
+    "location": 2,
+    "content": "它就能生成描述这些截图的描述",
+    "music": 0
+  },
+  {
+    "from": 1762.96,
+    "to": 1763.86,
+    "sid": 752,
+    "location": 2,
+    "content": "再举个例子",
+    "music": 0
+  },
+  {
+    "from": 1763.86,
+    "to": 1766,
+    "sid": 753,
+    "location": 2,
+    "content": "有个叫视觉提示的想法",
+    "music": 0
+  },
+  {
+    "from": 1766,
+    "to": 1767.24,
+    "sid": 754,
+    "location": 2,
+    "content": "就是图里有个圆圈",
+    "music": 0
+  },
+  {
+    "from": 1767.24,
+    "to": 1769.1,
+    "sid": 755,
+    "location": 2,
+    "content": "这个圆圈是图的一部分",
+    "music": 0
+  },
+  {
+    "from": 1769.1,
+    "to": 1772.54,
+    "sid": 756,
+    "location": 2,
+    "content": "它的作用是标出你需要对它做点什么的那块区域",
+    "music": 0
+  },
+  {
+    "from": 1772.54,
+    "to": 1773.36,
+    "sid": 757,
+    "location": 2,
+    "content": "再举个例子",
+    "music": 0
+  },
+  {
+    "from": 1773.36,
+    "to": 1775.53,
+    "sid": 758,
+    "location": 2,
+    "content": "有一种叫视觉提示的方法",
+    "music": 0
+  },
+  {
+    "from": 1775.53,
+    "to": 1777.57,
+    "sid": 759,
+    "location": 2,
+    "content": "就是在图中画一个圆圈",
+    "music": 0
+  },
+  {
+    "from": 1777.57,
+    "to": 1779.13,
+    "sid": 760,
+    "location": 2,
+    "content": "这个圆圈是图像的一部分",
+    "music": 0
+  },
+  {
+    "from": 1779.13,
+    "to": 1782.51,
+    "sid": 761,
+    "location": 2,
+    "content": "它的作用是标出你需要对其执行操作的那块区域",
+    "music": 0
+  },
+  {
+    "from": 1782.51,
+    "to": 1784.09,
+    "sid": 762,
+    "location": 2,
+    "content": "所以我第一次看到这",
+    "music": 0
+  },
+  {
+    "from": 1784.09,
+    "to": 1787.14,
+    "sid": 763,
+    "location": 2,
+    "content": "心想唉哟你这是在针对每一个任务下手",
+    "music": 0
+  },
+  {
+    "from": 1787.14,
+    "to": 1788.65,
+    "sid": 764,
+    "location": 2,
+    "content": "这有点像监督学习",
+    "music": 0
+  },
+  {
+    "from": 1788.65,
+    "to": 1790.67,
+    "sid": 765,
+    "location": 2,
+    "content": "不过如果你有足够多的任务",
+    "music": 0
+  },
+  {
+    "from": 1790.67,
+    "to": 1793.32,
+    "sid": 766,
+    "location": 2,
+    "content": "这些模型似乎能实现某种迁移啊",
+    "music": 0
+  },
+  {
+    "from": 1793.32,
+    "to": 1795.74,
+    "sid": 767,
+    "location": 2,
+    "content": "这算是个让人安心的消息好",
+    "music": 0
+  },
+  {
+    "from": 1795.74,
+    "to": 1796.56,
+    "sid": 768,
+    "location": 2,
+    "content": "所以再说一次",
+    "music": 0
+  },
+  {
+    "from": 1797.56,
+    "to": 1799.74,
+    "sid": 769,
+    "location": 2,
+    "content": "这是一个相当标准的VIM架构",
+    "music": 0
+  },
+  {
+    "from": 1799.74,
+    "to": 1801.78,
+    "sid": 770,
+    "location": 2,
+    "content": "视觉编码器加上投影层",
+    "music": 0
+  },
+  {
+    "from": 1801.78,
+    "to": 1803.11,
+    "sid": 771,
+    "location": 2,
+    "content": "再介入语言模型",
+    "music": 0
+  },
+  {
+    "from": 1803.11,
+    "to": 1805.35,
+    "sid": 772,
+    "location": 2,
+    "content": "数据策展工作投入了大量精力",
+    "music": 0
+  },
+  {
+    "from": 1805.35,
+    "to": 1807.91,
+    "sid": 773,
+    "location": 2,
+    "content": "他们很大程度上依赖于合成的特定任务",
+    "music": 0
+  },
+  {
+    "from": 1807.91,
+    "to": 1812.48,
+    "sid": 774,
+    "location": 2,
+    "content": "数据lab系列的一个优势在于它是少数几个能做到这一点的模型之一",
+    "music": 0
+  },
+  {
+    "from": 1812.48,
+    "to": 1813.3,
+    "sid": 775,
+    "location": 2,
+    "content": "谢谢好",
+    "music": 0
+  },
+  {
+    "from": 1813.3,
+    "to": 1815.18,
+    "sid": 776,
+    "location": 2,
+    "content": "接下来咱们聊聊queen模型",
+    "music": 0
+  },
+  {
+    "from": 1815.18,
+    "to": 1820.48,
+    "sid": 777,
+    "location": 2,
+    "content": "所以queen也是从2000023年开始训练多模态模型的",
+    "music": 0
+  },
+  {
+    "from": 1820.48,
+    "to": 1823.25,
+    "sid": 778,
+    "location": 2,
+    "content": "首个版本是queen vl啊",
+    "music": 0
+  },
+  {
+    "from": 1823.25,
+    "to": 1826.79,
+    "sid": 779,
+    "location": 2,
+    "content": "queen也从2000023年开始训练多模态模型",
+    "music": 0
+  },
+  {
+    "from": 1826.79,
+    "to": 1828.19,
+    "sid": 780,
+    "location": 2,
+    "content": "视觉编码器方面",
+    "music": 0
+  },
+  {
+    "from": 1828.19,
+    "to": 1829.63,
+    "sid": 781,
+    "location": 2,
+    "content": "他们用了open clip",
+    "music": 0
+  },
+  {
+    "from": 1829.63,
+    "to": 1830.25,
+    "sid": 782,
+    "location": 2,
+    "content": "记得吧",
+    "music": 0
+  },
+  {
+    "from": 1830.25,
+    "to": 1832.97,
+    "sid": 783,
+    "location": 2,
+    "content": "open clip就是clip模型的开源复线板",
+    "music": 0
+  },
+  {
+    "from": 1832.97,
+    "to": 1835.29,
+    "sid": 784,
+    "location": 2,
+    "content": "所以它本质上就是个clip编码器",
+    "music": 0
+  },
+  {
+    "from": 1835.29,
+    "to": 1836.59,
+    "sid": 785,
+    "location": 2,
+    "content": "至于适配器呃",
+    "music": 0
+  },
+  {
+    "from": 1836.59,
+    "to": 1838.99,
+    "sid": 786,
+    "location": 2,
+    "content": "他们使用了open clip作为视觉编码器",
+    "music": 0
+  },
+  {
+    "from": 1838.99,
+    "to": 1841.33,
+    "sid": 787,
+    "location": 2,
+    "content": "他们用了一层交叉注意力",
+    "music": 0
+  },
+  {
+    "from": 1841.33,
+    "to": 1843.46,
+    "sid": 788,
+    "location": 2,
+    "content": "结合2D位置嵌入",
+    "music": 0
+  },
+  {
+    "from": 1843.46,
+    "to": 1846.19,
+    "sid": 789,
+    "location": 2,
+    "content": "将特征映射到一个固定尺寸",
+    "music": 0
+  },
+  {
+    "from": 1846.19,
+    "to": 1848.6,
+    "sid": 790,
+    "location": 2,
+    "content": "所以它本质上就是个clip编码器",
+    "music": 0
+  },
+  {
+    "from": 1848.6,
+    "to": 1849.84,
+    "sid": 791,
+    "location": 2,
+    "content": "至于适配器啊",
+    "music": 0
+  },
+  {
+    "from": 1849.84,
+    "to": 1853.56,
+    "sid": 792,
+    "location": 2,
+    "content": "他们通过一层交叉注意力机制将视觉特征映射到固定大小",
+    "music": 0
+  },
+  {
+    "from": 1853.56,
+    "to": 1855.02,
+    "sid": 793,
+    "location": 2,
+    "content": "他们用了一层交叉注意力",
+    "music": 0
+  },
+  {
+    "from": 1855.02,
+    "to": 1856.37,
+    "sid": 794,
+    "location": 2,
+    "content": "结合2D位置嵌入",
+    "music": 0
+  },
+  {
+    "from": 1856.37,
+    "to": 1858.59,
+    "sid": 795,
+    "location": 2,
+    "content": "将特征映射到一个固定尺寸",
+    "music": 0
+  },
+  {
+    "from": 1858.59,
+    "to": 1861.449,
+    "sid": 796,
+    "location": 2,
+    "content": "它们采用了一层交叉注意力机制",
+    "music": 0
+  },
+  {
+    "from": 1861.449,
+    "to": 1863.249,
+    "sid": 797,
+    "location": 2,
+    "content": "结合二维位置嵌入",
+    "music": 0
+  },
+  {
+    "from": 1863.249,
+    "to": 1865.449,
+    "sid": 798,
+    "location": 2,
+    "content": "将特征映射到固定尺寸",
+    "music": 0
+  },
+  {
+    "from": 1865.449,
+    "to": 1866.56,
+    "sid": 799,
+    "location": 2,
+    "content": "比如256",
+    "music": 0
+  },
+  {
+    "from": 1866.56,
+    "to": 1868.32,
+    "sid": 800,
+    "location": 2,
+    "content": "这部分可能被略过了",
+    "music": 0
+  },
+  {
+    "from": 1868.32,
+    "to": 1870.8,
+    "sid": 801,
+    "location": 2,
+    "content": "但特殊token包含了图像标签",
+    "music": 0
+  },
+  {
+    "from": 1870.8,
+    "to": 1871.36,
+    "sid": 802,
+    "location": 2,
+    "content": "边界框",
+    "music": 0
+  },
+  {
+    "from": 1871.36,
+    "to": 1873.76,
+    "sid": 803,
+    "location": 2,
+    "content": "标签box tag以及参考标签rap tag",
+    "music": 0
+  },
+  {
+    "from": 1873.76,
+    "to": 1874.55,
+    "sid": 804,
+    "location": 2,
+    "content": "谢谢",
+    "music": 0
+  },
+  {
+    "from": 1874.55,
+    "to": 1877.89,
+    "sid": 805,
+    "location": 2,
+    "content": "这就是幻灯片导出为HTML格式时的效果",
+    "music": 0
+  },
+  {
+    "from": 1877.89,
+    "to": 1879.37,
+    "sid": 806,
+    "location": 2,
+    "content": "训练分为三个阶段",
+    "music": 0
+  },
+  {
+    "from": 1879.37,
+    "to": 1881.37,
+    "sid": 807,
+    "location": 2,
+    "content": "这与lava模型的做法类似",
+    "music": 0
+  },
+  {
+    "from": 1881.37,
+    "to": 1883.75,
+    "sid": 808,
+    "location": 2,
+    "content": "第一阶段也就是他们所谓的预训练",
+    "music": 0
+  },
+  {
+    "from": 1883.75,
+    "to": 1886.739,
+    "sid": 809,
+    "location": 2,
+    "content": "其实我们并非从零开始预训练",
+    "music": 0
+  },
+  {
+    "from": 1886.739,
+    "to": 1890.059,
+    "sid": 810,
+    "location": 2,
+    "content": "这里使用的是大规模但质量较低的数据",
+    "music": 0
+  },
+  {
+    "from": 1890.059,
+    "to": 1892.889,
+    "sid": 811,
+    "location": 2,
+    "content": "具体做法是冻结语言模型",
+    "music": 0
+  },
+  {
+    "from": 1892.889,
+    "to": 1896.07,
+    "sid": 812,
+    "location": 2,
+    "content": "然后训练视觉编码器和适配器",
+    "music": 0
+  },
+  {
+    "from": 1896.07,
+    "to": 1898.05,
+    "sid": 813,
+    "location": 2,
+    "content": "这与lava模型略有不同",
+    "music": 0
+  },
+  {
+    "from": 1898.05,
+    "to": 1902.31,
+    "sid": 814,
+    "location": 2,
+    "content": "因为lava模型在此阶段并不训练视觉编码器和适配器",
+    "music": 0
+  },
+  {
+    "from": 1902.31,
+    "to": 1903.43,
+    "sid": 815,
+    "location": 2,
+    "content": "谢谢大家",
+    "music": 0
+  },
+  {
+    "from": 1903.43,
+    "to": 1906.01,
+    "sid": 816,
+    "location": 2,
+    "content": "可以看到他们训练所用的一部分数据集",
+    "music": 0
+  },
+  {
+    "from": 1906.01,
+    "to": 1907.95,
+    "sid": 817,
+    "location": 2,
+    "content": "规模达到了14亿个样本",
+    "music": 0
+  },
+  {
+    "from": 1907.95,
+    "to": 1909.1,
+    "sid": 818,
+    "location": 2,
+    "content": "到了第二阶段",
+    "music": 0
+  },
+  {
+    "from": 1909.1,
+    "to": 1910.66,
+    "sid": 819,
+    "location": 2,
+    "content": "他们换用了质量更高",
+    "music": 0
+  },
+  {
+    "from": 1910.66,
+    "to": 1912.16,
+    "sid": 820,
+    "location": 2,
+    "content": "针对特定任务的数据",
+    "music": 0
+  },
+  {
+    "from": 1912.16,
+    "to": 1915.04,
+    "sid": 821,
+    "location": 2,
+    "content": "这里能看到一些VQA数据集中常见的来源",
+    "music": 0
+  },
+  {
+    "from": 1915.04,
+    "to": 1916.37,
+    "sid": 822,
+    "location": 2,
+    "content": "比如图表问答之类",
+    "music": 0
+  },
+  {
+    "from": 1916.37,
+    "to": 1918.73,
+    "sid": 823,
+    "location": 2,
+    "content": "接着他们在这里训练所有参数",
+    "music": 0
+  },
+  {
+    "from": 1918.73,
+    "to": 1923.03,
+    "sid": 824,
+    "location": 2,
+    "content": "最后是第三阶段使用的是指令微调数据",
+    "music": 0
+  },
+  {
+    "from": 1923.03,
+    "to": 1925.36,
+    "sid": 825,
+    "location": 2,
+    "content": "我们冻结视觉编码器",
+    "music": 0
+  },
+  {
+    "from": 1925.36,
+    "to": 1927.66,
+    "sid": 826,
+    "location": 2,
+    "content": "然后训练适配器和语言模型",
+    "music": 0
+  },
+  {
+    "from": 1927.66,
+    "to": 1929.78,
+    "sid": 827,
+    "location": 2,
+    "content": "这里举几个他们能做到的例子",
+    "music": 0
+  },
+  {
+    "from": 1929.78,
+    "to": 1930.92,
+    "sid": 828,
+    "location": 2,
+    "content": "当然因为这是冠",
+    "music": 0
+  },
+  {
+    "from": 1930.92,
+    "to": 1932.48,
+    "sid": 829,
+    "location": 2,
+    "content": "所以有些例子是中文的",
+    "music": 0
+  },
+  {
+    "from": 1932.48,
+    "to": 1937.01,
+    "sid": 830,
+    "location": 2,
+    "content": "我们还希望打造一个能涵盖语言模型能力的模型",
+    "music": 0
+  },
+  {
+    "from": 1937.01,
+    "to": 1939.17,
+    "sid": 831,
+    "location": 2,
+    "content": "既然语言模型能写代码",
+    "music": 0
+  },
+  {
+    "from": 1939.17,
+    "to": 1942.27,
+    "sid": 832,
+    "location": 2,
+    "content": "我们也希望视觉模型在代码方面同样出色",
+    "music": 0
+  },
+  {
+    "from": 1942.27,
+    "to": 1943.48,
+    "sid": 833,
+    "location": 2,
+    "content": "咱们看个例子",
+    "music": 0
+  },
+  {
+    "from": 1943.48,
+    "to": 1945,
+    "sid": 834,
+    "location": 2,
+    "content": "如果你能看见的话",
+    "music": 0
+  },
+  {
+    "from": 1945,
+    "to": 1949.16,
+    "sid": 835,
+    "location": 2,
+    "content": "这是一张包含金霸王蜘蛛侠和绿巨人的图像",
+    "music": 0
+  },
+  {
+    "from": 1949.16,
+    "to": 1950.54,
+    "sid": 836,
+    "location": 2,
+    "content": "它还能输出边界框",
+    "music": 0
+  },
+  {
+    "from": 1950.54,
+    "to": 1952,
+    "sid": 837,
+    "location": 2,
+    "content": "它其实不生成图像",
+    "music": 0
+  },
+  {
+    "from": 1952,
+    "to": 1953.54,
+    "sid": 838,
+    "location": 2,
+    "content": "只是输出边界框",
+    "music": 0
+  },
+  {
+    "from": 1953.54,
+    "to": 1955.12,
+    "sid": 839,
+    "location": 2,
+    "content": "接着咱们可以做OCR",
+    "music": 0
+  },
+  {
+    "from": 1955.12,
+    "to": 1957.83,
+    "sid": 840,
+    "location": 2,
+    "content": "也就是文字识别",
+    "music": 0
+  },
+  {
+    "from": 1957.83,
+    "to": 1959.17,
+    "sid": 841,
+    "location": 2,
+    "content": "然后对比一下",
+    "music": 0
+  },
+  {
+    "from": 1959.17,
+    "to": 1962.45,
+    "sid": 842,
+    "location": 2,
+    "content": "所以咱们就用咱们自己的东西好",
+    "music": 0
+  },
+  {
+    "from": 1962.45,
+    "to": 1965.34,
+    "sid": 843,
+    "location": 2,
+    "content": "那queen2算是又一次升级",
+    "music": 0
+  },
+  {
+    "from": 1965.34,
+    "to": 1966.46,
+    "sid": 844,
+    "location": 2,
+    "content": "这里有些新点子",
+    "music": 0
+  },
+  {
+    "from": 1966.46,
+    "to": 1967.46,
+    "sid": 845,
+    "location": 2,
+    "content": "我接下来会过一遍",
+    "music": 0
+  },
+  {
+    "from": 1967.46,
+    "to": 1969.38,
+    "sid": 846,
+    "location": 2,
+    "content": "比如用更大的视觉编码器",
+    "music": 0
+  },
+  {
+    "from": 1969.38,
+    "to": 1971.66,
+    "sid": 847,
+    "location": 2,
+    "content": "他们还开始搞动态分辨率了",
+    "music": 0
+  },
+  {
+    "from": 1971.66,
+    "to": 1973.62,
+    "sid": 848,
+    "location": 2,
+    "content": "我觉得这是最关键的一点",
+    "music": 0
+  },
+  {
+    "from": 1973.62,
+    "to": 1976.48,
+    "sid": 849,
+    "location": 2,
+    "content": "大家还记得咱们从lava到larva one vision的时候吧",
+    "music": 0
+  },
+  {
+    "from": 1976.48,
+    "to": 1980.159,
+    "sid": 850,
+    "location": 2,
+    "content": "那时候他们意识到哦得能处理不同尺寸的图像",
+    "music": 0
+  },
+  {
+    "from": 1980.159,
+    "to": 1981.439,
+    "sid": 851,
+    "location": 2,
+    "content": "你要是想搞视频",
+    "music": 0
+  },
+  {
+    "from": 1981.439,
+    "to": 1982.279,
+    "sid": 852,
+    "location": 2,
+    "content": "那就很明显了",
+    "music": 0
+  },
+  {
+    "from": 1982.279,
+    "to": 1983.939,
+    "sid": 853,
+    "location": 2,
+    "content": "你得需要某种动态分辨率",
+    "music": 0
+  },
+  {
+    "from": 1983.939,
+    "to": 1988.08,
+    "sid": 854,
+    "location": 2,
+    "content": "大家还记得我们从larva到lava one vision的演进过程吗",
+    "music": 0
+  },
+  {
+    "from": 1988.08,
+    "to": 1992.66,
+    "sid": 855,
+    "location": 2,
+    "content": "当时他们意识到必须能够处理不同尺寸的图像",
+    "music": 0
+  },
+  {
+    "from": 1992.66,
+    "to": 1993.98,
+    "sid": 856,
+    "location": 2,
+    "content": "如果要处理视频",
+    "music": 0
+  },
+  {
+    "from": 1993.98,
+    "to": 1995.2,
+    "sid": 857,
+    "location": 2,
+    "content": "那就很明显了",
+    "music": 0
+  },
+  {
+    "from": 1995.2,
+    "to": 1997.34,
+    "sid": 858,
+    "location": 2,
+    "content": "你需要一种动态分辨率机制",
+    "music": 0
+  },
+  {
+    "from": 1997.34,
+    "to": 1999.52,
+    "sid": 859,
+    "location": 2,
+    "content": "这个模型的基本逻辑是这样的",
+    "music": 0
+  },
+  {
+    "from": 1999.52,
+    "to": 2001.44,
+    "sid": 860,
+    "location": 2,
+    "content": "假设你有一张这样的图片",
+    "music": 0
+  },
+  {
+    "from": 2001.44,
+    "to": 2005.28,
+    "sid": 861,
+    "location": 2,
+    "content": "它可能会被编码为1万1000个token",
+    "music": 0
+  },
+  {
+    "from": 2005.28,
+    "to": 2009.64,
+    "sid": 862,
+    "location": 2,
+    "content": "而这张包含公式的小图可能只被映射为八个token",
+    "music": 0
+  },
+  {
+    "from": 2009.64,
+    "to": 2010.38,
+    "sid": 863,
+    "location": 2,
+    "content": "以此类推",
+    "music": 0
+  },
+  {
+    "from": 2010.38,
+    "to": 2013.1,
+    "sid": 864,
+    "location": 2,
+    "content": "那么他们具体是如何实现这一点的呢",
+    "music": 0
+  },
+  {
+    "from": 2013.1,
+    "to": 2014.62,
+    "sid": 865,
+    "location": 2,
+    "content": "基本思路是",
+    "music": 0
+  },
+  {
+    "from": 2014.62,
+    "to": 2017.72,
+    "sid": 866,
+    "location": 2,
+    "content": "这与lava中的任意分辨率概念是一致的",
+    "music": 0
+  },
+  {
+    "from": 2017.72,
+    "to": 2018.68,
+    "sid": 867,
+    "location": 2,
+    "content": "具体来说",
+    "music": 0
+  },
+  {
+    "from": 2018.68,
+    "to": 2022.94,
+    "sid": 868,
+    "location": 2,
+    "content": "每个224224的图像块都会通过VT进行编码",
+    "music": 0
+  },
+  {
+    "from": 2022.94,
+    "to": 2026.799,
+    "sid": 869,
+    "location": 2,
+    "content": "此外他们最初使用的是open clip的vet",
+    "music": 0
+  },
+  {
+    "from": 2026.799,
+    "to": 2029.5,
+    "sid": 870,
+    "location": 2,
+    "content": "但随后对其进行了微调",
+    "music": 0
+  },
+  {
+    "from": 2029.5,
+    "to": 2032.52,
+    "sid": 871,
+    "location": 2,
+    "content": "接着他们尝试压缩上下文长度",
+    "music": 0
+  },
+  {
+    "from": 2032.52,
+    "to": 2034.74,
+    "sid": 872,
+    "location": 2,
+    "content": "将每两个图像块合并为一个",
+    "music": 0
+  },
+  {
+    "from": 2034.74,
+    "to": 2036.86,
+    "sid": 873,
+    "location": 2,
+    "content": "从而减少每个图像的token数量",
+    "music": 0
+  },
+  {
+    "from": 2036.86,
+    "to": 2040.94,
+    "sid": 874,
+    "location": 2,
+    "content": "嗯所以QW2在这里采取了一些不同的做法",
+    "music": 0
+  },
+  {
+    "from": 2040.94,
+    "to": 2044.32,
+    "sid": 875,
+    "location": 2,
+    "content": "因此他们引入了一种称为多模态旋转位置编码",
+    "music": 0
+  },
+  {
+    "from": 2044.32,
+    "to": 2045.62,
+    "sid": 876,
+    "location": 2,
+    "content": "multimodel rope的方法",
+    "music": 0
+  },
+  {
+    "from": 2045.62,
+    "to": 2047.01,
+    "sid": 877,
+    "location": 2,
+    "content": "大家还记得rope吗",
+    "music": 0
+  },
+  {
+    "from": 2047.01,
+    "to": 2050.63,
+    "sid": 878,
+    "location": 2,
+    "content": "它的核心思想是嵌入向量具备这样的特性",
+    "music": 0
+  },
+  {
+    "from": 2050.63,
+    "to": 2053.63,
+    "sid": 879,
+    "location": 2,
+    "content": "向量间的内积仅取决于相对距离",
+    "music": 0
+  },
+  {
+    "from": 2053.63,
+    "to": 2054.77,
+    "sid": 880,
+    "location": 2,
+    "content": "在一维情况下",
+    "music": 0
+  },
+  {
+    "from": 2054.77,
+    "to": 2057.61,
+    "sid": 881,
+    "location": 2,
+    "content": "距离即为两个token之间的间隔数",
+    "music": 0
+  },
+  {
+    "from": 2057.61,
+    "to": 2059.48,
+    "sid": 882,
+    "location": 2,
+    "content": "推广到多维版本时",
+    "music": 0
+  },
+  {
+    "from": 2059.48,
+    "to": 2060.72,
+    "sid": 883,
+    "location": 2,
+    "content": "原理基本一致",
+    "music": 0
+  },
+  {
+    "from": 2060.72,
+    "to": 2062.68,
+    "sid": 884,
+    "location": 2,
+    "content": "只是维度扩展到了三维",
+    "music": 0
+  },
+  {
+    "from": 2062.68,
+    "to": 2064.78,
+    "sid": 885,
+    "location": 2,
+    "content": "这三个维度分别是高度",
+    "music": 0
+  },
+  {
+    "from": 2064.78,
+    "to": 2066.18,
+    "sid": 886,
+    "location": 2,
+    "content": "宽度和时间",
+    "music": 0
+  },
+  {
+    "from": 2066.18,
+    "to": 2071.57,
+    "sid": 887,
+    "location": 2,
+    "content": "因此每个位置或图像块现在由一个三元组来表示",
+    "music": 0
+  },
+  {
+    "from": 2071.57,
+    "to": 2073.529,
+    "sid": 888,
+    "location": 2,
+    "content": "推广到多维版本时",
+    "music": 0
+  },
+  {
+    "from": 2073.529,
+    "to": 2074.909,
+    "sid": 889,
+    "location": 2,
+    "content": "原理基本一致",
+    "music": 0
+  },
+  {
+    "from": 2074.909,
+    "to": 2076.929,
+    "sid": 890,
+    "location": 2,
+    "content": "只是维度扩展到了三维",
+    "music": 0
+  },
+  {
+    "from": 2076.929,
+    "to": 2078.889,
+    "sid": 891,
+    "location": 2,
+    "content": "这三个维度分别是高度",
+    "music": 0
+  },
+  {
+    "from": 2078.889,
+    "to": 2080.09,
+    "sid": 892,
+    "location": 2,
+    "content": "宽度和时间",
+    "music": 0
+  },
+  {
+    "from": 2080.09,
+    "to": 2083.59,
+    "sid": 893,
+    "location": 2,
+    "content": "因此每个位置或图像块现在有一个三元组来表示",
+    "music": 0
+  },
+  {
+    "from": 2083.59,
+    "to": 2089.46,
+    "sid": 894,
+    "location": 2,
+    "content": "不过后来当我们审视QWM30会发现这其实并非最优解",
+    "music": 0
+  },
+  {
+    "from": 2089.46,
+    "to": 2092.58,
+    "sid": 895,
+    "location": 2,
+    "content": "于是他们用此来初始化语言模型",
+    "music": 0
+  },
+  {
+    "from": 2092.58,
+    "to": 2094.4,
+    "sid": 896,
+    "location": 2,
+    "content": "这是QWMV2模型",
+    "music": 0
+  },
+  {
+    "from": 2094.4,
+    "to": 2097.08,
+    "sid": 897,
+    "location": 2,
+    "content": "自然是以q w in为基础进行初始化的",
+    "music": 0
+  },
+  {
+    "from": 2097.08,
+    "to": 2099.56,
+    "sid": 898,
+    "location": 2,
+    "content": "接着他们进行了三阶段训练",
+    "music": 0
+  },
+  {
+    "from": 2099.56,
+    "to": 2102.26,
+    "sid": 899,
+    "location": 2,
+    "content": "这与我们之前的做法非常相似",
+    "music": 0
+  },
+  {
+    "from": 2102.26,
+    "to": 2104.81,
+    "sid": 900,
+    "location": 2,
+    "content": "随后他们展示了一系列不同能力",
+    "music": 0
+  },
+  {
+    "from": 2104.81,
+    "to": 2108.11,
+    "sid": 901,
+    "location": 2,
+    "content": "例如视频理解它既能处理数学和代码",
+    "music": 0
+  },
+  {
+    "from": 2108.11,
+    "to": 2110.35,
+    "sid": 902,
+    "location": 2,
+    "content": "也能进行函数调用等等",
+    "music": 0
+  },
+  {
+    "from": 2110.35,
+    "to": 2114.01,
+    "sid": 903,
+    "location": 2,
+    "content": "好的那我快速介绍一下QWE3嗯",
+    "music": 0
+  },
+  {
+    "from": 2114.01,
+    "to": 2114.89,
+    "sid": 904,
+    "location": 2,
+    "content": "所以再说一遍",
+    "music": 0
+  },
+  {
+    "from": 2114.89,
+    "to": 2115.83,
+    "sid": 905,
+    "location": 2,
+    "content": "这里有一些改动",
+    "music": 0
+  },
+  {
+    "from": 2115.83,
+    "to": 2118.05,
+    "sid": 906,
+    "location": 2,
+    "content": "我不认为这是结构上的重大变动",
+    "music": 0
+  },
+  {
+    "from": 2118.05,
+    "to": 2119.95,
+    "sid": 907,
+    "location": 2,
+    "content": "但它们确实会影响模型的质量",
+    "music": 0
+  },
+  {
+    "from": 2119.95,
+    "to": 2123.11,
+    "sid": 908,
+    "location": 2,
+    "content": "这是去年昆汀3V2报告里的图",
+    "music": 0
+  },
+  {
+    "from": 2123.11,
+    "to": 2124.87,
+    "sid": 909,
+    "location": 2,
+    "content": "所以这里的图表基本没变",
+    "music": 0
+  },
+  {
+    "from": 2124.87,
+    "to": 2125.69,
+    "sid": 910,
+    "location": 2,
+    "content": "我提一下",
+    "music": 0
+  },
+  {
+    "from": 2125.69,
+    "to": 2127.27,
+    "sid": 911,
+    "location": 2,
+    "content": "也许后面我会再回到这张图",
+    "music": 0
+  },
+  {
+    "from": 2127.27,
+    "to": 2128.88,
+    "sid": 912,
+    "location": 2,
+    "content": "我来梳理一下这些变化",
+    "music": 0
+  },
+  {
+    "from": 2128.88,
+    "to": 2131.2,
+    "sid": 913,
+    "location": 2,
+    "content": "首先现在他们用的是quin3模型",
+    "music": 0
+  },
+  {
+    "from": 2131.2,
+    "to": 2133.3,
+    "sid": 914,
+    "location": 2,
+    "content": "他们有一系列dance和贸易模型",
+    "music": 0
+  },
+  {
+    "from": 2133.3,
+    "to": 2135.39,
+    "sid": 915,
+    "location": 2,
+    "content": "困的三模型效果非常出色",
+    "music": 0
+  },
+  {
+    "from": 2135.39,
+    "to": 2137.91,
+    "sid": 916,
+    "location": 2,
+    "content": "这对提升最终模型的质量帮助很大",
+    "music": 0
+  },
+  {
+    "from": 2137.91,
+    "to": 2140.649,
+    "sid": 917,
+    "location": 2,
+    "content": "他们重点投入的是长上下文理解能力",
+    "music": 0
+  },
+  {
+    "from": 2140.649,
+    "to": 2143.109,
+    "sid": 918,
+    "location": 2,
+    "content": "上下文长度最高可达256K",
+    "music": 0
+  },
+  {
+    "from": 2143.109,
+    "to": 2144.089,
+    "sid": 919,
+    "location": 2,
+    "content": "这一点非常重要",
+    "music": 0
+  },
+  {
+    "from": 2144.089,
+    "to": 2146.669,
+    "sid": 920,
+    "location": 2,
+    "content": "尤其是当你试图处理长视频时",
+    "music": 0
+  },
+  {
+    "from": 2146.669,
+    "to": 2149.13,
+    "sid": 921,
+    "location": 2,
+    "content": "咱们来谈谈视觉编码器",
+    "music": 0
+  },
+  {
+    "from": 2149.13,
+    "to": 2151.029,
+    "sid": 922,
+    "location": 2,
+    "content": "他们用的是c click2",
+    "music": 0
+  },
+  {
+    "from": 2151.029,
+    "to": 2153.909,
+    "sid": 923,
+    "location": 2,
+    "content": "这基本上是对c click的改进版本",
+    "music": 0
+  },
+  {
+    "from": 2153.909,
+    "to": 2156.109,
+    "sid": 924,
+    "location": 2,
+    "content": "实际上这是完全相同的架构",
+    "music": 0
+  },
+  {
+    "from": 2156.109,
+    "to": 2157.929,
+    "sid": 925,
+    "location": 2,
+    "content": "其设计旨在向后兼容",
+    "music": 0
+  },
+  {
+    "from": 2157.929,
+    "to": 2159.75,
+    "sid": 926,
+    "location": 2,
+    "content": "随后他们改进了rope",
+    "music": 0
+  },
+  {
+    "from": 2159.75,
+    "to": 2161.21,
+    "sid": 927,
+    "location": 2,
+    "content": "咱们先回顾一下",
+    "music": 0
+  },
+  {
+    "from": 2161.21,
+    "to": 2163.33,
+    "sid": 928,
+    "location": 2,
+    "content": "以前只有三个维度",
+    "music": 0
+  },
+  {
+    "from": 2163.33,
+    "to": 2165.25,
+    "sid": 929,
+    "location": 2,
+    "content": "时间宽度和高度",
+    "music": 0
+  },
+  {
+    "from": 2165.25,
+    "to": 2166.19,
+    "sid": 930,
+    "location": 2,
+    "content": "简单来说",
+    "music": 0
+  },
+  {
+    "from": 2166.19,
+    "to": 2169.03,
+    "sid": 931,
+    "location": 2,
+    "content": "他们把第一块维度空间留给了时间",
+    "music": 0
+  },
+  {
+    "from": 2169.03,
+    "to": 2170.08,
+    "sid": 932,
+    "location": 2,
+    "content": "简单来说",
+    "music": 0
+  },
+  {
+    "from": 2170.08,
+    "to": 2173.24,
+    "sid": 933,
+    "location": 2,
+    "content": "他们把第一块维度空间留给了时间",
+    "music": 0
+  },
+  {
+    "from": 2173.24,
+    "to": 2174.9,
+    "sid": 934,
+    "location": 2,
+    "content": "接着给宽度维度",
+    "music": 0
+  },
+  {
+    "from": 2174.9,
+    "to": 2176.32,
+    "sid": 935,
+    "location": 2,
+    "content": "再给高度维度",
+    "music": 0
+  },
+  {
+    "from": 2176.32,
+    "to": 2177.62,
+    "sid": 936,
+    "location": 2,
+    "content": "如果你记得rope",
+    "music": 0
+  },
+  {
+    "from": 2177.62,
+    "to": 2178.76,
+    "sid": 937,
+    "location": 2,
+    "content": "问题就出在这",
+    "music": 0
+  },
+  {
+    "from": 2178.76,
+    "to": 2180.82,
+    "sid": 938,
+    "location": 2,
+    "content": "每个组件其实代表不同的频率",
+    "music": 0
+  },
+  {
+    "from": 2180.82,
+    "to": 2182.31,
+    "sid": 939,
+    "location": 2,
+    "content": "这就导致一个问题",
+    "music": 0
+  },
+  {
+    "from": 2182.31,
+    "to": 2183.97,
+    "sid": 940,
+    "location": 2,
+    "content": "时间维度可能全是低频",
+    "music": 0
+  },
+  {
+    "from": 2183.97,
+    "to": 2185.47,
+    "sid": 941,
+    "location": 2,
+    "content": "而高度维度全是高频",
+    "music": 0
+  },
+  {
+    "from": 2185.47,
+    "to": 2189.14,
+    "sid": 942,
+    "location": 2,
+    "content": "所以他们把这些维度交错排列了",
+    "music": 0
+  },
+  {
+    "from": 2189.14,
+    "to": 2190.44,
+    "sid": 943,
+    "location": 2,
+    "content": "意识到这点后",
+    "music": 0
+  },
+  {
+    "from": 2190.44,
+    "to": 2195.08,
+    "sid": 944,
+    "location": 2,
+    "content": "现在的每个轴都能同时接触到低频和高频信息",
+    "music": 0
+  },
+  {
+    "from": 2195.08,
+    "to": 2197.09,
+    "sid": 945,
+    "location": 2,
+    "content": "另外他们还做了一件事儿",
+    "music": 0
+  },
+  {
+    "from": 2197.09,
+    "to": 2200.21,
+    "sid": 946,
+    "location": 2,
+    "content": "直接引入显示的视频时间戳",
+    "music": 0
+  },
+  {
+    "from": 2200.21,
+    "to": 2203.41,
+    "sid": 947,
+    "location": 2,
+    "content": "所以他们将这些维度交错排列",
+    "music": 0
+  },
+  {
+    "from": 2203.41,
+    "to": 2204.91,
+    "sid": 948,
+    "location": 2,
+    "content": "意识到这一点后",
+    "music": 0
+  },
+  {
+    "from": 2204.91,
+    "to": 2208.79,
+    "sid": 949,
+    "location": 2,
+    "content": "现在每个轴都能同时接触到低频和高频信息",
+    "music": 0
+  },
+  {
+    "from": 2208.79,
+    "to": 2211.56,
+    "sid": 950,
+    "location": 2,
+    "content": "另外他们还做了一件事",
+    "music": 0
+  },
+  {
+    "from": 2211.56,
+    "to": 2213.9,
+    "sid": 951,
+    "location": 2,
+    "content": "直接引入显示的视频时间戳",
+    "music": 0
+  },
+  {
+    "from": 2213.9,
+    "to": 2217.08,
+    "sid": 952,
+    "location": 2,
+    "content": "哎呀嗯你看呃这个可能有点小",
+    "music": 0
+  },
+  {
+    "from": 2217.08,
+    "to": 2219.48,
+    "sid": 953,
+    "location": 2,
+    "content": "不过之前我们讨论过位置嵌入的问题",
+    "music": 0
+  },
+  {
+    "from": 2219.48,
+    "to": 2222.39,
+    "sid": 954,
+    "location": 2,
+    "content": "时间戳在位置编码里是隐含的",
+    "music": 0
+  },
+  {
+    "from": 2222.39,
+    "to": 2225.55,
+    "sid": 955,
+    "location": 2,
+    "content": "视频里的每一帧天生就带着不同的时间信息",
+    "music": 0
+  },
+  {
+    "from": 2225.55,
+    "to": 2226.85,
+    "sid": 956,
+    "location": 2,
+    "content": "之所以有时间概念",
+    "music": 0
+  },
+  {
+    "from": 2226.85,
+    "to": 2228.51,
+    "sid": 957,
+    "location": 2,
+    "content": "纯粹是因为他们位置不同",
+    "music": 0
+  },
+  {
+    "from": 2228.51,
+    "to": 2230.87,
+    "sid": 958,
+    "location": 2,
+    "content": "嗯但在这他们把时间显示化了",
+    "music": 0
+  },
+  {
+    "from": 2230.87,
+    "to": 2232.43,
+    "sid": 959,
+    "location": 2,
+    "content": "所以这些其实是token",
+    "music": 0
+  },
+  {
+    "from": 2232.43,
+    "to": 2234.17,
+    "sid": 960,
+    "location": 2,
+    "content": "0S就是一个token",
+    "music": 0
+  },
+  {
+    "from": 2234.17,
+    "to": 2236.75,
+    "sid": 961,
+    "location": 2,
+    "content": "现在你有了一个代表时间的token啊",
+    "music": 0
+  },
+  {
+    "from": 2236.75,
+    "to": 2239.03,
+    "sid": 962,
+    "location": 2,
+    "content": "他们发现这挺有用的",
+    "music": 0
+  },
+  {
+    "from": 2239.03,
+    "to": 2241.19,
+    "sid": 963,
+    "location": 2,
+    "content": "大概是因为你可以直接引用它",
+    "music": 0
+  },
+  {
+    "from": 2241.19,
+    "to": 2243.09,
+    "sid": 964,
+    "location": 2,
+    "content": "比如两秒后发生了什么",
+    "music": 0
+  },
+  {
+    "from": 2243.09,
+    "to": 2244.57,
+    "sid": 965,
+    "location": 2,
+    "content": "从而增强时间感知",
+    "music": 0
+  },
+  {
+    "from": 2244.57,
+    "to": 2246.71,
+    "sid": 966,
+    "location": 2,
+    "content": "0SS对应一个token",
+    "music": 0
+  },
+  {
+    "from": 2246.71,
+    "to": 2249.13,
+    "sid": 967,
+    "location": 2,
+    "content": "现在你拥有了一个代表时间的token嗯",
+    "music": 0
+  },
+  {
+    "from": 2249.13,
+    "to": 2251.72,
+    "sid": 968,
+    "location": 2,
+    "content": "他们发现这挺有用的",
+    "music": 0
+  },
+  {
+    "from": 2251.72,
+    "to": 2253.38,
+    "sid": 969,
+    "location": 2,
+    "content": "大概是因为你可以直接引用它",
+    "music": 0
+  },
+  {
+    "from": 2253.38,
+    "to": 2254.9,
+    "sid": 970,
+    "location": 2,
+    "content": "比如两秒后发生了什么",
+    "music": 0
+  },
+  {
+    "from": 2254.9,
+    "to": 2255.94,
+    "sid": 971,
+    "location": 2,
+    "content": "咱们得这么想",
+    "music": 0
+  },
+  {
+    "from": 2255.94,
+    "to": 2258.02,
+    "sid": 972,
+    "location": 2,
+    "content": "带视频的例子通常很长",
+    "music": 0
+  },
+  {
+    "from": 2258.02,
+    "to": 2260.52,
+    "sid": 973,
+    "location": 2,
+    "content": "但带单张图片的例子就很短",
+    "music": 0
+  },
+  {
+    "from": 2260.52,
+    "to": 2263.6,
+    "sid": 974,
+    "location": 2,
+    "content": "通常的做法是把每个token1视同仁",
+    "music": 0
+  },
+  {
+    "from": 2263.6,
+    "to": 2266.5,
+    "sid": 975,
+    "location": 2,
+    "content": "这样一来视频样本就会占据主导地位",
+    "music": 0
+  },
+  {
+    "from": 2266.5,
+    "to": 2269.78,
+    "sid": 976,
+    "location": 2,
+    "content": "所以嘛他们大概是具体细节我不太确定",
+    "music": 0
+  },
+  {
+    "from": 2269.78,
+    "to": 2273.64,
+    "sid": 977,
+    "location": 2,
+    "content": "但我猜他们是用视力长度的平方根做了归一化",
+    "music": 0
+  },
+  {
+    "from": 2273.64,
+    "to": 2276.08,
+    "sid": 978,
+    "location": 2,
+    "content": "主要是为了压低那些特别长样本的影响力",
+    "music": 0
+  },
+  {
+    "from": 2276.08,
+    "to": 2277.6,
+    "sid": 979,
+    "location": 2,
+    "content": "最后还有个挺有意思的点",
+    "music": 0
+  },
+  {
+    "from": 2277.6,
+    "to": 2280.04,
+    "sid": 980,
+    "location": 2,
+    "content": "就是他们在adapter上搞了点新花样",
+    "music": 0
+  },
+  {
+    "from": 2280.04,
+    "to": 2280.88,
+    "sid": 981,
+    "location": 2,
+    "content": "咱们回想一下",
+    "music": 0
+  },
+  {
+    "from": 2280.88,
+    "to": 2284.71,
+    "sid": 982,
+    "location": 2,
+    "content": "adapter就是负责把视觉编码器和语言模型连起来的那个部件",
+    "music": 0
+  },
+  {
+    "from": 2284.71,
+    "to": 2287.18,
+    "sid": 983,
+    "location": 2,
+    "content": "lava最简单就是个线性投影",
+    "music": 0
+  },
+  {
+    "from": 2287.18,
+    "to": 2288.82,
+    "sid": 984,
+    "location": 2,
+    "content": "后来咱们又加了MLP",
+    "music": 0
+  },
+  {
+    "from": 2288.82,
+    "to": 2290.66,
+    "sid": 985,
+    "location": 2,
+    "content": "还搞了种交叉注意力机制",
+    "music": 0
+  },
+  {
+    "from": 2290.66,
+    "to": 2291.88,
+    "sid": 986,
+    "location": 2,
+    "content": "咱们回想一下",
+    "music": 0
+  },
+  {
+    "from": 2291.88,
+    "to": 2297.62,
+    "sid": 987,
+    "location": 2,
+    "content": "adapter就是负责把视觉编码器和语言模型连起来的那个部件",
+    "music": 0
+  },
+  {
+    "from": 2297.62,
+    "to": 2300.5,
+    "sid": 988,
+    "location": 2,
+    "content": "lava最简单就是个线性投影",
+    "music": 0
+  },
+  {
+    "from": 2300.5,
+    "to": 2302.54,
+    "sid": 989,
+    "location": 2,
+    "content": "后来咱们又加了MLP",
+    "music": 0
+  },
+  {
+    "from": 2302.54,
+    "to": 2304.75,
+    "sid": 990,
+    "location": 2,
+    "content": "还搞了种交叉注意力机制",
+    "music": 0
+  },
+  {
+    "from": 2304.75,
+    "to": 2309.77,
+    "sid": 991,
+    "location": 2,
+    "content": "咱们基本上就是把它们直接加到语言模型的残差流里",
+    "music": 0
+  },
+  {
+    "from": 2309.77,
+    "to": 2316.48,
+    "sid": 992,
+    "location": 2,
+    "content": "所以这算是把视觉编码器和语言模型做了一种深度融合",
+    "music": 0
+  },
+  {
+    "from": 2316.48,
+    "to": 2320.46,
+    "sid": 993,
+    "location": 2,
+    "content": "即将视觉编码器与语言模型进行融合",
+    "music": 0
+  },
+  {
+    "from": 2320.46,
+    "to": 2323.86,
+    "sid": 994,
+    "location": 2,
+    "content": "这与仅输出向量序列的黑盒视觉编码器不同",
+    "music": 0
+  },
+  {
+    "from": 2323.86,
+    "to": 2326.31,
+    "sid": 995,
+    "location": 2,
+    "content": "训练过程分为两个阶段",
+    "music": 0
+  },
+  {
+    "from": 2326.31,
+    "to": 2328.23,
+    "sid": 996,
+    "location": 2,
+    "content": "预训练包含四个阶段",
+    "music": 0
+  },
+  {
+    "from": 2328.23,
+    "to": 2328.91,
+    "sid": 997,
+    "location": 2,
+    "content": "后训练",
+    "music": 0
+  },
+  {
+    "from": 2328.91,
+    "to": 2329.83,
+    "sid": 998,
+    "location": 2,
+    "content": "包含三个阶段",
+    "music": 0
+  },
+  {
+    "from": 2329.83,
+    "to": 2331.45,
+    "sid": 999,
+    "location": 2,
+    "content": "训练过程分为两个阶段",
+    "music": 0
+  },
+  {
+    "from": 2331.45,
+    "to": 2333.33,
+    "sid": 1000,
+    "location": 2,
+    "content": "预训练包含四个阶段后训练",
+    "music": 0
+  },
+  {
+    "from": 2333.33,
+    "to": 2334.13,
+    "sid": 1001,
+    "location": 2,
+    "content": "包含三个阶段",
+    "music": 0
+  },
+  {
+    "from": 2334.13,
+    "to": 2335.53,
+    "sid": 1002,
+    "location": 2,
+    "content": "随后进入三个阶段",
+    "music": 0
+  },
+  {
+    "from": 2335.53,
+    "to": 2338.109,
+    "sid": 1003,
+    "location": 2,
+    "content": "逐步在更长的序列上进行训练",
+    "music": 0
+  },
+  {
+    "from": 2338.109,
+    "to": 2341.769,
+    "sid": 1004,
+    "location": 2,
+    "content": "序列长度从8K增加至32K再增至256K",
+    "music": 0
+  },
+  {
+    "from": 2341.769,
+    "to": 2345.509,
+    "sid": 1005,
+    "location": 2,
+    "content": "大部分token集中在第二和第三阶段之后",
+    "music": 0
+  },
+  {
+    "from": 2345.509,
+    "to": 2346.99,
+    "sid": 1006,
+    "location": 2,
+    "content": "进入后训练阶段",
+    "music": 0
+  },
+  {
+    "from": 2346.99,
+    "to": 2352.62,
+    "sid": 1007,
+    "location": 2,
+    "content": "团队会使用长链思维数据进行监督微调sf t和知识蒸馏",
+    "music": 0
+  },
+  {
+    "from": 2352.62,
+    "to": 2354.38,
+    "sid": 1008,
+    "location": 2,
+    "content": "并辅以强化学习",
+    "music": 0
+  },
+  {
+    "from": 2354.38,
+    "to": 2355.22,
+    "sid": 1009,
+    "location": 2,
+    "content": "严格来说",
+    "music": 0
+  },
+  {
+    "from": 2355.22,
+    "to": 2358.09,
+    "sid": 1010,
+    "location": 2,
+    "content": "这是一篇侧重系统实现的论文",
+    "music": 0
+  },
+  {
+    "from": 2358.09,
+    "to": 2360.03,
+    "sid": 1011,
+    "location": 2,
+    "content": "我标注了一些核心创新点",
+    "music": 0
+  },
+  {
+    "from": 2360.03,
+    "to": 2362.25,
+    "sid": 1012,
+    "location": 2,
+    "content": "但文中仍存在不少细节差异",
+    "music": 0
+  },
+  {
+    "from": 2362.25,
+    "to": 2363.63,
+    "sid": 1013,
+    "location": 2,
+    "content": "从最终结果来看",
+    "music": 0
+  },
+  {
+    "from": 2363.63,
+    "to": 2365.47,
+    "sid": 1014,
+    "location": 2,
+    "content": "这是一个相当出色的模型",
+    "music": 0
+  },
+  {
+    "from": 2365.47,
+    "to": 2366.35,
+    "sid": 1015,
+    "location": 2,
+    "content": "也就是说",
+    "music": 0
+  },
+  {
+    "from": 2366.35,
+    "to": 2369.93,
+    "sid": 1016,
+    "location": 2,
+    "content": "若将这些基准测试成绩与Gemini g p t-5",
+    "music": 0
+  },
+  {
+    "from": 2369.93,
+    "to": 2372.23,
+    "sid": 1017,
+    "location": 2,
+    "content": "OPPO4.1等必然模型进行对比",
+    "music": 0
+  },
+  {
+    "from": 2372.23,
+    "to": 2373.65,
+    "sid": 1018,
+    "location": 2,
+    "content": "从最终结果来看",
+    "music": 0
+  },
+  {
+    "from": 2373.65,
+    "to": 2376.01,
+    "sid": 1019,
+    "location": 2,
+    "content": "这是一个相当不错的模型",
+    "music": 0
+  },
+  {
+    "from": 2376.01,
+    "to": 2379.23,
+    "sid": 1020,
+    "location": 2,
+    "content": "所以你看窥模型的实力其实很强",
+    "music": 0
+  },
+  {
+    "from": 2379.23,
+    "to": 2382.63,
+    "sid": 1021,
+    "location": 2,
+    "content": "嗯对有同学提问好",
+    "music": 0
+  },
+  {
+    "from": 2382.63,
+    "to": 2385.27,
+    "sid": 1022,
+    "location": 2,
+    "content": "下一位受害",
+    "music": 0
+  },
+  {
+    "from": 2396.02,
+    "to": 2399.02,
+    "sid": 1023,
+    "location": 2,
+    "content": "以及谢谢",
+    "music": 0
+  },
+  {
+    "from": 2399.02,
+    "to": 2401.24,
+    "sid": 1024,
+    "location": 2,
+    "content": "所以问题是在视频生成方面",
+    "music": 0
+  },
+  {
+    "from": 2401.24,
+    "to": 2403.84,
+    "sid": 1025,
+    "location": 2,
+    "content": "你怎么判断输出应该是视频还是文本",
+    "music": 0
+  },
+  {
+    "from": 2403.84,
+    "to": 2407.24,
+    "sid": 1026,
+    "location": 2,
+    "content": "首先得明确这些模型其实并不生成视频或图片",
+    "music": 0
+  },
+  {
+    "from": 2407.24,
+    "to": 2407.78,
+    "sid": 1027,
+    "location": 2,
+    "content": "视频",
+    "music": 0
+  },
+  {
+    "from": 2407.78,
+    "to": 2410.56,
+    "sid": 1028,
+    "location": 2,
+    "content": "或者说所有多模态内容都只存在于输入端",
+    "music": 0
+  },
+  {
+    "from": 2410.56,
+    "to": 2412.14,
+    "sid": 1029,
+    "location": 2,
+    "content": "你们生成的始终是文本",
+    "music": 0
+  },
+  {
+    "from": 2412.14,
+    "to": 2418.8,
+    "sid": 1030,
+    "location": 2,
+    "content": "所以首先得明确这些模型其实并不生成视频或图片",
+    "music": 0
+  },
+  {
+    "from": 2418.8,
+    "to": 2419.46,
+    "sid": 1031,
+    "location": 2,
+    "content": "视频",
+    "music": 0
+  },
+  {
+    "from": 2419.46,
+    "to": 2423.82,
+    "sid": 1032,
+    "location": 2,
+    "content": "或者说所有多模态内容都只存在于输入端",
+    "music": 0
+  },
+  {
+    "from": 2423.82,
+    "to": 2425.02,
+    "sid": 1033,
+    "location": 2,
+    "content": "在这些阶段里",
+    "music": 0
+  },
+  {
+    "from": 2425.02,
+    "to": 2428.5,
+    "sid": 1034,
+    "location": 2,
+    "content": "除了RLL你基本上是对每一个token进行监督",
+    "music": 0
+  },
+  {
+    "from": 2428.5,
+    "to": 2433.73,
+    "sid": 1035,
+    "location": 2,
+    "content": "所以不存在比如用语言模型当裁判或者评估描述质量的情况",
+    "music": 0
+  },
+  {
+    "from": 2433.73,
+    "to": 2435.55,
+    "sid": 1036,
+    "location": 2,
+    "content": "这主要取决于数据集中的内容",
+    "music": 0
+  },
+  {
+    "from": 2435.55,
+    "to": 2436.81,
+    "sid": 1037,
+    "location": 2,
+    "content": "不过有了强化学习",
+    "music": 0
+  },
+  {
+    "from": 2436.81,
+    "to": 2438.25,
+    "sid": 1038,
+    "location": 2,
+    "content": "你可以尝试不同的反馈机制",
+    "music": 0
+  },
+  {
+    "from": 2438.25,
+    "to": 2439.12,
+    "sid": 1039,
+    "location": 2,
+    "content": "没错",
+    "music": 0
+  },
+  {
+    "from": 2439.12,
+    "to": 2443.15,
+    "sid": 1040,
+    "location": 2,
+    "content": "我想确认一下这是否属于多模态模型的训练",
+    "music": 0
+  },
+  {
+    "from": 2443.15,
+    "to": 2446.59,
+    "sid": 1041,
+    "location": 2,
+    "content": "在那些比肩更热的唇语系统中",
+    "music": 0
+  },
+  {
+    "from": 2446.59,
+    "to": 2447.95,
+    "sid": 1042,
+    "location": 2,
+    "content": "从系统角度来看",
+    "music": 0
+  },
+  {
+    "from": 2447.95,
+    "to": 2450.4,
+    "sid": 1043,
+    "location": 2,
+    "content": "所以从系统角度来看",
+    "music": 0
+  },
+  {
+    "from": 2450.4,
+    "to": 2456.64,
+    "sid": 1044,
+    "location": 2,
+    "content": "我两位一对某些小组可以在空气中",
+    "music": 0
+  },
+  {
+    "from": 2456.64,
+    "to": 2460,
+    "sid": 1045,
+    "location": 2,
+    "content": "只有让自己认识",
+    "music": 0
+  },
+  {
+    "from": 2460.41,
+    "to": 2462.25,
+    "sid": 1046,
+    "location": 2,
+    "content": "每一个人努力测试",
+    "music": 0
+  },
+  {
+    "from": 2463.61,
+    "to": 2466.15,
+    "sid": 1047,
+    "location": 2,
+    "content": "总算把暗灭落下来",
+    "music": 0
+  },
+  {
+    "from": 2466.15,
+    "to": 2469.02,
+    "sid": 1048,
+    "location": 2,
+    "content": "而与你与我们之手",
+    "music": 0
+  },
+  {
+    "from": 2469.5,
+    "to": 2472.92,
+    "sid": 1049,
+    "location": 2,
+    "content": "我更专注于那是完美的",
+    "music": 0
+  },
+  {
+    "from": 2472.92,
+    "to": 2474.95,
+    "sid": 1050,
+    "location": 2,
+    "content": "所以从气功角度来看",
+    "music": 0
+  },
+  {
+    "from": 2474.95,
+    "to": 2479.97,
+    "sid": 1051,
+    "location": 2,
+    "content": "我认为嗯对某些家族可以在某地中使用路易基的视频",
+    "music": 0
+  },
+  {
+    "from": 2479.97,
+    "to": 2481.37,
+    "sid": 1052,
+    "location": 2,
+    "content": "比一个人用于测试",
+    "music": 0
+  },
+  {
+    "from": 2481.37,
+    "to": 2482.39,
+    "sid": 1053,
+    "location": 2,
+    "content": "从算法方面",
+    "music": 0
+  },
+  {
+    "from": 2482.39,
+    "to": 2486.01,
+    "sid": 1054,
+    "location": 2,
+    "content": "我想呃英语我们只是说我更专注于那是完美的",
+    "music": 0
+  },
+  {
+    "from": 2486.01,
+    "to": 2488.17,
+    "sid": 1055,
+    "location": 2,
+    "content": "我的意思是肯定没那么简单",
+    "music": 0
+  },
+  {
+    "from": 2488.17,
+    "to": 2491.25,
+    "sid": 1056,
+    "location": 2,
+    "content": "就像你提到的数据集规模更大了",
+    "music": 0
+  },
+  {
+    "from": 2491.25,
+    "to": 2492.17,
+    "sid": 1057,
+    "location": 2,
+    "content": "视频数据嘛",
+    "music": 0
+  },
+  {
+    "from": 2492.17,
+    "to": 2492.89,
+    "sid": 1058,
+    "location": 2,
+    "content": "你知道的",
+    "music": 0
+  },
+  {
+    "from": 2492.89,
+    "to": 2494.87,
+    "sid": 1059,
+    "location": 2,
+    "content": "光是加载它就可能让人头大",
+    "music": 0
+  },
+  {
+    "from": 2494.87,
+    "to": 2497.94,
+    "sid": 1060,
+    "location": 2,
+    "content": "通常我们没怎么特意讨论语言模型的数据加载问题",
+    "music": 0
+  },
+  {
+    "from": 2497.94,
+    "to": 2500.02,
+    "sid": 1061,
+    "location": 2,
+    "content": "因为它通常不是主要的瓶颈",
+    "music": 0
+  },
+  {
+    "from": 2500.02,
+    "to": 2500.9,
+    "sid": 1062,
+    "location": 2,
+    "content": "成本非常低",
+    "music": 0
+  },
+  {
+    "from": 2500.9,
+    "to": 2502.569,
+    "sid": 1063,
+    "location": 2,
+    "content": "所以这点得考虑进去",
+    "music": 0
+  },
+  {
+    "from": 2502.569,
+    "to": 2507.189,
+    "sid": 1064,
+    "location": 2,
+    "content": "同时确保数据加载与实际计算一步进行的那些原则也都适用",
+    "music": 0
+  },
+  {
+    "from": 2507.189,
+    "to": 2508.089,
+    "sid": 1065,
+    "location": 2,
+    "content": "得考虑进去",
+    "music": 0
+  },
+  {
+    "from": 2508.089,
+    "to": 2508.889,
+    "sid": 1066,
+    "location": 2,
+    "content": "第二部分嘛",
+    "music": 0
+  },
+  {
+    "from": 2508.889,
+    "to": 2510.109,
+    "sid": 1067,
+    "location": 2,
+    "content": "抱歉刚才说到哪了",
+    "music": 0
+  },
+  {
+    "from": 2510.109,
+    "to": 2512.099,
+    "sid": 1068,
+    "location": 2,
+    "content": "第二个问题咱们知道了哦",
+    "music": 0
+  },
+  {
+    "from": 2512.099,
+    "to": 2514.579,
+    "sid": 1069,
+    "location": 2,
+    "content": "对视频和图像包含的token更多",
+    "music": 0
+  },
+  {
+    "from": 2514.579,
+    "to": 2515.479,
+    "sid": 1070,
+    "location": 2,
+    "content": "尤其是视频",
+    "music": 0
+  },
+  {
+    "from": 2515.479,
+    "to": 2517.36,
+    "sid": 1071,
+    "location": 2,
+    "content": "第二个问题咱们清楚了对了",
+    "music": 0
+  },
+  {
+    "from": 2517.36,
+    "to": 2519.48,
+    "sid": 1072,
+    "location": 2,
+    "content": "视频和图像包含的token更多",
+    "music": 0
+  },
+  {
+    "from": 2519.48,
+    "to": 2520.2,
+    "sid": 1073,
+    "location": 2,
+    "content": "尤其是视频",
+    "music": 0
+  },
+  {
+    "from": 2520.2,
+    "to": 2523.02,
+    "sid": 1074,
+    "location": 2,
+    "content": "主要是为了防止视频在模型中占比过大",
+    "music": 0
+  },
+  {
+    "from": 2523.02,
+    "to": 2524.79,
+    "sid": 1075,
+    "location": 2,
+    "content": "你看你可以直接调低权重",
+    "music": 0
+  },
+  {
+    "from": 2524.79,
+    "to": 2525.99,
+    "sid": 1076,
+    "location": 2,
+    "content": "比如token数量太多",
+    "music": 0
+  },
+  {
+    "from": 2525.99,
+    "to": 2526.67,
+    "sid": 1077,
+    "location": 2,
+    "content": "觉得不合适",
+    "music": 0
+  },
+  {
+    "from": 2526.67,
+    "to": 2527.63,
+    "sid": 1078,
+    "location": 2,
+    "content": "就把权重降下来",
+    "music": 0
+  },
+  {
+    "from": 2527.63,
+    "to": 2531.68,
+    "sid": 1079,
+    "location": 2,
+    "content": "咱们上次或者说是两周前聊过数据混合的问题",
+    "music": 0
+  },
+  {
+    "from": 2531.68,
+    "to": 2533.1,
+    "sid": 1080,
+    "location": 2,
+    "content": "所以具体怎么加权",
+    "music": 0
+  },
+  {
+    "from": 2533.1,
+    "to": 2534.94,
+    "sid": 1081,
+    "location": 2,
+    "content": "只要合理都可以灵活调整",
+    "music": 0
+  },
+  {
+    "from": 2534.94,
+    "to": 2537.96,
+    "sid": 1082,
+    "location": 2,
+    "content": "不过文本token的数量其实也非常庞大",
+    "music": 0
+  },
+  {
+    "from": 2537.96,
+    "to": 2542.2,
+    "sid": 1083,
+    "location": 2,
+    "content": "所以总的来说这些模型都是在数万亿个token上训练出来的",
+    "music": 0
+  },
+  {
+    "from": 2542.2,
+    "to": 2546.15,
+    "sid": 1084,
+    "location": 2,
+    "content": "我觉得多模态token的数量并没有远远超过文本token",
+    "music": 0
+  },
+  {
+    "from": 2546.15,
+    "to": 2547.61,
+    "sid": 1085,
+    "location": 2,
+    "content": "对好",
+    "music": 0
+  },
+  {
+    "from": 2547.61,
+    "to": 2551.649,
+    "sid": 1086,
+    "location": 2,
+    "content": "你先问问关于X电子被CPI的识别器验证",
+    "music": 0
+  },
+  {
+    "from": 2552.009,
+    "to": 2554.169,
+    "sid": 1087,
+    "location": 2,
+    "content": "我有个问题",
+    "music": 0
+  },
+  {
+    "from": 2557.32,
+    "to": 2564.02,
+    "sid": 1088,
+    "location": 2,
+    "content": "我觉得多模态标准的数量并没有变变",
+    "music": 0
+  },
+  {
+    "from": 2564.02,
+    "to": 2564.8,
+    "sid": 1089,
+    "location": 2,
+    "content": "超过等等",
+    "music": 0
+  },
+  {
+    "from": 2564.8,
+    "to": 2566.38,
+    "sid": 1090,
+    "location": 2,
+    "content": "仇恨对哦",
+    "music": 0
+  },
+  {
+    "from": 2566.38,
+    "to": 2567.6,
+    "sid": 1091,
+    "location": 2,
+    "content": "你先问了",
+    "music": 0
+  },
+  {
+    "from": 2567.6,
+    "to": 2570.34,
+    "sid": 1092,
+    "location": 2,
+    "content": "关于X减4space cpi的适配器变更",
+    "music": 0
+  },
+  {
+    "from": 2570.34,
+    "to": 2571.46,
+    "sid": 1093,
+    "location": 2,
+    "content": "我也有个问题",
+    "music": 0
+  },
+  {
+    "from": 2571.46,
+    "to": 2573.38,
+    "sid": 1094,
+    "location": 2,
+    "content": "它怎么识别什么是语言",
+    "music": 0
+  },
+  {
+    "from": 2573.38,
+    "to": 2575.14,
+    "sid": 1095,
+    "location": 2,
+    "content": "语言模型必须经过预训练",
+    "music": 0
+  },
+  {
+    "from": 2575.14,
+    "to": 2576.5,
+    "sid": 1096,
+    "location": 2,
+    "content": "不然就没法对齐",
+    "music": 0
+  },
+  {
+    "from": 2576.5,
+    "to": 2577.46,
+    "sid": 1097,
+    "location": 2,
+    "content": "也就没意义了",
+    "music": 0
+  },
+  {
+    "from": 2577.46,
+    "to": 2579.14,
+    "sid": 1098,
+    "location": 2,
+    "content": "所以语言模型是冻结的",
+    "music": 0
+  },
+  {
+    "from": 2579.14,
+    "to": 2581.12,
+    "sid": 1099,
+    "location": 2,
+    "content": "我们只训练适配器",
+    "music": 0
+  },
+  {
+    "from": 2581.12,
+    "to": 2584.3,
+    "sid": 1100,
+    "location": 2,
+    "content": "把给定的视觉编码器和给定的语言模型连接起来",
+    "music": 0
+  },
+  {
+    "from": 2584.3,
+    "to": 2585.38,
+    "sid": 1101,
+    "location": 2,
+    "content": "训练方法很简单",
+    "music": 0
+  },
+  {
+    "from": 2585.38,
+    "to": 2587,
+    "sid": 1102,
+    "location": 2,
+    "content": "你先设定一个token预算",
+    "music": 0
+  },
+  {
+    "from": 2587,
+    "to": 2588.16,
+    "sid": 1103,
+    "location": 2,
+    "content": "比如671对",
+    "music": 0
+  },
+  {
+    "from": 2588.16,
+    "to": 2589.2,
+    "sid": 1104,
+    "location": 2,
+    "content": "就是token",
+    "music": 0
+  },
+  {
+    "from": 2589.2,
+    "to": 2590.34,
+    "sid": 1105,
+    "location": 2,
+    "content": "然后开始训练",
+    "music": 0
+  },
+  {
+    "from": 2590.34,
+    "to": 2591.94,
+    "sid": 1106,
+    "location": 2,
+    "content": "这里没有自适应阈值",
+    "music": 0
+  },
+  {
+    "from": 2591.94,
+    "to": 2593.88,
+    "sid": 1107,
+    "location": 2,
+    "content": "没错",
+    "music": 0
+  },
+  {
+    "from": 2594.86,
+    "to": 2596.28,
+    "sid": 1108,
+    "location": 2,
+    "content": "品牌间的差异",
+    "music": 0
+  },
+  {
+    "from": 2596.28,
+    "to": 2599.12,
+    "sid": 1109,
+    "location": 2,
+    "content": "也就是品牌数量",
+    "music": 0
+  },
+  {
+    "from": 2599.12,
+    "to": 2603.32,
+    "sid": 1110,
+    "location": 2,
+    "content": "你可以接着要跟品牌数量做个对比",
+    "music": 0
+  },
+  {
+    "from": 2603.32,
+    "to": 2605,
+    "sid": 1111,
+    "location": 2,
+    "content": "所以说就遇到这张了",
+    "music": 0
+  },
+  {
+    "from": 2605,
+    "to": 2608.75,
+    "sid": 1112,
+    "location": 2,
+    "content": "明天记得这个观点很有意思",
+    "music": 0
+  },
+  {
+    "from": 2609.04,
+    "to": 2611.88,
+    "sid": 1113,
+    "location": 2,
+    "content": "拉哥病床虽然设计其他的G7V",
+    "music": 0
+  },
+  {
+    "from": 2611.88,
+    "to": 2618.58,
+    "sid": 1114,
+    "location": 2,
+    "content": "但其定国分化是香港帝国目前完整的世界感情道对对",
+    "music": 0
+  },
+  {
+    "from": 2618.58,
+    "to": 2622.62,
+    "sid": 1115,
+    "location": 2,
+    "content": "要求公主奇瑞的故事里面",
+    "music": 0
+  },
+  {
+    "from": 2622.62,
+    "to": 2626.91,
+    "sid": 1116,
+    "location": 2,
+    "content": "黑人自己心意的报告对",
+    "music": 0
+  },
+  {
+    "from": 2626.91,
+    "to": 2627.87,
+    "sid": 1117,
+    "location": 2,
+    "content": "所以问题来了",
+    "music": 0
+  },
+  {
+    "from": 2627.87,
+    "to": 2630.09,
+    "sid": 1118,
+    "location": 2,
+    "content": "视觉编码器中的参数量要小得多",
+    "music": 0
+  },
+  {
+    "from": 2630.09,
+    "to": 2632.03,
+    "sid": 1119,
+    "location": 2,
+    "content": "答案通常是肯定的",
+    "music": 0
+  },
+  {
+    "from": 2632.03,
+    "to": 2633.81,
+    "sid": 1120,
+    "location": 2,
+    "content": "我在想还有什么不同之处",
+    "music": 0
+  },
+  {
+    "from": 2633.81,
+    "to": 2637.16,
+    "sid": 1121,
+    "location": 2,
+    "content": "我嗯不在这儿",
+    "music": 0
+  },
+  {
+    "from": 2637.16,
+    "to": 2639.06,
+    "sid": 1122,
+    "location": 2,
+    "content": "好的原因在于",
+    "music": 0
+  },
+  {
+    "from": 2639.06,
+    "to": 2640.44,
+    "sid": 1123,
+    "location": 2,
+    "content": "从某种意义上说",
+    "music": 0
+  },
+  {
+    "from": 2640.44,
+    "to": 2643.2,
+    "sid": 1124,
+    "location": 2,
+    "content": "视觉编码器执行的是非常局部的操作",
+    "music": 0
+  },
+  {
+    "from": 2643.2,
+    "to": 2643.64,
+    "sid": 1125,
+    "location": 2,
+    "content": "操作",
+    "music": 0
+  },
+  {
+    "from": 2643.64,
+    "to": 2644.88,
+    "sid": 1126,
+    "location": 2,
+    "content": "针对的是一个个小块",
+    "music": 0
+  },
+  {
+    "from": 2644.88,
+    "to": 2646.36,
+    "sid": 1127,
+    "location": 2,
+    "content": "patch小块非常小",
+    "music": 0
+  },
+  {
+    "from": 2646.36,
+    "to": 2648.559,
+    "sid": 1128,
+    "location": 2,
+    "content": "它只是试图理解这些小块",
+    "music": 0
+  },
+  {
+    "from": 2648.559,
+    "to": 2650.039,
+    "sid": 1129,
+    "location": 2,
+    "content": "由于缺乏足够的知识",
+    "music": 0
+  },
+  {
+    "from": 2650.039,
+    "to": 2652.019,
+    "sid": 1130,
+    "location": 2,
+    "content": "我们无法对这些小块进行推理",
+    "music": 0
+  },
+  {
+    "from": 2652.019,
+    "to": 2655.079,
+    "sid": 1131,
+    "location": 2,
+    "content": "因此该模型的核心能力主要仍源于语言模型",
+    "music": 0
+  },
+  {
+    "from": 2655.079,
+    "to": 2656.06,
+    "sid": 1132,
+    "location": 2,
+    "content": "我确认一下",
+    "music": 0
+  },
+  {
+    "from": 2656.06,
+    "to": 2657.78,
+    "sid": 1133,
+    "location": 2,
+    "content": "找到了大致位置",
+    "music": 0
+  },
+  {
+    "from": 2657.78,
+    "to": 2659.51,
+    "sid": 1134,
+    "location": 2,
+    "content": "在这里我们来看一下",
+    "music": 0
+  },
+  {
+    "from": 2659.51,
+    "to": 2660.03,
+    "sid": 1135,
+    "location": 2,
+    "content": "对了",
+    "music": 0
+  },
+  {
+    "from": 2660.03,
+    "to": 2661.61,
+    "sid": 1136,
+    "location": 2,
+    "content": "你看这个lava模型",
+    "music": 0
+  },
+  {
+    "from": 2661.61,
+    "to": 2662.79,
+    "sid": 1137,
+    "location": 2,
+    "content": "也就是完整版",
+    "music": 0
+  },
+  {
+    "from": 2662.79,
+    "to": 2664.43,
+    "sid": 1138,
+    "location": 2,
+    "content": "它拥有721参数",
+    "music": 0
+  },
+  {
+    "from": 2664.43,
+    "to": 2665.53,
+    "sid": 1139,
+    "location": 2,
+    "content": "是一个语言模型",
+    "music": 0
+  },
+  {
+    "from": 2665.53,
+    "to": 2668.38,
+    "sid": 1140,
+    "location": 2,
+    "content": "还有呃抱歉",
+    "music": 0
+  },
+  {
+    "from": 2668.38,
+    "to": 2669.94,
+    "sid": 1141,
+    "location": 2,
+    "content": "你刚才说什么好的",
+    "music": 0
+  },
+  {
+    "from": 2669.94,
+    "to": 2673.62,
+    "sid": 1142,
+    "location": 2,
+    "content": "我不太确定这个数字是嗯",
+    "music": 0
+  },
+  {
+    "from": 2673.62,
+    "to": 2675.12,
+    "sid": 1143,
+    "location": 2,
+    "content": "可能是个笔误啊",
+    "music": 0
+  },
+  {
+    "from": 2675.12,
+    "to": 2675.52,
+    "sid": 1144,
+    "location": 2,
+    "content": "抱歉",
+    "music": 0
+  },
+  {
+    "from": 2675.52,
+    "to": 2676.72,
+    "sid": 1145,
+    "location": 2,
+    "content": "这是7200万好吧",
+    "music": 0
+  },
+  {
+    "from": 2676.72,
+    "to": 2677.66,
+    "sid": 1146,
+    "location": 2,
+    "content": "那确实少得多",
+    "music": 0
+  },
+  {
+    "from": 2677.66,
+    "to": 2679.56,
+    "sid": 1147,
+    "location": 2,
+    "content": "投影器参数量小得多",
+    "music": 0
+  },
+  {
+    "from": 2679.56,
+    "to": 2682.19,
+    "sid": 1148,
+    "location": 2,
+    "content": "外体通常不到10亿参数嗯",
+    "music": 0
+  },
+  {
+    "from": 2682.19,
+    "to": 2686.15,
+    "sid": 1149,
+    "location": 2,
+    "content": "对我想主要是因为它是局部操作",
+    "music": 0
+  },
+  {
+    "from": 2686.15,
+    "to": 2687.13,
+    "sid": 1150,
+    "location": 2,
+    "content": "作用范围有限",
+    "music": 0
+  },
+  {
+    "from": 2687.13,
+    "to": 2689.51,
+    "sid": 1151,
+    "location": 2,
+    "content": "所以社会内容我们继续嗯",
+    "music": 0
+  },
+  {
+    "from": 2689.51,
+    "to": 2693.67,
+    "sid": 1152,
+    "location": 2,
+    "content": "所以困三是我接下来要讲的最后一个视觉语言模型",
+    "music": 0
+  },
+  {
+    "from": 2693.67,
+    "to": 2698.74,
+    "sid": 1153,
+    "location": 2,
+    "content": "他提出了一种名为save our performance的方法嗯",
+    "music": 0
+  },
+  {
+    "from": 2698.74,
+    "to": 2701.7,
+    "sid": 1154,
+    "location": 2,
+    "content": "这背后涉及大量数据方面的工作",
+    "music": 0
+  },
+  {
+    "from": 2701.7,
+    "to": 2703.54,
+    "sid": 1155,
+    "location": 2,
+    "content": "在后续的queen模型中",
+    "music": 0
+  },
+  {
+    "from": 2703.54,
+    "to": 2707.18,
+    "sid": 1156,
+    "location": 2,
+    "content": "关于数据和数据混合的细节就不再那么详细了",
+    "music": 0
+  },
+  {
+    "from": 2707.18,
+    "to": 2710.72,
+    "sid": 1157,
+    "location": 2,
+    "content": "所以建议大家去读一下喇叭的论文",
+    "music": 0
+  },
+  {
+    "from": 2710.72,
+    "to": 2713.36,
+    "sid": 1158,
+    "location": 2,
+    "content": "或者I发布的那篇关于移动端的论文",
+    "music": 0
+  },
+  {
+    "from": 2713.36,
+    "to": 2715.2,
+    "sid": 1159,
+    "location": 2,
+    "content": "我之前没来得及细讲",
+    "music": 0
+  },
+  {
+    "from": 2715.2,
+    "to": 2717.3,
+    "sid": 1160,
+    "location": 2,
+    "content": "那篇里面的细节更丰富",
+    "music": 0
+  },
+  {
+    "from": 2717.3,
+    "to": 2719.94,
+    "sid": 1161,
+    "location": 2,
+    "content": "从queen到queen2再到queen3",
+    "music": 0
+  },
+  {
+    "from": 2719.94,
+    "to": 2723.4,
+    "sid": 1162,
+    "location": 2,
+    "content": "这些迭代中的许多变化都旨在提升模型性能",
+    "music": 0
+  },
+  {
+    "from": 2723.4,
+    "to": 2726.8,
+    "sid": 1163,
+    "location": 2,
+    "content": "主要是发生了一些种类上的转变",
+    "music": 0
+  },
+  {
+    "from": 2726.8,
+    "to": 2728.52,
+    "sid": 1164,
+    "location": 2,
+    "content": "但整体框架保持不变",
+    "music": 0
+  },
+  {
+    "from": 2728.52,
+    "to": 2731.79,
+    "sid": 1165,
+    "location": 2,
+    "content": "主要是规模上的扩展整理更多的数据集",
+    "music": 0
+  },
+  {
+    "from": 2731.79,
+    "to": 2734.39,
+    "sid": 1166,
+    "location": 2,
+    "content": "意识到必须处理好长上下文",
+    "music": 0
+  },
+  {
+    "from": 2734.39,
+    "to": 2736.21,
+    "sid": 1167,
+    "location": 2,
+    "content": "以及可能优化图像处理",
+    "music": 0
+  },
+  {
+    "from": 2736.21,
+    "to": 2740.379,
+    "sid": 1168,
+    "location": 2,
+    "content": "诸如此类好接下来咱们聊点不一样的",
+    "music": 0
+  },
+  {
+    "from": 2740.379,
+    "to": 2741.74,
+    "sid": 1169,
+    "location": 2,
+    "content": "差别很大",
+    "music": 0
+  },
+  {
+    "from": 2741.74,
+    "to": 2745.78,
+    "sid": 1170,
+    "location": 2,
+    "content": "咱们来看一篇meta在2024年发布的论文",
+    "music": 0
+  },
+  {
+    "from": 2745.78,
+    "to": 2746.92,
+    "sid": 1171,
+    "location": 2,
+    "content": "叫chameleon",
+    "music": 0
+  },
+  {
+    "from": 2746.92,
+    "to": 2748.04,
+    "sid": 1172,
+    "location": 2,
+    "content": "到目前为止",
+    "music": 0
+  },
+  {
+    "from": 2748.04,
+    "to": 2751.08,
+    "sid": 1173,
+    "location": 2,
+    "content": "VRM的做法是把图像编码成向量",
+    "music": 0
+  },
+  {
+    "from": 2751.08,
+    "to": 2752.64,
+    "sid": 1174,
+    "location": 2,
+    "content": "再输入到语言模型里",
+    "music": 0
+  },
+  {
+    "from": 2752.64,
+    "to": 2754.68,
+    "sid": 1175,
+    "location": 2,
+    "content": "毕竟它是语言模型",
+    "music": 0
+  },
+  {
+    "from": 2754.68,
+    "to": 2756.46,
+    "sid": 1176,
+    "location": 2,
+    "content": "所以只能生成文本",
+    "music": 0
+  },
+  {
+    "from": 2756.46,
+    "to": 2757.68,
+    "sid": 1177,
+    "location": 2,
+    "content": "没法生成图像",
+    "music": 0
+  },
+  {
+    "from": 2757.68,
+    "to": 2759.38,
+    "sid": 1178,
+    "location": 2,
+    "content": "要解决这个问题",
+    "music": 0
+  },
+  {
+    "from": 2759.38,
+    "to": 2761.22,
+    "sid": 1179,
+    "location": 2,
+    "content": "其实有很多路径",
+    "music": 0
+  },
+  {
+    "from": 2761.22,
+    "to": 2764.14,
+    "sid": 1180,
+    "location": 2,
+    "content": "你可以直接拿一个VRM再挂载一个扩散头",
+    "music": 0
+  },
+  {
+    "from": 2764.14,
+    "to": 2765.62,
+    "sid": 1181,
+    "location": 2,
+    "content": "这样就能生成图像了",
+    "music": 0
+  },
+  {
+    "from": 2765.62,
+    "to": 2767.13,
+    "sid": 1182,
+    "location": 2,
+    "content": "但我想聊聊这个思路",
+    "music": 0
+  },
+  {
+    "from": 2767.13,
+    "to": 2768.57,
+    "sid": 1183,
+    "location": 2,
+    "content": "convenient的想法是",
+    "music": 0
+  },
+  {
+    "from": 2768.57,
+    "to": 2771.65,
+    "sid": 1184,
+    "location": 2,
+    "content": "要是我们把所有内容都映射成离散的token",
+    "music": 0
+  },
+  {
+    "from": 2771.65,
+    "to": 2773.91,
+    "sid": 1185,
+    "location": 2,
+    "content": "能某种程度上从审美角度看",
+    "music": 0
+  },
+  {
+    "from": 2773.91,
+    "to": 2775.38,
+    "sid": 1186,
+    "location": 2,
+    "content": "这呃好吧",
+    "music": 0
+  },
+  {
+    "from": 2775.38,
+    "to": 2777.24,
+    "sid": 1187,
+    "location": 2,
+    "content": "也许这说明我是个搞语言的",
+    "music": 0
+  },
+  {
+    "from": 2777.24,
+    "to": 2778.2,
+    "sid": 1188,
+    "location": 2,
+    "content": "更关注文本部分",
+    "music": 0
+  },
+  {
+    "from": 2778.2,
+    "to": 2779.05,
+    "sid": 1189,
+    "location": 2,
+    "content": "这很有吸引力",
+    "music": 0
+  },
+  {
+    "from": 2779.05,
+    "to": 2782.37,
+    "sid": 1190,
+    "location": 2,
+    "content": "因为现在你可以用同一种方式分析和生成图像",
+    "music": 0
+  },
+  {
+    "from": 2782.37,
+    "to": 2784.91,
+    "sid": 1191,
+    "location": 2,
+    "content": "一切都被离散化为token",
+    "music": 0
+  },
+  {
+    "from": 2784.91,
+    "to": 2785.96,
+    "sid": 1192,
+    "location": 2,
+    "content": "打个比方",
+    "music": 0
+  },
+  {
+    "from": 2785.96,
+    "to": 2788.04,
+    "sid": 1193,
+    "location": 2,
+    "content": "假设你想生成图像",
+    "music": 0
+  },
+  {
+    "from": 2788.04,
+    "to": 2790.42,
+    "sid": 1194,
+    "location": 2,
+    "content": "你可以输入一个文本提示",
+    "music": 0
+  },
+  {
+    "from": 2790.42,
+    "to": 2793.06,
+    "sid": 1195,
+    "location": 2,
+    "content": "然后系统会生成更多的token",
+    "music": 0
+  },
+  {
+    "from": 2793.06,
+    "to": 2797.14,
+    "sid": 1196,
+    "location": 2,
+    "content": "或者你也可以反过来把语言和文本的顺序调换一下",
+    "music": 0
+  },
+  {
+    "from": 2797.14,
+    "to": 2799.44,
+    "sid": 1197,
+    "location": 2,
+    "content": "这里有个来自肯定有论文的事例",
+    "music": 0
+  },
+  {
+    "from": 2799.44,
+    "to": 2800.98,
+    "sid": 1198,
+    "location": 2,
+    "content": "你可以试着给他发个提示",
+    "music": 0
+  },
+  {
+    "from": 2800.98,
+    "to": 2802.64,
+    "sid": 1199,
+    "location": 2,
+    "content": "比如输入我无聊了",
+    "music": 0
+  },
+  {
+    "from": 2802.64,
+    "to": 2804.01,
+    "sid": 1200,
+    "location": 2,
+    "content": "给我看点鸟的照片",
+    "music": 0
+  },
+  {
+    "from": 2804.01,
+    "to": 2805.41,
+    "sid": 1201,
+    "location": 2,
+    "content": "接着它会输出文本",
+    "music": 0
+  },
+  {
+    "from": 2805.41,
+    "to": 2806.23,
+    "sid": 1202,
+    "location": 2,
+    "content": "再输出图像",
+    "music": 0
+  },
+  {
+    "from": 2806.23,
+    "to": 2807.85,
+    "sid": 1203,
+    "location": 2,
+    "content": "然后再是文本和图像",
+    "music": 0
+  },
+  {
+    "from": 2807.85,
+    "to": 2810.01,
+    "sid": 1204,
+    "location": 2,
+    "content": "所以文本和图像是交替出现的",
+    "music": 0
+  },
+  {
+    "from": 2810.01,
+    "to": 2810.87,
+    "sid": 1205,
+    "location": 2,
+    "content": "某种意义上",
+    "music": 0
+  },
+  {
+    "from": 2810.87,
+    "to": 2812.87,
+    "sid": 1206,
+    "location": 2,
+    "content": "omi model的设计理念正是如此",
+    "music": 0
+  },
+  {
+    "from": 2812.87,
+    "to": 2815.99,
+    "sid": 1207,
+    "location": 2,
+    "content": "文本和图像真正处于同一个空间",
+    "music": 0
+  },
+  {
+    "from": 2815.99,
+    "to": 2819.41,
+    "sid": 1208,
+    "location": 2,
+    "content": "这是通过让所有数据都表现为文本形式来实现的",
+    "music": 0
+  },
+  {
+    "from": 2819.41,
+    "to": 2820.53,
+    "sid": 1209,
+    "location": 2,
+    "content": "这是一种可行的方法",
+    "music": 0
+  },
+  {
+    "from": 2820.53,
+    "to": 2821.79,
+    "sid": 1210,
+    "location": 2,
+    "content": "谢谢好",
+    "music": 0
+  },
+  {
+    "from": 2821.79,
+    "to": 2824.29,
+    "sid": 1211,
+    "location": 2,
+    "content": "接下来我简要讲讲具体是如何实现的",
+    "music": 0
+  },
+  {
+    "from": 2824.29,
+    "to": 2827.99,
+    "sid": 1212,
+    "location": 2,
+    "content": "那么你现在需要做的事情是嗯",
+    "music": 0
+  },
+  {
+    "from": 2828.31,
+    "to": 2831.61,
+    "sid": 1213,
+    "location": 2,
+    "content": "是将图像映射为离散的token",
+    "music": 0
+  },
+  {
+    "from": 2831.61,
+    "to": 2835.56,
+    "sid": 1214,
+    "location": 2,
+    "content": "这个想法源自2017年o word等人的研究",
+    "music": 0
+  },
+  {
+    "from": 2835.56,
+    "to": 2836.82,
+    "sid": 1215,
+    "location": 2,
+    "content": "虽然由来已久",
+    "music": 0
+  },
+  {
+    "from": 2836.82,
+    "to": 2839.48,
+    "sid": 1216,
+    "location": 2,
+    "content": "它叫向量量化变分自编码器",
+    "music": 0
+  },
+  {
+    "from": 2839.48,
+    "to": 2843.54,
+    "sid": 1217,
+    "location": 2,
+    "content": "核心思路是把图像映射成离散码字",
+    "music": 0
+  },
+  {
+    "from": 2843.54,
+    "to": 2845.56,
+    "sid": 1218,
+    "location": 2,
+    "content": "你需要学的是一个映射",
+    "music": 0
+  },
+  {
+    "from": 2845.56,
+    "to": 2847.08,
+    "sid": 1219,
+    "location": 2,
+    "content": "把它转成连续向量",
+    "music": 0
+  },
+  {
+    "from": 2847.08,
+    "to": 2849.94,
+    "sid": 1220,
+    "location": 2,
+    "content": "然后把它舍入到最近的码字",
+    "music": 0
+  },
+  {
+    "from": 2849.94,
+    "to": 2851.42,
+    "sid": 1221,
+    "location": 2,
+    "content": "所以你会得到一个码本",
+    "music": 0
+  },
+  {
+    "from": 2851.42,
+    "to": 2853.16,
+    "sid": 1222,
+    "location": 2,
+    "content": "假设里面有8000个码字",
+    "music": 0
+  },
+  {
+    "from": 2853.16,
+    "to": 2856.71,
+    "sid": 1223,
+    "location": 2,
+    "content": "这些就像圆形向量对应着图像块",
+    "music": 0
+  },
+  {
+    "from": 2856.71,
+    "to": 2859.04,
+    "sid": 1224,
+    "location": 2,
+    "content": "然后将其舍入到最近的码字",
+    "music": 0
+  },
+  {
+    "from": 2859.04,
+    "to": 2861.1,
+    "sid": 1225,
+    "location": 2,
+    "content": "因此你会拥有一个码本",
+    "music": 0
+  },
+  {
+    "from": 2861.1,
+    "to": 2863,
+    "sid": 1226,
+    "location": 2,
+    "content": "假设其中包含8000个码字",
+    "music": 0
+  },
+  {
+    "from": 2863,
+    "to": 2866.1,
+    "sid": 1227,
+    "location": 2,
+    "content": "这些就像是圆形向量对应于图像块",
+    "music": 0
+  },
+  {
+    "from": 2866.1,
+    "to": 2868.5,
+    "sid": 1228,
+    "location": 2,
+    "content": "把它舍入到最近的码字",
+    "music": 0
+  },
+  {
+    "from": 2868.5,
+    "to": 2871.46,
+    "sid": 1229,
+    "location": 2,
+    "content": "接下来解码器的工作就是拿到这个码字",
+    "music": 0
+  },
+  {
+    "from": 2871.46,
+    "to": 2872.62,
+    "sid": 1230,
+    "location": 2,
+    "content": "试着重建图像",
+    "music": 0
+  },
+  {
+    "from": 2872.62,
+    "to": 2875.13,
+    "sid": 1231,
+    "location": 2,
+    "content": "然后你训练这个VQE啊",
+    "music": 0
+  },
+  {
+    "from": 2875.13,
+    "to": 2876.37,
+    "sid": 1232,
+    "location": 2,
+    "content": "基本就是这么回事",
+    "music": 0
+  },
+  {
+    "from": 2876.37,
+    "to": 2877.97,
+    "sid": 1233,
+    "location": 2,
+    "content": "主要是最小化重建损失",
+    "music": 0
+  },
+  {
+    "from": 2877.97,
+    "to": 2879.39,
+    "sid": 1234,
+    "location": 2,
+    "content": "因为这里不可微",
+    "music": 0
+  },
+  {
+    "from": 2879.39,
+    "to": 2880.89,
+    "sid": 1235,
+    "location": 2,
+    "content": "所以还得加一些其他项",
+    "music": 0
+  },
+  {
+    "from": 2880.89,
+    "to": 2882.66,
+    "sid": 1236,
+    "location": 2,
+    "content": "不过我没时间细讲好了",
+    "music": 0
+  },
+  {
+    "from": 2882.66,
+    "to": 2886.39,
+    "sid": 1237,
+    "location": 2,
+    "content": "总之最后的结果是512×512的图像",
+    "music": 0
+  },
+  {
+    "from": 2886.39,
+    "to": 2888.49,
+    "sid": 1238,
+    "location": 2,
+    "content": "被转换成了1024个token",
+    "music": 0
+  },
+  {
+    "from": 2888.49,
+    "to": 2891.69,
+    "sid": 1239,
+    "location": 2,
+    "content": "每个token都来自一个大小为8000的词汇表",
+    "music": 0
+  },
+  {
+    "from": 2891.69,
+    "to": 2893.189,
+    "sid": 1240,
+    "location": 2,
+    "content": "谢谢好",
+    "music": 0
+  },
+  {
+    "from": 2893.189,
+    "to": 2895.869,
+    "sid": 1241,
+    "location": 2,
+    "content": "现在你手头基本上既有文本",
+    "music": 0
+  },
+  {
+    "from": 2895.869,
+    "to": 2897.049,
+    "sid": 1242,
+    "location": 2,
+    "content": "也有图像了",
+    "music": 0
+  },
+  {
+    "from": 2897.049,
+    "to": 2899.18,
+    "sid": 1243,
+    "location": 2,
+    "content": "这些基本上就是相关代码",
+    "music": 0
+  },
+  {
+    "from": 2899.18,
+    "to": 2902.18,
+    "sid": 1244,
+    "location": 2,
+    "content": "接下来我们需要训练一个新的token分词器",
+    "music": 0
+  },
+  {
+    "from": 2902.18,
+    "to": 2903.54,
+    "sid": 1245,
+    "location": 2,
+    "content": "因为情况发生了变化",
+    "music": 0
+  },
+  {
+    "from": 2903.54,
+    "to": 2906.66,
+    "sid": 1246,
+    "location": 2,
+    "content": "现在的数据与以往仅处理纯文本是有所不同",
+    "music": 0
+  },
+  {
+    "from": 2906.66,
+    "to": 2908.55,
+    "sid": 1247,
+    "location": 2,
+    "content": "即自然语言数据",
+    "music": 0
+  },
+  {
+    "from": 2908.55,
+    "to": 2911.37,
+    "sid": 1248,
+    "location": 2,
+    "content": "接下来进入训练阶段",
+    "music": 0
+  },
+  {
+    "from": 2911.37,
+    "to": 2912.87,
+    "sid": 1249,
+    "location": 2,
+    "content": "这一步其实非常直观",
+    "music": 0
+  },
+  {
+    "from": 2912.87,
+    "to": 2914.53,
+    "sid": 1250,
+    "location": 2,
+    "content": "就是标准的语言模型训练",
+    "music": 0
+  },
+  {
+    "from": 2914.53,
+    "to": 2915.79,
+    "sid": 1251,
+    "location": 2,
+    "content": "这里不需要适配器",
+    "music": 0
+  },
+  {
+    "from": 2915.79,
+    "to": 2917.609,
+    "sid": 1252,
+    "location": 2,
+    "content": "也无需调整视觉编码器",
+    "music": 0
+  },
+  {
+    "from": 2917.609,
+    "to": 2919.329,
+    "sid": 1253,
+    "location": 2,
+    "content": "仅使用语言模型即可",
+    "music": 0
+  },
+  {
+    "from": 2919.329,
+    "to": 2921.74,
+    "sid": 1254,
+    "location": 2,
+    "content": "这部分设计颇具吸引力",
+    "music": 0
+  },
+  {
+    "from": 2921.74,
+    "to": 2923.22,
+    "sid": 1255,
+    "location": 2,
+    "content": "尽管仍分为两个阶段",
+    "music": 0
+  },
+  {
+    "from": 2923.22,
+    "to": 2926.48,
+    "sid": 1256,
+    "location": 2,
+    "content": "但即便是语言模型训练通常也包含两个或更多阶段",
+    "music": 0
+  },
+  {
+    "from": 2926.48,
+    "to": 2929.04,
+    "sid": 1257,
+    "location": 2,
+    "content": "第一阶段是训练的主体规模庞大",
+    "music": 0
+  },
+  {
+    "from": 2929.04,
+    "to": 2931.16,
+    "sid": 1258,
+    "location": 2,
+    "content": "且为无监督学习模型中",
+    "music": 0
+  },
+  {
+    "from": 2931.16,
+    "to": 2933.72,
+    "sid": 1259,
+    "location": 2,
+    "content": "同时包含文本和图像数据",
+    "music": 0
+  },
+  {
+    "from": 2933.72,
+    "to": 2935.48,
+    "sid": 1260,
+    "location": 2,
+    "content": "随后进入第二阶段",
+    "music": 0
+  },
+  {
+    "from": 2935.48,
+    "to": 2937.42,
+    "sid": 1261,
+    "location": 2,
+    "content": "我们引入高质量数据",
+    "music": 0
+  },
+  {
+    "from": 2937.42,
+    "to": 2939.27,
+    "sid": 1262,
+    "location": 2,
+    "content": "这一设计确实十分优雅",
+    "music": 0
+  },
+  {
+    "from": 2939.27,
+    "to": 2940.93,
+    "sid": 1263,
+    "location": 2,
+    "content": "但其中存在几个问题",
+    "music": 0
+  },
+  {
+    "from": 2940.93,
+    "to": 2943.83,
+    "sid": 1264,
+    "location": 2,
+    "content": "首先他们发现训练过程不太稳定",
+    "music": 0
+  },
+  {
+    "from": 2943.83,
+    "to": 2944.92,
+    "sid": 1265,
+    "location": 2,
+    "content": "原因在于",
+    "music": 0
+  },
+  {
+    "from": 2944.92,
+    "to": 2947.56,
+    "sid": 1266,
+    "location": 2,
+    "content": "尽管文本和图像处于同一空间",
+    "music": 0
+  },
+  {
+    "from": 2947.56,
+    "to": 2949.46,
+    "sid": 1267,
+    "location": 2,
+    "content": "但两者的表现差异显著",
+    "music": 0
+  },
+  {
+    "from": 2949.46,
+    "to": 2952.75,
+    "sid": 1268,
+    "location": 2,
+    "content": "所以仅仅把图像数据也称作离散的token",
+    "music": 0
+  },
+  {
+    "from": 2952.75,
+    "to": 2955.49,
+    "sid": 1269,
+    "location": 2,
+    "content": "并不能掩盖图像本身依然存在的本质",
+    "music": 0
+  },
+  {
+    "from": 2955.49,
+    "to": 2956.81,
+    "sid": 1270,
+    "location": 2,
+    "content": "尤其是文本token",
+    "music": 0
+  },
+  {
+    "from": 2956.81,
+    "to": 2957.61,
+    "sid": 1271,
+    "location": 2,
+    "content": "你想想看",
+    "music": 0
+  },
+  {
+    "from": 2957.61,
+    "to": 2958.99,
+    "sid": 1272,
+    "location": 2,
+    "content": "要预测下一个词",
+    "music": 0
+  },
+  {
+    "from": 2958.99,
+    "to": 2961.13,
+    "sid": 1273,
+    "location": 2,
+    "content": "它的熵值其实是比较低的",
+    "music": 0
+  },
+  {
+    "from": 2961.13,
+    "to": 2963.39,
+    "sid": 1274,
+    "location": 2,
+    "content": "大部分词多少都能猜到",
+    "music": 0
+  },
+  {
+    "from": 2963.39,
+    "to": 2965.71,
+    "sid": 1275,
+    "location": 2,
+    "content": "但图像token的商非常高",
+    "music": 0
+  },
+  {
+    "from": 2965.71,
+    "to": 2968.95,
+    "sid": 1276,
+    "location": 2,
+    "content": "我根本没法确定这个token具体会呈现什么",
+    "music": 0
+  },
+  {
+    "from": 2968.95,
+    "to": 2975.23,
+    "sid": 1277,
+    "location": 2,
+    "content": "蓝色结果就是这种混合训练引发了一系列范数方面的问题",
+    "music": 0
+  },
+  {
+    "from": 2975.23,
+    "to": 2976.52,
+    "sid": 1278,
+    "location": 2,
+    "content": "参数会不断增大",
+    "music": 0
+  },
+  {
+    "from": 2976.52,
+    "to": 2978.24,
+    "sid": 1279,
+    "location": 2,
+    "content": "进而导致损失值不稳定",
+    "music": 0
+  },
+  {
+    "from": 2978.24,
+    "to": 2980.92,
+    "sid": 1280,
+    "location": 2,
+    "content": "他们利用QK范数和Z减loss正则化",
+    "music": 0
+  },
+  {
+    "from": 2980.92,
+    "to": 2983.01,
+    "sid": 1281,
+    "location": 2,
+    "content": "在一定程度上缓解了这一问题",
+    "music": 0
+  },
+  {
+    "from": 2983.01,
+    "to": 2986.71,
+    "sid": 1282,
+    "location": 2,
+    "content": "其中最简loss正则化用于控制范数的增长",
+    "music": 0
+  },
+  {
+    "from": 2986.71,
+    "to": 2989.39,
+    "sid": 1283,
+    "location": 2,
+    "content": "具体的实验结果我就不展示了",
+    "music": 0
+  },
+  {
+    "from": 2989.39,
+    "to": 2990.95,
+    "sid": 1284,
+    "location": 2,
+    "content": "我想重点介绍这项工作",
+    "music": 0
+  },
+  {
+    "from": 2990.95,
+    "to": 2992.72,
+    "sid": 1285,
+    "location": 2,
+    "content": "因为它有一种简洁之美",
+    "music": 0
+  },
+  {
+    "from": 2992.72,
+    "to": 2995.6,
+    "sid": 1286,
+    "location": 2,
+    "content": "它仅用一个模型就同等对待所有模态",
+    "music": 0
+  },
+  {
+    "from": 2995.6,
+    "to": 2997.2,
+    "sid": 1287,
+    "location": 2,
+    "content": "但是缺点在于",
+    "music": 0
+  },
+  {
+    "from": 2997.2,
+    "to": 2999.76,
+    "sid": 1288,
+    "location": 2,
+    "content": "事实证明该模型的性能并不理想",
+    "music": 0
+  },
+  {
+    "from": 2999.76,
+    "to": 3003.16,
+    "sid": 1289,
+    "location": 2,
+    "content": "此外离散化过程必然会导致信息丢失",
+    "music": 0
+  },
+  {
+    "from": 3003.16,
+    "to": 3004.85,
+    "sid": 1290,
+    "location": 2,
+    "content": "我们可以OCR为例",
+    "music": 0
+  },
+  {
+    "from": 3004.85,
+    "to": 3008.51,
+    "sid": 1291,
+    "location": 2,
+    "content": "如果对极小的印刷文字进行离散化",
+    "music": 0
+  },
+  {
+    "from": 3008.51,
+    "to": 3010.37,
+    "sid": 1292,
+    "location": 2,
+    "content": "你将无法再识别它们",
+    "music": 0
+  },
+  {
+    "from": 3010.37,
+    "to": 3013.11,
+    "sid": 1293,
+    "location": 2,
+    "content": "最后多模态训练也颇具挑战性",
+    "music": 0
+  },
+  {
+    "from": 3013.11,
+    "to": 3015.71,
+    "sid": 1294,
+    "location": 2,
+    "content": "我们在queen模型中以略见端倪",
+    "music": 0
+  },
+  {
+    "from": 3015.71,
+    "to": 3017.61,
+    "sid": 1295,
+    "location": 2,
+    "content": "当时需要反复调整权重",
+    "music": 0
+  },
+  {
+    "from": 3017.61,
+    "to": 3018.39,
+    "sid": 1296,
+    "location": 2,
+    "content": "而在此处",
+    "music": 0
+  },
+  {
+    "from": 3018.39,
+    "to": 3019.71,
+    "sid": 1297,
+    "location": 2,
+    "content": "这一问题更为显著",
+    "music": 0
+  },
+  {
+    "from": 3019.71,
+    "to": 3022.31,
+    "sid": 1298,
+    "location": 2,
+    "content": "VQ减VAE曾经非常流行",
+    "music": 0
+  },
+  {
+    "from": 3022.31,
+    "to": 3025.01,
+    "sid": 1299,
+    "location": 2,
+    "content": "当时许多人将其用于图像生成",
+    "music": 0
+  },
+  {
+    "from": 3025.01,
+    "to": 3025.99,
+    "sid": 1300,
+    "location": 2,
+    "content": "主要原因在于",
+    "music": 0
+  },
+  {
+    "from": 3025.99,
+    "to": 3027.65,
+    "sid": 1301,
+    "location": 2,
+    "content": "如果你手头有一个transformer",
+    "music": 0
+  },
+  {
+    "from": 3027.65,
+    "to": 3028.93,
+    "sid": 1302,
+    "location": 2,
+    "content": "该如何让它生成内容",
+    "music": 0
+  },
+  {
+    "from": 3028.93,
+    "to": 3030.78,
+    "sid": 1303,
+    "location": 2,
+    "content": "你需要生成离散数据",
+    "music": 0
+  },
+  {
+    "from": 3030.78,
+    "to": 3033.22,
+    "sid": 1304,
+    "location": 2,
+    "content": "即将所有数据转化为离散形式",
+    "music": 0
+  },
+  {
+    "from": 3033.22,
+    "to": 3035.02,
+    "sid": 1305,
+    "location": 2,
+    "content": "后来扩散模型兴起",
+    "music": 0
+  },
+  {
+    "from": 3035.02,
+    "to": 3036.66,
+    "sid": 1306,
+    "location": 2,
+    "content": "成为了一种可行的生成方案",
+    "music": 0
+  },
+  {
+    "from": 3036.66,
+    "to": 3039.54,
+    "sid": 1307,
+    "location": 2,
+    "content": "因此这类方法如今已不如从前流行",
+    "music": 0
+  },
+  {
+    "from": 3039.54,
+    "to": 3043.16,
+    "sid": 1308,
+    "location": 2,
+    "content": "我们在此简要回顾并总结当前的前沿模型",
+    "music": 0
+  },
+  {
+    "from": 3043.16,
+    "to": 3045.94,
+    "sid": 1309,
+    "location": 2,
+    "content": "预计都将具备多模态能力",
+    "music": 0
+  },
+  {
+    "from": 3045.94,
+    "to": 3048.919,
+    "sid": 1310,
+    "location": 2,
+    "content": "尤其是原生多模态或全模态模型",
+    "music": 0
+  },
+  {
+    "from": 3048.919,
+    "to": 3049.679,
+    "sid": 1311,
+    "location": 2,
+    "content": "遗憾的是",
+    "music": 0
+  },
+  {
+    "from": 3049.679,
+    "to": 3052.939,
+    "sid": 1312,
+    "location": 2,
+    "content": "GEMINI和GPP发布时被宣传为原生多模态",
+    "music": 0
+  },
+  {
+    "from": 3052.939,
+    "to": 3054.51,
+    "sid": 1313,
+    "location": 2,
+    "content": "且能处理所有模态",
+    "music": 0
+  },
+  {
+    "from": 3054.51,
+    "to": 3055.71,
+    "sid": 1314,
+    "location": 2,
+    "content": "事实也确实如此",
+    "music": 0
+  },
+  {
+    "from": 3055.71,
+    "to": 3058.02,
+    "sid": 1315,
+    "location": 2,
+    "content": "但具体的架构细节并未公开",
+    "music": 0
+  },
+  {
+    "from": 3058.02,
+    "to": 3062.74,
+    "sid": 1316,
+    "location": 2,
+    "content": "我推测可能采用了某种例如被保留信息不丢失",
+    "music": 0
+  },
+  {
+    "from": 3062.74,
+    "to": 3064.52,
+    "sid": 1317,
+    "location": 2,
+    "content": "可能使用了连续编码器",
+    "music": 0
+  },
+  {
+    "from": 3064.52,
+    "to": 3066.56,
+    "sid": 1318,
+    "location": 2,
+    "content": "生成部分则采用了扩散模型",
+    "music": 0
+  },
+  {
+    "from": 3066.56,
+    "to": 3067.9,
+    "sid": 1319,
+    "location": 2,
+    "content": "当然这仅是推测",
+    "music": 0
+  },
+  {
+    "from": 3067.9,
+    "to": 3072.02,
+    "sid": 1320,
+    "location": 2,
+    "content": "我认为多模态最大的难点在于如何处理非文本模态",
+    "music": 0
+  },
+  {
+    "from": 3072.02,
+    "to": 3073.54,
+    "sid": 1321,
+    "location": 2,
+    "content": "还有一个有趣的现象",
+    "music": 0
+  },
+  {
+    "from": 3073.54,
+    "to": 3076.529,
+    "sid": 1322,
+    "location": 2,
+    "content": "理解模态和生成模态之间存在一种对称关系",
+    "music": 0
+  },
+  {
+    "from": 3076.529,
+    "to": 3078.189,
+    "sid": 1323,
+    "location": 2,
+    "content": "而且具体情况各不相同",
+    "music": 0
+  },
+  {
+    "from": 3078.189,
+    "to": 3080.769,
+    "sid": 1324,
+    "location": 2,
+    "content": "也就是说并不存在一种通用的编码器",
+    "music": 0
+  },
+  {
+    "from": 3080.769,
+    "to": 3081.809,
+    "sid": 1325,
+    "location": 2,
+    "content": "以clip为例",
+    "music": 0
+  },
+  {
+    "from": 3081.809,
+    "to": 3084.47,
+    "sid": 1326,
+    "location": 2,
+    "content": "你主要关注分类目的是提取高层语义",
+    "music": 0
+  },
+  {
+    "from": 3084.47,
+    "to": 3086.77,
+    "sid": 1327,
+    "location": 2,
+    "content": "因此这些向量可以做得很小",
+    "music": 0
+  },
+  {
+    "from": 3086.77,
+    "to": 3088.75,
+    "sid": 1328,
+    "location": 2,
+    "content": "同时仍能捕捉到高层语义",
+    "music": 0
+  },
+  {
+    "from": 3088.75,
+    "to": 3092.51,
+    "sid": 1329,
+    "location": 2,
+    "content": "相反如果你要做光学字符识别或图像生成",
+    "music": 0
+  },
+  {
+    "from": 3092.51,
+    "to": 3094.25,
+    "sid": 1330,
+    "location": 2,
+    "content": "就需要非常精细的细节",
+    "music": 0
+  },
+  {
+    "from": 3094.25,
+    "to": 3096.75,
+    "sid": 1331,
+    "location": 2,
+    "content": "这正是扩散模型表现优异的原因",
+    "music": 0
+  },
+  {
+    "from": 3096.75,
+    "to": 3099.09,
+    "sid": 1332,
+    "location": 2,
+    "content": "因为它能对高低频信息进行微调",
+    "music": 0
+  },
+  {
+    "from": 3099.09,
+    "to": 3102.649,
+    "sid": 1333,
+    "location": 2,
+    "content": "谢谢我觉得在处理多模态问题时",
+    "music": 0
+  },
+  {
+    "from": 3102.649,
+    "to": 3104.169,
+    "sid": 1334,
+    "location": 2,
+    "content": "我们需要仔细思考",
+    "music": 0
+  },
+  {
+    "from": 3104.169,
+    "to": 3105.84,
+    "sid": 1335,
+    "location": 2,
+    "content": "要把它们平衡好",
+    "music": 0
+  },
+  {
+    "from": 3105.84,
+    "to": 3106.84,
+    "sid": 1336,
+    "location": 2,
+    "content": "打个比方",
+    "music": 0
+  },
+  {
+    "from": 3106.84,
+    "to": 3109.16,
+    "sid": 1337,
+    "location": 2,
+    "content": "视频的信息密度通常低于文本",
+    "music": 0
+  },
+  {
+    "from": 3109.16,
+    "to": 3111.49,
+    "sid": 1338,
+    "location": 2,
+    "content": "所以你不想让视频淹没文本",
+    "music": 0
+  },
+  {
+    "from": 3111.49,
+    "to": 3112.93,
+    "sid": 1339,
+    "location": 2,
+    "content": "就像我之前提到的",
+    "music": 0
+  },
+  {
+    "from": 3112.93,
+    "to": 3116.19,
+    "sid": 1340,
+    "location": 2,
+    "content": "也许目前最好的做法是使用连续编码器",
+    "music": 0
+  },
+  {
+    "from": 3116.19,
+    "to": 3118.9,
+    "sid": 1341,
+    "location": 2,
+    "content": "看起来即使科比已经是5年前的技术",
+    "music": 0
+  },
+  {
+    "from": 3118.9,
+    "to": 3122.96,
+    "sid": 1342,
+    "location": 2,
+    "content": "类似的思路现在仍是捕捉图像语义的首选方案",
+    "music": 0
+  },
+  {
+    "from": 3122.96,
+    "to": 3125.3,
+    "sid": 1343,
+    "location": 2,
+    "content": "传送门仍在广泛使用",
+    "music": 0
+  },
+  {
+    "from": 3125.3,
+    "to": 3126.4,
+    "sid": 1344,
+    "location": 2,
+    "content": "至于扩散模型",
+    "music": 0
+  },
+  {
+    "from": 3126.4,
+    "to": 3128.04,
+    "sid": 1345,
+    "location": 2,
+    "content": "我刚才没有详细展开",
+    "music": 0
+  },
+  {
+    "from": 3128.04,
+    "to": 3129.68,
+    "sid": 1346,
+    "location": 2,
+    "content": "它在生成方面非常出色",
+    "music": 0
+  },
+  {
+    "from": 3129.68,
+    "to": 3132.34,
+    "sid": 1347,
+    "location": 2,
+    "content": "好我就讲到这里",
+    "music": 0
+  },
+  {
+    "from": 3132.34,
+    "to": 3134.86,
+    "sid": 1348,
+    "location": 2,
+    "content": "关于多模态的讲座就讲到这里",
+    "music": 0
+  },
+  {
+    "from": 3134.86,
+    "to": 3136.6,
+    "sid": 1349,
+    "location": 2,
+    "content": "这部分没有实操作业",
+    "music": 0
+  },
+  {
+    "from": 3136.6,
+    "to": 3138.18,
+    "sid": 1350,
+    "location": 2,
+    "content": "但如果你感兴趣",
+    "music": 0
+  },
+  {
+    "from": 3138.18,
+    "to": 3140.12,
+    "sid": 1351,
+    "location": 2,
+    "content": "我鼓励你去动手试试",
+    "music": 0
+  },
+  {
+    "from": 3140.12,
+    "to": 3141.54,
+    "sid": 1352,
+    "location": 2,
+    "content": "比如训练这些模型",
+    "music": 0
+  }
+]

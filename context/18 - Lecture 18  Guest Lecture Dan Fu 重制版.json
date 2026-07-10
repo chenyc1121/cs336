@@ -1,0 +1,10074 @@
+[
+  {
+    "from": 0.04,
+    "to": 0.56,
+    "sid": 1,
+    "location": 2,
+    "content": "大家好",
+    "music": 0
+  },
+  {
+    "from": 0.56,
+    "to": 1.72,
+    "sid": 2,
+    "location": 2,
+    "content": "非常感谢各位前来",
+    "music": 0
+  },
+  {
+    "from": 1.72,
+    "to": 3.04,
+    "sid": 3,
+    "location": 2,
+    "content": "我觉得你们这门课很棒",
+    "music": 0
+  },
+  {
+    "from": 3.04,
+    "to": 6.92,
+    "sid": 4,
+    "location": 2,
+    "content": "但也谢谢PERCY邀请我来做这个演讲",
+    "music": 0
+  },
+  {
+    "from": 6.92,
+    "to": 10.82,
+    "sid": 5,
+    "location": 2,
+    "content": "我想这门课主要讲的是训练怎么训练语言模型",
+    "music": 0
+  },
+  {
+    "from": 10.82,
+    "to": 12.3,
+    "sid": 6,
+    "location": 2,
+    "content": "最终做出这些东西",
+    "music": 0
+  },
+  {
+    "from": 12.3,
+    "to": 13.68,
+    "sid": 7,
+    "location": 2,
+    "content": "sir and they啊",
+    "music": 0
+  },
+  {
+    "from": 13.68,
+    "to": 15.12,
+    "sid": 8,
+    "location": 2,
+    "content": "这今天我想讲讲",
+    "music": 0
+  },
+  {
+    "from": 15.12,
+    "to": 16.66,
+    "sid": 9,
+    "location": 2,
+    "content": "当你有了这样一个模型之后",
+    "music": 0
+  },
+  {
+    "from": 16.66,
+    "to": 17.86,
+    "sid": 10,
+    "location": 2,
+    "content": "从另一面看是什么样的",
+    "music": 0
+  },
+  {
+    "from": 17.86,
+    "to": 20.11,
+    "sid": 11,
+    "location": 2,
+    "content": "也就是真正去部署这些模型",
+    "music": 0
+  },
+  {
+    "from": 20.11,
+    "to": 21.15,
+    "sid": 12,
+    "location": 2,
+    "content": "做推理是什么样的",
+    "music": 0
+  },
+  {
+    "from": 21.15,
+    "to": 22.57,
+    "sid": 13,
+    "location": 2,
+    "content": "把这些东西转化一下",
+    "music": 0
+  },
+  {
+    "from": 22.57,
+    "to": 23.91,
+    "sid": 14,
+    "location": 2,
+    "content": "也就是把这些东西",
+    "music": 0
+  },
+  {
+    "from": 23.91,
+    "to": 26.33,
+    "sid": 15,
+    "location": 2,
+    "content": "比如说从电力变成token",
+    "music": 0
+  },
+  {
+    "from": 26.33,
+    "to": 27.57,
+    "sid": 16,
+    "location": 2,
+    "content": "再变成智能",
+    "music": 0
+  },
+  {
+    "from": 27.57,
+    "to": 28.99,
+    "sid": 17,
+    "location": 2,
+    "content": "以及从这个角度看",
+    "music": 0
+  },
+  {
+    "from": 28.99,
+    "to": 32.509,
+    "sid": 18,
+    "location": 2,
+    "content": "有哪些有意思的研究问题和研究方向好",
+    "music": 0
+  },
+  {
+    "from": 32.509,
+    "to": 34.889,
+    "sid": 19,
+    "location": 2,
+    "content": "我先从一些宏观的动机讲起",
+    "music": 0
+  },
+  {
+    "from": 34.889,
+    "to": 38.03,
+    "sid": 20,
+    "location": 2,
+    "content": "我想有一点我们都已经看得非常清楚",
+    "music": 0
+  },
+  {
+    "from": 38.03,
+    "to": 40.83,
+    "sid": 21,
+    "location": 2,
+    "content": "那就是这些模型和他们的能力",
+    "music": 0
+  },
+  {
+    "from": 44.06,
+    "to": 47.12,
+    "sid": 22,
+    "location": 2,
+    "content": "这些幻灯片是我两年前求职演讲时做的",
+    "music": 0
+  },
+  {
+    "from": 47.12,
+    "to": 49.22,
+    "sid": 23,
+    "location": 2,
+    "content": "所以具体的例子已经有点旧了",
+    "music": 0
+  },
+  {
+    "from": 49.22,
+    "to": 53.41,
+    "sid": 24,
+    "location": 2,
+    "content": "但你可以做到人类水平的文本生成代码生成啊",
+    "music": 0
+  },
+  {
+    "from": 53.41,
+    "to": 56.51,
+    "sid": 25,
+    "location": 2,
+    "content": "比如cursor cloud code g p t5.5",
+    "music": 0
+  },
+  {
+    "from": 56.51,
+    "to": 58.08,
+    "sid": 26,
+    "location": 2,
+    "content": "而不只是GPT4",
+    "music": 0
+  },
+  {
+    "from": 58.08,
+    "to": 62.09,
+    "sid": 27,
+    "location": 2,
+    "content": "你既能生成也能理解处理图像和视频",
+    "music": 0
+  },
+  {
+    "from": 62.09,
+    "to": 64.41,
+    "sid": 28,
+    "location": 2,
+    "content": "很能开始理解新模态啊",
+    "music": 0
+  },
+  {
+    "from": 64.41,
+    "to": 67.01,
+    "sid": 29,
+    "location": 2,
+    "content": "哎对生物健康领域就出现了DNA模型",
+    "music": 0
+  },
+  {
+    "from": 67.01,
+    "to": 70.44,
+    "sid": 30,
+    "location": 2,
+    "content": "这类应用我一直很关心一个问题",
+    "music": 0
+  },
+  {
+    "from": 70.44,
+    "to": 71.94,
+    "sid": 31,
+    "location": 2,
+    "content": "这些突破是怎么做到的",
+    "music": 0
+  },
+  {
+    "from": 71.94,
+    "to": 73.38,
+    "sid": 32,
+    "location": 2,
+    "content": "下一代又能怎么改进",
+    "music": 0
+  },
+  {
+    "from": 73.38,
+    "to": 75.98,
+    "sid": 33,
+    "location": 2,
+    "content": "规模是这些能力的主要驱动力",
+    "music": 0
+  },
+  {
+    "from": 75.98,
+    "to": 76.98,
+    "sid": 34,
+    "location": 2,
+    "content": "看这张旧图",
+    "music": 0
+  },
+  {
+    "from": 76.98,
+    "to": 80.7,
+    "sid": 35,
+    "location": 2,
+    "content": "模型规模已经大幅扩展了一二千零一十八年",
+    "music": 0
+  },
+  {
+    "from": 80.7,
+    "to": 81.91,
+    "sid": 36,
+    "location": 2,
+    "content": "我刚开始读博",
+    "music": 0
+  },
+  {
+    "from": 81.91,
+    "to": 83.91,
+    "sid": 37,
+    "location": 2,
+    "content": "那时最大的模型才1亿",
+    "music": 0
+  },
+  {
+    "from": 83.91,
+    "to": 84.47,
+    "sid": 38,
+    "location": 2,
+    "content": "Parameter",
+    "music": 0
+  },
+  {
+    "from": 84.47,
+    "to": 85.89,
+    "sid": 39,
+    "location": 2,
+    "content": "我们都觉得太疯狂了",
+    "music": 0
+  },
+  {
+    "from": 85.89,
+    "to": 87.35,
+    "sid": 40,
+    "location": 2,
+    "content": "到2019年",
+    "music": 0
+  },
+  {
+    "from": 87.35,
+    "to": 88.59,
+    "sid": 41,
+    "location": 2,
+    "content": "我们觉得他太危险",
+    "music": 0
+  },
+  {
+    "from": 88.59,
+    "to": 89.43,
+    "sid": 42,
+    "location": 2,
+    "content": "不敢发布",
+    "music": 0
+  },
+  {
+    "from": 89.43,
+    "to": 92.29,
+    "sid": 43,
+    "location": 2,
+    "content": "这就是GPT2这门课",
+    "music": 0
+  },
+  {
+    "from": 92.29,
+    "to": 94.63,
+    "sid": 44,
+    "location": 2,
+    "content": "你们应该能训出GPT2水平的模型",
+    "music": 0
+  },
+  {
+    "from": 94.63,
+    "to": 95.83,
+    "sid": 45,
+    "location": 2,
+    "content": "不知道做到没啊",
+    "music": 0
+  },
+  {
+    "from": 95.83,
+    "to": 96.35,
+    "sid": 46,
+    "location": 2,
+    "content": "努力的话",
+    "music": 0
+  },
+  {
+    "from": 96.35,
+    "to": 97.57,
+    "sid": 47,
+    "location": 2,
+    "content": "你们肯定能啊",
+    "music": 0
+  },
+  {
+    "from": 97.57,
+    "to": 101.4,
+    "sid": 48,
+    "location": 2,
+    "content": "如今开源模型都有万亿参数甚至更多嗯",
+    "music": 0
+  },
+  {
+    "from": 101.4,
+    "to": 104.3,
+    "sid": 49,
+    "location": 2,
+    "content": "前沿模型参数大概五到10万亿",
+    "music": 0
+  },
+  {
+    "from": 104.3,
+    "to": 106.009,
+    "sid": 50,
+    "location": 2,
+    "content": "挺让人兴奋的",
+    "music": 0
+  },
+  {
+    "from": 106.009,
+    "to": 106.969,
+    "sid": 51,
+    "location": 2,
+    "content": "有了这些",
+    "music": 0
+  },
+  {
+    "from": 106.969,
+    "to": 108.029,
+    "sid": 52,
+    "location": 2,
+    "content": "你就能对话",
+    "music": 0
+  },
+  {
+    "from": 108.029,
+    "to": 108.829,
+    "sid": 53,
+    "location": 2,
+    "content": "写代码",
+    "music": 0
+  },
+  {
+    "from": 108.829,
+    "to": 110.109,
+    "sid": 54,
+    "location": 2,
+    "content": "分析复杂文本",
+    "music": 0
+  },
+  {
+    "from": 110.109,
+    "to": 112.39,
+    "sid": 55,
+    "location": 2,
+    "content": "还能帮你做作业等等",
+    "music": 0
+  },
+  {
+    "from": 112.39,
+    "to": 113.73,
+    "sid": 56,
+    "location": 2,
+    "content": "真正了不起的是",
+    "music": 0
+  },
+  {
+    "from": 113.73,
+    "to": 115.47,
+    "sid": 57,
+    "location": 2,
+    "content": "这一转变比我们想象的更快",
+    "music": 0
+  },
+  {
+    "from": 115.47,
+    "to": 118.29,
+    "sid": 58,
+    "location": 2,
+    "content": "也比我几年前读博初期预想的快得多",
+    "music": 0
+  },
+  {
+    "from": 118.29,
+    "to": 120.65,
+    "sid": 59,
+    "location": 2,
+    "content": "我觉得有个lady很贴切",
+    "music": 0
+  },
+  {
+    "from": 120.65,
+    "to": 122.95,
+    "sid": 60,
+    "location": 2,
+    "content": "而且日期也很有意思的吻合啊",
+    "music": 0
+  },
+  {
+    "from": 122.95,
+    "to": 123.81,
+    "sid": 61,
+    "location": 2,
+    "content": "1902年",
+    "music": 0
+  },
+  {
+    "from": 123.81,
+    "to": 125.66,
+    "sid": 62,
+    "location": 2,
+    "content": "曼哈顿有13万匹马",
+    "music": 0
+  },
+  {
+    "from": 125.66,
+    "to": 126.78,
+    "sid": 63,
+    "location": 2,
+    "content": "它们不是养着玩的",
+    "music": 0
+  },
+  {
+    "from": 126.78,
+    "to": 128.28,
+    "sid": 64,
+    "location": 2,
+    "content": "而是承担着关键作用",
+    "music": 0
+  },
+  {
+    "from": 128.28,
+    "to": 130.96,
+    "sid": 65,
+    "location": 2,
+    "content": "近每匹马每天产生好几磅粪便",
+    "music": 0
+  },
+  {
+    "from": 130.96,
+    "to": 132.56,
+    "sid": 66,
+    "location": 2,
+    "content": "乘以13万匹",
+    "music": 0
+  },
+  {
+    "from": 132.56,
+    "to": 134.22,
+    "sid": 67,
+    "location": 2,
+    "content": "数量惊人",
+    "music": 0
+  },
+  {
+    "from": 134.22,
+    "to": 136.8,
+    "sid": 68,
+    "location": 2,
+    "content": "这也成了严重的粪便问题",
+    "music": 0
+  },
+  {
+    "from": 136.8,
+    "to": 139.44,
+    "sid": 69,
+    "location": 2,
+    "content": "事实上还真开过专门的学术会议",
+    "music": 0
+  },
+  {
+    "from": 139.44,
+    "to": 141.62,
+    "sid": 70,
+    "location": 2,
+    "content": "讨论怎么处理这些麻烦",
+    "music": 0
+  },
+  {
+    "from": 141.62,
+    "to": 142.86,
+    "sid": 71,
+    "location": 2,
+    "content": "1898年",
+    "music": 0
+  },
+  {
+    "from": 142.86,
+    "to": 144.48,
+    "sid": 72,
+    "location": 2,
+    "content": "纽约就开过一次这样的会",
+    "music": 0
+  },
+  {
+    "from": 144.48,
+    "to": 146.34,
+    "sid": 73,
+    "location": 2,
+    "content": "结论是马粪问题",
+    "music": 0
+  },
+  {
+    "from": 146.34,
+    "to": 146.74,
+    "sid": 74,
+    "location": 2,
+    "content": "没辙",
+    "music": 0
+  },
+  {
+    "from": 146.74,
+    "to": 148.67,
+    "sid": 75,
+    "location": 2,
+    "content": "只能捏着鼻子忍着",
+    "music": 0
+  },
+  {
+    "from": 148.67,
+    "to": 150.51,
+    "sid": 76,
+    "location": 2,
+    "content": "10年后到1912年",
+    "music": 0
+  },
+  {
+    "from": 150.51,
+    "to": 153.59,
+    "sid": 77,
+    "location": 2,
+    "content": "曼哈顿的汽车数量已经超过马匹",
+    "music": 0
+  },
+  {
+    "from": 153.59,
+    "to": 155.89,
+    "sid": 78,
+    "location": 2,
+    "content": "所以在这10年的过渡期里",
+    "music": 0
+  },
+  {
+    "from": 155.89,
+    "to": 158.55,
+    "sid": 79,
+    "location": 2,
+    "content": "你看那些存在了几个世纪的东西",
+    "music": 0
+  },
+  {
+    "from": 158.55,
+    "to": 159.71,
+    "sid": 80,
+    "location": 2,
+    "content": "开始被汽车取代了",
+    "music": 0
+  },
+  {
+    "from": 159.71,
+    "to": 163.58,
+    "sid": 81,
+    "location": 2,
+    "content": "我觉得对咱们做语言模型的人来说",
+    "music": 0
+  },
+  {
+    "from": 163.58,
+    "to": 167.02,
+    "sid": 82,
+    "location": 2,
+    "content": "那个1912时刻大概就是去年啊",
+    "music": 0
+  },
+  {
+    "from": 167.02,
+    "to": 168.22,
+    "sid": 83,
+    "location": 2,
+    "content": "所以至少对我来说",
+    "music": 0
+  },
+  {
+    "from": 168.22,
+    "to": 172.14,
+    "sid": 84,
+    "location": 2,
+    "content": "去年我开始用这些语言模型来写大部分代码了",
+    "music": 0
+  },
+  {
+    "from": 172.14,
+    "to": 175.21,
+    "sid": 85,
+    "location": 2,
+    "content": "嗯我团队里大多数人都这么干",
+    "music": 0
+  },
+  {
+    "from": 175.21,
+    "to": 177.43,
+    "sid": 86,
+    "location": 2,
+    "content": "我也让所有学生都这么干啊",
+    "music": 0
+  },
+  {
+    "from": 177.43,
+    "to": 180.05,
+    "sid": 87,
+    "location": 2,
+    "content": "除了做作业的时候呃",
+    "music": 0
+  },
+  {
+    "from": 180.05,
+    "to": 182.35,
+    "sid": 88,
+    "location": 2,
+    "content": "这确实是个令人兴奋的过渡期",
+    "music": 0
+  },
+  {
+    "from": 182.35,
+    "to": 184.41,
+    "sid": 89,
+    "location": 2,
+    "content": "咱们正身处其中",
+    "music": 0
+  },
+  {
+    "from": 185.77,
+    "to": 188.01,
+    "sid": 90,
+    "location": 2,
+    "content": "推动这一切的一个关键因素是",
+    "music": 0
+  },
+  {
+    "from": 188.01,
+    "to": 190.15,
+    "sid": 91,
+    "location": 2,
+    "content": "很多规模效应都由GPU驱动",
+    "music": 0
+  },
+  {
+    "from": 190.15,
+    "to": 194.329,
+    "sid": 92,
+    "location": 2,
+    "content": "所以说真的你可以把GPU看作新的石油",
+    "music": 0
+  },
+  {
+    "from": 194.329,
+    "to": 197.049,
+    "sid": 93,
+    "location": 2,
+    "content": "so free也是较早的消息",
+    "music": 0
+  },
+  {
+    "from": 197.049,
+    "to": 201.129,
+    "sid": 94,
+    "location": 2,
+    "content": "但能看到数千亿美元甚至更多资金投入GPU呃",
+    "music": 0
+  },
+  {
+    "from": 201.129,
+    "to": 204.44,
+    "sid": 95,
+    "location": 2,
+    "content": "呃历史啊总是惊人的相似",
+    "music": 0
+  },
+  {
+    "from": 204.44,
+    "to": 205.42,
+    "sid": 96,
+    "location": 2,
+    "content": "但啊",
+    "music": 0
+  },
+  {
+    "from": 205.42,
+    "to": 207.68,
+    "sid": 97,
+    "location": 2,
+    "content": "各国主权基金正把这类投资",
+    "music": 0
+  },
+  {
+    "from": 207.68,
+    "to": 210.43,
+    "sid": 98,
+    "location": 2,
+    "content": "作为国家资产的重头戏子",
+    "music": 0
+  },
+  {
+    "from": 210.43,
+    "to": 212.45,
+    "sid": 99,
+    "location": 2,
+    "content": "有一点非常清楚哦",
+    "music": 0
+  },
+  {
+    "from": 212.45,
+    "to": 213.89,
+    "sid": 100,
+    "location": 2,
+    "content": "推理才是关键",
+    "music": 0
+  },
+  {
+    "from": 213.89,
+    "to": 217.649,
+    "sid": 101,
+    "location": 2,
+    "content": "你可以把它看作把电力转化为智能的引擎",
+    "music": 0
+  },
+  {
+    "from": 217.649,
+    "to": 220.629,
+    "sid": 102,
+    "location": 2,
+    "content": "嗯就像没有引擎啊",
+    "music": 0
+  },
+  {
+    "from": 220.629,
+    "to": 223.929,
+    "sid": 103,
+    "location": 2,
+    "content": "石油无法转化为动能一样啊",
+    "music": 0
+  },
+  {
+    "from": 223.929,
+    "to": 225.769,
+    "sid": 104,
+    "location": 2,
+    "content": "推理引擎也至关重要",
+    "music": 0
+  },
+  {
+    "from": 225.769,
+    "to": 230.74,
+    "sid": 105,
+    "location": 2,
+    "content": "GPU内核让GPU从沙子变成今天我们能用的东西",
+    "music": 0
+  },
+  {
+    "from": 230.74,
+    "to": 232.02,
+    "sid": 106,
+    "location": 2,
+    "content": "机器学习模型",
+    "music": 0
+  },
+  {
+    "from": 232.02,
+    "to": 234.46,
+    "sid": 107,
+    "location": 2,
+    "content": "其实就是些存在于抽象空间的运算",
+    "music": 0
+  },
+  {
+    "from": 234.46,
+    "to": 237.16,
+    "sid": 108,
+    "location": 2,
+    "content": "有向无环图推理引擎和GPU内核",
+    "music": 0
+  },
+  {
+    "from": 237.16,
+    "to": 240.26,
+    "sid": 109,
+    "location": 2,
+    "content": "就是要把模型映射到ML运算的关键",
+    "music": 0
+  },
+  {
+    "from": 240.26,
+    "to": 241.98,
+    "sid": 110,
+    "location": 2,
+    "content": "这门课会涉及部分实现",
+    "music": 0
+  },
+  {
+    "from": 241.98,
+    "to": 243.33,
+    "sid": 111,
+    "location": 2,
+    "content": "比如flash attention",
+    "music": 0
+  },
+  {
+    "from": 243.33,
+    "to": 247.84,
+    "sid": 112,
+    "location": 2,
+    "content": "不过在推理这一侧其实藏着巨大的复杂性",
+    "music": 0
+  },
+  {
+    "from": 247.84,
+    "to": 250.16,
+    "sid": 113,
+    "location": 2,
+    "content": "所以哪怕今天的内容你都忘了",
+    "music": 0
+  },
+  {
+    "from": 250.16,
+    "to": 251.06,
+    "sid": 114,
+    "location": 2,
+    "content": "也请记住一点",
+    "music": 0
+  },
+  {
+    "from": 251.06,
+    "to": 254.62,
+    "sid": 115,
+    "location": 2,
+    "content": "只要搞懂推理推理引擎和底层的GPU内核",
+    "music": 0
+  },
+  {
+    "from": 254.62,
+    "to": 256.56,
+    "sid": 116,
+    "location": 2,
+    "content": "你就能推动if啊",
+    "music": 0
+  },
+  {
+    "from": 256.56,
+    "to": 259.66,
+    "sid": 117,
+    "location": 2,
+    "content": "从而在机器学习算法上实现全站创新",
+    "music": 0
+  },
+  {
+    "from": 259.66,
+    "to": 263.16,
+    "sid": 118,
+    "location": 2,
+    "content": "今天我先给大家宏观讲讲token的生命周期",
+    "music": 0
+  },
+  {
+    "from": 263.16,
+    "to": 265.89,
+    "sid": 119,
+    "location": 2,
+    "content": "比如当你向魔性发出请求时",
+    "music": 0
+  },
+  {
+    "from": 265.89,
+    "to": 267.41,
+    "sid": 120,
+    "location": 2,
+    "content": "请求会经历什么",
+    "music": 0
+  },
+  {
+    "from": 267.41,
+    "to": 269.67,
+    "sid": 121,
+    "location": 2,
+    "content": "它如何贯穿整个推理服务",
+    "music": 0
+  },
+  {
+    "from": 269.67,
+    "to": 272.07,
+    "sid": 122,
+    "location": 2,
+    "content": "你会面临哪些有趣的选择",
+    "music": 0
+  },
+  {
+    "from": 272.07,
+    "to": 274.65,
+    "sid": 123,
+    "location": 2,
+    "content": "杨素我会深入讲两个偏研究性的项目",
+    "music": 0
+  },
+  {
+    "from": 274.65,
+    "to": 276.91,
+    "sid": 124,
+    "location": 2,
+    "content": "如果你抽取这个系统的某些部分",
+    "music": 0
+  },
+  {
+    "from": 276.91,
+    "to": 278.21,
+    "sid": 125,
+    "location": 2,
+    "content": "你能提出哪些问题",
+    "music": 0
+  },
+  {
+    "from": 278.21,
+    "to": 279.62,
+    "sid": 126,
+    "location": 2,
+    "content": "又能做些什么",
+    "music": 0
+  },
+  {
+    "from": 279.62,
+    "to": 281.42,
+    "sid": 127,
+    "location": 2,
+    "content": "在讲技术细节前",
+    "music": 0
+  },
+  {
+    "from": 281.42,
+    "to": 283.08,
+    "sid": 128,
+    "location": 2,
+    "content": "我先简单做个推介",
+    "music": 0
+  },
+  {
+    "from": 283.08,
+    "to": 285.36,
+    "sid": 129,
+    "location": 2,
+    "content": "今天我代表两个机构来到这里",
+    "music": 0
+  },
+  {
+    "from": 285.36,
+    "to": 287.19,
+    "sid": 130,
+    "location": 2,
+    "content": "一个是UCSD啊",
+    "music": 0
+  },
+  {
+    "from": 287.19,
+    "to": 288.53,
+    "sid": 131,
+    "location": 2,
+    "content": "我在那儿有个小实验室",
+    "music": 0
+  },
+  {
+    "from": 288.53,
+    "to": 291.28,
+    "sid": 132,
+    "location": 2,
+    "content": "今天演讲里也涵盖了他们的一些工作",
+    "music": 0
+  },
+  {
+    "from": 291.28,
+    "to": 292.62,
+    "sid": 133,
+    "location": 2,
+    "content": "另一个是together",
+    "music": 0
+  },
+  {
+    "from": 292.62,
+    "to": 294.24,
+    "sid": 134,
+    "location": 2,
+    "content": "他们做了很多其他工作",
+    "music": 0
+  },
+  {
+    "from": 294.24,
+    "to": 295.62,
+    "sid": 135,
+    "location": 2,
+    "content": "今天也会一并介绍",
+    "music": 0
+  },
+  {
+    "from": 295.62,
+    "to": 297.57,
+    "sid": 136,
+    "location": 2,
+    "content": "together是个AI云平台",
+    "music": 0
+  },
+  {
+    "from": 297.57,
+    "to": 300.69,
+    "sid": 137,
+    "location": 2,
+    "content": "涵盖GPU推理微调等全套服务",
+    "music": 0
+  },
+  {
+    "from": 301.05,
+    "to": 302.11,
+    "sid": 138,
+    "location": 2,
+    "content": "研究背景很强",
+    "music": 0
+  },
+  {
+    "from": 302.11,
+    "to": 303,
+    "sid": 139,
+    "location": 2,
+    "content": "比如PERCY",
+    "music": 0
+  },
+  {
+    "from": 303,
+    "to": 304.7,
+    "sid": 140,
+    "location": 2,
+    "content": "他可能看不见我的鼠标",
+    "music": 0
+  },
+  {
+    "from": 304.7,
+    "to": 306.26,
+    "sid": 141,
+    "location": 2,
+    "content": "但就在屏幕上",
+    "music": 0
+  },
+  {
+    "from": 306.26,
+    "to": 308.62,
+    "sid": 142,
+    "location": 2,
+    "content": "背后还有强大的研究团队支撑",
+    "music": 0
+  },
+  {
+    "from": 308.62,
+    "to": 311.46,
+    "sid": 143,
+    "location": 2,
+    "content": "你接下来在演讲中看到的各项内容",
+    "music": 0
+  },
+  {
+    "from": 311.46,
+    "to": 316.02,
+    "sid": 144,
+    "location": 2,
+    "content": "我先大致讲讲一个token的完整生命周期嗯",
+    "music": 0
+  },
+  {
+    "from": 316.02,
+    "to": 318.18,
+    "sid": 145,
+    "location": 2,
+    "content": "当你向推理系统发请求时",
+    "music": 0
+  },
+  {
+    "from": 318.18,
+    "to": 320.409,
+    "sid": 146,
+    "location": 2,
+    "content": "数据会经过哪些环节",
+    "music": 0
+  },
+  {
+    "from": 320.729,
+    "to": 323.869,
+    "sid": 147,
+    "location": 2,
+    "content": "这些幻灯片参考了我学生AUSTIN的演示",
+    "music": 0
+  },
+  {
+    "from": 323.869,
+    "to": 326.22,
+    "sid": 148,
+    "location": 2,
+    "content": "以及他在together的经历",
+    "music": 0
+  },
+  {
+    "from": 326.22,
+    "to": 327.8,
+    "sid": 149,
+    "location": 2,
+    "content": "顺便说下啊",
+    "music": 0
+  },
+  {
+    "from": 327.8,
+    "to": 330.44,
+    "sid": 150,
+    "location": 2,
+    "content": "幻灯片全是nano banana pro生成的",
+    "music": 0
+  },
+  {
+    "from": 330.44,
+    "to": 332.2,
+    "sid": 151,
+    "location": 2,
+    "content": "只要别盯着文字细看",
+    "music": 0
+  },
+  {
+    "from": 332.2,
+    "to": 333.46,
+    "sid": 152,
+    "location": 2,
+    "content": "效果其实不错",
+    "music": 0
+  },
+  {
+    "from": 333.46,
+    "to": 334.58,
+    "sid": 153,
+    "location": 2,
+    "content": "大体上没错",
+    "music": 0
+  },
+  {
+    "from": 334.58,
+    "to": 337.7,
+    "sid": 154,
+    "location": 2,
+    "content": "但要是细看就会发现不少地方错的离谱",
+    "music": 0
+  },
+  {
+    "from": 337.7,
+    "to": 340.47,
+    "sid": 155,
+    "location": 2,
+    "content": "On of for the pandhours after boston",
+    "music": 0
+  },
+  {
+    "from": 340.47,
+    "to": 340.97,
+    "sid": 156,
+    "location": 2,
+    "content": "好",
+    "music": 0
+  },
+  {
+    "from": 340.97,
+    "to": 344.01,
+    "sid": 157,
+    "location": 2,
+    "content": "咱们来看看推理引擎主要由哪些部分组成",
+    "music": 0
+  },
+  {
+    "from": 344.01,
+    "to": 345.71,
+    "sid": 158,
+    "location": 2,
+    "content": "简单说下它怎么运作",
+    "music": 0
+  },
+  {
+    "from": 345.71,
+    "to": 347.12,
+    "sid": 159,
+    "location": 2,
+    "content": "请求进来之后",
+    "music": 0
+  },
+  {
+    "from": 347.12,
+    "to": 347.98,
+    "sid": 160,
+    "location": 2,
+    "content": "第一步",
+    "music": 0
+  },
+  {
+    "from": 347.98,
+    "to": 350.799,
+    "sid": 161,
+    "location": 2,
+    "content": "系统会把请求分配给不同的G",
+    "music": 0
+  },
+  {
+    "from": 350.799,
+    "to": 352.639,
+    "sid": 162,
+    "location": 2,
+    "content": "预填充和解码阶段",
+    "music": 0
+  },
+  {
+    "from": 352.639,
+    "to": 354.159,
+    "sid": 163,
+    "location": 2,
+    "content": "可能跑在不同的机器上",
+    "music": 0
+  },
+  {
+    "from": 354.159,
+    "to": 356.519,
+    "sid": 164,
+    "location": 2,
+    "content": "接着拿请求去查KV缓存",
+    "music": 0
+  },
+  {
+    "from": 356.519,
+    "to": 358.75,
+    "sid": 165,
+    "location": 2,
+    "content": "看以前是否处理过嗯",
+    "music": 0
+  },
+  {
+    "from": 358.75,
+    "to": 360.83,
+    "sid": 166,
+    "location": 2,
+    "content": "看看能不能省点算力",
+    "music": 0
+  },
+  {
+    "from": 360.83,
+    "to": 364.43,
+    "sid": 167,
+    "location": 2,
+    "content": "接着就开始跑核心机器学习代码还算新",
+    "music": 0
+  },
+  {
+    "from": 364.43,
+    "to": 366.42,
+    "sid": 168,
+    "location": 2,
+    "content": "token和算子优化手段",
+    "music": 0
+  },
+  {
+    "from": 366.42,
+    "to": 367.68,
+    "sid": 169,
+    "location": 2,
+    "content": "包括跨机器拆分",
+    "music": 0
+  },
+  {
+    "from": 367.68,
+    "to": 370.12,
+    "sid": 170,
+    "location": 2,
+    "content": "多节点并行或节点内GPU并行",
+    "music": 0
+  },
+  {
+    "from": 370.12,
+    "to": 374.02,
+    "sid": 171,
+    "location": 2,
+    "content": "具体看取决于模型大小和拆分方式",
+    "music": 0
+  },
+  {
+    "from": 374.02,
+    "to": 375.28,
+    "sid": 172,
+    "location": 2,
+    "content": "随着硬件发展",
+    "music": 0
+  },
+  {
+    "from": 375.28,
+    "to": 377.53,
+    "sid": 173,
+    "location": 2,
+    "content": "我们会看到更多可选方案",
+    "music": 0
+  },
+  {
+    "from": 377.53,
+    "to": 378.91,
+    "sid": 174,
+    "location": 2,
+    "content": "选好跑完代码",
+    "music": 0
+  },
+  {
+    "from": 378.91,
+    "to": 380.45,
+    "sid": 175,
+    "location": 2,
+    "content": "最后就能拿到token了啊",
+    "music": 0
+  },
+  {
+    "from": 380.45,
+    "to": 381.92,
+    "sid": 176,
+    "location": 2,
+    "content": "你可以问hey模型",
+    "music": 0
+  },
+  {
+    "from": 381.92,
+    "to": 384.16,
+    "sid": 177,
+    "location": 2,
+    "content": "PERCY说的线性回归是什么意思",
+    "music": 0
+  },
+  {
+    "from": 384.16,
+    "to": 385.32,
+    "sid": 178,
+    "location": 2,
+    "content": "因为我那节课缺了",
+    "music": 0
+  },
+  {
+    "from": 385.32,
+    "to": 387.6,
+    "sid": 179,
+    "location": 2,
+    "content": "所以你能体验整个全流程啊",
+    "music": 0
+  },
+  {
+    "from": 387.6,
+    "to": 389.64,
+    "sid": 180,
+    "location": 2,
+    "content": "值得我们开始思考的是",
+    "music": 0
+  },
+  {
+    "from": 389.64,
+    "to": 392,
+    "sid": 181,
+    "location": 2,
+    "content": "这些不同的负载到底长什么样",
+    "music": 0
+  },
+  {
+    "from": 392,
+    "to": 393.49,
+    "sid": 182,
+    "location": 2,
+    "content": "情况多种多样",
+    "music": 0
+  },
+  {
+    "from": 393.49,
+    "to": 395.13,
+    "sid": 183,
+    "location": 2,
+    "content": "这张图你要是看的太细",
+    "music": 0
+  },
+  {
+    "from": 395.13,
+    "to": 396.85,
+    "sid": 184,
+    "location": 2,
+    "content": "有些舞看着就像S了",
+    "music": 0
+  },
+  {
+    "from": 396.85,
+    "to": 397.75,
+    "sid": 185,
+    "location": 2,
+    "content": "对you're doing",
+    "music": 0
+  },
+  {
+    "from": 397.75,
+    "to": 400.67,
+    "sid": 186,
+    "location": 2,
+    "content": "但你要想到要真正跑生产流量时",
+    "music": 0
+  },
+  {
+    "from": 400.67,
+    "to": 404.39,
+    "sid": 187,
+    "location": 2,
+    "content": "未必也肯定不像你现在做的这样",
+    "music": 0
+  },
+  {
+    "from": 404.8,
+    "to": 406.92,
+    "sid": 188,
+    "location": 2,
+    "content": "不像训练时看到的那种token",
+    "music": 0
+  },
+  {
+    "from": 406.92,
+    "to": 410.26,
+    "sid": 189,
+    "location": 2,
+    "content": "也不太像你在脑子里凭空编出来的负载哦",
+    "music": 0
+  },
+  {
+    "from": 410.26,
+    "to": 414.22,
+    "sid": 190,
+    "location": 2,
+    "content": "那我们通常会看到什么特定负载下啊",
+    "music": 0
+  },
+  {
+    "from": 414.22,
+    "to": 417.99,
+    "sid": 191,
+    "location": 2,
+    "content": "输入和输出token会呈现特定的分布呃",
+    "music": 0
+  },
+  {
+    "from": 417.99,
+    "to": 419.17,
+    "sid": 192,
+    "location": 2,
+    "content": "拿代码生成来说",
+    "music": 0
+  },
+  {
+    "from": 419.17,
+    "to": 422.11,
+    "sid": 193,
+    "location": 2,
+    "content": "比如你用cursor智能体能访问你的代码库",
+    "music": 0
+  },
+  {
+    "from": 422.11,
+    "to": 423.81,
+    "sid": 194,
+    "location": 2,
+    "content": "你只管提问嗯",
+    "music": 0
+  },
+  {
+    "from": 423.81,
+    "to": 426.29,
+    "sid": 195,
+    "location": 2,
+    "content": "一般情况是输入量很大",
+    "music": 0
+  },
+  {
+    "from": 426.29,
+    "to": 427.71,
+    "sid": 196,
+    "location": 2,
+    "content": "得有上万个输入token",
+    "music": 0
+  },
+  {
+    "from": 427.71,
+    "to": 430.01,
+    "sid": 197,
+    "location": 2,
+    "content": "接着看模型怎么训练的",
+    "music": 0
+  },
+  {
+    "from": 430.01,
+    "to": 431.45,
+    "sid": 198,
+    "location": 2,
+    "content": "它可能输出一些思考",
+    "music": 0
+  },
+  {
+    "from": 431.45,
+    "to": 433.78,
+    "sid": 199,
+    "location": 2,
+    "content": "token也可能只给简短回复",
+    "music": 0
+  },
+  {
+    "from": 433.78,
+    "to": 437.03,
+    "sid": 200,
+    "location": 2,
+    "content": "第二取决于工作负载和模型",
+    "music": 0
+  },
+  {
+    "from": 437.03,
+    "to": 442.44,
+    "sid": 201,
+    "location": 2,
+    "content": "比如代码生成跟摘要生成差别就很大啊",
+    "music": 0
+  },
+  {
+    "from": 442.44,
+    "to": 445.22,
+    "sid": 202,
+    "location": 2,
+    "content": "要是你把整本书贴进对话框来回聊",
+    "music": 0
+  },
+  {
+    "from": 445.22,
+    "to": 446.86,
+    "sid": 203,
+    "location": 2,
+    "content": "那跟普通对话完全不一样",
+    "music": 0
+  },
+  {
+    "from": 446.86,
+    "to": 448.12,
+    "sid": 204,
+    "location": 2,
+    "content": "要是你直接问给我讲",
+    "music": 0
+  },
+  {
+    "from": 448.12,
+    "to": 451.01,
+    "sid": 205,
+    "location": 2,
+    "content": "讲一阶微积分负载形态就完全不同了",
+    "music": 0
+  },
+  {
+    "from": 451.01,
+    "to": 451.69,
+    "sid": 206,
+    "location": 2,
+    "content": "呃",
+    "music": 0
+  },
+  {
+    "from": 451.69,
+    "to": 456.29,
+    "sid": 207,
+    "location": 2,
+    "content": "现在用语言模型大多是这种一问一答的智能体",
+    "music": 0
+  },
+  {
+    "from": 456.29,
+    "to": 457.06,
+    "sid": 208,
+    "location": 2,
+    "content": "工作流",
+    "music": 0
+  },
+  {
+    "from": 457.06,
+    "to": 457.9,
+    "sid": 209,
+    "location": 2,
+    "content": "写代码时",
+    "music": 0
+  },
+  {
+    "from": 457.9,
+    "to": 459.42,
+    "sid": 210,
+    "location": 2,
+    "content": "你和代码agent来回沟通",
+    "music": 0
+  },
+  {
+    "from": 459.42,
+    "to": 461.34,
+    "sid": 211,
+    "location": 2,
+    "content": "做这个不不是这意思",
+    "music": 0
+  },
+  {
+    "from": 461.34,
+    "to": 463.92,
+    "sid": 212,
+    "location": 2,
+    "content": "或者做那个代码agent",
+    "music": 0
+  },
+  {
+    "from": 463.92,
+    "to": 467.25,
+    "sid": 213,
+    "location": 2,
+    "content": "本身就能对语言模型做不少迭代",
+    "music": 0
+  },
+  {
+    "from": 467.25,
+    "to": 470.57,
+    "sid": 214,
+    "location": 2,
+    "content": "比如我调用工具让grab在代码库里搜点东西",
+    "music": 0
+  },
+  {
+    "from": 470.57,
+    "to": 472.539,
+    "sid": 215,
+    "location": 2,
+    "content": "再把结果喂回模型",
+    "music": 0
+  },
+  {
+    "from": 472.539,
+    "to": 475.699,
+    "sid": 216,
+    "location": 2,
+    "content": "我也可能上网搜一下用户问的东西",
+    "music": 0
+  },
+  {
+    "from": 475.699,
+    "to": 479.2,
+    "sid": 217,
+    "location": 2,
+    "content": "所以对话通常会有好几个来回",
+    "music": 0
+  },
+  {
+    "from": 479.2,
+    "to": 482.97,
+    "sid": 218,
+    "location": 2,
+    "content": "另一个有趣的点是不同应用的节奏各不相同",
+    "music": 0
+  },
+  {
+    "from": 482.97,
+    "to": 485.47,
+    "sid": 219,
+    "location": 2,
+    "content": "比如你在快速对话循环里",
+    "music": 0
+  },
+  {
+    "from": 485.47,
+    "to": 488.15,
+    "sid": 220,
+    "location": 2,
+    "content": "或用语音模式跟ChatGPT聊天",
+    "music": 0
+  },
+  {
+    "from": 488.15,
+    "to": 490.18,
+    "sid": 221,
+    "location": 2,
+    "content": "响应通常很快啊",
+    "music": 0
+  },
+  {
+    "from": 490.18,
+    "to": 493,
+    "sid": 222,
+    "location": 2,
+    "content": "反之如果你run agent自己跑流程",
+    "music": 0
+  },
+  {
+    "from": 493,
+    "to": 493.9,
+    "sid": 223,
+    "location": 2,
+    "content": "替我做这个",
+    "music": 0
+  },
+  {
+    "from": 493.9,
+    "to": 494.98,
+    "sid": 224,
+    "location": 2,
+    "content": "我不打扰你自己",
+    "music": 0
+  },
+  {
+    "from": 494.98,
+    "to": 497.419,
+    "sid": 225,
+    "location": 2,
+    "content": "迭代节奏就不同了",
+    "music": 0
+  },
+  {
+    "from": 497.739,
+    "to": 499.939,
+    "sid": 226,
+    "location": 2,
+    "content": "要是代理卡住喊帮帮我",
+    "music": 0
+  },
+  {
+    "from": 499.939,
+    "to": 504.919,
+    "sid": 227,
+    "location": 2,
+    "content": "我得问问你却没注意到回合间可能又多个空档",
+    "music": 0
+  },
+  {
+    "from": 504.919,
+    "to": 508.199,
+    "sid": 228,
+    "location": 2,
+    "content": "所以这些就决定了你的工作负载是什么样的",
+    "music": 0
+  },
+  {
+    "from": 508.199,
+    "to": 510.159,
+    "sid": 229,
+    "location": 2,
+    "content": "每次能拿到多少新token啊",
+    "music": 0
+  },
+  {
+    "from": 510.159,
+    "to": 511.599,
+    "sid": 230,
+    "location": 2,
+    "content": "你要生成多少token",
+    "music": 0
+  },
+  {
+    "from": 511.599,
+    "to": 512.69,
+    "sid": 231,
+    "location": 2,
+    "content": "会画有多长",
+    "music": 0
+  },
+  {
+    "from": 512.69,
+    "to": 516.09,
+    "sid": 232,
+    "location": 2,
+    "content": "我是那种反复跟cod代理来回聊的年轻用户吗",
+    "music": 0
+  },
+  {
+    "from": 516.09,
+    "to": 517.53,
+    "sid": 233,
+    "location": 2,
+    "content": "还是我只问个问题就走",
+    "music": 0
+  },
+  {
+    "from": 517.53,
+    "to": 518.55,
+    "sid": 234,
+    "location": 2,
+    "content": "第二天再回来",
+    "music": 0
+  },
+  {
+    "from": 518.55,
+    "to": 519.83,
+    "sid": 235,
+    "location": 2,
+    "content": "还有回合间隔",
+    "music": 0
+  },
+  {
+    "from": 519.83,
+    "to": 522.69,
+    "sid": 236,
+    "location": 2,
+    "content": "比如我曾用HGPT代理聊",
+    "music": 0
+  },
+  {
+    "from": 522.69,
+    "to": 524.819,
+    "sid": 237,
+    "location": 2,
+    "content": "怎么安排每周的锻炼",
+    "music": 0
+  },
+  {
+    "from": 524.819,
+    "to": 526.779,
+    "sid": 238,
+    "location": 2,
+    "content": "我大概每两周才聊一次",
+    "music": 0
+  },
+  {
+    "from": 526.779,
+    "to": 529.31,
+    "sid": 239,
+    "location": 2,
+    "content": "这跟其他流量模式差别很大啊",
+    "music": 0
+  },
+  {
+    "from": 529.31,
+    "to": 531.17,
+    "sid": 240,
+    "location": 2,
+    "content": "还有要看你的应用",
+    "music": 0
+  },
+  {
+    "from": 531.17,
+    "to": 533.91,
+    "sid": 241,
+    "location": 2,
+    "content": "交互式应用可能要求一秒内返回show token",
+    "music": 0
+  },
+  {
+    "from": 533.91,
+    "to": 536.43,
+    "sid": 242,
+    "location": 2,
+    "content": "让代理能提示我正在想",
+    "music": 0
+  },
+  {
+    "from": 536.899,
+    "to": 539.259,
+    "sid": 243,
+    "location": 2,
+    "content": "或者我知道要生成500个token",
+    "music": 0
+  },
+  {
+    "from": 539.259,
+    "to": 542.039,
+    "sid": 244,
+    "location": 2,
+    "content": "希望整个响应在规定时间内返回",
+    "music": 0
+  },
+  {
+    "from": 542.039,
+    "to": 543.379,
+    "sid": 245,
+    "location": 2,
+    "content": "让用户能快呃",
+    "music": 0
+  },
+  {
+    "from": 543.379,
+    "to": 546.61,
+    "sid": 246,
+    "location": 2,
+    "content": "谢谢请求进来时包含几个基本部分",
+    "music": 0
+  },
+  {
+    "from": 546.61,
+    "to": 549.45,
+    "sid": 247,
+    "location": 2,
+    "content": "Z稍后详述预填充和解码",
+    "music": 0
+  },
+  {
+    "from": 549.45,
+    "to": 551.33,
+    "sid": 248,
+    "location": 2,
+    "content": "假设输入一些文本啊",
+    "music": 0
+  },
+  {
+    "from": 551.33,
+    "to": 552.37,
+    "sid": 249,
+    "location": 2,
+    "content": "第一步是分词",
+    "music": 0
+  },
+  {
+    "from": 552.37,
+    "to": 554.09,
+    "sid": 250,
+    "location": 2,
+    "content": "我想大家都熟悉啊",
+    "music": 0
+  },
+  {
+    "from": 554.09,
+    "to": 556.55,
+    "sid": 251,
+    "location": 2,
+    "content": "然后进入复杂的调度机制",
+    "music": 0
+  },
+  {
+    "from": 556.55,
+    "to": 559.359,
+    "sid": 252,
+    "location": 2,
+    "content": "比如是否见过这些token",
+    "music": 0
+  },
+  {
+    "from": 559.359,
+    "to": 562.179,
+    "sid": 253,
+    "location": 2,
+    "content": "能否从缓存直接查找激活值",
+    "music": 0
+  },
+  {
+    "from": 562.179,
+    "to": 565.41,
+    "sid": 254,
+    "location": 2,
+    "content": "这是机器学习计算的两个主要部分",
+    "music": 0
+  },
+  {
+    "from": 565.41,
+    "to": 567.95,
+    "sid": 255,
+    "location": 2,
+    "content": "叫预填充和解码",
+    "music": 0
+  },
+  {
+    "from": 567.95,
+    "to": 569.53,
+    "sid": 256,
+    "location": 2,
+    "content": "节奏差别很大",
+    "music": 0
+  },
+  {
+    "from": 569.53,
+    "to": 573.07,
+    "sid": 257,
+    "location": 2,
+    "content": "预填充是说假设你手上有这样一段东西",
+    "music": 0
+  },
+  {
+    "from": 573.07,
+    "to": 576.01,
+    "sid": 258,
+    "location": 2,
+    "content": "你亚托1万从未见过的token",
+    "music": 0
+  },
+  {
+    "from": 576.01,
+    "to": 577.73,
+    "sid": 259,
+    "location": 2,
+    "content": "得算出激活值和逻辑",
+    "music": 0
+  },
+  {
+    "from": 577.73,
+    "to": 579.37,
+    "sid": 260,
+    "location": 2,
+    "content": "即输入10000token",
+    "music": 0
+  },
+  {
+    "from": 579.37,
+    "to": 580.37,
+    "sid": 261,
+    "location": 2,
+    "content": "输出一个token",
+    "music": 0
+  },
+  {
+    "from": 580.37,
+    "to": 582.96,
+    "sid": 262,
+    "location": 2,
+    "content": "这是计算密集型操作",
+    "music": 0
+  },
+  {
+    "from": 583.16,
+    "to": 585.56,
+    "sid": 263,
+    "location": 2,
+    "content": "这和你们训练时看的指标差不多",
+    "music": 0
+  },
+  {
+    "from": 585.56,
+    "to": 587.74,
+    "sid": 264,
+    "location": 2,
+    "content": "训练时你处理大量token",
+    "music": 0
+  },
+  {
+    "from": 587.74,
+    "to": 588.92,
+    "sid": 265,
+    "location": 2,
+    "content": "写好flash tension",
+    "music": 0
+  },
+  {
+    "from": 588.92,
+    "to": 590.53,
+    "sid": 266,
+    "location": 2,
+    "content": "内核跑训练循环",
+    "music": 0
+  },
+  {
+    "from": 590.53,
+    "to": 591.85,
+    "sid": 267,
+    "location": 2,
+    "content": "and pfl差不多",
+    "music": 0
+  },
+  {
+    "from": 591.85,
+    "to": 593.05,
+    "sid": 268,
+    "location": 2,
+    "content": "只是不反向传播",
+    "music": 0
+  },
+  {
+    "from": 593.05,
+    "to": 594.81,
+    "sid": 269,
+    "location": 2,
+    "content": "然后是decodes deep soldier",
+    "music": 0
+  },
+  {
+    "from": 594.81,
+    "to": 595.87,
+    "sid": 270,
+    "location": 2,
+    "content": "逐个生成token",
+    "music": 0
+  },
+  {
+    "from": 595.87,
+    "to": 597.37,
+    "sid": 271,
+    "location": 2,
+    "content": "比如输入10000token",
+    "music": 0
+  },
+  {
+    "from": 597.37,
+    "to": 599.54,
+    "sid": 272,
+    "location": 2,
+    "content": "问ABC函数是干什么的",
+    "music": 0
+  },
+  {
+    "from": 599.54,
+    "to": 602.2,
+    "sid": 273,
+    "location": 2,
+    "content": "模型处理完prom就开始逐个生成",
+    "music": 0
+  },
+  {
+    "from": 602.2,
+    "to": 603.5,
+    "sid": 274,
+    "location": 2,
+    "content": "用了推测解码的话",
+    "music": 0
+  },
+  {
+    "from": 603.5,
+    "to": 604.9,
+    "sid": 275,
+    "location": 2,
+    "content": "一次能出三四个",
+    "music": 0
+  },
+  {
+    "from": 604.9,
+    "to": 607.74,
+    "sid": 276,
+    "location": 2,
+    "content": "每生成一个新token都得重新过一遍",
+    "music": 0
+  },
+  {
+    "from": 607.74,
+    "to": 609.32,
+    "sid": 277,
+    "location": 2,
+    "content": "模型算一算就知道",
+    "music": 0
+  },
+  {
+    "from": 609.32,
+    "to": 612.1,
+    "sid": 278,
+    "location": 2,
+    "content": "其实需要计算的浮点运算并不多",
+    "music": 0
+  },
+  {
+    "from": 612.1,
+    "to": 613.48,
+    "sid": 279,
+    "location": 2,
+    "content": "就是计算量不大",
+    "music": 0
+  },
+  {
+    "from": 613.48,
+    "to": 615.79,
+    "sid": 280,
+    "location": 2,
+    "content": "但瓶颈在内存带宽呃",
+    "music": 0
+  },
+  {
+    "from": 615.79,
+    "to": 619.55,
+    "sid": 281,
+    "location": 2,
+    "content": "也就是说每次生成一个token都要重新加载模型",
+    "music": 0
+  },
+  {
+    "from": 619.55,
+    "to": 622.95,
+    "sid": 282,
+    "location": 2,
+    "content": "模型跑完后你会得到一个代表该token的数值",
+    "music": 0
+  },
+  {
+    "from": 622.95,
+    "to": 624.37,
+    "sid": 283,
+    "location": 2,
+    "content": "再转成字符串",
+    "music": 0
+  },
+  {
+    "from": 624.37,
+    "to": 626.01,
+    "sid": 284,
+    "location": 2,
+    "content": "接着你会做点处理",
+    "music": 0
+  },
+  {
+    "from": 626.01,
+    "to": 629.29,
+    "sid": 285,
+    "location": 2,
+    "content": "比如检查停止token或做安全检查",
+    "music": 0
+  },
+  {
+    "from": 629.29,
+    "to": 632.47,
+    "sid": 286,
+    "location": 2,
+    "content": "看用户是不是想恶意入侵系统之类的啊",
+    "music": 0
+  },
+  {
+    "from": 632.47,
+    "to": 636.03,
+    "sid": 287,
+    "location": 2,
+    "content": "最后输出token推理引擎就在这一循环里运行",
+    "music": 0
+  },
+  {
+    "from": 636.03,
+    "to": 637.86,
+    "sid": 288,
+    "location": 2,
+    "content": "等着接受请求",
+    "music": 0
+  },
+  {
+    "from": 638.22,
+    "to": 643.51,
+    "sid": 289,
+    "location": 2,
+    "content": "他就在调度执行和token采样的循环里不断重复",
+    "music": 0
+  },
+  {
+    "from": 643.51,
+    "to": 645.11,
+    "sid": 290,
+    "location": 2,
+    "content": "咱们再深入一步",
+    "music": 0
+  },
+  {
+    "from": 645.11,
+    "to": 648.98,
+    "sid": 291,
+    "location": 2,
+    "content": "看看系统同时处理多个请求时是什么样",
+    "music": 0
+  },
+  {
+    "from": 648.98,
+    "to": 651.829,
+    "sid": 292,
+    "location": 2,
+    "content": "这里有个技术叫连续批处理",
+    "music": 0
+  },
+  {
+    "from": 651.829,
+    "to": 655.229,
+    "sid": 293,
+    "location": 2,
+    "content": "看这张图时间是从上往下走的啊",
+    "music": 0
+  },
+  {
+    "from": 655.229,
+    "to": 657.069,
+    "sid": 294,
+    "location": 2,
+    "content": "往下走会有新请求进来",
+    "music": 0
+  },
+  {
+    "from": 657.069,
+    "to": 657.949,
+    "sid": 295,
+    "location": 2,
+    "content": "比如到第一步",
+    "music": 0
+  },
+  {
+    "from": 657.949,
+    "to": 659.809,
+    "sid": 296,
+    "location": 2,
+    "content": "你有一些长请求啊",
+    "music": 0
+  },
+  {
+    "from": 659.809,
+    "to": 663.249,
+    "sid": 297,
+    "location": 2,
+    "content": "有用户让你分析一份很长的文档引擎",
+    "music": 0
+  },
+  {
+    "from": 663.249,
+    "to": 665.46,
+    "sid": 298,
+    "location": 2,
+    "content": "就一直生成一大堆token",
+    "music": 0
+  },
+  {
+    "from": 665.46,
+    "to": 667.2,
+    "sid": 299,
+    "location": 2,
+    "content": "可能还有另一个请求进来",
+    "music": 0
+  },
+  {
+    "from": 667.2,
+    "to": 669.09,
+    "sid": 300,
+    "location": 2,
+    "content": "开始占用资源嗯",
+    "music": 0
+  },
+  {
+    "from": 669.09,
+    "to": 671.09,
+    "sid": 301,
+    "location": 2,
+    "content": "这些资源首先是计算资源",
+    "music": 0
+  },
+  {
+    "from": 671.09,
+    "to": 672.93,
+    "sid": 302,
+    "location": 2,
+    "content": "你得同时跑多个请求",
+    "music": 0
+  },
+  {
+    "from": 672.93,
+    "to": 674.54,
+    "sid": 303,
+    "location": 2,
+    "content": "如果你在填kv cash",
+    "music": 0
+  },
+  {
+    "from": 674.54,
+    "to": 675.96,
+    "sid": 304,
+    "location": 2,
+    "content": "那就是内存资源",
+    "music": 0
+  },
+  {
+    "from": 675.96,
+    "to": 678.56,
+    "sid": 305,
+    "location": 2,
+    "content": "你会看到多个请求同时进行",
+    "music": 0
+  },
+  {
+    "from": 678.56,
+    "to": 679.86,
+    "sid": 306,
+    "location": 2,
+    "content": "走一步后",
+    "music": 0
+  },
+  {
+    "from": 679.86,
+    "to": 682.12,
+    "sid": 307,
+    "location": 2,
+    "content": "那个短请求可能结束了",
+    "music": 0
+  },
+  {
+    "from": 682.12,
+    "to": 683.08,
+    "sid": 308,
+    "location": 2,
+    "content": "又来个新请求",
+    "music": 0
+  },
+  {
+    "from": 683.08,
+    "to": 685.97,
+    "sid": 309,
+    "location": 2,
+    "content": "可能要跑好几步卫星来新请求",
+    "music": 0
+  },
+  {
+    "from": 685.97,
+    "to": 687.41,
+    "sid": 310,
+    "location": 2,
+    "content": "比如又是个特别长的",
+    "music": 0
+  },
+  {
+    "from": 687.41,
+    "to": 689.33,
+    "sid": 311,
+    "location": 2,
+    "content": "就是第四部里那个橙色的",
+    "music": 0
+  },
+  {
+    "from": 689.33,
+    "to": 690.33,
+    "sid": 312,
+    "location": 2,
+    "content": "但显存不够",
+    "music": 0
+  },
+  {
+    "from": 690.33,
+    "to": 693.24,
+    "sid": 313,
+    "location": 2,
+    "content": "就得把全部k v cash存到GPU上",
+    "music": 0
+  },
+  {
+    "from": 693.24,
+    "to": 694.68,
+    "sid": 314,
+    "location": 2,
+    "content": "那现存耗尽时",
+    "music": 0
+  },
+  {
+    "from": 694.68,
+    "to": 696.67,
+    "sid": 315,
+    "location": 2,
+    "content": "请求可能会开始排队",
+    "music": 0
+  },
+  {
+    "from": 696.67,
+    "to": 700.01,
+    "sid": 316,
+    "location": 2,
+    "content": "等那个场景球跑完就能启动新请求",
+    "music": 0
+  },
+  {
+    "from": 700.01,
+    "to": 701.03,
+    "sid": 317,
+    "location": 2,
+    "content": "以此类推",
+    "music": 0
+  },
+  {
+    "from": 701.03,
+    "to": 702.63,
+    "sid": 318,
+    "location": 2,
+    "content": "你可以看着它运行",
+    "music": 0
+  },
+  {
+    "from": 702.63,
+    "to": 705.19,
+    "sid": 319,
+    "location": 2,
+    "content": "所以你看系统里有一堆不同请求时",
+    "music": 0
+  },
+  {
+    "from": 705.19,
+    "to": 707.37,
+    "sid": 320,
+    "location": 2,
+    "content": "运行起来就已经挺复杂了啊",
+    "music": 0
+  },
+  {
+    "from": 707.37,
+    "to": 710.48,
+    "sid": 321,
+    "location": 2,
+    "content": "其中一个挺重要的部分叫做kv cash",
+    "music": 0
+  },
+  {
+    "from": 710.48,
+    "to": 711.54,
+    "sid": 322,
+    "location": 2,
+    "content": "你可以这么想",
+    "music": 0
+  },
+  {
+    "from": 711.54,
+    "to": 713.1,
+    "sid": 323,
+    "location": 2,
+    "content": "很多用户可能都在说",
+    "music": 0
+  },
+  {
+    "from": 713.1,
+    "to": 715.7,
+    "sid": 324,
+    "location": 2,
+    "content": "hi ChatGPT或hi cloud",
+    "music": 0
+  },
+  {
+    "from": 715.7,
+    "to": 718.04,
+    "sid": 325,
+    "location": 2,
+    "content": "理论上不用重新计算激活值",
+    "music": 0
+  },
+  {
+    "from": 718.04,
+    "to": 720.319,
+    "sid": 326,
+    "location": 2,
+    "content": "K不用给每个用户都再跑一遍",
+    "music": 0
+  },
+  {
+    "from": 720.319,
+    "to": 722.119,
+    "sid": 327,
+    "location": 2,
+    "content": "要是用户输入了长文本",
+    "music": 0
+  },
+  {
+    "from": 722.119,
+    "to": 723.999,
+    "sid": 328,
+    "location": 2,
+    "content": "只需对它做一次PREFL",
+    "music": 0
+  },
+  {
+    "from": 723.999,
+    "to": 725.939,
+    "sid": 329,
+    "location": 2,
+    "content": "下一轮对话里再追加内容时",
+    "music": 0
+  },
+  {
+    "from": 725.939,
+    "to": 728.47,
+    "sid": 330,
+    "location": 2,
+    "content": "你不用把整个东西重新算一遍",
+    "music": 0
+  },
+  {
+    "from": 728.47,
+    "to": 730.75,
+    "sid": 331,
+    "location": 2,
+    "content": "所以有了叫kv cash的机制",
+    "music": 0
+  },
+  {
+    "from": 730.75,
+    "to": 733.33,
+    "sid": 332,
+    "location": 2,
+    "content": "利用前缀共享新来一组token",
+    "music": 0
+  },
+  {
+    "from": 733.33,
+    "to": 736.29,
+    "sid": 333,
+    "location": 2,
+    "content": "用基础数这种很传统的数据结构",
+    "music": 0
+  },
+  {
+    "from": 736.29,
+    "to": 739.43,
+    "sid": 334,
+    "location": 2,
+    "content": "看看哪些token见过哪些是新的",
+    "music": 0
+  },
+  {
+    "from": 739.43,
+    "to": 742.07,
+    "sid": 335,
+    "location": 2,
+    "content": "然后查一下这些激活值大概长什么样啊",
+    "music": 0
+  },
+  {
+    "from": 742.07,
+    "to": 745.38,
+    "sid": 336,
+    "location": 2,
+    "content": "算力到了GPU上拆分的方式就有很多种",
+    "music": 0
+  },
+  {
+    "from": 745.38,
+    "to": 747.62,
+    "sid": 337,
+    "location": 2,
+    "content": "假设你有一个万亿参数的模型",
+    "music": 0
+  },
+  {
+    "from": 747.62,
+    "to": 750.24,
+    "sid": 338,
+    "location": 2,
+    "content": "跑在280GB显存的GPU上",
+    "music": 0
+  },
+  {
+    "from": 750.24,
+    "to": 752.6,
+    "sid": 339,
+    "location": 2,
+    "content": "单个GPU根本装不下",
+    "music": 0
+  },
+  {
+    "from": 752.6,
+    "to": 756.62,
+    "sid": 340,
+    "location": 2,
+    "content": "整个模型拆分方式有好几种",
+    "music": 0
+  },
+  {
+    "from": 756.62,
+    "to": 758.9,
+    "sid": 341,
+    "location": 2,
+    "content": "比如把每个tensor拆成四份",
+    "music": 0
+  },
+  {
+    "from": 758.9,
+    "to": 760.24,
+    "sid": 342,
+    "location": 2,
+    "content": "分给四个GPU",
+    "music": 0
+  },
+  {
+    "from": 760.24,
+    "to": 761.96,
+    "sid": 343,
+    "location": 2,
+    "content": "或者叫tensor paralysm",
+    "music": 0
+  },
+  {
+    "from": 761.96,
+    "to": 766.27,
+    "sid": 344,
+    "location": 2,
+    "content": "还有现在很多SOTA模型是mixture of experts啊",
+    "music": 0
+  },
+  {
+    "from": 766.27,
+    "to": 768.79,
+    "sid": 345,
+    "location": 2,
+    "content": "这些独立的expert会根据不同的token",
+    "music": 0
+  },
+  {
+    "from": 768.79,
+    "to": 770.52,
+    "sid": 346,
+    "location": 2,
+    "content": "被选择性激活",
+    "music": 0
+  },
+  {
+    "from": 770.52,
+    "to": 773,
+    "sid": 347,
+    "location": 2,
+    "content": "你可以把它们分到不同GPU",
+    "music": 0
+  },
+  {
+    "from": 773,
+    "to": 775.08,
+    "sid": 348,
+    "location": 2,
+    "content": "这些选择决定了瓶颈在哪",
+    "music": 0
+  },
+  {
+    "from": 775.08,
+    "to": 776.3,
+    "sid": 349,
+    "location": 2,
+    "content": "需要多少GPU",
+    "music": 0
+  },
+  {
+    "from": 776.3,
+    "to": 778.58,
+    "sid": 350,
+    "location": 2,
+    "content": "能同时服务多少session等等",
+    "music": 0
+  },
+  {
+    "from": 778.58,
+    "to": 780.76,
+    "sid": 351,
+    "location": 2,
+    "content": "他一个常见做法是",
+    "music": 0
+  },
+  {
+    "from": 780.76,
+    "to": 783.76,
+    "sid": 352,
+    "location": 2,
+    "content": "把PREFIL和decode分到不同的GPU",
+    "music": 0
+  },
+  {
+    "from": 783.76,
+    "to": 785.22,
+    "sid": 353,
+    "location": 2,
+    "content": "不同的机器组上",
+    "music": 0
+  },
+  {
+    "from": 785.22,
+    "to": 789.5,
+    "sid": 354,
+    "location": 2,
+    "content": "因为啊他们的计算瓶颈和计算特性截然不同啊",
+    "music": 0
+  },
+  {
+    "from": 789.5,
+    "to": 791.66,
+    "sid": 355,
+    "location": 2,
+    "content": "预填充很像你们训练时做的事",
+    "music": 0
+  },
+  {
+    "from": 791.66,
+    "to": 793.849,
+    "sid": 356,
+    "location": 2,
+    "content": "直接运行非常消耗算力",
+    "music": 0
+  },
+  {
+    "from": 793.849,
+    "to": 795.449,
+    "sid": 357,
+    "location": 2,
+    "content": "你能充分利用GPU",
+    "music": 0
+  },
+  {
+    "from": 795.449,
+    "to": 797.409,
+    "sid": 358,
+    "location": 2,
+    "content": "而另一方面它极度依赖内存带宽",
+    "music": 0
+  },
+  {
+    "from": 797.409,
+    "to": 798.289,
+    "sid": 359,
+    "location": 2,
+    "content": "因为计算量不大",
+    "music": 0
+  },
+  {
+    "from": 798.289,
+    "to": 799.689,
+    "sid": 360,
+    "location": 2,
+    "content": "却得同时加载所有模型",
+    "music": 0
+  },
+  {
+    "from": 799.689,
+    "to": 802.21,
+    "sid": 361,
+    "location": 2,
+    "content": "权重耗时也各不相同",
+    "music": 0
+  },
+  {
+    "from": 802.21,
+    "to": 804.89,
+    "sid": 362,
+    "location": 2,
+    "content": "预填充通常比单次解码久的多",
+    "music": 0
+  },
+  {
+    "from": 804.89,
+    "to": 806.21,
+    "sid": 363,
+    "location": 2,
+    "content": "但解码步骤多得多",
+    "music": 0
+  },
+  {
+    "from": 806.21,
+    "to": 807.99,
+    "sid": 364,
+    "location": 2,
+    "content": "因为提示词只预填充一次",
+    "music": 0
+  },
+  {
+    "from": 807.99,
+    "to": 810.26,
+    "sid": 365,
+    "location": 2,
+    "content": "每生成一个token就解码一次啊",
+    "music": 0
+  },
+  {
+    "from": 810.26,
+    "to": 812.48,
+    "sid": 366,
+    "location": 2,
+    "content": "一个基础优化是我们都开始采用的",
+    "music": 0
+  },
+  {
+    "from": 812.48,
+    "to": 815.87,
+    "sid": 367,
+    "location": 2,
+    "content": "让不同的worker组分别处理预填充和解码",
+    "music": 0
+  },
+  {
+    "from": 815.87,
+    "to": 819.49,
+    "sid": 368,
+    "location": 2,
+    "content": "从而针对计算站的不同环节做专门优化啊",
+    "music": 0
+  },
+  {
+    "from": 819.49,
+    "to": 820.17,
+    "sid": 369,
+    "location": 2,
+    "content": "事实证明",
+    "music": 0
+  },
+  {
+    "from": 820.17,
+    "to": 823.04,
+    "sid": 370,
+    "location": 2,
+    "content": "有了这种拆分可以做很多创新",
+    "music": 0
+  },
+  {
+    "from": 823.04,
+    "to": 826.32,
+    "sid": 371,
+    "location": 2,
+    "content": "比如你可能听说过NVIDIA收购grog",
+    "music": 0
+  },
+  {
+    "from": 826.32,
+    "to": 827.94,
+    "sid": 372,
+    "location": 2,
+    "content": "也就是GPU之王",
+    "music": 0
+  },
+  {
+    "from": 827.94,
+    "to": 831.03,
+    "sid": 373,
+    "location": 2,
+    "content": "NVIDIA买下了这种新型推理芯片",
+    "music": 0
+  },
+  {
+    "from": 831.03,
+    "to": 835.18,
+    "sid": 374,
+    "location": 2,
+    "content": "原因之一是解码负载和预填充负载差异巨大",
+    "music": 0
+  },
+  {
+    "from": 835.18,
+    "to": 836.12,
+    "sid": 375,
+    "location": 2,
+    "content": "针对解码",
+    "music": 0
+  },
+  {
+    "from": 836.12,
+    "to": 838.36,
+    "sid": 376,
+    "location": 2,
+    "content": "你可以使用完全不同的芯片",
+    "music": 0
+  },
+  {
+    "from": 838.36,
+    "to": 839.76,
+    "sid": 377,
+    "location": 2,
+    "content": "比如下一代硬件",
+    "music": 0
+  },
+  {
+    "from": 839.76,
+    "to": 842.44,
+    "sid": 378,
+    "location": 2,
+    "content": "NVIDIA打算用GPU处理与填充",
+    "music": 0
+  },
+  {
+    "from": 842.44,
+    "to": 844.88,
+    "sid": 379,
+    "location": 2,
+    "content": "用grog的LPU芯片做解码",
+    "music": 0
+  },
+  {
+    "from": 844.88,
+    "to": 849.35,
+    "sid": 380,
+    "location": 2,
+    "content": "it's super brass也是OpenAI和CEREBRAS有算力合作",
+    "music": 0
+  },
+  {
+    "from": 849.35,
+    "to": 850.37,
+    "sid": 381,
+    "location": 2,
+    "content": "它解码更强",
+    "music": 0
+  },
+  {
+    "from": 850.37,
+    "to": 851.07,
+    "sid": 382,
+    "location": 2,
+    "content": "Sabova",
+    "music": 0
+  },
+  {
+    "from": 851.07,
+    "to": 853.87,
+    "sid": 383,
+    "location": 2,
+    "content": "这些公司也在这一领域的不同环节下注",
+    "music": 0
+  },
+  {
+    "from": 853.87,
+    "to": 855.35,
+    "sid": 384,
+    "location": 2,
+    "content": "Non is skin so",
+    "music": 0
+  },
+  {
+    "from": 856.08,
+    "to": 858.98,
+    "sid": 385,
+    "location": 2,
+    "content": "当你真正大规模部署这些推理引擎",
+    "music": 0
+  },
+  {
+    "from": 858.98,
+    "to": 861.74,
+    "sid": 386,
+    "location": 2,
+    "content": "每天处理上万亿token甚至更多时",
+    "music": 0
+  },
+  {
+    "from": 861.74,
+    "to": 865.29,
+    "sid": 387,
+    "location": 2,
+    "content": "就会遇到一些相当嗯棘手的bug",
+    "music": 0
+  },
+  {
+    "from": 865.29,
+    "to": 867.35,
+    "sid": 388,
+    "location": 2,
+    "content": "这组bug大多发生在去年年底",
+    "music": 0
+  },
+  {
+    "from": 867.35,
+    "to": 868.93,
+    "sid": 389,
+    "location": 2,
+    "content": "涉及一些开源推理引擎",
+    "music": 0
+  },
+  {
+    "from": 868.93,
+    "to": 871.32,
+    "sid": 390,
+    "location": 2,
+    "content": "有大规模系统有个特点",
+    "music": 0
+  },
+  {
+    "from": 871.32,
+    "to": 874.03,
+    "sid": 391,
+    "location": 2,
+    "content": "小规模下正常的大规模下必然出错",
+    "music": 0
+  },
+  {
+    "from": 874.03,
+    "to": 875.51,
+    "sid": 392,
+    "location": 2,
+    "content": "我们说的是发生概率",
+    "music": 0
+  },
+  {
+    "from": 875.51,
+    "to": 878.09,
+    "sid": 393,
+    "location": 2,
+    "content": "低于0.001%的事件啊",
+    "music": 0
+  },
+  {
+    "from": 878.09,
+    "to": 879.65,
+    "sid": 394,
+    "location": 2,
+    "content": "有些bug极细微",
+    "music": 0
+  },
+  {
+    "from": 879.65,
+    "to": 881.19,
+    "sid": 395,
+    "location": 2,
+    "content": "内核略有错误",
+    "music": 0
+  },
+  {
+    "from": 881.19,
+    "to": 882.92,
+    "sid": 396,
+    "location": 2,
+    "content": "但触发条件极罕见",
+    "music": 0
+  },
+  {
+    "from": 882.92,
+    "to": 884.68,
+    "sid": 397,
+    "location": 2,
+    "content": "算到一半部分",
+    "music": 0
+  },
+  {
+    "from": 884.68,
+    "to": 887.04,
+    "sid": 398,
+    "location": 2,
+    "content": "LODGETS就会变成NANON",
+    "music": 0
+  },
+  {
+    "from": 887.04,
+    "to": 890.88,
+    "sid": 399,
+    "location": 2,
+    "content": "这时模型就开始反复输出同一个token",
+    "music": 0
+  },
+  {
+    "from": 891.16,
+    "to": 894.04,
+    "sid": 400,
+    "location": 2,
+    "content": "有个模型后来只输出hi hi hi或感叹号",
+    "music": 0
+  },
+  {
+    "from": 894.04,
+    "to": 894.92,
+    "sid": 401,
+    "location": 2,
+    "content": "陷入死循环",
+    "music": 0
+  },
+  {
+    "from": 894.92,
+    "to": 898.68,
+    "sid": 402,
+    "location": 2,
+    "content": "the hoo模型有人改了处理工具调用的逻辑",
+    "music": 0
+  },
+  {
+    "from": 898.68,
+    "to": 903.16,
+    "sid": 403,
+    "location": 2,
+    "content": "工具调用就是模型说嘿我要搜个网之类的模型",
+    "music": 0
+  },
+  {
+    "from": 903.16,
+    "to": 904,
+    "sid": 404,
+    "location": 2,
+    "content": "说完去搜一下",
+    "music": 0
+  },
+  {
+    "from": 904,
+    "to": 906.39,
+    "sid": 405,
+    "location": 2,
+    "content": "后端就得用老代码去执行",
+    "music": 0
+  },
+  {
+    "from": 906.91,
+    "to": 910.62,
+    "sid": 406,
+    "location": 2,
+    "content": "嗯后来某个引擎处理工具调用出错了",
+    "music": 0
+  },
+  {
+    "from": 910.62,
+    "to": 915.34,
+    "sid": 407,
+    "location": 2,
+    "content": "变折线就是输出变长模型一致函去搜一下模型",
+    "music": 0
+  },
+  {
+    "from": 915.34,
+    "to": 918.3,
+    "sid": 408,
+    "location": 2,
+    "content": "正常时通常会说he去搜一下pay",
+    "music": 0
+  },
+  {
+    "from": 918.3,
+    "to": 919.28,
+    "sid": 409,
+    "location": 2,
+    "content": "我说搞定了",
+    "music": 0
+  },
+  {
+    "from": 919.28,
+    "to": 920.46,
+    "sid": 410,
+    "location": 2,
+    "content": "去回复用户吧",
+    "music": 0
+  },
+  {
+    "from": 920.46,
+    "to": 922.44,
+    "sid": 411,
+    "location": 2,
+    "content": "但这回他没正确返回",
+    "music": 0
+  },
+  {
+    "from": 922.44,
+    "to": 924.08,
+    "sid": 412,
+    "location": 2,
+    "content": "他会一直说去搜一下",
+    "music": 0
+  },
+  {
+    "from": 924.08,
+    "to": 924.8,
+    "sid": 413,
+    "location": 2,
+    "content": "去搜一下",
+    "music": 0
+  },
+  {
+    "from": 924.8,
+    "to": 925.94,
+    "sid": 414,
+    "location": 2,
+    "content": "怎么还没搜",
+    "music": 0
+  },
+  {
+    "from": 925.94,
+    "to": 927.44,
+    "sid": 415,
+    "location": 2,
+    "content": "他会陷入死循环",
+    "music": 0
+  },
+  {
+    "from": 927.44,
+    "to": 929.23,
+    "sid": 416,
+    "location": 2,
+    "content": "跑上数万个token嗯",
+    "music": 0
+  },
+  {
+    "from": 929.23,
+    "to": 930.61,
+    "sid": 417,
+    "location": 2,
+    "content": "还有个案例很有趣",
+    "music": 0
+  },
+  {
+    "from": 930.61,
+    "to": 933.05,
+    "sid": 418,
+    "location": 2,
+    "content": "他同时搞挂了多个推理提供商",
+    "music": 0
+  },
+  {
+    "from": 933.05,
+    "to": 935.11,
+    "sid": 419,
+    "location": 2,
+    "content": "还被赖在量化问题上",
+    "music": 0
+  },
+  {
+    "from": 935.11,
+    "to": 938.11,
+    "sid": 420,
+    "location": 2,
+    "content": "嗯其实是个更微妙的bug",
+    "music": 0
+  },
+  {
+    "from": 938.11,
+    "to": 941.22,
+    "sid": 421,
+    "location": 2,
+    "content": "模型没理由的突然开始蹦出中文字啊",
+    "music": 0
+  },
+  {
+    "from": 941.22,
+    "to": 943.54,
+    "sid": 422,
+    "location": 2,
+    "content": "有人猜模型可能用中文微调过",
+    "music": 0
+  },
+  {
+    "from": 943.54,
+    "to": 944.58,
+    "sid": 423,
+    "location": 2,
+    "content": "因为问他英文",
+    "music": 0
+  },
+  {
+    "from": 944.58,
+    "to": 945.6,
+    "sid": 424,
+    "location": 2,
+    "content": "他却回中文",
+    "music": 0
+  },
+  {
+    "from": 945.6,
+    "to": 948.2,
+    "sid": 425,
+    "location": 2,
+    "content": "其实是某个kernel里的一个差异错误",
+    "music": 0
+  },
+  {
+    "from": 948.2,
+    "to": 949.98,
+    "sid": 426,
+    "location": 2,
+    "content": "是个很微妙的bug",
+    "music": 0
+  },
+  {
+    "from": 949.98,
+    "to": 952.829,
+    "sid": 427,
+    "location": 2,
+    "content": "有时候你会从GPU里读到一些",
+    "music": 0
+  },
+  {
+    "from": 952.829,
+    "to": 954.749,
+    "sid": 428,
+    "location": 2,
+    "content": "没初始化的内存数据",
+    "music": 0
+  },
+  {
+    "from": 954.749,
+    "to": 956.13,
+    "sid": 429,
+    "location": 2,
+    "content": "经过注意力机制",
+    "music": 0
+  },
+  {
+    "from": 956.13,
+    "to": 959.09,
+    "sid": 430,
+    "location": 2,
+    "content": "最后会得到一个随机的中文字模型",
+    "music": 0
+  },
+  {
+    "from": 959.09,
+    "to": 961.05,
+    "sid": 431,
+    "location": 2,
+    "content": "会纳闷怎么突然开始想中文了",
+    "music": 0
+  },
+  {
+    "from": 961.05,
+    "to": 962.33,
+    "sid": 432,
+    "location": 2,
+    "content": "以为你在问中文问题",
+    "music": 0
+  },
+  {
+    "from": 962.33,
+    "to": 964.1,
+    "sid": 433,
+    "location": 2,
+    "content": "结果就顺着聊到中文去了",
+    "music": 0
+  },
+  {
+    "from": 964.1,
+    "to": 967.34,
+    "sid": 434,
+    "location": 2,
+    "content": "嗯有时候这是因为模型确实被训练过",
+    "music": 0
+  },
+  {
+    "from": 967.34,
+    "to": 968.52,
+    "sid": 435,
+    "location": 2,
+    "content": "让他能想中文",
+    "music": 0
+  },
+  {
+    "from": 968.52,
+    "to": 972.68,
+    "sid": 436,
+    "location": 2,
+    "content": "有时候只是别人的代码里有个off by one的小bug啊",
+    "music": 0
+  },
+  {
+    "from": 972.68,
+    "to": 975.4,
+    "sid": 437,
+    "location": 2,
+    "content": "在一些更高级的推理框架里",
+    "music": 0
+  },
+  {
+    "from": 975.4,
+    "to": 977.82,
+    "sid": 438,
+    "location": 2,
+    "content": "最近开始冒出一些挺有意思的现象",
+    "music": 0
+  },
+  {
+    "from": 977.82,
+    "to": 980.29,
+    "sid": 439,
+    "location": 2,
+    "content": "so啊跑大型生产系统时",
+    "music": 0
+  },
+  {
+    "from": 980.29,
+    "to": 983.569,
+    "sid": 440,
+    "location": 2,
+    "content": "关键的一点就是kv cash越大越好",
+    "music": 0
+  },
+  {
+    "from": 983.569,
+    "to": 986.609,
+    "sid": 441,
+    "location": 2,
+    "content": "最好能把不同用户或者同一用户",
+    "music": 0
+  },
+  {
+    "from": 986.609,
+    "to": 989.22,
+    "sid": 442,
+    "location": 2,
+    "content": "在不同绘画里的请求都缓存起来",
+    "music": 0
+  },
+  {
+    "from": 989.22,
+    "to": 992.18,
+    "sid": 443,
+    "location": 2,
+    "content": "这样能跑的任务就更多是为了处理更多绘画",
+    "music": 0
+  },
+  {
+    "from": 992.18,
+    "to": 993.74,
+    "sid": 444,
+    "location": 2,
+    "content": "先把kv cash存到GPU上",
+    "music": 0
+  },
+  {
+    "from": 993.74,
+    "to": 995.36,
+    "sid": 445,
+    "location": 2,
+    "content": "结果GPU内存很快就不够了",
+    "music": 0
+  },
+  {
+    "from": 995.36,
+    "to": 998.93,
+    "sid": 446,
+    "location": 2,
+    "content": "嗯接着你可以开始存到CPU内存里",
+    "music": 0
+  },
+  {
+    "from": 998.93,
+    "to": 1001.43,
+    "sid": 447,
+    "location": 2,
+    "content": "如果你留意JENSEN的主题演讲",
+    "music": 0
+  },
+  {
+    "from": 1001.43,
+    "to": 1004.83,
+    "sid": 448,
+    "location": 2,
+    "content": "会发现他最近特别看重CPU性能",
+    "music": 0
+  },
+  {
+    "from": 1004.83,
+    "to": 1005.569,
+    "sid": 449,
+    "location": 2,
+    "content": "One fuse",
+    "music": 0
+  },
+  {
+    "from": 1005.569,
+    "to": 1009.629,
+    "sid": 450,
+    "location": 2,
+    "content": "原因之一在于上一代CPU and solo其实很慢",
+    "music": 0
+  },
+  {
+    "from": 1009.629,
+    "to": 1012.91,
+    "sid": 451,
+    "location": 2,
+    "content": "结果成了很多重要任务的瓶颈啊",
+    "music": 0
+  },
+  {
+    "from": 1012.91,
+    "to": 1014.15,
+    "sid": 452,
+    "location": 2,
+    "content": "于是你开始关注",
+    "music": 0
+  },
+  {
+    "from": 1014.15,
+    "to": 1016.55,
+    "sid": 453,
+    "location": 2,
+    "content": "因为如果你50万美元的机器",
+    "music": 0
+  },
+  {
+    "from": 1016.55,
+    "to": 1019.27,
+    "sid": 454,
+    "location": 2,
+    "content": "被你配的1000美元CPU拖了后腿",
+    "music": 0
+  },
+  {
+    "from": 1019.27,
+    "to": 1020.53,
+    "sid": 455,
+    "location": 2,
+    "content": "那就很糟糕了",
+    "music": 0
+  },
+  {
+    "from": 1020.53,
+    "to": 1025.42,
+    "sid": 456,
+    "location": 2,
+    "content": "原因之一是你可能把k v cash存在了CPU内存里",
+    "music": 0
+  },
+  {
+    "from": 1025.42,
+    "to": 1029.4,
+    "sid": 457,
+    "location": 2,
+    "content": "所以你会很在意把k v cash读回来的速度啊",
+    "music": 0
+  },
+  {
+    "from": 1029.4,
+    "to": 1033.01,
+    "sid": 458,
+    "location": 2,
+    "content": "再往后你可能把更多kv cash放到磁盘上",
+    "music": 0
+  },
+  {
+    "from": 1033.01,
+    "to": 1035.73,
+    "sid": 459,
+    "location": 2,
+    "content": "这时就得关注SSD和他的空间了",
+    "music": 0
+  },
+  {
+    "from": 1035.73,
+    "to": 1041.5,
+    "sid": 460,
+    "location": 2,
+    "content": "再说你大概听过OpenAI抢购全球SSD和内存的传闻",
+    "music": 0
+  },
+  {
+    "from": 1041.5,
+    "to": 1043.9,
+    "sid": 461,
+    "location": 2,
+    "content": "原因之一就是为了这种场景",
+    "music": 0
+  },
+  {
+    "from": 1043.9,
+    "to": 1047.3,
+    "sid": 462,
+    "location": 2,
+    "content": "你得在KV缓存里尽可能多地存数据",
+    "music": 0
+  },
+  {
+    "from": 1047.3,
+    "to": 1049.02,
+    "sid": 463,
+    "location": 2,
+    "content": "当然真正构建引擎时",
+    "music": 0
+  },
+  {
+    "from": 1049.02,
+    "to": 1050.74,
+    "sid": 464,
+    "location": 2,
+    "content": "你得处理各种复杂情况",
+    "music": 0
+  },
+  {
+    "from": 1050.74,
+    "to": 1054.15,
+    "sid": 465,
+    "location": 2,
+    "content": "比如这些token我好久没见了啊",
+    "music": 0
+  },
+  {
+    "from": 1054.15,
+    "to": 1056.07,
+    "sid": 466,
+    "location": 2,
+    "content": "我可能会把他踢出去啊",
+    "music": 0
+  },
+  {
+    "from": 1056.07,
+    "to": 1059.51,
+    "sid": 467,
+    "location": 2,
+    "content": "转到CPU磁盘或者其他全局存储里",
+    "music": 0
+  },
+  {
+    "from": 1059.51,
+    "to": 1060.67,
+    "sid": 468,
+    "location": 2,
+    "content": "先请求一来",
+    "music": 0
+  },
+  {
+    "from": 1060.67,
+    "to": 1061.59,
+    "sid": 469,
+    "location": 2,
+    "content": "我得去查去",
+    "music": 0
+  },
+  {
+    "from": 1061.59,
+    "to": 1063.15,
+    "sid": 470,
+    "location": 2,
+    "content": "等再把他们取回来",
+    "music": 0
+  },
+  {
+    "from": 1063.15,
+    "to": 1066.099,
+    "sid": 471,
+    "location": 2,
+    "content": "it's kind of加载进系统里",
+    "music": 0
+  },
+  {
+    "from": 1066.099,
+    "to": 1067.139,
+    "sid": 472,
+    "location": 2,
+    "content": "这事就妥了",
+    "music": 0
+  },
+  {
+    "from": 1067.139,
+    "to": 1070.379,
+    "sid": 473,
+    "location": 2,
+    "content": "这感觉有点儿",
+    "music": 0
+  },
+  {
+    "from": 1071.11,
+    "to": 1075.79,
+    "sid": 474,
+    "location": 2,
+    "content": "CSD卸载不是指把某种特定负载卸下来",
+    "music": 0
+  },
+  {
+    "from": 1075.79,
+    "to": 1077.19,
+    "sid": 475,
+    "location": 2,
+    "content": "比如要快的时候",
+    "music": 0
+  },
+  {
+    "from": 1077.19,
+    "to": 1078.75,
+    "sid": 476,
+    "location": 2,
+    "content": "你肯定不想这么干对吧",
+    "music": 0
+  },
+  {
+    "from": 1078.75,
+    "to": 1080.21,
+    "sid": 477,
+    "location": 2,
+    "content": "毕竟读SSD太慢了",
+    "music": 0
+  },
+  {
+    "from": 1080.21,
+    "to": 1081.21,
+    "sid": 478,
+    "location": 2,
+    "content": "能再问一遍吗",
+    "music": 0
+  },
+  {
+    "from": 1081.21,
+    "to": 1081.55,
+    "sid": 479,
+    "location": 2,
+    "content": "行",
+    "music": 0
+  },
+  {
+    "from": 1081.55,
+    "to": 1082.55,
+    "sid": 480,
+    "location": 2,
+    "content": "你是问这种卸载",
+    "music": 0
+  },
+  {
+    "from": 1082.55,
+    "to": 1085.33,
+    "sid": 481,
+    "location": 2,
+    "content": "是不是只针对某类特定的工作负载",
+    "music": 0
+  },
+  {
+    "from": 1085.33,
+    "to": 1087.27,
+    "sid": 482,
+    "location": 2,
+    "content": "嗯咱们聊聊这个",
+    "music": 0
+  },
+  {
+    "from": 1087.27,
+    "to": 1089.25,
+    "sid": 483,
+    "location": 2,
+    "content": "我知道你们可能没修过操作系统课",
+    "music": 0
+  },
+  {
+    "from": 1089.25,
+    "to": 1091.49,
+    "sid": 484,
+    "location": 2,
+    "content": "但我强烈建议你们去上这里射击",
+    "music": 0
+  },
+  {
+    "from": 1091.49,
+    "to": 1093.4,
+    "sid": 485,
+    "location": 2,
+    "content": "很经典的调度逻辑",
+    "music": 0
+  },
+  {
+    "from": 1093.4,
+    "to": 1095.2,
+    "sid": 486,
+    "location": 2,
+    "content": "除了右边GPU那块",
+    "music": 0
+  },
+  {
+    "from": 1095.2,
+    "to": 1098.75,
+    "sid": 487,
+    "location": 2,
+    "content": "这张图看着就跟七八十年代操作系统课的图",
+    "music": 0
+  },
+  {
+    "from": 1098.75,
+    "to": 1099.43,
+    "sid": 488,
+    "location": 2,
+    "content": "一模一样",
+    "music": 0
+  },
+  {
+    "from": 1099.43,
+    "to": 1101.33,
+    "sid": 489,
+    "location": 2,
+    "content": "以前咱们也遇到过这问题",
+    "music": 0
+  },
+  {
+    "from": 1101.33,
+    "to": 1102.95,
+    "sid": 490,
+    "location": 2,
+    "content": "电脑里开太多应用",
+    "music": 0
+  },
+  {
+    "from": 1102.95,
+    "to": 1104.43,
+    "sid": 491,
+    "location": 2,
+    "content": "CPU内存已满",
+    "music": 0
+  },
+  {
+    "from": 1104.43,
+    "to": 1106.02,
+    "sid": 492,
+    "location": 2,
+    "content": "你就得想办法应对",
+    "music": 0
+  },
+  {
+    "from": 1106.02,
+    "to": 1107.82,
+    "sid": 493,
+    "location": 2,
+    "content": "把这些应用挪到磁盘里",
+    "music": 0
+  },
+  {
+    "from": 1107.82,
+    "to": 1109.68,
+    "sid": 494,
+    "location": 2,
+    "content": "这工作负载其实是一回事",
+    "music": 0
+  },
+  {
+    "from": 1109.68,
+    "to": 1110.62,
+    "sid": 495,
+    "location": 2,
+    "content": "理想状态下",
+    "music": 0
+  },
+  {
+    "from": 1110.62,
+    "to": 1113.43,
+    "sid": 496,
+    "location": 2,
+    "content": "左边那个nana banana模拟了L2U驱逐",
+    "music": 0
+  },
+  {
+    "from": 1113.43,
+    "to": 1115.53,
+    "sid": 497,
+    "location": 2,
+    "content": "这启发式策略其实挺靠谱的",
+    "music": 0
+  },
+  {
+    "from": 1115.53,
+    "to": 1117.73,
+    "sid": 498,
+    "location": 2,
+    "content": "估计有篇操作系统论文说过",
+    "music": 0
+  },
+  {
+    "from": 1117.73,
+    "to": 1121,
+    "sid": 499,
+    "location": 2,
+    "content": "L2U的效果最多也就比最优解差两倍",
+    "music": 0
+  },
+  {
+    "from": 1121,
+    "to": 1122.38,
+    "sid": 500,
+    "location": 2,
+    "content": "那才是最优解",
+    "music": 0
+  },
+  {
+    "from": 1122.38,
+    "to": 1124.3,
+    "sid": 501,
+    "location": 2,
+    "content": "当然如果你能预知未来",
+    "music": 0
+  },
+  {
+    "from": 1124.3,
+    "to": 1126.42,
+    "sid": 502,
+    "location": 2,
+    "content": "知道马上会有特定请求进来",
+    "music": 0
+  },
+  {
+    "from": 1126.42,
+    "to": 1127.24,
+    "sid": 503,
+    "location": 2,
+    "content": "那就完美了",
+    "music": 0
+  },
+  {
+    "from": 1127.24,
+    "to": 1128.92,
+    "sid": 504,
+    "location": 2,
+    "content": "这是我先预去一下内存",
+    "music": 0
+  },
+  {
+    "from": 1128.92,
+    "to": 1131.22,
+    "sid": 505,
+    "location": 2,
+    "content": "其实预测未来是有可能的",
+    "music": 0
+  },
+  {
+    "from": 1131.22,
+    "to": 1133.67,
+    "sid": 506,
+    "location": 2,
+    "content": "比如你打开聊天应用",
+    "music": 0
+  },
+  {
+    "from": 1133.67,
+    "to": 1135.87,
+    "sid": 507,
+    "location": 2,
+    "content": "翻出一个月前的旧对话",
+    "music": 0
+  },
+  {
+    "from": 1135.87,
+    "to": 1138.81,
+    "sid": 508,
+    "location": 2,
+    "content": "这说明你大概率要针对他提问",
+    "music": 0
+  },
+  {
+    "from": 1138.81,
+    "to": 1141.85,
+    "sid": 509,
+    "location": 2,
+    "content": "接着你可能得把它加载到GPU上啊",
+    "music": 0
+  },
+  {
+    "from": 1141.85,
+    "to": 1143.79,
+    "sid": 510,
+    "location": 2,
+    "content": "理想情况下你能预测未来",
+    "music": 0
+  },
+  {
+    "from": 1143.79,
+    "to": 1146.57,
+    "sid": 511,
+    "location": 2,
+    "content": "若不能就靠各种启发式策略啊",
+    "music": 0
+  },
+  {
+    "from": 1146.57,
+    "to": 1149.299,
+    "sid": 512,
+    "location": 2,
+    "content": "ch这其实是个的问题",
+    "music": 0
+  },
+  {
+    "from": 1149.299,
+    "to": 1152.959,
+    "sid": 513,
+    "location": 2,
+    "content": "你要把多少嗯流量压到GPU上",
+    "music": 0
+  },
+  {
+    "from": 1152.959,
+    "to": 1156.39,
+    "sid": 514,
+    "location": 2,
+    "content": "我没见过谁想把更少的流量压给GPU",
+    "music": 0
+  },
+  {
+    "from": 1156.39,
+    "to": 1160.67,
+    "sid": 515,
+    "location": 2,
+    "content": "所以啊只要满足咱们开头提的那些SA",
+    "music": 0
+  },
+  {
+    "from": 1160.67,
+    "to": 1164.09,
+    "sid": 516,
+    "location": 2,
+    "content": "你肯定想尽可能多的承载流量呃",
+    "music": 0
+  },
+  {
+    "from": 1164.09,
+    "to": 1165.51,
+    "sid": 517,
+    "location": 2,
+    "content": "有些有趣的事开始了",
+    "music": 0
+  },
+  {
+    "from": 1165.51,
+    "to": 1167.23,
+    "sid": 518,
+    "location": 2,
+    "content": "在上一代black wgpu中",
+    "music": 0
+  },
+  {
+    "from": 1167.23,
+    "to": 1169.67,
+    "sid": 519,
+    "location": 2,
+    "content": "NVIDIA开始打造新的GPU及MVL",
+    "music": 0
+  },
+  {
+    "from": 1169.67,
+    "to": 1171.36,
+    "sid": 520,
+    "location": 2,
+    "content": "72gr black qu芯片啊",
+    "music": 0
+  },
+  {
+    "from": 1171.36,
+    "to": 1174.77,
+    "sid": 521,
+    "location": 2,
+    "content": "这就是72块GPU通过高速互联连接起来",
+    "music": 0
+  },
+  {
+    "from": 1174.77,
+    "to": 1175.99,
+    "sid": 522,
+    "location": 2,
+    "content": "于是你开始考虑",
+    "music": 0
+  },
+  {
+    "from": 1175.99,
+    "to": 1180.47,
+    "sid": 523,
+    "location": 2,
+    "content": "怎么把万亿参数的模型分摊到72块GPU上嗯",
+    "music": 0
+  },
+  {
+    "from": 1180.47,
+    "to": 1181.59,
+    "sid": 524,
+    "location": 2,
+    "content": "这有意义吗",
+    "music": 0
+  },
+  {
+    "from": 1181.59,
+    "to": 1182.67,
+    "sid": 525,
+    "location": 2,
+    "content": "能带来什么",
+    "music": 0
+  },
+  {
+    "from": 1182.67,
+    "to": 1184.42,
+    "sid": 526,
+    "location": 2,
+    "content": "会发生什么嗯",
+    "music": 0
+  },
+  {
+    "from": 1184.42,
+    "to": 1186.3,
+    "sid": 527,
+    "location": 2,
+    "content": "怎么考虑容错呢",
+    "music": 0
+  },
+  {
+    "from": 1186.3,
+    "to": 1188.929,
+    "sid": 528,
+    "location": 2,
+    "content": "这些设备常因各种原因出故障",
+    "music": 0
+  },
+  {
+    "from": 1188.929,
+    "to": 1190.229,
+    "sid": 529,
+    "location": 2,
+    "content": "比如连接器很脆",
+    "music": 0
+  },
+  {
+    "from": 1190.229,
+    "to": 1191.289,
+    "sid": 530,
+    "location": 2,
+    "content": "是塑料做的",
+    "music": 0
+  },
+  {
+    "from": 1191.289,
+    "to": 1193.449,
+    "sid": 531,
+    "location": 2,
+    "content": "不是金属插太紧线了",
+    "music": 0
+  },
+  {
+    "from": 1193.449,
+    "to": 1195.94,
+    "sid": 532,
+    "location": 2,
+    "content": "就会one mv链接就变得不稳定",
+    "music": 0
+  },
+  {
+    "from": 1195.94,
+    "to": 1197.06,
+    "sid": 533,
+    "location": 2,
+    "content": "这本身就很麻烦",
+    "music": 0
+  },
+  {
+    "from": 1197.06,
+    "to": 1197.84,
+    "sid": 534,
+    "location": 2,
+    "content": "这是AI时代",
+    "music": 0
+  },
+  {
+    "from": 1197.84,
+    "to": 1200.86,
+    "sid": 535,
+    "location": 2,
+    "content": "所以给芯片加了风扇和TIMEJIA",
+    "music": 0
+  },
+  {
+    "from": 1200.86,
+    "to": 1203.56,
+    "sid": 536,
+    "location": 2,
+    "content": "如果把模型分到64块GPU上",
+    "music": 0
+  },
+  {
+    "from": 1203.56,
+    "to": 1204.7,
+    "sid": 537,
+    "location": 2,
+    "content": "为数百万用户",
+    "music": 0
+  },
+  {
+    "from": 1204.7,
+    "to": 1207.06,
+    "sid": 538,
+    "location": 2,
+    "content": "数万亿token提供生产流量",
+    "music": 0
+  },
+  {
+    "from": 1207.06,
+    "to": 1209.3,
+    "sid": 539,
+    "location": 2,
+    "content": "当某一块GP出故障时",
+    "music": 0
+  },
+  {
+    "from": 1209.3,
+    "to": 1209.86,
+    "sid": 540,
+    "location": 2,
+    "content": "该怎么办",
+    "music": 0
+  },
+  {
+    "from": 1209.86,
+    "to": 1211.2,
+    "sid": 541,
+    "location": 2,
+    "content": "有办法做到容错吗",
+    "music": 0
+  },
+  {
+    "from": 1211.2,
+    "to": 1213.52,
+    "sid": 542,
+    "location": 2,
+    "content": "这里有很多有趣的问题值得琢磨",
+    "music": 0
+  },
+  {
+    "from": 1213.52,
+    "to": 1214.84,
+    "sid": 543,
+    "location": 2,
+    "content": "接着你会发现",
+    "music": 0
+  },
+  {
+    "from": 1214.84,
+    "to": 1217.84,
+    "sid": 544,
+    "location": 2,
+    "content": "这些模型的上下文已经达到百万级甚至更多",
+    "music": 0
+  },
+  {
+    "from": 1217.84,
+    "to": 1219.9,
+    "sid": 545,
+    "location": 2,
+    "content": "那具体怎么处理",
+    "music": 0
+  },
+  {
+    "from": 1219.9,
+    "to": 1222.98,
+    "sid": 546,
+    "location": 2,
+    "content": "是把上下文拆分到多个GPU上吗",
+    "music": 0
+  },
+  {
+    "from": 1222.98,
+    "to": 1224.04,
+    "sid": 547,
+    "location": 2,
+    "content": "那具体怎么做",
+    "music": 0
+  },
+  {
+    "from": 1224.04,
+    "to": 1226.7,
+    "sid": 548,
+    "location": 2,
+    "content": "谢谢我想简要提一种优化方案",
+    "music": 0
+  },
+  {
+    "from": 1226.7,
+    "to": 1229.88,
+    "sid": 549,
+    "location": 2,
+    "content": "当你从系统层面审视整个流程时",
+    "music": 0
+  },
+  {
+    "from": 1229.88,
+    "to": 1231.4,
+    "sid": 550,
+    "location": 2,
+    "content": "就可以着手实施",
+    "music": 0
+  },
+  {
+    "from": 1231.4,
+    "to": 1234.1,
+    "sid": 551,
+    "location": 2,
+    "content": "这是我们几个月前一起发布的一项工作",
+    "music": 0
+  },
+  {
+    "from": 1234.1,
+    "to": 1237.51,
+    "sid": 552,
+    "location": 2,
+    "content": "叫做cash wpfid decode segregation friends",
+    "music": 0
+  },
+  {
+    "from": 1237.51,
+    "to": 1239.01,
+    "sid": 553,
+    "location": 2,
+    "content": "这优化很简单",
+    "music": 0
+  },
+  {
+    "from": 1239.01,
+    "to": 1241.07,
+    "sid": 554,
+    "location": 2,
+    "content": "路由层只需改两行代码",
+    "music": 0
+  },
+  {
+    "from": 1241.07,
+    "to": 1242.33,
+    "sid": 555,
+    "location": 2,
+    "content": "但效果显著",
+    "music": 0
+  },
+  {
+    "from": 1242.33,
+    "to": 1245,
+    "sid": 556,
+    "location": 2,
+    "content": "基本思路是近来的大量请求",
+    "music": 0
+  },
+  {
+    "from": 1245,
+    "to": 1248.53,
+    "sid": 557,
+    "location": 2,
+    "content": "多维对话中的逐轮交互及用户已经开启了对话",
+    "music": 0
+  },
+  {
+    "from": 1248.53,
+    "to": 1250.85,
+    "sid": 558,
+    "location": 2,
+    "content": "假设平均一段对话持续十轮",
+    "music": 0
+  },
+  {
+    "from": 1250.85,
+    "to": 1252.03,
+    "sid": 559,
+    "location": 2,
+    "content": "随后用户离开",
+    "music": 0
+  },
+  {
+    "from": 1252.03,
+    "to": 1255.28,
+    "sid": 560,
+    "location": 2,
+    "content": "这意味着10%的请求是全新的请求",
+    "music": 0
+  },
+  {
+    "from": 1255.28,
+    "to": 1257.56,
+    "sid": 561,
+    "location": 2,
+    "content": "新请求包含数千token",
+    "music": 0
+  },
+  {
+    "from": 1257.56,
+    "to": 1258.56,
+    "sid": 562,
+    "location": 2,
+    "content": "看起来很不一样",
+    "music": 0
+  },
+  {
+    "from": 1258.56,
+    "to": 1259.86,
+    "sid": 563,
+    "location": 2,
+    "content": "计算成本也高得多",
+    "music": 0
+  },
+  {
+    "from": 1259.86,
+    "to": 1260.99,
+    "sid": 564,
+    "location": 2,
+    "content": "So you may",
+    "music": 0
+  },
+  {
+    "from": 1260.99,
+    "to": 1261.43,
+    "sid": 565,
+    "location": 2,
+    "content": "土味",
+    "music": 0
+  },
+  {
+    "from": 1261.43,
+    "to": 1262.67,
+    "sid": 566,
+    "location": 2,
+    "content": "也想把这种预填充",
+    "music": 0
+  },
+  {
+    "from": 1262.67,
+    "to": 1264.71,
+    "sid": 567,
+    "location": 2,
+    "content": "放在一个进行到一半的短对话上",
+    "music": 0
+  },
+  {
+    "from": 1264.71,
+    "to": 1266.99,
+    "sid": 568,
+    "location": 2,
+    "content": "那么比如有人将贴近一本书",
+    "music": 0
+  },
+  {
+    "from": 1266.99,
+    "to": 1268.66,
+    "sid": 569,
+    "location": 2,
+    "content": "说跟我聊聊这本书",
+    "music": 0
+  },
+  {
+    "from": 1268.66,
+    "to": 1270.9,
+    "sid": 570,
+    "location": 2,
+    "content": "你不想让他和另一个人同时跑",
+    "music": 0
+  },
+  {
+    "from": 1270.9,
+    "to": 1271.25,
+    "sid": 571,
+    "location": 2,
+    "content": "不",
+    "music": 0
+  },
+  {
+    "from": 1271.25,
+    "to": 1272.75,
+    "sid": 572,
+    "location": 2,
+    "content": "而那个人正聊到一半",
+    "music": 0
+  },
+  {
+    "from": 1272.75,
+    "to": 1274.59,
+    "sid": 573,
+    "location": 2,
+    "content": "比如问为什么1+1=2",
+    "music": 0
+  },
+  {
+    "from": 1274.59,
+    "to": 1276.17,
+    "sid": 574,
+    "location": 2,
+    "content": "对方答1+1=2",
+    "music": 0
+  },
+  {
+    "from": 1276.17,
+    "to": 1277.25,
+    "sid": 575,
+    "location": 2,
+    "content": "因为数字之类的",
+    "music": 0
+  },
+  {
+    "from": 1277.25,
+    "to": 1278.409,
+    "sid": 576,
+    "location": 2,
+    "content": "你说我没懂",
+    "music": 0
+  },
+  {
+    "from": 1278.409,
+    "to": 1283.269,
+    "sid": 577,
+    "location": 2,
+    "content": "你不会想让这种很短的问答和那个很长的请求",
+    "music": 0
+  },
+  {
+    "from": 1283.269,
+    "to": 1285.309,
+    "sid": 578,
+    "location": 2,
+    "content": "同时跑在同一批GPU上",
+    "music": 0
+  },
+  {
+    "from": 1285.309,
+    "to": 1286.12,
+    "sid": 579,
+    "location": 2,
+    "content": "thanks呃",
+    "music": 0
+  },
+  {
+    "from": 1286.12,
+    "to": 1287.78,
+    "sid": 580,
+    "location": 2,
+    "content": "所以你可以做一个很简单的路由",
+    "music": 0
+  },
+  {
+    "from": 1287.78,
+    "to": 1289.12,
+    "sid": 581,
+    "location": 2,
+    "content": "新请求进来缓存",
+    "music": 0
+  },
+  {
+    "from": 1289.12,
+    "to": 1289.94,
+    "sid": 582,
+    "location": 2,
+    "content": "命中率很低",
+    "music": 0
+  },
+  {
+    "from": 1289.94,
+    "to": 1292.679,
+    "sid": 583,
+    "location": 2,
+    "content": "就发到一组GPU上去处理",
+    "music": 0
+  },
+  {
+    "from": 1292.919,
+    "to": 1294.239,
+    "sid": 584,
+    "location": 2,
+    "content": "把这些内容合并",
+    "music": 0
+  },
+  {
+    "from": 1294.239,
+    "to": 1297.88,
+    "sid": 585,
+    "location": 2,
+    "content": "再把其他预热请求发给另一组预填充节点嗯",
+    "music": 0
+  },
+  {
+    "from": 1297.88,
+    "to": 1298.6,
+    "sid": 586,
+    "location": 2,
+    "content": "事实证明",
+    "music": 0
+  },
+  {
+    "from": 1298.6,
+    "to": 1300.8,
+    "sid": 587,
+    "location": 2,
+    "content": "用这种简单的优化服务速度",
+    "music": 0
+  },
+  {
+    "from": 1300.8,
+    "to": 1302.58,
+    "sid": 588,
+    "location": 2,
+    "content": "最高能提升40%",
+    "music": 0
+  },
+  {
+    "from": 1302.58,
+    "to": 1304.76,
+    "sid": 589,
+    "location": 2,
+    "content": "就呃这是第一组内容",
+    "music": 0
+  },
+  {
+    "from": 1304.76,
+    "to": 1308.3,
+    "sid": 590,
+    "location": 2,
+    "content": "我觉得咱们在研究和这些技术上的现状",
+    "music": 0
+  },
+  {
+    "from": 1308.3,
+    "to": 1310.679,
+    "sid": 591,
+    "location": 2,
+    "content": "可以用非常早期来形容",
+    "music": 0
+  },
+  {
+    "from": 1310.679,
+    "to": 1313.199,
+    "sid": 592,
+    "location": 2,
+    "content": "这就是那种类型的事",
+    "music": 0
+  },
+  {
+    "from": 1313.199,
+    "to": 1316.519,
+    "sid": 593,
+    "location": 2,
+    "content": "十到20年后人们回头看可能会想",
+    "music": 0
+  },
+  {
+    "from": 1316.519,
+    "to": 1318.55,
+    "sid": 594,
+    "location": 2,
+    "content": "当时他们为啥聊这个",
+    "music": 0
+  },
+  {
+    "from": 1318.55,
+    "to": 1320.41,
+    "sid": 595,
+    "location": 2,
+    "content": "这难道不是显而易见的吗",
+    "music": 0
+  },
+  {
+    "from": 1320.41,
+    "to": 1323.21,
+    "sid": 596,
+    "location": 2,
+    "content": "其实是因为我们开始在生产环境中",
+    "music": 0
+  },
+  {
+    "from": 1323.21,
+    "to": 1325.09,
+    "sid": 597,
+    "location": 2,
+    "content": "用新方式运行这些东西",
+    "music": 0
+  },
+  {
+    "from": 1325.09,
+    "to": 1327.389,
+    "sid": 598,
+    "location": 2,
+    "content": "看到了新方式下的新流量模式",
+    "music": 0
+  },
+  {
+    "from": 1327.389,
+    "to": 1331.12,
+    "sid": 599,
+    "location": 2,
+    "content": "好了刚才大致介绍了内核推理的生命周期",
+    "music": 0
+  },
+  {
+    "from": 1331.12,
+    "to": 1333.78,
+    "sid": 600,
+    "location": 2,
+    "content": "接下来我要讲两个有趣的研究项目",
+    "music": 0
+  },
+  {
+    "from": 1333.78,
+    "to": 1336.84,
+    "sid": 601,
+    "location": 2,
+    "content": "他们深受我们推理服务中一些现象的启发啊",
+    "music": 0
+  },
+  {
+    "from": 1336.84,
+    "to": 1339.05,
+    "sid": 602,
+    "location": 2,
+    "content": "第一个咱们聊聊语言模型解码",
+    "music": 0
+  },
+  {
+    "from": 1339.05,
+    "to": 1340.97,
+    "sid": 603,
+    "location": 2,
+    "content": "以及怎么用所谓的mega kernel",
+    "music": 0
+  },
+  {
+    "from": 1340.97,
+    "to": 1341.83,
+    "sid": 604,
+    "location": 2,
+    "content": "想让它快得多",
+    "music": 0
+  },
+  {
+    "from": 1341.83,
+    "to": 1344.92,
+    "sid": 605,
+    "location": 2,
+    "content": "这是斯坦福和together的合作运行",
+    "music": 0
+  },
+  {
+    "from": 1344.92,
+    "to": 1348.16,
+    "sid": 606,
+    "location": 2,
+    "content": "解码时根本难点在于你得先处理prompt",
+    "music": 0
+  },
+  {
+    "from": 1348.16,
+    "to": 1349.86,
+    "sid": 607,
+    "location": 2,
+    "content": "再逐个生成token啊",
+    "music": 0
+  },
+  {
+    "from": 1349.86,
+    "to": 1353.92,
+    "sid": 608,
+    "location": 2,
+    "content": "难点在于生成一个token就得跑完整个模型",
+    "music": 0
+  },
+  {
+    "from": 1353.92,
+    "to": 1357.66,
+    "sid": 609,
+    "location": 2,
+    "content": "这意味着你没法像预填充或训练时那样",
+    "music": 0
+  },
+  {
+    "from": 1357.66,
+    "to": 1359.94,
+    "sid": 610,
+    "location": 2,
+    "content": "利用GPU的大规模并行能力",
+    "music": 0
+  },
+  {
+    "from": 1359.94,
+    "to": 1361.54,
+    "sid": 611,
+    "location": 2,
+    "content": "反而把这套高性能系统",
+    "music": 0
+  },
+  {
+    "from": 1361.54,
+    "to": 1364.13,
+    "sid": 612,
+    "location": 2,
+    "content": "变成了单纯的内存读取工具",
+    "music": 0
+  },
+  {
+    "from": 1364.13,
+    "to": 1367.89,
+    "sid": 613,
+    "location": 2,
+    "content": "难点还在于我们写内核和跑模型时",
+    "music": 0
+  },
+  {
+    "from": 1367.89,
+    "to": 1370.13,
+    "sid": 614,
+    "location": 2,
+    "content": "通常是一次只写一个操作",
+    "music": 0
+  },
+  {
+    "from": 1370.13,
+    "to": 1372.29,
+    "sid": 615,
+    "location": 2,
+    "content": "大家大概能理解为什么了",
+    "music": 0
+  },
+  {
+    "from": 1372.29,
+    "to": 1374.13,
+    "sid": 616,
+    "location": 2,
+    "content": "毕竟写内核挺难的",
+    "music": 0
+  },
+  {
+    "from": 1374.13,
+    "to": 1377.73,
+    "sid": 617,
+    "location": 2,
+    "content": "我猜大家写flash attention是肯定没少折腾",
+    "music": 0
+  },
+  {
+    "from": 1377.73,
+    "to": 1381.47,
+    "sid": 618,
+    "location": 2,
+    "content": "所以通常的做法是看看语言模型里有哪些操作",
+    "music": 0
+  },
+  {
+    "from": 1381.47,
+    "to": 1384.219,
+    "sid": 619,
+    "location": 2,
+    "content": "然后一次只跑一个操作对应的内核",
+    "music": 0
+  },
+  {
+    "from": 1384.219,
+    "to": 1386.059,
+    "sid": 620,
+    "location": 2,
+    "content": "这样编程就简单多了",
+    "music": 0
+  },
+  {
+    "from": 1386.059,
+    "to": 1388.099,
+    "sid": 621,
+    "location": 2,
+    "content": "你只需要写好归一化内核",
+    "music": 0
+  },
+  {
+    "from": 1388.099,
+    "to": 1390.8,
+    "sid": 622,
+    "location": 2,
+    "content": "映射内核和注意力内核就行",
+    "music": 0
+  },
+  {
+    "from": 1391.2,
+    "to": 1395.8,
+    "sid": 623,
+    "location": 2,
+    "content": "但你会发现这最终会给系统引入大量停机时间",
+    "music": 0
+  },
+  {
+    "from": 1395.8,
+    "to": 1396.7,
+    "sid": 624,
+    "location": 2,
+    "content": "Turns",
+    "music": 0
+  },
+  {
+    "from": 1396.7,
+    "to": 1400.04,
+    "sid": 625,
+    "location": 2,
+    "content": "所以这是你在两个内核上运行",
+    "music": 0
+  },
+  {
+    "from": 1400.04,
+    "to": 1401.409,
+    "sid": 626,
+    "location": 2,
+    "content": "推理时的一个示例",
+    "music": 0
+  },
+  {
+    "from": 1401.409,
+    "to": 1402.689,
+    "sid": 627,
+    "location": 2,
+    "content": "这显然是个示意图",
+    "music": 0
+  },
+  {
+    "from": 1402.689,
+    "to": 1405.729,
+    "sid": 628,
+    "location": 2,
+    "content": "但例子取自某个特定的注意力推理",
+    "music": 0
+  },
+  {
+    "from": 1405.729,
+    "to": 1408.95,
+    "sid": 629,
+    "location": 2,
+    "content": "内核读图的方法是横轴是时间",
+    "music": 0
+  },
+  {
+    "from": 1408.95,
+    "to": 1410.58,
+    "sid": 630,
+    "location": 2,
+    "content": "时间从左向右流动",
+    "music": 0
+  },
+  {
+    "from": 1410.58,
+    "to": 1413.76,
+    "sid": 631,
+    "location": 2,
+    "content": "纵轴是GPU上所有不同的流式多处理器",
+    "music": 0
+  },
+  {
+    "from": 1413.76,
+    "to": 1416.25,
+    "sid": 632,
+    "location": 2,
+    "content": "H100上有132个",
+    "music": 0
+  },
+  {
+    "from": 1416.25,
+    "to": 1419.53,
+    "sid": 633,
+    "location": 2,
+    "content": "B200上我记得是148个",
+    "music": 0
+  },
+  {
+    "from": 1419.53,
+    "to": 1421.19,
+    "sid": 634,
+    "location": 2,
+    "content": "以此类推",
+    "music": 0
+  },
+  {
+    "from": 1421.19,
+    "to": 1423.11,
+    "sid": 635,
+    "location": 2,
+    "content": "调薪代表有效工作",
+    "music": 0
+  },
+  {
+    "from": 1423.11,
+    "to": 1426.67,
+    "sid": 636,
+    "location": 2,
+    "content": "有调薪时就说明GPU上的某个处理器正在干活",
+    "music": 0
+  },
+  {
+    "from": 1426.67,
+    "to": 1428.52,
+    "sid": 637,
+    "location": 2,
+    "content": "空白处则是在等待",
+    "music": 0
+  },
+  {
+    "from": 1428.52,
+    "to": 1432.36,
+    "sid": 638,
+    "location": 2,
+    "content": "那你是在等其他操作做完好接着干别的都",
+    "music": 0
+  },
+  {
+    "from": 1432.36,
+    "to": 1433.4,
+    "sid": 639,
+    "location": 2,
+    "content": "所以你会发现",
+    "music": 0
+  },
+  {
+    "from": 1433.4,
+    "to": 1434.82,
+    "sid": 640,
+    "location": 2,
+    "content": "不管内核写的再好",
+    "music": 0
+  },
+  {
+    "from": 1434.82,
+    "to": 1436.71,
+    "sid": 641,
+    "location": 2,
+    "content": "GPU总有停摆的时候",
+    "music": 0
+  },
+  {
+    "from": 1436.71,
+    "to": 1438.33,
+    "sid": 642,
+    "location": 2,
+    "content": "比如内核启动和拆卸",
+    "music": 0
+  },
+  {
+    "from": 1438.33,
+    "to": 1440.75,
+    "sid": 643,
+    "location": 2,
+    "content": "也就是洪荒区域里那些大空隙",
+    "music": 0
+  },
+  {
+    "from": 1440.75,
+    "to": 1441.95,
+    "sid": 644,
+    "location": 2,
+    "content": "这叫尾部效应",
+    "music": 0
+  },
+  {
+    "from": 1441.95,
+    "to": 1444.69,
+    "sid": 645,
+    "location": 2,
+    "content": "就像短prompt和很长的prompt一起处理时一样",
+    "music": 0
+  },
+  {
+    "from": 1444.69,
+    "to": 1447.63,
+    "sid": 646,
+    "location": 2,
+    "content": "这影响会一直传到最基础的注意力操作",
+    "music": 0
+  },
+  {
+    "from": 1447.63,
+    "to": 1448.83,
+    "sid": 647,
+    "location": 2,
+    "content": "处理一批输入时",
+    "music": 0
+  },
+  {
+    "from": 1448.83,
+    "to": 1449.83,
+    "sid": 648,
+    "location": 2,
+    "content": "如果有长有短",
+    "music": 0
+  },
+  {
+    "from": 1449.83,
+    "to": 1452.06,
+    "sid": 649,
+    "location": 2,
+    "content": "你就得等那个最长的处理完",
+    "music": 0
+  },
+  {
+    "from": 1452.06,
+    "to": 1454.42,
+    "sid": 650,
+    "location": 2,
+    "content": "而且因为跨多个内核运行",
+    "music": 0
+  },
+  {
+    "from": 1454.42,
+    "to": 1457.14,
+    "sid": 651,
+    "location": 2,
+    "content": "这些内核之间的间隙会慢慢叠加起来",
+    "music": 0
+  },
+  {
+    "from": 1457.14,
+    "to": 1458.72,
+    "sid": 652,
+    "location": 2,
+    "content": "都为了解决这个问题",
+    "music": 0
+  },
+  {
+    "from": 1458.72,
+    "to": 1460.46,
+    "sid": 653,
+    "location": 2,
+    "content": "我们做了个叫MAGGIKERNEL的东西",
+    "music": 0
+  },
+  {
+    "from": 1460.46,
+    "to": 1462.84,
+    "sid": 654,
+    "location": 2,
+    "content": "也就是不单独为每个操作写内核",
+    "music": 0
+  },
+  {
+    "from": 1462.84,
+    "to": 1466.25,
+    "sid": 655,
+    "location": 2,
+    "content": "而是用一个内核一次搞定多个操作",
+    "music": 0
+  },
+  {
+    "from": 1466.45,
+    "to": 1469.19,
+    "sid": 656,
+    "location": 2,
+    "content": "这有点像flash tension里的融合",
+    "music": 0
+  },
+  {
+    "from": 1469.19,
+    "to": 1470.73,
+    "sid": 657,
+    "location": 2,
+    "content": "只是覆盖更广",
+    "music": 0
+  },
+  {
+    "from": 1470.73,
+    "to": 1471.59,
+    "sid": 658,
+    "location": 2,
+    "content": "更激进",
+    "music": 0
+  },
+  {
+    "from": 1471.59,
+    "to": 1475.89,
+    "sid": 659,
+    "location": 2,
+    "content": "嗯嗯具体来说它让GPU不再只是单一设备",
+    "music": 0
+  },
+  {
+    "from": 1475.89,
+    "to": 1477.199,
+    "sid": 660,
+    "location": 2,
+    "content": "执行单一操作",
+    "music": 0
+  },
+  {
+    "from": 1477.199,
+    "to": 1481.079,
+    "sid": 661,
+    "location": 2,
+    "content": "你要开始把GPU看作一个庞大的分布式系统形象",
+    "music": 0
+  },
+  {
+    "from": 1481.079,
+    "to": 1481.559,
+    "sid": 662,
+    "location": 2,
+    "content": "好吧",
+    "music": 0
+  },
+  {
+    "from": 1481.559,
+    "to": 1483.78,
+    "sid": 663,
+    "location": 2,
+    "content": "我有大量工作要处理",
+    "music": 0
+  },
+  {
+    "from": 1483.78,
+    "to": 1485.9,
+    "sid": 664,
+    "location": 2,
+    "content": "有些任务存在依赖关系",
+    "music": 0
+  },
+  {
+    "from": 1485.9,
+    "to": 1489.57,
+    "sid": 665,
+    "location": 2,
+    "content": "比如这些红色部分依赖于某些绿色任务嗯",
+    "music": 0
+  },
+  {
+    "from": 1489.57,
+    "to": 1490.47,
+    "sid": 666,
+    "location": 2,
+    "content": "该怎么调度",
+    "music": 0
+  },
+  {
+    "from": 1490.47,
+    "to": 1494.33,
+    "sid": 667,
+    "location": 2,
+    "content": "怎么分配任务才能最大化GPU利用率啊",
+    "music": 0
+  },
+  {
+    "from": 1494.33,
+    "to": 1496.89,
+    "sid": 668,
+    "location": 2,
+    "content": "如果只对注意力推理内核",
+    "music": 0
+  },
+  {
+    "from": 1496.89,
+    "to": 1500.33,
+    "sid": 669,
+    "location": 2,
+    "content": "这样做能获得30%到70%的加速",
+    "music": 0
+  },
+  {
+    "from": 1500.33,
+    "to": 1504.31,
+    "sid": 670,
+    "location": 2,
+    "content": "嗯好处是这能应用到整个模型",
+    "music": 0
+  },
+  {
+    "from": 1504.31,
+    "to": 1507.6,
+    "sid": 671,
+    "location": 2,
+    "content": "比如这是LIMAEB模型的一层",
+    "music": 0
+  },
+  {
+    "from": 1507.6,
+    "to": 1511.389,
+    "sid": 672,
+    "location": 2,
+    "content": "这里我们基本上把整个层合并成了一个内核",
+    "music": 0
+  },
+  {
+    "from": 1511.389,
+    "to": 1513.109,
+    "sid": 673,
+    "location": 2,
+    "content": "你看这些不同的条",
+    "music": 0
+  },
+  {
+    "from": 1513.109,
+    "to": 1515.629,
+    "sid": 674,
+    "location": 2,
+    "content": "他们以非常奇怪的方式重叠在一起",
+    "music": 0
+  },
+  {
+    "from": 1515.629,
+    "to": 1519.09,
+    "sid": 675,
+    "location": 2,
+    "content": "才开始让前一层的权重加载与注意力机制重叠",
+    "music": 0
+  },
+  {
+    "from": 1519.09,
+    "to": 1521.05,
+    "sid": 676,
+    "location": 2,
+    "content": "或者说在注意力操作结束前",
+    "music": 0
+  },
+  {
+    "from": 1521.05,
+    "to": 1522.67,
+    "sid": 677,
+    "location": 2,
+    "content": "就开始执行部分规约",
+    "music": 0
+  },
+  {
+    "from": 1522.67,
+    "to": 1523.91,
+    "sid": 678,
+    "location": 2,
+    "content": "举个有趣的例子",
+    "music": 0
+  },
+  {
+    "from": 1523.91,
+    "to": 1525.73,
+    "sid": 679,
+    "location": 2,
+    "content": "在现代大语言模型中",
+    "music": 0
+  },
+  {
+    "from": 1525.73,
+    "to": 1527.05,
+    "sid": 680,
+    "location": 2,
+    "content": "有注意力层",
+    "music": 0
+  },
+  {
+    "from": 1527.05,
+    "to": 1528.81,
+    "sid": 681,
+    "location": 2,
+    "content": "还有QKV投影",
+    "music": 0
+  },
+  {
+    "from": 1528.81,
+    "to": 1530.53,
+    "sid": 682,
+    "location": 2,
+    "content": "你会给他加入一些rope scaling",
+    "music": 0
+  },
+  {
+    "from": 1530.53,
+    "to": 1531.49,
+    "sid": 683,
+    "location": 2,
+    "content": "也就是这些蓝线",
+    "music": 0
+  },
+  {
+    "from": 1531.49,
+    "to": 1534.41,
+    "sid": 684,
+    "location": 2,
+    "content": "这些蓝线就是QKV加rope橙色线",
+    "music": 0
+  },
+  {
+    "from": 1534.41,
+    "to": 1535.67,
+    "sid": 685,
+    "location": 2,
+    "content": "是注意力的开始",
+    "music": 0
+  },
+  {
+    "from": 1535.67,
+    "to": 1538.45,
+    "sid": 686,
+    "location": 2,
+    "content": "一个关键认识是在QKV完成前",
+    "music": 0
+  },
+  {
+    "from": 1538.45,
+    "to": 1541.26,
+    "sid": 687,
+    "location": 2,
+    "content": "你就能把kv cash加载进注意力",
+    "music": 0
+  },
+  {
+    "from": 1541.26,
+    "to": 1544.58,
+    "sid": 688,
+    "location": 2,
+    "content": "尤其是在DECO阶段带圆圈的这些橙色条",
+    "music": 0
+  },
+  {
+    "from": 1544.58,
+    "to": 1546.62,
+    "sid": 689,
+    "location": 2,
+    "content": "表示QKV加roll还在跑时",
+    "music": 0
+  },
+  {
+    "from": 1546.62,
+    "to": 1548.57,
+    "sid": 690,
+    "location": 2,
+    "content": "你就开始加载kv cash了",
+    "music": 0
+  },
+  {
+    "from": 1548.57,
+    "to": 1549.97,
+    "sid": 691,
+    "location": 2,
+    "content": "QKV完成后",
+    "music": 0
+  },
+  {
+    "from": 1549.97,
+    "to": 1551.69,
+    "sid": 692,
+    "location": 2,
+    "content": "你拿到新的query tokens",
+    "music": 0
+  },
+  {
+    "from": 1551.69,
+    "to": 1554.409,
+    "sid": 693,
+    "location": 2,
+    "content": "就能跑完注意力操作的剩余部分",
+    "music": 0
+  },
+  {
+    "from": 1554.689,
+    "to": 1558.009,
+    "sid": 694,
+    "location": 2,
+    "content": "基本上当你能这样精细控制GPU时",
+    "music": 0
+  },
+  {
+    "from": 1558.009,
+    "to": 1561.05,
+    "sid": 695,
+    "location": 2,
+    "content": "就可以在其他操作结束前启动某些操作",
+    "music": 0
+  },
+  {
+    "from": 1561.05,
+    "to": 1561.99,
+    "sid": 696,
+    "location": 2,
+    "content": "再看一个例子",
+    "music": 0
+  },
+  {
+    "from": 1561.99,
+    "to": 1565.37,
+    "sid": 697,
+    "location": 2,
+    "content": "这里的橙色同样代表注意力计算的第一部分",
+    "music": 0
+  },
+  {
+    "from": 1565.37,
+    "to": 1567.97,
+    "sid": 698,
+    "location": 2,
+    "content": "红色是注意力之后的O投影",
+    "music": 0
+  },
+  {
+    "from": 1567.97,
+    "to": 1569.65,
+    "sid": 699,
+    "location": 2,
+    "content": "在注意力运算结束前",
+    "music": 0
+  },
+  {
+    "from": 1569.65,
+    "to": 1572.03,
+    "sid": 700,
+    "location": 2,
+    "content": "OTO影就已经开始加载权重了",
+    "music": 0
+  },
+  {
+    "from": 1572.03,
+    "to": 1576.22,
+    "sid": 701,
+    "location": 2,
+    "content": "as swan pology学整合进一个相对复杂的code框架",
+    "music": 0
+  },
+  {
+    "from": 1576.22,
+    "to": 1578.06,
+    "sid": 702,
+    "location": 2,
+    "content": "用基于指令的抽象",
+    "music": 0
+  },
+  {
+    "from": 1578.06,
+    "to": 1581.65,
+    "sid": 703,
+    "location": 2,
+    "content": "让每个字内核都能独立写进各自的文件里",
+    "music": 0
+  },
+  {
+    "from": 1581.65,
+    "to": 1585.15,
+    "sid": 704,
+    "location": 2,
+    "content": "再搭建一个大型虚拟化共享内存系统",
+    "music": 0
+  },
+  {
+    "from": 1585.15,
+    "to": 1588.15,
+    "sid": 705,
+    "location": 2,
+    "content": "来协调这些操作的运行啊",
+    "music": 0
+  },
+  {
+    "from": 1588.15,
+    "to": 1590.49,
+    "sid": 706,
+    "location": 2,
+    "content": "为此我们做了一个叫thunder kittens的COU",
+    "music": 0
+  },
+  {
+    "from": 1590.49,
+    "to": 1593.56,
+    "sid": 707,
+    "location": 2,
+    "content": "它属于编写内核的那类库",
+    "music": 0
+  },
+  {
+    "from": 1593.56,
+    "to": 1596.12,
+    "sid": 708,
+    "location": 2,
+    "content": "你也可以把它想成更底层的TRITON",
+    "music": 0
+  },
+  {
+    "from": 1596.12,
+    "to": 1597.96,
+    "sid": 709,
+    "location": 2,
+    "content": "对细节的控制要精细的多",
+    "music": 0
+  },
+  {
+    "from": 1597.96,
+    "to": 1601.48,
+    "sid": 710,
+    "location": 2,
+    "content": "就是推理解码速度接近光速啊",
+    "music": 0
+  },
+  {
+    "from": 1601.48,
+    "to": 1603.24,
+    "sid": 711,
+    "location": 2,
+    "content": "现在这数据已经好多了",
+    "music": 0
+  },
+  {
+    "from": 1603.24,
+    "to": 1606.79,
+    "sid": 712,
+    "location": 2,
+    "content": "青色这根柱子就是mega kernel的表现啊",
+    "music": 0
+  },
+  {
+    "from": 1606.79,
+    "to": 1611.34,
+    "sid": 713,
+    "location": 2,
+    "content": "你看他比其他一些顶尖引擎跑的快多了",
+    "music": 0
+  },
+  {
+    "from": 1611.62,
+    "to": 1614.82,
+    "sid": 714,
+    "location": 2,
+    "content": "在H100上带宽利用率达到72%",
+    "music": 0
+  },
+  {
+    "from": 1614.82,
+    "to": 1617.03,
+    "sid": 715,
+    "location": 2,
+    "content": "几乎跑满了GPU的物理极限",
+    "music": 0
+  },
+  {
+    "from": 1617.03,
+    "to": 1619.33,
+    "sid": 716,
+    "location": 2,
+    "content": "抛开我们这里做的所有复杂处理",
+    "music": 0
+  },
+  {
+    "from": 1619.33,
+    "to": 1622.3,
+    "sid": 717,
+    "location": 2,
+    "content": "只看GPU执行这个操作的物理极限速度",
+    "music": 0
+  },
+  {
+    "from": 1622.3,
+    "to": 1625.1,
+    "sid": 718,
+    "location": 2,
+    "content": "我们已经接近那个极限的72%了",
+    "music": 0
+  },
+  {
+    "from": 1625.1,
+    "to": 1626.5,
+    "sid": 719,
+    "location": 2,
+    "content": "这部分的一个启示是",
+    "music": 0
+  },
+  {
+    "from": 1626.5,
+    "to": 1628.1,
+    "sid": 720,
+    "location": 2,
+    "content": "如果你能深度掌控内核",
+    "music": 0
+  },
+  {
+    "from": 1628.1,
+    "to": 1628.97,
+    "sid": 721,
+    "location": 2,
+    "content": "理解硬件",
+    "music": 0
+  },
+  {
+    "from": 1628.97,
+    "to": 1631.5,
+    "sid": 722,
+    "location": 2,
+    "content": "就能解锁全然不同的计算范式",
+    "music": 0
+  },
+  {
+    "from": 1631.5,
+    "to": 1636,
+    "sid": 723,
+    "location": 2,
+    "content": "这些细节只有当你深入到推理的底层去摸索时",
+    "music": 0
+  },
+  {
+    "from": 1636,
+    "to": 1637.15,
+    "sid": 724,
+    "location": 2,
+    "content": "才会发现",
+    "music": 0
+  },
+  {
+    "from": 1637.15,
+    "to": 1639.21,
+    "sid": 725,
+    "location": 2,
+    "content": "那下面我要讲点新东西",
+    "music": 0
+  },
+  {
+    "from": 1639.21,
+    "to": 1641.9,
+    "sid": 726,
+    "location": 2,
+    "content": "这就进入新架构的领域了",
+    "music": 0
+  },
+  {
+    "from": 1641.9,
+    "to": 1644.38,
+    "sid": 727,
+    "location": 2,
+    "content": "我要介绍一个新模型叫per se",
+    "music": 0
+  },
+  {
+    "from": 1644.38,
+    "to": 1646.32,
+    "sid": 728,
+    "location": 2,
+    "content": "这是我UCSD实验室的成果",
+    "music": 0
+  },
+  {
+    "from": 1646.32,
+    "to": 1647.32,
+    "sid": 729,
+    "location": 2,
+    "content": "由hidden主导",
+    "music": 0
+  },
+  {
+    "from": 1647.32,
+    "to": 1649.65,
+    "sid": 730,
+    "location": 2,
+    "content": "还和ZACHARYTAYLOR两位合作完成",
+    "music": 0
+  },
+  {
+    "from": 1649.65,
+    "to": 1651.27,
+    "sid": 731,
+    "location": 2,
+    "content": "我待会再回到这点",
+    "music": 0
+  },
+  {
+    "from": 1651.27,
+    "to": 1654.01,
+    "sid": 732,
+    "location": 2,
+    "content": "开场时我讲过这些新能力之所以出现",
+    "music": 0
+  },
+  {
+    "from": 1654.01,
+    "to": 1657.53,
+    "sid": 733,
+    "location": 2,
+    "content": "是因为你开始扩大模型参数和数据的规模",
+    "music": 0
+  },
+  {
+    "from": 1657.53,
+    "to": 1660.56,
+    "sid": 734,
+    "location": 2,
+    "content": "在parse这个工作里",
+    "music": 0
+  },
+  {
+    "from": 1660.56,
+    "to": 1662.04,
+    "sid": 735,
+    "location": 2,
+    "content": "我们想问另一个问题",
+    "music": 0
+  },
+  {
+    "from": 1662.04,
+    "to": 1664.26,
+    "sid": 736,
+    "location": 2,
+    "content": "规模扩张是唯一的路吗",
+    "music": 0
+  },
+  {
+    "from": 1664.26,
+    "to": 1668.01,
+    "sid": 737,
+    "location": 2,
+    "content": "还是说有没有别的办法能达到同样的质量",
+    "music": 0
+  },
+  {
+    "from": 1668.01,
+    "to": 1669.65,
+    "sid": 738,
+    "location": 2,
+    "content": "做PARSECTION",
+    "music": 0
+  },
+  {
+    "from": 1669.65,
+    "to": 1672.25,
+    "sid": 739,
+    "location": 2,
+    "content": "我们想试试循环transformer技术",
+    "music": 0
+  },
+  {
+    "from": 1672.25,
+    "to": 1675.929,
+    "sid": 740,
+    "location": 2,
+    "content": "就是把transformer的某些模块拿出来循环跑",
+    "music": 0
+  },
+  {
+    "from": 1675.929,
+    "to": 1679.149,
+    "sid": 741,
+    "location": 2,
+    "content": "所以与其让token1层层过模型",
+    "music": 0
+  },
+  {
+    "from": 1679.149,
+    "to": 1682.349,
+    "sid": 742,
+    "location": 2,
+    "content": "不如让他们在处理过程中反复在循环里跑",
+    "music": 0
+  },
+  {
+    "from": 1682.349,
+    "to": 1683.99,
+    "sid": 743,
+    "location": 2,
+    "content": "space设置里面有几块内容",
+    "music": 0
+  },
+  {
+    "from": 1683.99,
+    "to": 1687.56,
+    "sid": 744,
+    "location": 2,
+    "content": "首先我们用了一些状态空间模型理论",
+    "music": 0
+  },
+  {
+    "from": 1687.56,
+    "to": 1689.4,
+    "sid": 745,
+    "location": 2,
+    "content": "还有SM理论",
+    "music": 0
+  },
+  {
+    "from": 1689.4,
+    "to": 1691.7,
+    "sid": 746,
+    "location": 2,
+    "content": "主要是为了稳住这个操作啊",
+    "music": 0
+  },
+  {
+    "from": 1691.7,
+    "to": 1693.66,
+    "sid": 747,
+    "location": 2,
+    "content": "要是直接刨直接训",
+    "music": 0
+  },
+  {
+    "from": 1693.66,
+    "to": 1696.3,
+    "sid": 748,
+    "location": 2,
+    "content": "我们发现模型会直接崩掉啊",
+    "music": 0
+  },
+  {
+    "from": 1696.3,
+    "to": 1698.66,
+    "sid": 749,
+    "location": 2,
+    "content": "另外我们发现一些有趣的缩放定律",
+    "music": 0
+  },
+  {
+    "from": 1698.66,
+    "to": 1699.98,
+    "sid": 750,
+    "location": 2,
+    "content": "说明数据多了",
+    "music": 0
+  },
+  {
+    "from": 1699.98,
+    "to": 1703.11,
+    "sid": 751,
+    "location": 2,
+    "content": "得增加这些循环模型的循环次数",
+    "music": 0
+  },
+  {
+    "from": 1703.39,
+    "to": 1705.59,
+    "sid": 752,
+    "location": 2,
+    "content": "所以为了把perimeter用好",
+    "music": 0
+  },
+  {
+    "from": 1705.59,
+    "to": 1708.55,
+    "sid": 753,
+    "location": 2,
+    "content": "你得在一定程度上复用他们呃",
+    "music": 0
+  },
+  {
+    "from": 1708.55,
+    "to": 1709.63,
+    "sid": 754,
+    "location": 2,
+    "content": "先说说动机",
+    "music": 0
+  },
+  {
+    "from": 1709.63,
+    "to": 1712.37,
+    "sid": 755,
+    "location": 2,
+    "content": "为什么我们觉得这个循环问题很有意思",
+    "music": 0
+  },
+  {
+    "from": 1712.37,
+    "to": 1713.25,
+    "sid": 756,
+    "location": 2,
+    "content": "简单来说",
+    "music": 0
+  },
+  {
+    "from": 1713.25,
+    "to": 1715.55,
+    "sid": 757,
+    "location": 2,
+    "content": "假设有个激活值穿过模型的一部分",
+    "music": 0
+  },
+  {
+    "from": 1715.55,
+    "to": 1718.15,
+    "sid": 758,
+    "location": 2,
+    "content": "M它会碰到循环块",
+    "music": 0
+  },
+  {
+    "from": 1718.15,
+    "to": 1719.81,
+    "sid": 759,
+    "location": 2,
+    "content": "反复穿过该层",
+    "music": 0
+  },
+  {
+    "from": 1719.81,
+    "to": 1722.27,
+    "sid": 760,
+    "location": 2,
+    "content": "多次运行相同的激活值",
+    "music": 0
+  },
+  {
+    "from": 1722.27,
+    "to": 1723.79,
+    "sid": 761,
+    "location": 2,
+    "content": "紫色块是循环块",
+    "music": 0
+  },
+  {
+    "from": 1723.79,
+    "to": 1725.15,
+    "sid": 762,
+    "location": 2,
+    "content": "最后会返回结果",
+    "music": 0
+  },
+  {
+    "from": 1725.15,
+    "to": 1726.29,
+    "sid": 763,
+    "location": 2,
+    "content": "这有好处",
+    "music": 0
+  },
+  {
+    "from": 1726.29,
+    "to": 1727.37,
+    "sid": 764,
+    "location": 2,
+    "content": "parameter保持不变",
+    "music": 0
+  },
+  {
+    "from": 1727.37,
+    "to": 1729.49,
+    "sid": 765,
+    "location": 2,
+    "content": "却能调高FLOS嗯",
+    "music": 0
+  },
+  {
+    "from": 1729.49,
+    "to": 1731.03,
+    "sid": 766,
+    "location": 2,
+    "content": "如果觉得flops越多",
+    "music": 0
+  },
+  {
+    "from": 1731.03,
+    "to": 1731.81,
+    "sid": 767,
+    "location": 2,
+    "content": "质量越高",
+    "music": 0
+  },
+  {
+    "from": 1731.81,
+    "to": 1734.67,
+    "sid": 768,
+    "location": 2,
+    "content": "这就能不增加parameter成本来提升质量",
+    "music": 0
+  },
+  {
+    "from": 1734.67,
+    "to": 1735.25,
+    "sid": 769,
+    "location": 2,
+    "content": "Drive",
+    "music": 0
+  },
+  {
+    "from": 1735.25,
+    "to": 1737.55,
+    "sid": 770,
+    "location": 2,
+    "content": "虽然还有几年前的旧作",
+    "music": 0
+  },
+  {
+    "from": 1737.55,
+    "to": 1741.87,
+    "sid": 771,
+    "location": 2,
+    "content": "就是相对的表明实际能获得更高表达能力",
+    "music": 0
+  },
+  {
+    "from": 1741.87,
+    "to": 1745.05,
+    "sid": 772,
+    "location": 2,
+    "content": "有些东西用相同parameter数表达不了",
+    "music": 0
+  },
+  {
+    "from": 1745.05,
+    "to": 1747.5,
+    "sid": 773,
+    "location": 2,
+    "content": "而这些循环模型却能表达",
+    "music": 0
+  },
+  {
+    "from": 1747.5,
+    "to": 1750.82,
+    "sid": 774,
+    "location": 2,
+    "content": "我们一直在思考怎样让每个参数发挥最大价值",
+    "music": 0
+  },
+  {
+    "from": 1750.82,
+    "to": 1751.82,
+    "sid": 775,
+    "location": 2,
+    "content": "也就是在数据里",
+    "music": 0
+  },
+  {
+    "from": 1751.82,
+    "to": 1755.11,
+    "sid": 776,
+    "location": 2,
+    "content": "这些模型能展现出怎样的智能水平啊",
+    "music": 0
+  },
+  {
+    "from": 1755.11,
+    "to": 1756.69,
+    "sid": 777,
+    "location": 2,
+    "content": "起初有些不错的结果",
+    "music": 0
+  },
+  {
+    "from": 1756.69,
+    "to": 1759.97,
+    "sid": 778,
+    "location": 2,
+    "content": "马里兰大学tom goldstein团队有篇论文说",
+    "music": 0
+  },
+  {
+    "from": 1759.97,
+    "to": 1762.4,
+    "sid": 779,
+    "location": 2,
+    "content": "这东西说不定比transformer更强",
+    "music": 0
+  },
+  {
+    "from": 1762.4,
+    "to": 1764.48,
+    "sid": 780,
+    "location": 2,
+    "content": "这是YORK任务上的一些结果",
+    "music": 0
+  },
+  {
+    "from": 1764.48,
+    "to": 1765.92,
+    "sid": 781,
+    "location": 2,
+    "content": "twitter上也有不少热议",
+    "music": 0
+  },
+  {
+    "from": 1765.92,
+    "to": 1767.48,
+    "sid": 782,
+    "location": 2,
+    "content": "因为发布parse前一周",
+    "music": 0
+  },
+  {
+    "from": 1767.48,
+    "to": 1768.2,
+    "sid": 783,
+    "location": 2,
+    "content": "Open ai",
+    "music": 0
+  },
+  {
+    "from": 1768.2,
+    "to": 1770.5,
+    "sid": 784,
+    "location": 2,
+    "content": "有人说cloud matos是个循环语言模型",
+    "music": 0
+  },
+  {
+    "from": 1770.5,
+    "to": 1772.02,
+    "sid": 785,
+    "location": 2,
+    "content": "嗯我觉得他说的不对",
+    "music": 0
+  },
+  {
+    "from": 1772.02,
+    "to": 1772.96,
+    "sid": 786,
+    "location": 2,
+    "content": "他就是在瞎编",
+    "music": 0
+  },
+  {
+    "from": 1772.96,
+    "to": 1777.62,
+    "sid": 787,
+    "location": 2,
+    "content": "结果那会儿twitter上全是各种猜测闹得沸沸扬扬",
+    "music": 0
+  },
+  {
+    "from": 1778.04,
+    "to": 1780.66,
+    "sid": 788,
+    "location": 2,
+    "content": "最后他只能发博文认错",
+    "music": 0
+  },
+  {
+    "from": 1780.66,
+    "to": 1783.28,
+    "sid": 789,
+    "location": 2,
+    "content": "说那都是他瞎编的啊",
+    "music": 0
+  },
+  {
+    "from": 1783.28,
+    "to": 1784.36,
+    "sid": 790,
+    "location": 2,
+    "content": "这些都不是真的",
+    "music": 0
+  },
+  {
+    "from": 1784.36,
+    "to": 1785.7,
+    "sid": 791,
+    "location": 2,
+    "content": "但我们觉得挺有意思",
+    "music": 0
+  },
+  {
+    "from": 1785.7,
+    "to": 1790.26,
+    "sid": 792,
+    "location": 2,
+    "content": "所以早在那波twitter热议之前就开始研究了",
+    "music": 0
+  },
+  {
+    "from": 1790.26,
+    "to": 1793.95,
+    "sid": 793,
+    "location": 2,
+    "content": "不过我觉得这里有些地方挺值得琢磨的",
+    "music": 0
+  },
+  {
+    "from": 1793.95,
+    "to": 1795.63,
+    "sid": 794,
+    "location": 2,
+    "content": "这类循环模型有个问题",
+    "music": 0
+  },
+  {
+    "from": 1795.63,
+    "to": 1796.91,
+    "sid": 795,
+    "location": 2,
+    "content": "你训练他们的时候",
+    "music": 0
+  },
+  {
+    "from": 1796.91,
+    "to": 1798.65,
+    "sid": 796,
+    "location": 2,
+    "content": "只要稍微改动一下训练算法",
+    "music": 0
+  },
+  {
+    "from": 1798.65,
+    "to": 1800.34,
+    "sid": 797,
+    "location": 2,
+    "content": "比如把学习率调一点点",
+    "music": 0
+  },
+  {
+    "from": 1800.34,
+    "to": 1802.58,
+    "sid": 798,
+    "location": 2,
+    "content": "模型就会突然开始崩掉model",
+    "music": 0
+  },
+  {
+    "from": 1802.58,
+    "to": 1804.38,
+    "sid": 799,
+    "location": 2,
+    "content": "比如说我个学习率扫描十次",
+    "music": 0
+  },
+  {
+    "from": 1804.38,
+    "to": 1804.9,
+    "sid": 800,
+    "location": 2,
+    "content": "有九次",
+    "music": 0
+  },
+  {
+    "from": 1804.9,
+    "to": 1805.98,
+    "sid": 801,
+    "location": 2,
+    "content": "这模型都会啊",
+    "music": 0
+  },
+  {
+    "from": 1805.98,
+    "to": 1807.4,
+    "sid": 802,
+    "location": 2,
+    "content": "模型不收敛会爆掉",
+    "music": 0
+  },
+  {
+    "from": 1807.4,
+    "to": 1809.17,
+    "sid": 803,
+    "location": 2,
+    "content": "冒出name或损失激增",
+    "music": 0
+  },
+  {
+    "from": 1809.17,
+    "to": 1811.27,
+    "sid": 804,
+    "location": 2,
+    "content": "训练大模型是若见损失暴涨",
+    "music": 0
+  },
+  {
+    "from": 1811.27,
+    "to": 1812.77,
+    "sid": 805,
+    "location": 2,
+    "content": "说明训练出问题了",
+    "music": 0
+  },
+  {
+    "from": 1812.77,
+    "to": 1814.69,
+    "sid": 806,
+    "location": 2,
+    "content": "对深究到底是怎么回事",
+    "music": 0
+  },
+  {
+    "from": 1814.69,
+    "to": 1816.4,
+    "sid": 807,
+    "location": 2,
+    "content": "以前靠土办法",
+    "music": 0
+  },
+  {
+    "from": 1816.4,
+    "to": 1818.68,
+    "sid": 808,
+    "location": 2,
+    "content": "比如每层都加归一化来看情况",
+    "music": 0
+  },
+  {
+    "from": 1818.68,
+    "to": 1820.88,
+    "sid": 809,
+    "location": 2,
+    "content": "或者干脆只用2E4的学习率",
+    "music": 0
+  },
+  {
+    "from": 1820.88,
+    "to": 1821.82,
+    "sid": 810,
+    "location": 2,
+    "content": "别的都不悬",
+    "music": 0
+  },
+  {
+    "from": 1821.82,
+    "to": 1825.58,
+    "sid": 811,
+    "location": 2,
+    "content": "这损失暴涨说明底下还有更深层的原因",
+    "music": 0
+  },
+  {
+    "from": 1825.58,
+    "to": 1828.54,
+    "sid": 812,
+    "location": 2,
+    "content": "我们用类似状态空间模型的思路",
+    "music": 0
+  },
+  {
+    "from": 1828.54,
+    "to": 1830.28,
+    "sid": 813,
+    "location": 2,
+    "content": "来解决稳定性问题",
+    "music": 0
+  },
+  {
+    "from": 1830.28,
+    "to": 1834.36,
+    "sid": 814,
+    "location": 2,
+    "content": "我们的核心发现是这个过程是可以分析的",
+    "music": 0
+  },
+  {
+    "from": 1834.36,
+    "to": 1835.76,
+    "sid": 815,
+    "location": 2,
+    "content": "直接硬算太复杂",
+    "music": 0
+  },
+  {
+    "from": 1835.76,
+    "to": 1838.1,
+    "sid": 816,
+    "location": 2,
+    "content": "因为R模块参数实在太多",
+    "music": 0
+  },
+  {
+    "from": 1838.1,
+    "to": 1840.06,
+    "sid": 817,
+    "location": 2,
+    "content": "模型里有很多非线性操作",
+    "music": 0
+  },
+  {
+    "from": 1840.06,
+    "to": 1843.14,
+    "sid": 818,
+    "location": 2,
+    "content": "比如soft max gu和rope sason",
+    "music": 0
+  },
+  {
+    "from": 1843.14,
+    "to": 1843.86,
+    "sid": 819,
+    "location": 2,
+    "content": "太复杂了",
+    "music": 0
+  },
+  {
+    "from": 1843.86,
+    "to": 1845,
+    "sid": 820,
+    "location": 2,
+    "content": "我们的思路是",
+    "music": 0
+  },
+  {
+    "from": 1845,
+    "to": 1847.72,
+    "sid": 821,
+    "location": 2,
+    "content": "直接看看这个残差到底在发生什么",
+    "music": 0
+  },
+  {
+    "from": 1847.72,
+    "to": 1850.68,
+    "sid": 822,
+    "location": 2,
+    "content": "就那激活值在各模块之间变化其实不大",
+    "music": 0
+  },
+  {
+    "from": 1850.68,
+    "to": 1852.989,
+    "sid": 823,
+    "location": 2,
+    "content": "这是我们第一个发现啊",
+    "music": 0
+  },
+  {
+    "from": 1852.989,
+    "to": 1855.149,
+    "sid": 824,
+    "location": 2,
+    "content": "这些参差块只是微调向量",
+    "music": 0
+  },
+  {
+    "from": 1855.149,
+    "to": 1856.509,
+    "sid": 825,
+    "location": 2,
+    "content": "影响其实没那么大",
+    "music": 0
+  },
+  {
+    "from": 1856.509,
+    "to": 1860.2,
+    "sid": 826,
+    "location": 2,
+    "content": "一那么我们接下来该怎么做呢",
+    "music": 0
+  },
+  {
+    "from": 1860.2,
+    "to": 1862.33,
+    "sid": 827,
+    "location": 2,
+    "content": "我们试着建个模",
+    "music": 0
+  },
+  {
+    "from": 1862.33,
+    "to": 1864.17,
+    "sid": 828,
+    "location": 2,
+    "content": "深挖一下里面的细节",
+    "music": 0
+  },
+  {
+    "from": 1864.17,
+    "to": 1868.199,
+    "sid": 829,
+    "location": 2,
+    "content": "我们基于这个残差建立了一个动态系统模型",
+    "music": 0
+  },
+  {
+    "from": 1868.199,
+    "to": 1869.319,
+    "sid": 830,
+    "location": 2,
+    "content": "这么做之后",
+    "music": 0
+  },
+  {
+    "from": 1869.319,
+    "to": 1871.459,
+    "sid": 831,
+    "location": 2,
+    "content": "我们发现模型里有几个部分",
+    "music": 0
+  },
+  {
+    "from": 1871.459,
+    "to": 1872.919,
+    "sid": 832,
+    "location": 2,
+    "content": "写出来是看着不起眼",
+    "music": 0
+  },
+  {
+    "from": 1872.919,
+    "to": 1874.73,
+    "sid": 833,
+    "location": 2,
+    "content": "实际上却影响巨大",
+    "music": 0
+  },
+  {
+    "from": 1874.73,
+    "to": 1876.81,
+    "sid": 834,
+    "location": 2,
+    "content": "我们把这些非线性组件",
+    "music": 0
+  },
+  {
+    "from": 1876.81,
+    "to": 1881.17,
+    "sid": 835,
+    "location": 2,
+    "content": "比如注意力机制GLU和带中间层的大前馈网络",
+    "music": 0
+  },
+  {
+    "from": 1881.17,
+    "to": 1882.29,
+    "sid": 836,
+    "location": 2,
+    "content": "先打包处理",
+    "music": 0
+  },
+  {
+    "from": 1882.29,
+    "to": 1884.87,
+    "sid": 837,
+    "location": 2,
+    "content": "我们把它们装进一个盒子",
+    "music": 0
+  },
+  {
+    "from": 1884.87,
+    "to": 1888.55,
+    "sid": 838,
+    "location": 2,
+    "content": "叫做RR是某种复杂的非线性结构",
+    "music": 0
+  },
+  {
+    "from": 1888.55,
+    "to": 1890.42,
+    "sid": 839,
+    "location": 2,
+    "content": "我们把它放到一边的",
+    "music": 0
+  },
+  {
+    "from": 1890.42,
+    "to": 1892.24,
+    "sid": 840,
+    "location": 2,
+    "content": "剩下的就是A和B矩阵",
+    "music": 0
+  },
+  {
+    "from": 1892.24,
+    "to": 1895.48,
+    "sid": 841,
+    "location": 2,
+    "content": "B矩阵负责对你初始的向量做某种变换",
+    "music": 0
+  },
+  {
+    "from": 1896.48,
+    "to": 1898.88,
+    "sid": 842,
+    "location": 2,
+    "content": "循环开始前初始向量是什么",
+    "music": 0
+  },
+  {
+    "from": 1898.88,
+    "to": 1900.26,
+    "sid": 843,
+    "location": 2,
+    "content": "而AH阵决定了",
+    "music": 0
+  },
+  {
+    "from": 1900.26,
+    "to": 1902.78,
+    "sid": 844,
+    "location": 2,
+    "content": "如何在每次循环中变换这个残差",
+    "music": 0
+  },
+  {
+    "from": 1902.78,
+    "to": 1903.78,
+    "sid": 845,
+    "location": 2,
+    "content": "I will hold this visuits",
+    "music": 0
+  },
+  {
+    "from": 1903.78,
+    "to": 1906.02,
+    "sid": 846,
+    "location": 2,
+    "content": "right about transformer的复杂性都放到一边",
+    "music": 0
+  },
+  {
+    "from": 1906.02,
+    "to": 1909.6,
+    "sid": 847,
+    "location": 2,
+    "content": "就能用一种相对简单的方式来看待之前的循环",
+    "music": 0
+  },
+  {
+    "from": 1909.6,
+    "to": 1910.92,
+    "sid": 848,
+    "location": 2,
+    "content": "在以前的案例里",
+    "music": 0
+  },
+  {
+    "from": 1910.92,
+    "to": 1914,
+    "sid": 849,
+    "location": 2,
+    "content": "你确实会做一些挺常规的决定啊",
+    "music": 0
+  },
+  {
+    "from": 1914,
+    "to": 1915.08,
+    "sid": 850,
+    "location": 2,
+    "content": "比如一种情况",
+    "music": 0
+  },
+  {
+    "from": 1915.08,
+    "to": 1916.96,
+    "sid": 851,
+    "location": 2,
+    "content": "你直接把它当成恒等变换",
+    "music": 0
+  },
+  {
+    "from": 1916.96,
+    "to": 1918.34,
+    "sid": 852,
+    "location": 2,
+    "content": "就是简单相加",
+    "music": 0
+  },
+  {
+    "from": 1918.34,
+    "to": 1919.6,
+    "sid": 853,
+    "location": 2,
+    "content": "另一种情况",
+    "music": 0
+  },
+  {
+    "from": 1919.6,
+    "to": 1922.09,
+    "sid": 854,
+    "location": 2,
+    "content": "它是一个完全可学习的矩阵",
+    "music": 0
+  },
+  {
+    "from": 1922.09,
+    "to": 1923.19,
+    "sid": 855,
+    "location": 2,
+    "content": "我们接着想",
+    "music": 0
+  },
+  {
+    "from": 1923.19,
+    "to": 1925.75,
+    "sid": 856,
+    "location": 2,
+    "content": "要是直接嗯经验显示",
+    "music": 0
+  },
+  {
+    "from": 1925.75,
+    "to": 1928.61,
+    "sid": 857,
+    "location": 2,
+    "content": "A和B矩阵其实主导了方程的量级",
+    "music": 0
+  },
+  {
+    "from": 1928.61,
+    "to": 1931.19,
+    "sid": 858,
+    "location": 2,
+    "content": "直接去掉那个复杂的非线性部分",
+    "music": 0
+  },
+  {
+    "from": 1931.19,
+    "to": 1932.21,
+    "sid": 859,
+    "location": 2,
+    "content": "结果会怎样",
+    "music": 0
+  },
+  {
+    "from": 1932.21,
+    "to": 1933.05,
+    "sid": 860,
+    "location": 2,
+    "content": "结果呢",
+    "music": 0
+  },
+  {
+    "from": 1933.05,
+    "to": 1934.97,
+    "sid": 861,
+    "location": 2,
+    "content": "你会得到一个很简单的系统",
+    "music": 0
+  },
+  {
+    "from": 1934.97,
+    "to": 1936.73,
+    "sid": 862,
+    "location": 2,
+    "content": "用微积分就能解出答案",
+    "music": 0
+  },
+  {
+    "from": 1936.73,
+    "to": 1937.57,
+    "sid": 863,
+    "location": 2,
+    "content": "就是EC",
+    "music": 0
+  },
+  {
+    "from": 1937.57,
+    "to": 1941.12,
+    "sid": 864,
+    "location": 2,
+    "content": "你可以算出给定值初始激活和初始注入",
+    "music": 0
+  },
+  {
+    "from": 1941.12,
+    "to": 1943.8,
+    "sid": 865,
+    "location": 2,
+    "content": "你甚至可以直接经验性的算出t plus",
+    "music": 0
+  },
+  {
+    "from": 1943.8,
+    "to": 1945.429,
+    "sid": 866,
+    "location": 2,
+    "content": "一布什的激活状态",
+    "music": 0
+  },
+  {
+    "from": 1945.429,
+    "to": 1946.789,
+    "sid": 867,
+    "location": 2,
+    "content": "你会注意到几点",
+    "music": 0
+  },
+  {
+    "from": 1946.789,
+    "to": 1948.309,
+    "sid": 868,
+    "location": 2,
+    "content": "这由A矩阵主导",
+    "music": 0
+  },
+  {
+    "from": 1948.309,
+    "to": 1952.78,
+    "sid": 869,
+    "location": 2,
+    "content": "尤其是被大幅密次的那个A矩阵sir",
+    "music": 0
+  },
+  {
+    "from": 1952.78,
+    "to": 1956.54,
+    "sid": 870,
+    "location": 2,
+    "content": "由此我们意识到有个量叫A的谱半径啊",
+    "music": 0
+  },
+  {
+    "from": 1956.54,
+    "to": 1958.5,
+    "sid": 871,
+    "location": 2,
+    "content": "pro半径基本等同于范数",
+    "music": 0
+  },
+  {
+    "from": 1958.5,
+    "to": 1961.59,
+    "sid": 872,
+    "location": 2,
+    "content": "一种看法是你把矩阵大幅幂次",
+    "music": 0
+  },
+  {
+    "from": 1961.59,
+    "to": 1962.83,
+    "sid": 873,
+    "location": 2,
+    "content": "咱们打个比方",
+    "music": 0
+  },
+  {
+    "from": 1962.83,
+    "to": 1964.91,
+    "sid": 874,
+    "location": 2,
+    "content": "假设这个矩阵就是个标量",
+    "music": 0
+  },
+  {
+    "from": 1964.91,
+    "to": 1967.72,
+    "sid": 875,
+    "location": 2,
+    "content": "2T大概是16啊",
+    "music": 0
+  },
+  {
+    "from": 1967.72,
+    "to": 1970.14,
+    "sid": 876,
+    "location": 2,
+    "content": "你把机会值放大到二的16次方",
+    "music": 0
+  },
+  {
+    "from": 1970.14,
+    "to": 1971.81,
+    "sid": 877,
+    "location": 2,
+    "content": "数值变得巨大啊",
+    "music": 0
+  },
+  {
+    "from": 1971.81,
+    "to": 1974.81,
+    "sid": 878,
+    "location": 2,
+    "content": "这解释了为何损失值会剧烈波动",
+    "music": 0
+  },
+  {
+    "from": 1974.81,
+    "to": 1978.61,
+    "sid": 879,
+    "location": 2,
+    "content": "我们发现前任论文里A和B矩阵的选择",
+    "music": 0
+  },
+  {
+    "from": 1978.61,
+    "to": 1979.65,
+    "sid": 880,
+    "location": 2,
+    "content": "要么编辑稳定",
+    "music": 0
+  },
+  {
+    "from": 1979.65,
+    "to": 1981.34,
+    "sid": 881,
+    "location": 2,
+    "content": "要么就不稳定啊",
+    "music": 0
+  },
+  {
+    "from": 1981.34,
+    "to": 1982.98,
+    "sid": 882,
+    "location": 2,
+    "content": "这样会让系统不稳定",
+    "music": 0
+  },
+  {
+    "from": 1982.98,
+    "to": 1986.72,
+    "sid": 883,
+    "location": 2,
+    "content": "所以在PC里我们想如果让A和B随便怎么变",
+    "music": 0
+  },
+  {
+    "from": 1986.72,
+    "to": 1988.07,
+    "sid": 884,
+    "location": 2,
+    "content": "系统就会爆炸",
+    "music": 0
+  },
+  {
+    "from": 1988.07,
+    "to": 1990.63,
+    "sid": 885,
+    "location": 2,
+    "content": "那咱们约束一下A和B",
+    "music": 0
+  },
+  {
+    "from": 1990.63,
+    "to": 1992.77,
+    "sid": 886,
+    "location": 2,
+    "content": "让它们在数学上不会爆炸呢",
+    "music": 0
+  },
+  {
+    "from": 1992.77,
+    "to": 1996.3,
+    "sid": 887,
+    "location": 2,
+    "content": "对于A咱们直接把它设成负对角矩阵",
+    "music": 0
+  },
+  {
+    "from": 1996.3,
+    "to": 1998.58,
+    "sid": 888,
+    "location": 2,
+    "content": "这样他的幂次项最终会趋于零",
+    "music": 0
+  },
+  {
+    "from": 1998.58,
+    "to": 1999.7,
+    "sid": 889,
+    "location": 2,
+    "content": "不会发散",
+    "music": 0
+  },
+  {
+    "from": 1999.7,
+    "to": 2000.92,
+    "sid": 890,
+    "location": 2,
+    "content": "对于B矩阵",
+    "music": 0
+  },
+  {
+    "from": 2000.92,
+    "to": 2003.12,
+    "sid": 891,
+    "location": 2,
+    "content": "我们加了个简单的线性范数约束",
+    "music": 0
+  },
+  {
+    "from": 2003.12,
+    "to": 2004.26,
+    "sid": 892,
+    "location": 2,
+    "content": "因为它只应用一次",
+    "music": 0
+  },
+  {
+    "from": 2004.26,
+    "to": 2005.55,
+    "sid": 893,
+    "location": 2,
+    "content": "不会发散",
+    "music": 0
+  },
+  {
+    "from": 2005.55,
+    "to": 2008.34,
+    "sid": 894,
+    "location": 2,
+    "content": "只要铺半径小于一系统就稳定了",
+    "music": 0
+  },
+  {
+    "from": 2008.34,
+    "to": 2011.68,
+    "sid": 895,
+    "location": 2,
+    "content": "训练时你会发现损失曲线很稳定",
+    "music": 0
+  },
+  {
+    "from": 2011.68,
+    "to": 2014.98,
+    "sid": 896,
+    "location": 2,
+    "content": "dot pass就是我们对A和B重采书画后的稳定版",
+    "music": 0
+  },
+  {
+    "from": 2014.98,
+    "to": 2018.34,
+    "sid": 897,
+    "location": 2,
+    "content": "哪怕用614这种让别的模型崩掉的学习率",
+    "music": 0
+  },
+  {
+    "from": 2018.34,
+    "to": 2020.15,
+    "sid": 898,
+    "location": 2,
+    "content": "最后模型还是纹的啊",
+    "music": 0
+  },
+  {
+    "from": 2020.15,
+    "to": 2022.75,
+    "sid": 899,
+    "location": 2,
+    "content": "这样就能自然约束激活值的状态",
+    "music": 0
+  },
+  {
+    "from": 2022.75,
+    "to": 2027.87,
+    "sid": 900,
+    "location": 2,
+    "content": "范数票那条橙色基线就是完全没加约束的模型",
+    "music": 0
+  },
+  {
+    "from": 2027.87,
+    "to": 2030.389,
+    "sid": 901,
+    "location": 2,
+    "content": "它直接炸到十的19次方",
+    "music": 0
+  },
+  {
+    "from": 2030.389,
+    "to": 2033.129,
+    "sid": 902,
+    "location": 2,
+    "content": "蓝色线则是加了范数约束的模型",
+    "music": 0
+  },
+  {
+    "from": 2033.129,
+    "to": 2035.869,
+    "sid": 903,
+    "location": 2,
+    "content": "而啊模型想扩张激活值",
+    "music": 0
+  },
+  {
+    "from": 2035.869,
+    "to": 2037.489,
+    "sid": 904,
+    "location": 2,
+    "content": "因为他觉得空间越大",
+    "music": 0
+  },
+  {
+    "from": 2037.489,
+    "to": 2038.82,
+    "sid": 905,
+    "location": 2,
+    "content": "表示效果越好",
+    "music": 0
+  },
+  {
+    "from": 2038.82,
+    "to": 2040.82,
+    "sid": 906,
+    "location": 2,
+    "content": "咱们把这些概念尽量拉开距离",
+    "music": 0
+  },
+  {
+    "from": 2040.82,
+    "to": 2041.8,
+    "sid": 907,
+    "location": 2,
+    "content": "再用范数约束",
+    "music": 0
+  },
+  {
+    "from": 2041.8,
+    "to": 2043.83,
+    "sid": 908,
+    "location": 2,
+    "content": "把向膨胀的数值压回到一",
+    "music": 0
+  },
+  {
+    "from": 2043.83,
+    "to": 2046.03,
+    "sid": 909,
+    "location": 2,
+    "content": "这两种力量互相拉扯",
+    "music": 0
+  },
+  {
+    "from": 2046.03,
+    "to": 2049.069,
+    "sid": 910,
+    "location": 2,
+    "content": "导致损失出现剧烈波动",
+    "music": 0
+  },
+  {
+    "from": 2049.429,
+    "to": 2051.269,
+    "sid": 911,
+    "location": 2,
+    "content": "虽然右侧范数控制的很好",
+    "music": 0
+  },
+  {
+    "from": 2051.269,
+    "to": 2052.029,
+    "sid": 912,
+    "location": 2,
+    "content": "激活没炸",
+    "music": 0
+  },
+  {
+    "from": 2052.029,
+    "to": 2055.89,
+    "sid": 913,
+    "location": 2,
+    "content": "但损失值确实出现了很糟糕的波动",
+    "music": 0
+  },
+  {
+    "from": 2055.89,
+    "to": 2057.75,
+    "sid": 914,
+    "location": 2,
+    "content": "所以激活值稍微改一下",
+    "music": 0
+  },
+  {
+    "from": 2057.75,
+    "to": 2061.43,
+    "sid": 915,
+    "location": 2,
+    "content": "就能稳定训练和这些循环过程啊",
+    "music": 0
+  },
+  {
+    "from": 2061.43,
+    "to": 2062.69,
+    "sid": 916,
+    "location": 2,
+    "content": "系统不仅更稳了",
+    "music": 0
+  },
+  {
+    "from": 2062.69,
+    "to": 2064.449,
+    "sid": 917,
+    "location": 2,
+    "content": "模型质量也更高",
+    "music": 0
+  },
+  {
+    "from": 2064.449,
+    "to": 2068.129,
+    "sid": 918,
+    "location": 2,
+    "content": "这张表对比了per se模型和之前的循环",
+    "music": 0
+  },
+  {
+    "from": 2068.129,
+    "to": 2069.42,
+    "sid": 919,
+    "location": 2,
+    "content": "transformer模型",
+    "music": 0
+  },
+  {
+    "from": 2069.42,
+    "to": 2071.22,
+    "sid": 920,
+    "location": 2,
+    "content": "recurrent depth models啊",
+    "music": 0
+  },
+  {
+    "from": 2071.22,
+    "to": 2074.13,
+    "sid": 921,
+    "location": 2,
+    "content": "可以看到它在各种应用里表现都更好",
+    "music": 0
+  },
+  {
+    "from": 2074.13,
+    "to": 2077.15,
+    "sid": 922,
+    "location": 2,
+    "content": "PERSE不仅胜过上一代循环模型",
+    "music": 0
+  },
+  {
+    "from": 2077.15,
+    "to": 2080.5,
+    "sid": 923,
+    "location": 2,
+    "content": "还强于那些很强的transformer极限啊",
+    "music": 0
+  },
+  {
+    "from": 2080.5,
+    "to": 2083.18,
+    "sid": 924,
+    "location": 2,
+    "content": "这种transformer就像那些微型对话模型",
+    "music": 0
+  },
+  {
+    "from": 2083.18,
+    "to": 2087.21,
+    "sid": 925,
+    "location": 2,
+    "content": "一群人都想让他尽快学会拿这种模型来说",
+    "music": 0
+  },
+  {
+    "from": 2087.21,
+    "to": 2091.19,
+    "sid": 926,
+    "location": 2,
+    "content": "用同样的基础transformer架构做循环并稳住它",
+    "music": 0
+  },
+  {
+    "from": 2091.19,
+    "to": 2092.51,
+    "sid": 927,
+    "location": 2,
+    "content": "困惑度会更低",
+    "music": 0
+  },
+  {
+    "from": 2092.51,
+    "to": 2094.35,
+    "sid": 928,
+    "location": 2,
+    "content": "端到端质量也更好",
+    "music": 0
+  },
+  {
+    "from": 2094.35,
+    "to": 2096.95,
+    "sid": 929,
+    "location": 2,
+    "content": "接着我们跑了一些基础的扩展定律",
+    "music": 0
+  },
+  {
+    "from": 2096.95,
+    "to": 2098.99,
+    "sid": 930,
+    "location": 2,
+    "content": "我就在想这事儿挺有意思啊",
+    "music": 0
+  },
+  {
+    "from": 2098.99,
+    "to": 2101.21,
+    "sid": 931,
+    "location": 2,
+    "content": "循环操作确实能提升效果",
+    "music": 0
+  },
+  {
+    "from": 2101.21,
+    "to": 2104.44,
+    "sid": 932,
+    "location": 2,
+    "content": "但咱们得想想有没有证据显示",
+    "music": 0
+  },
+  {
+    "from": 2104.44,
+    "to": 2106.66,
+    "sid": 933,
+    "location": 2,
+    "content": "我们应该更激进的这么干哇",
+    "music": 0
+  },
+  {
+    "from": 2106.66,
+    "to": 2107.72,
+    "sid": 934,
+    "location": 2,
+    "content": "先退一步说",
+    "music": 0
+  },
+  {
+    "from": 2107.72,
+    "to": 2111.24,
+    "sid": 935,
+    "location": 2,
+    "content": "几年前当我们开始大规模扩展这些模型时",
+    "music": 0
+  },
+  {
+    "from": 2111.24,
+    "to": 2114.28,
+    "sid": 936,
+    "location": 2,
+    "content": "一个自然的问题是是该把模型做大",
+    "music": 0
+  },
+  {
+    "from": 2114.28,
+    "to": 2116.39,
+    "sid": 937,
+    "location": 2,
+    "content": "还是只是多训练些数据",
+    "music": 0
+  },
+  {
+    "from": 2116.39,
+    "to": 2118.87,
+    "sid": 938,
+    "location": 2,
+    "content": "几年前大家就开始琢磨",
+    "music": 0
+  },
+  {
+    "from": 2118.87,
+    "to": 2121.43,
+    "sid": 939,
+    "location": 2,
+    "content": "这两个量该怎么一起扩展啊",
+    "music": 0
+  },
+  {
+    "from": 2121.43,
+    "to": 2122.91,
+    "sid": 940,
+    "location": 2,
+    "content": "初二参数还是扩数据",
+    "music": 0
+  },
+  {
+    "from": 2122.91,
+    "to": 2126.07,
+    "sid": 941,
+    "location": 2,
+    "content": "咱们搞出了一堆复杂的密率曲线都长这样嗯",
+    "music": 0
+  },
+  {
+    "from": 2126.07,
+    "to": 2127.39,
+    "sid": 942,
+    "location": 2,
+    "content": "这些图挺漂亮",
+    "music": 0
+  },
+  {
+    "from": 2127.39,
+    "to": 2128.35,
+    "sid": 943,
+    "location": 2,
+    "content": "颜色也多",
+    "music": 0
+  },
+  {
+    "from": 2128.35,
+    "to": 2130.17,
+    "sid": 944,
+    "location": 2,
+    "content": "咱们主要得看的是",
+    "music": 0
+  },
+  {
+    "from": 2130.17,
+    "to": 2132.17,
+    "sid": 945,
+    "location": 2,
+    "content": "抱歉你要注意的是",
+    "music": 0
+  },
+  {
+    "from": 2132.17,
+    "to": 2133.93,
+    "sid": 946,
+    "location": 2,
+    "content": "曲线向右下倾斜",
+    "music": 0
+  },
+  {
+    "from": 2133.93,
+    "to": 2136.57,
+    "sid": 947,
+    "location": 2,
+    "content": "就说明要同时扩展数据和参数",
+    "music": 0
+  },
+  {
+    "from": 2136.57,
+    "to": 2137.609,
+    "sid": 948,
+    "location": 2,
+    "content": "that啊",
+    "music": 0
+  },
+  {
+    "from": 2137.609,
+    "to": 2139.289,
+    "sid": 949,
+    "location": 2,
+    "content": "如果曲线垂直向下",
+    "music": 0
+  },
+  {
+    "from": 2139.289,
+    "to": 2141.389,
+    "sid": 950,
+    "location": 2,
+    "content": "那就只要增加训练数据嗯",
+    "music": 0
+  },
+  {
+    "from": 2141.389,
+    "to": 2142.489,
+    "sid": 951,
+    "location": 2,
+    "content": "不用加参数",
+    "music": 0
+  },
+  {
+    "from": 2142.489,
+    "to": 2143.909,
+    "sid": 952,
+    "location": 2,
+    "content": "如果曲线水平向右",
+    "music": 0
+  },
+  {
+    "from": 2143.909,
+    "to": 2145.649,
+    "sid": 953,
+    "location": 2,
+    "content": "那就完全别加数据啊",
+    "music": 0
+  },
+  {
+    "from": 2145.649,
+    "to": 2146.55,
+    "sid": 954,
+    "location": 2,
+    "content": "只加参数",
+    "music": 0
+  },
+  {
+    "from": 2146.55,
+    "to": 2148.21,
+    "sid": 955,
+    "location": 2,
+    "content": "曲线向右下倾斜",
+    "music": 0
+  },
+  {
+    "from": 2148.21,
+    "to": 2150.85,
+    "sid": 956,
+    "location": 2,
+    "content": "说明要同步扩展数据和参数",
+    "music": 0
+  },
+  {
+    "from": 2150.85,
+    "to": 2154.95,
+    "sid": 957,
+    "location": 2,
+    "content": "还用35000000000000token训练万亿参数模型啊",
+    "music": 0
+  },
+  {
+    "from": 2154.95,
+    "to": 2155.89,
+    "sid": 958,
+    "location": 2,
+    "content": "效果更好",
+    "music": 0
+  },
+  {
+    "from": 2155.89,
+    "to": 2158.17,
+    "sid": 959,
+    "location": 2,
+    "content": "我们想问循环机制怎么融入",
+    "music": 0
+  },
+  {
+    "from": 2158.17,
+    "to": 2161.23,
+    "sid": 960,
+    "location": 2,
+    "content": "其中有两种可能向右下倾斜",
+    "music": 0
+  },
+  {
+    "from": 2161.23,
+    "to": 2163.35,
+    "sid": 961,
+    "location": 2,
+    "content": "意味着要扩展数据和参数",
+    "music": 0
+  },
+  {
+    "from": 2163.35,
+    "to": 2164.49,
+    "sid": 962,
+    "location": 2,
+    "content": "结合循环机制",
+    "music": 0
+  },
+  {
+    "from": 2164.49,
+    "to": 2165.09,
+    "sid": 963,
+    "location": 2,
+    "content": "有几种",
+    "music": 0
+  },
+  {
+    "from": 2165.09,
+    "to": 2169.27,
+    "sid": 964,
+    "location": 2,
+    "content": "可能比你听的会觉得根本不该用循环机制",
+    "music": 0
+  },
+  {
+    "from": 2169.27,
+    "to": 2170.37,
+    "sid": 965,
+    "location": 2,
+    "content": "To be u",
+    "music": 0
+  },
+  {
+    "from": 2170.37,
+    "to": 2172.67,
+    "sid": 966,
+    "location": 2,
+    "content": "最好还是用同一个循环模型",
+    "music": 0
+  },
+  {
+    "from": 2172.67,
+    "to": 2175.13,
+    "sid": 967,
+    "location": 2,
+    "content": "你可能会觉得要么多做循环",
+    "music": 0
+  },
+  {
+    "from": 2175.13,
+    "to": 2176.97,
+    "sid": 968,
+    "location": 2,
+    "content": "要么只对一小部分做循环",
+    "music": 0
+  },
+  {
+    "from": 2176.97,
+    "to": 2178.88,
+    "sid": 969,
+    "location": 2,
+    "content": "我们这里展示的是",
+    "music": 0
+  },
+  {
+    "from": 2178.88,
+    "to": 2180.9,
+    "sid": 970,
+    "location": 2,
+    "content": "至少在初步的缩放定律里",
+    "music": 0
+  },
+  {
+    "from": 2180.9,
+    "to": 2184.5,
+    "sid": 971,
+    "location": 2,
+    "content": "这些曲线都保持计算量和参数规模不变",
+    "music": 0
+  },
+  {
+    "from": 2184.5,
+    "to": 2186.64,
+    "sid": 972,
+    "location": 2,
+    "content": "所以那条曲线就是一个模型",
+    "music": 0
+  },
+  {
+    "from": 2186.64,
+    "to": 2189.12,
+    "sid": 973,
+    "location": 2,
+    "content": "左右两边的参数数量是一样的",
+    "music": 0
+  },
+  {
+    "from": 2189.12,
+    "to": 2190.04,
+    "sid": 974,
+    "location": 2,
+    "content": "往下走",
+    "music": 0
+  },
+  {
+    "from": 2190.04,
+    "to": 2190.88,
+    "sid": 975,
+    "location": 2,
+    "content": "颜色变化",
+    "music": 0
+  },
+  {
+    "from": 2190.88,
+    "to": 2191.32,
+    "sid": 976,
+    "location": 2,
+    "content": "意味着",
+    "music": 0
+  },
+  {
+    "from": 2191.32,
+    "to": 2194.92,
+    "sid": 977,
+    "location": 2,
+    "content": "我们通过增加数据量来提升训练模型的算力",
+    "music": 0
+  },
+  {
+    "from": 2194.92,
+    "to": 2198.27,
+    "sid": 978,
+    "location": 2,
+    "content": "所以这里我们在调整数据量和循环次数",
+    "music": 0
+  },
+  {
+    "from": 2198.27,
+    "to": 2201.65,
+    "sid": 979,
+    "location": 2,
+    "content": "我们发现这两种模型都再次呈现出",
+    "music": 0
+  },
+  {
+    "from": 2201.65,
+    "to": 2203.58,
+    "sid": 980,
+    "location": 2,
+    "content": "右下倾斜的趋势呃",
+    "music": 0
+  },
+  {
+    "from": 2203.58,
+    "to": 2206.08,
+    "sid": 981,
+    "location": 2,
+    "content": "这说明对于这些固定参数的训练",
+    "music": 0
+  },
+  {
+    "from": 2206.08,
+    "to": 2207.4,
+    "sid": 982,
+    "location": 2,
+    "content": "随着数据量增加",
+    "music": 0
+  },
+  {
+    "from": 2207.4,
+    "to": 2209.98,
+    "sid": 983,
+    "location": 2,
+    "content": "你也应该相应增加循环计算的量",
+    "music": 0
+  },
+  {
+    "from": 2209.98,
+    "to": 2213.51,
+    "sid": 984,
+    "location": 2,
+    "content": "我们发现这些循环遵循经典的密律关系",
+    "music": 0
+  },
+  {
+    "from": 2213.51,
+    "to": 2215.99,
+    "sid": 985,
+    "location": 2,
+    "content": "现在你其实可以开始预测了",
+    "music": 0
+  },
+  {
+    "from": 2215.99,
+    "to": 2218.23,
+    "sid": 986,
+    "location": 2,
+    "content": "随着循环和token同步扩展",
+    "music": 0
+  },
+  {
+    "from": 2218.23,
+    "to": 2221.08,
+    "sid": 987,
+    "location": 2,
+    "content": "这些缩放定律就能预测质量额",
+    "music": 0
+  },
+  {
+    "from": 2221.08,
+    "to": 2222.62,
+    "sid": 988,
+    "location": 2,
+    "content": "头部运动声音大小",
+    "music": 0
+  },
+  {
+    "from": 2222.62,
+    "to": 2226.96,
+    "sid": 989,
+    "location": 2,
+    "content": "对循环呢对底部缩放的联合权重呢啊",
+    "music": 0
+  },
+  {
+    "from": 2226.96,
+    "to": 2229.18,
+    "sid": 990,
+    "location": 2,
+    "content": "我们之前有个很复杂的3D图",
+    "music": 0
+  },
+  {
+    "from": 2229.18,
+    "to": 2230.98,
+    "sid": 991,
+    "location": 2,
+    "content": "展示了不少东西啊",
+    "music": 0
+  },
+  {
+    "from": 2230.98,
+    "to": 2232.86,
+    "sid": 992,
+    "location": 2,
+    "content": "比如循环数据和参数",
+    "music": 0
+  },
+  {
+    "from": 2232.86,
+    "to": 2234.3,
+    "sid": 993,
+    "location": 2,
+    "content": "它大致指向右下方",
+    "music": 0
+  },
+  {
+    "from": 2234.3,
+    "to": 2235.91,
+    "sid": 994,
+    "location": 2,
+    "content": "同时也指向那个方向",
+    "music": 0
+  },
+  {
+    "from": 2235.91,
+    "to": 2238.17,
+    "sid": 995,
+    "location": 2,
+    "content": "所以如果你相信这个图",
+    "music": 0
+  },
+  {
+    "from": 2238.17,
+    "to": 2240.75,
+    "sid": 996,
+    "location": 2,
+    "content": "它表明你应该同时扩展这三者",
+    "music": 0
+  },
+  {
+    "from": 2240.75,
+    "to": 2241.69,
+    "sid": 997,
+    "location": 2,
+    "content": "对啊",
+    "music": 0
+  },
+  {
+    "from": 2241.69,
+    "to": 2242.83,
+    "sid": 998,
+    "location": 2,
+    "content": "但这个图真的很难看",
+    "music": 0
+  },
+  {
+    "from": 2242.83,
+    "to": 2243.75,
+    "sid": 999,
+    "location": 2,
+    "content": "因为它是3D的",
+    "music": 0
+  },
+  {
+    "from": 2243.75,
+    "to": 2244.96,
+    "sid": 1000,
+    "location": 2,
+    "content": "有点怪啊",
+    "music": 0
+  },
+  {
+    "from": 2244.96,
+    "to": 2248.7,
+    "sid": 1001,
+    "location": 2,
+    "content": "这些命率表明增加数据时你应该增加循环",
+    "music": 0
+  },
+  {
+    "from": 2248.7,
+    "to": 2250.8,
+    "sid": 1002,
+    "location": 2,
+    "content": "还有其他命率表明增加数据时",
+    "music": 0
+  },
+  {
+    "from": 2250.8,
+    "to": 2252.55,
+    "sid": 1003,
+    "location": 2,
+    "content": "你应该增加参数嗯",
+    "music": 0
+  },
+  {
+    "from": 2252.55,
+    "to": 2255.27,
+    "sid": 1004,
+    "location": 2,
+    "content": "显然该增加条件允许的话",
+    "music": 0
+  },
+  {
+    "from": 2255.27,
+    "to": 2256.89,
+    "sid": 1005,
+    "location": 2,
+    "content": "这三项最好都提上去",
+    "music": 0
+  },
+  {
+    "from": 2258.16,
+    "to": 2259,
+    "sid": 1006,
+    "location": 2,
+    "content": "但有一点",
+    "music": 0
+  },
+  {
+    "from": 2259,
+    "to": 2260.86,
+    "sid": 1007,
+    "location": 2,
+    "content": "如果你固定模型大小",
+    "music": 0
+  },
+  {
+    "from": 2260.86,
+    "to": 2262.34,
+    "sid": 1008,
+    "location": 2,
+    "content": "同时增加数据量",
+    "music": 0
+  },
+  {
+    "from": 2262.34,
+    "to": 2263.92,
+    "sid": 1009,
+    "location": 2,
+    "content": "你也得增加RECURREN",
+    "music": 0
+  },
+  {
+    "from": 2263.92,
+    "to": 2264.78,
+    "sid": 1010,
+    "location": 2,
+    "content": "这挺有意思",
+    "music": 0
+  },
+  {
+    "from": 2264.78,
+    "to": 2265.66,
+    "sid": 1011,
+    "location": 2,
+    "content": "因为据我所知",
+    "music": 0
+  },
+  {
+    "from": 2265.66,
+    "to": 2267.7,
+    "sid": 1012,
+    "location": 2,
+    "content": "现在的模型都不带RECURREN",
+    "music": 0
+  },
+  {
+    "from": 2267.7,
+    "to": 2270.899,
+    "sid": 1013,
+    "location": 2,
+    "content": "所以他们都在曲线最左边",
+    "music": 0
+  },
+  {
+    "from": 2270.899,
+    "to": 2272.319,
+    "sid": 1014,
+    "location": 2,
+    "content": "数据量巨大",
+    "music": 0
+  },
+  {
+    "from": 2272.319,
+    "to": 2275.399,
+    "sid": 1015,
+    "location": 2,
+    "content": "说明训练时我们或许能做的更好",
+    "music": 0
+  },
+  {
+    "from": 2275.399,
+    "to": 2276.399,
+    "sid": 1016,
+    "location": 2,
+    "content": "都没错",
+    "music": 0
+  },
+  {
+    "from": 2276.399,
+    "to": 2279.569,
+    "sid": 1017,
+    "location": 2,
+    "content": "这只是换个角度展示这个实验",
+    "music": 0
+  },
+  {
+    "from": 2279.569,
+    "to": 2280.929,
+    "sid": 1018,
+    "location": 2,
+    "content": "看橙色曲线",
+    "music": 0
+  },
+  {
+    "from": 2280.929,
+    "to": 2282.829,
+    "sid": 1019,
+    "location": 2,
+    "content": "这里我们固定了模型规模",
+    "music": 0
+  },
+  {
+    "from": 2282.829,
+    "to": 2285.089,
+    "sid": 1020,
+    "location": 2,
+    "content": "橙色曲线代表固定深度的模型",
+    "music": 0
+  },
+  {
+    "from": 2285.089,
+    "to": 2286.97,
+    "sid": 1021,
+    "location": 2,
+    "content": "也就是传统的transformer模型",
+    "music": 0
+  },
+  {
+    "from": 2286.97,
+    "to": 2289.67,
+    "sid": 1022,
+    "location": 2,
+    "content": "蓝色曲线是固定flop预算的情况",
+    "music": 0
+  },
+  {
+    "from": 2289.67,
+    "to": 2291.88,
+    "sid": 1023,
+    "location": 2,
+    "content": "looping模型在曲线上该取哪个点",
+    "music": 0
+  },
+  {
+    "from": 2291.88,
+    "to": 2294.9,
+    "sid": 1024,
+    "location": 2,
+    "content": "这里橙色和蓝色的点训练用的算力相同",
+    "music": 0
+  },
+  {
+    "from": 2294.9,
+    "to": 2295.94,
+    "sid": 1025,
+    "location": 2,
+    "content": "但数据量不同",
+    "music": 0
+  },
+  {
+    "from": 2295.94,
+    "to": 2297.44,
+    "sid": 1026,
+    "location": 2,
+    "content": "模型大小是一样的",
+    "music": 0
+  },
+  {
+    "from": 2297.44,
+    "to": 2300.22,
+    "sid": 1027,
+    "location": 2,
+    "content": "如果是靠增加循环次数",
+    "music": 0
+  },
+  {
+    "from": 2300.22,
+    "to": 2303.78,
+    "sid": 1028,
+    "location": 2,
+    "content": "而不是只堆数据来达到这个算力验证",
+    "music": 0
+  },
+  {
+    "from": 2303.78,
+    "to": 2304.74,
+    "sid": 1029,
+    "location": 2,
+    "content": "损失会更低",
+    "music": 0
+  },
+  {
+    "from": 2304.74,
+    "to": 2306.44,
+    "sid": 1030,
+    "location": 2,
+    "content": "这说明我们或许应该",
+    "music": 0
+  },
+  {
+    "from": 2306.44,
+    "to": 2309.2,
+    "sid": 1031,
+    "location": 2,
+    "content": "让所有大规模预训练都循环起来",
+    "music": 0
+  },
+  {
+    "from": 2309.2,
+    "to": 2309.86,
+    "sid": 1032,
+    "location": 2,
+    "content": "For goes",
+    "music": 0
+  },
+  {
+    "from": 2309.86,
+    "to": 2311.34,
+    "sid": 1033,
+    "location": 2,
+    "content": "那say theis accurt",
+    "music": 0
+  },
+  {
+    "from": 2311.34,
+    "to": 2312.38,
+    "sid": 1034,
+    "location": 2,
+    "content": "我稍微退一步",
+    "music": 0
+  },
+  {
+    "from": 2312.38,
+    "to": 2314.56,
+    "sid": 1035,
+    "location": 2,
+    "content": "回到这次演讲的核心要点",
+    "music": 0
+  },
+  {
+    "from": 2314.56,
+    "to": 2316.64,
+    "sid": 1036,
+    "location": 2,
+    "content": "希望今天我让大家多少明白了",
+    "music": 0
+  },
+  {
+    "from": 2316.64,
+    "to": 2317.84,
+    "sid": 1037,
+    "location": 2,
+    "content": "如果你理解推理",
+    "music": 0
+  },
+  {
+    "from": 2317.84,
+    "to": 2319.51,
+    "sid": 1038,
+    "location": 2,
+    "content": "都理解这些模型",
+    "music": 0
+  },
+  {
+    "from": 2319.51,
+    "to": 2320.55,
+    "sid": 1039,
+    "location": 2,
+    "content": "理解GPU内核",
+    "music": 0
+  },
+  {
+    "from": 2320.55,
+    "to": 2322.19,
+    "sid": 1040,
+    "location": 2,
+    "content": "理解构成它们的每一个部分",
+    "music": 0
+  },
+  {
+    "from": 2322.19,
+    "to": 2325.82,
+    "sid": 1041,
+    "location": 2,
+    "content": "你就真的能在机器学习算法上实现全站创新",
+    "music": 0
+  },
+  {
+    "from": 2325.82,
+    "to": 2329.4,
+    "sid": 1042,
+    "location": 2,
+    "content": "无论是通过新的路由算法来处理更多流量",
+    "music": 0
+  },
+  {
+    "from": 2329.4,
+    "to": 2331.22,
+    "sid": 1043,
+    "location": 2,
+    "content": "或换种方式分配流量",
+    "music": 0
+  },
+  {
+    "from": 2331.22,
+    "to": 2334.62,
+    "sid": 1044,
+    "location": 2,
+    "content": "还是用新的内核让系统的一部分跑得快得多",
+    "music": 0
+  },
+  {
+    "from": 2334.62,
+    "to": 2338.32,
+    "sid": 1045,
+    "location": 2,
+    "content": "又或是用新架构让参数少很多时也能装进",
+    "music": 0
+  },
+  {
+    "from": 2338.32,
+    "to": 2341.26,
+    "sid": 1046,
+    "location": 2,
+    "content": "让他们以不同方式装进部分GPU",
+    "music": 0
+  },
+  {
+    "from": 2341.26,
+    "to": 2342.81,
+    "sid": 1047,
+    "location": 2,
+    "content": "减少通信量",
+    "music": 0
+  },
+  {
+    "from": 2342.81,
+    "to": 2344.53,
+    "sid": 1048,
+    "location": 2,
+    "content": "这些都是这个问题",
+    "music": 0
+  },
+  {
+    "from": 2344.53,
+    "to": 2347.45,
+    "sid": 1049,
+    "location": 2,
+    "content": "也就是我们今天看到的这个研究",
+    "music": 0
+  },
+  {
+    "from": 2347.45,
+    "to": 2349.05,
+    "sid": 1050,
+    "location": 2,
+    "content": "难题的不同侧面",
+    "music": 0
+  },
+  {
+    "from": 2349.05,
+    "to": 2352.83,
+    "sid": 1051,
+    "location": 2,
+    "content": "也希望今天我至少能激发在座的一位",
+    "music": 0
+  },
+  {
+    "from": 2352.83,
+    "to": 2357.77,
+    "sid": 1052,
+    "location": 2,
+    "content": "去更深入地探究其中一些内容好了",
+    "music": 0
+  },
+  {
+    "from": 2357.77,
+    "to": 2358.33,
+    "sid": 1053,
+    "location": 2,
+    "content": "谢谢",
+    "music": 0
+  },
+  {
+    "from": 2358.33,
+    "to": 2359.99,
+    "sid": 1054,
+    "location": 2,
+    "content": "很高兴回答几个问题",
+    "music": 0
+  },
+  {
+    "from": 2359.99,
+    "to": 2362.99,
+    "sid": 1055,
+    "location": 2,
+    "content": "我们有大约五到10分钟的提问时间",
+    "music": 0
+  },
+  {
+    "from": 2362.99,
+    "to": 2364.73,
+    "sid": 1056,
+    "location": 2,
+    "content": "有问题的请举手啊",
+    "music": 0
+  },
+  {
+    "from": 2364.73,
+    "to": 2367.59,
+    "sid": 1057,
+    "location": 2,
+    "content": "我想第一天比如你是好的",
+    "music": 0
+  },
+  {
+    "from": 2367.59,
+    "to": 2370.49,
+    "sid": 1058,
+    "location": 2,
+    "content": "从头开始在步子上训练",
+    "music": 0
+  },
+  {
+    "from": 2370.49,
+    "to": 2373.61,
+    "sid": 1059,
+    "location": 2,
+    "content": "我想知道你能不能展示一下其中的一些内容",
+    "music": 0
+  },
+  {
+    "from": 2373.61,
+    "to": 2374.71,
+    "sid": 1060,
+    "location": 2,
+    "content": "好的好问题",
+    "music": 0
+  },
+  {
+    "from": 2374.71,
+    "to": 2376.09,
+    "sid": 1061,
+    "location": 2,
+    "content": "问题是关于PARC",
+    "music": 0
+  },
+  {
+    "from": 2376.09,
+    "to": 2377.77,
+    "sid": 1062,
+    "location": 2,
+    "content": "我们是不是从头开始训练",
+    "music": 0
+  },
+  {
+    "from": 2377.77,
+    "to": 2380.15,
+    "sid": 1063,
+    "location": 2,
+    "content": "你能用预训练模型做什么嗯",
+    "music": 0
+  },
+  {
+    "from": 2380.15,
+    "to": 2382.37,
+    "sid": 1064,
+    "location": 2,
+    "content": "几个月前有人发了篇很恶搞的博客",
+    "music": 0
+  },
+  {
+    "from": 2382.37,
+    "to": 2384.25,
+    "sid": 1065,
+    "location": 2,
+    "content": "他说嘿我没训练任何东西",
+    "music": 0
+  },
+  {
+    "from": 2384.25,
+    "to": 2386.129,
+    "sid": 1066,
+    "location": 2,
+    "content": "就赢了一个排行榜比赛嗯",
+    "music": 0
+  },
+  {
+    "from": 2386.129,
+    "to": 2390.12,
+    "sid": 1067,
+    "location": 2,
+    "content": "他其实是在一个QUAN模型里循环了两三层",
+    "music": 0
+  },
+  {
+    "from": 2390.12,
+    "to": 2392.88,
+    "sid": 1068,
+    "location": 2,
+    "content": "然后发现在一些数学问题上",
+    "music": 0
+  },
+  {
+    "from": 2392.88,
+    "to": 2395.14,
+    "sid": 1069,
+    "location": 2,
+    "content": "它的质量开始变高啊",
+    "music": 0
+  },
+  {
+    "from": 2395.14,
+    "to": 2397.02,
+    "sid": 1070,
+    "location": 2,
+    "content": "我们有一些相关研究在做",
+    "music": 0
+  },
+  {
+    "from": 2397.02,
+    "to": 2398.62,
+    "sid": 1071,
+    "location": 2,
+    "content": "可能很快就会发布啊",
+    "music": 0
+  },
+  {
+    "from": 2398.62,
+    "to": 2401.9,
+    "sid": 1072,
+    "location": 2,
+    "content": "但有些模型只要对预训练模型做一点循环迭代",
+    "music": 0
+  },
+  {
+    "from": 2401.9,
+    "to": 2403.76,
+    "sid": 1073,
+    "location": 2,
+    "content": "就能得到更高质量的结果",
+    "music": 0
+  },
+  {
+    "from": 2403.76,
+    "to": 2405.2,
+    "sid": 1074,
+    "location": 2,
+    "content": "嗯这真挺怪的",
+    "music": 0
+  },
+  {
+    "from": 2405.2,
+    "to": 2406.16,
+    "sid": 1075,
+    "location": 2,
+    "content": "有点让我想不通",
+    "music": 0
+  },
+  {
+    "from": 2406.16,
+    "to": 2407.24,
+    "sid": 1076,
+    "location": 2,
+    "content": "不知道为啥会这样",
+    "music": 0
+  },
+  {
+    "from": 2407.24,
+    "to": 2408.94,
+    "sid": 1077,
+    "location": 2,
+    "content": "我们对这个挺感兴趣的",
+    "music": 0
+  },
+  {
+    "from": 2408.94,
+    "to": 2411.02,
+    "sid": 1078,
+    "location": 2,
+    "content": "要是能说服hidden",
+    "music": 0
+  },
+  {
+    "from": 2411.02,
+    "to": 2413.7,
+    "sid": 1079,
+    "location": 2,
+    "content": "他会去盯着激活值和实际的权重",
+    "music": 0
+  },
+  {
+    "from": 2413.7,
+    "to": 2416.25,
+    "sid": 1080,
+    "location": 2,
+    "content": "看看循环为啥能让效果变好",
+    "music": 0
+  },
+  {
+    "from": 2416.25,
+    "to": 2417.33,
+    "sid": 1081,
+    "location": 2,
+    "content": "顺着刚才说的",
+    "music": 0
+  },
+  {
+    "from": 2417.33,
+    "to": 2420.53,
+    "sid": 1082,
+    "location": 2,
+    "content": "你提到了循环模型在算力上的最优性",
+    "music": 0
+  },
+  {
+    "from": 2420.53,
+    "to": 2423.73,
+    "sid": 1083,
+    "location": 2,
+    "content": "是能聊聊推理方面的影响和显存吗",
+    "music": 0
+  },
+  {
+    "from": 2423.73,
+    "to": 2425.84,
+    "sid": 1084,
+    "location": 2,
+    "content": "这怎么帮你跑得更快得",
+    "music": 0
+  },
+  {
+    "from": 2425.84,
+    "to": 2428.72,
+    "sid": 1085,
+    "location": 2,
+    "content": "我对这些循环方法特别兴奋的一点是",
+    "music": 0
+  },
+  {
+    "from": 2428.72,
+    "to": 2432.73,
+    "sid": 1086,
+    "location": 2,
+    "content": "高效跑推理的主要瓶颈往往是GPU显存参数少了",
+    "music": 0
+  },
+  {
+    "from": 2432.73,
+    "to": 2434.63,
+    "sid": 1087,
+    "location": 2,
+    "content": "就能塞进更多kv cash",
+    "music": 0
+  },
+  {
+    "from": 2434.63,
+    "to": 2438.01,
+    "sid": 1088,
+    "location": 2,
+    "content": "或者减少跨GPU拆分带来的通信开销",
+    "music": 0
+  },
+  {
+    "from": 2438.01,
+    "to": 2441.51,
+    "sid": 1089,
+    "location": 2,
+    "content": "所以啊小模型能带来很大的灵活性",
+    "music": 0
+  },
+  {
+    "from": 2441.51,
+    "to": 2442.79,
+    "sid": 1090,
+    "location": 2,
+    "content": "嗯我有个想法",
+    "music": 0
+  },
+  {
+    "from": 2442.79,
+    "to": 2444.67,
+    "sid": 1091,
+    "location": 2,
+    "content": "要是把循环块缩的足够小",
+    "music": 0
+  },
+  {
+    "from": 2444.67,
+    "to": 2446.73,
+    "sid": 1092,
+    "location": 2,
+    "content": "就能写个微型巨型内核",
+    "music": 0
+  },
+  {
+    "from": 2446.73,
+    "to": 2449.41,
+    "sid": 1093,
+    "location": 2,
+    "content": "用超快循环跑这些计算嗯",
+    "music": 0
+  },
+  {
+    "from": 2449.41,
+    "to": 2451.65,
+    "sid": 1094,
+    "location": 2,
+    "content": "目前还没法把块儿做的那么小",
+    "music": 0
+  },
+  {
+    "from": 2451.65,
+    "to": 2452.75,
+    "sid": 1095,
+    "location": 2,
+    "content": "但这挺有意思",
+    "music": 0
+  },
+  {
+    "from": 2452.75,
+    "to": 2454.8,
+    "sid": 1096,
+    "location": 2,
+    "content": "当然下一代LPU来了",
+    "music": 0
+  },
+  {
+    "from": 2454.8,
+    "to": 2456.84,
+    "sid": 1097,
+    "location": 2,
+    "content": "growth芯片会结合NVIDIA的技术",
+    "music": 0
+  },
+  {
+    "from": 2456.84,
+    "to": 2459.14,
+    "sid": 1098,
+    "location": 2,
+    "content": "他们大概有250m by内存",
+    "music": 0
+  },
+  {
+    "from": 2459.14,
+    "to": 2461.22,
+    "sid": 1099,
+    "location": 2,
+    "content": "所以能塞进去的东西极少",
+    "music": 0
+  },
+  {
+    "from": 2461.22,
+    "to": 2462.9,
+    "sid": 1100,
+    "location": 2,
+    "content": "不过可以设计适配方案",
+    "music": 0
+  },
+  {
+    "from": 2462.9,
+    "to": 2464.7,
+    "sid": 1101,
+    "location": 2,
+    "content": "让权重常驻内存极速跑",
+    "music": 0
+  },
+  {
+    "from": 2464.7,
+    "to": 2465.64,
+    "sid": 1102,
+    "location": 2,
+    "content": "激活值",
+    "music": 0
+  },
+  {
+    "from": 2465.64,
+    "to": 2468.52,
+    "sid": 1103,
+    "location": 2,
+    "content": "跨过这些阈值会有非线性收益",
+    "music": 0
+  },
+  {
+    "from": 2468.52,
+    "to": 2470.88,
+    "sid": 1104,
+    "location": 2,
+    "content": "希望我们很快能做到对",
+    "music": 0
+  },
+  {
+    "from": 2470.88,
+    "to": 2475.67,
+    "sid": 1105,
+    "location": 2,
+    "content": "在那边你刚才提到对的伤害性颤动",
+    "music": 0
+  },
+  {
+    "from": 2475.67,
+    "to": 2479.22,
+    "sid": 1106,
+    "location": 2,
+    "content": "我想权红贯日被封号",
+    "music": 0
+  },
+  {
+    "from": 2479.22,
+    "to": 2480.78,
+    "sid": 1107,
+    "location": 2,
+    "content": "这总是严格最优的",
+    "music": 0
+  },
+  {
+    "from": 2480.78,
+    "to": 2482.58,
+    "sid": 1108,
+    "location": 2,
+    "content": "但人们不直着走啊",
+    "music": 0
+  },
+  {
+    "from": 2482.58,
+    "to": 2484.6,
+    "sid": 1109,
+    "location": 2,
+    "content": "超大内核的代价是什么",
+    "music": 0
+  },
+  {
+    "from": 2484.6,
+    "to": 2487.06,
+    "sid": 1110,
+    "location": 2,
+    "content": "是啊工程师的血汗啊",
+    "music": 0
+  },
+  {
+    "from": 2487.06,
+    "to": 2487.96,
+    "sid": 1111,
+    "location": 2,
+    "content": "事实证明",
+    "music": 0
+  },
+  {
+    "from": 2487.96,
+    "to": 2490.79,
+    "sid": 1112,
+    "location": 2,
+    "content": "编写超大内核非常耗费人力",
+    "music": 0
+  },
+  {
+    "from": 2490.79,
+    "to": 2491.77,
+    "sid": 1113,
+    "location": 2,
+    "content": "打个比方",
+    "music": 0
+  },
+  {
+    "from": 2491.77,
+    "to": 2494.91,
+    "sid": 1114,
+    "location": 2,
+    "content": "顶尖工程师一年可能也就为一种硬件",
+    "music": 0
+  },
+  {
+    "from": 2494.91,
+    "to": 2498.61,
+    "sid": 1115,
+    "location": 2,
+    "content": "做出两三个模型的超大内核啊",
+    "music": 0
+  },
+  {
+    "from": 2498.61,
+    "to": 2500.99,
+    "sid": 1116,
+    "location": 2,
+    "content": "批量大小1~16还行",
+    "music": 0
+  },
+  {
+    "from": 2500.99,
+    "to": 2504.33,
+    "sid": 1117,
+    "location": 2,
+    "content": "一旦到17就得推倒重来",
+    "music": 0
+  },
+  {
+    "from": 2504.33,
+    "to": 2505.63,
+    "sid": 1118,
+    "location": 2,
+    "content": "编写难度极大",
+    "music": 0
+  },
+  {
+    "from": 2505.63,
+    "to": 2508.87,
+    "sid": 1119,
+    "location": 2,
+    "content": "我们正试着用编译器把其中一些工作自动化",
+    "music": 0
+  },
+  {
+    "from": 2508.87,
+    "to": 2510.99,
+    "sid": 1120,
+    "location": 2,
+    "content": "这个过程做起来确实很难",
+    "music": 0
+  },
+  {
+    "from": 2510.99,
+    "to": 2512.57,
+    "sid": 1121,
+    "location": 2,
+    "content": "在GPU编程里",
+    "music": 0
+  },
+  {
+    "from": 2512.57,
+    "to": 2517.16,
+    "sid": 1122,
+    "location": 2,
+    "content": "超大内核这个概念过去几十年一直起起落落呃",
+    "music": 0
+  },
+  {
+    "from": 2517.16,
+    "to": 2519.78,
+    "sid": 1123,
+    "location": 2,
+    "content": "但一旦搞定速度就顶天了",
+    "music": 0
+  },
+  {
+    "from": 2519.78,
+    "to": 2520.72,
+    "sid": 1124,
+    "location": 2,
+    "content": "再也快不了",
+    "music": 0
+  },
+  {
+    "from": 2520.72,
+    "to": 2522.8,
+    "sid": 1125,
+    "location": 2,
+    "content": "但这确实得耗费大量精力",
+    "music": 0
+  },
+  {
+    "from": 2522.8,
+    "to": 2523.92,
+    "sid": 1126,
+    "location": 2,
+    "content": "行啊",
+    "music": 0
+  },
+  {
+    "from": 2523.92,
+    "to": 2524.78,
+    "sid": 1127,
+    "location": 2,
+    "content": "我能问个问题吗",
+    "music": 0
+  },
+  {
+    "from": 2524.78,
+    "to": 2527,
+    "sid": 1128,
+    "location": 2,
+    "content": "好咱们能多聊聊协同设计吗",
+    "music": 0
+  },
+  {
+    "from": 2527,
+    "to": 2529.04,
+    "sid": 1129,
+    "location": 2,
+    "content": "比如你提到的GRC和SUBRAS",
+    "music": 0
+  },
+  {
+    "from": 2529.04,
+    "to": 2532.119,
+    "sid": 1130,
+    "location": 2,
+    "content": "这些推理新硬件是如果你设计模型",
+    "music": 0
+  },
+  {
+    "from": 2532.119,
+    "to": 2535.539,
+    "sid": 1131,
+    "location": 2,
+    "content": "且知道他要在特定平台服务该怎么调架构",
+    "music": 0
+  },
+  {
+    "from": 2535.539,
+    "to": 2537.299,
+    "sid": 1132,
+    "location": 2,
+    "content": "对有几件事得注意",
+    "music": 0
+  },
+  {
+    "from": 2537.299,
+    "to": 2539.77,
+    "sid": 1133,
+    "location": 2,
+    "content": "首先内存是主要瓶颈",
+    "music": 0
+  },
+  {
+    "from": 2539.77,
+    "to": 2543.73,
+    "sid": 1134,
+    "location": 2,
+    "content": "real在特定SEREBR芯片服务得看晶圆算内存",
+    "music": 0
+  },
+  {
+    "from": 2543.73,
+    "to": 2544.77,
+    "sid": 1135,
+    "location": 2,
+    "content": "调整模型大小",
+    "music": 0
+  },
+  {
+    "from": 2544.77,
+    "to": 2545.95,
+    "sid": 1136,
+    "location": 2,
+    "content": "以容纳KV缓存",
+    "music": 0
+  },
+  {
+    "from": 2545.95,
+    "to": 2548.209,
+    "sid": 1137,
+    "location": 2,
+    "content": "a real chess6点余量",
+    "music": 0
+  },
+  {
+    "from": 2548.209,
+    "to": 2549.629,
+    "sid": 1138,
+    "location": 2,
+    "content": "看最近的中国模型",
+    "music": 0
+  },
+  {
+    "from": 2549.629,
+    "to": 2550.849,
+    "sid": 1139,
+    "location": 2,
+    "content": "他们的一些选择",
+    "music": 0
+  },
+  {
+    "from": 2550.849,
+    "to": 2554.65,
+    "sid": 1140,
+    "location": 2,
+    "content": "暗示了他们可能在考虑华为的新芯片",
+    "music": 0
+  },
+  {
+    "from": 2554.65,
+    "to": 2556.53,
+    "sid": 1141,
+    "location": 2,
+    "content": "你会看到一些量化选择",
+    "music": 0
+  },
+  {
+    "from": 2556.53,
+    "to": 2559.4,
+    "sid": 1142,
+    "location": 2,
+    "content": "不比如你要在英伟达显卡上跑模型",
+    "music": 0
+  },
+  {
+    "from": 2559.4,
+    "to": 2560.74,
+    "sid": 1143,
+    "location": 2,
+    "content": "像他们的nemo tr",
+    "music": 0
+  },
+  {
+    "from": 2560.74,
+    "to": 2563.92,
+    "sid": 1144,
+    "location": 2,
+    "content": "就得用NVFP4格式来训练",
+    "music": 0
+  },
+  {
+    "from": 2563.92,
+    "to": 2567.18,
+    "sid": 1145,
+    "location": 2,
+    "content": "这是英伟达芯片专有的FP4格式",
+    "music": 0
+  },
+  {
+    "from": 2567.18,
+    "to": 2568.3,
+    "sid": 1146,
+    "location": 2,
+    "content": "如果你不用英伟达",
+    "music": 0
+  },
+  {
+    "from": 2568.3,
+    "to": 2569.2,
+    "sid": 1147,
+    "location": 2,
+    "content": "比如用AMD",
+    "music": 0
+  },
+  {
+    "from": 2569.2,
+    "to": 2571.74,
+    "sid": 1148,
+    "location": 2,
+    "content": "就得用另一种叫MXIP4的格式",
+    "music": 0
+  },
+  {
+    "from": 2571.74,
+    "to": 2572.8,
+    "sid": 1149,
+    "location": 2,
+    "content": "它们各有优劣",
+    "music": 0
+  },
+  {
+    "from": 2572.8,
+    "to": 2573.84,
+    "sid": 1150,
+    "location": 2,
+    "content": "所以啊",
+    "music": 0
+  },
+  {
+    "from": 2573.84,
+    "to": 2578.06,
+    "sid": 1151,
+    "location": 2,
+    "content": "你得根据选用的硬件来做这些细微的选择",
+    "music": 0
+  },
+  {
+    "from": 2578.06,
+    "to": 2579.84,
+    "sid": 1152,
+    "location": 2,
+    "content": "谢谢VERCEL",
+    "music": 0
+  },
+  {
+    "from": 2579.84,
+    "to": 2580.26,
+    "sid": 1153,
+    "location": 2,
+    "content": "想问",
+    "music": 0
+  },
+  {
+    "from": 2580.26,
+    "to": 2582.2,
+    "sid": 1154,
+    "location": 2,
+    "content": "如果只在乎计算最优训练",
+    "music": 0
+  },
+  {
+    "from": 2582.2,
+    "to": 2584.82,
+    "sid": 1155,
+    "location": 2,
+    "content": "循环迭代是不是比增加参数更好",
+    "music": 0
+  },
+  {
+    "from": 2584.82,
+    "to": 2586.58,
+    "sid": 1156,
+    "location": 2,
+    "content": "Pute optimal training",
+    "music": 0
+  },
+  {
+    "from": 2586.58,
+    "to": 2590.15,
+    "sid": 1157,
+    "location": 2,
+    "content": "还是说这主要是为了降低推理成本的技巧",
+    "music": 0
+  },
+  {
+    "from": 2590.15,
+    "to": 2593.85,
+    "sid": 1158,
+    "location": 2,
+    "content": "对关于计算最优训练的技巧是计算最优",
+    "music": 0
+  },
+  {
+    "from": 2593.85,
+    "to": 2596.36,
+    "sid": 1159,
+    "location": 2,
+    "content": "通常是指给定FOP预算",
+    "music": 0
+  },
+  {
+    "from": 2596.36,
+    "to": 2597.88,
+    "sid": 1160,
+    "location": 2,
+    "content": "麻烦重复一下问题",
+    "music": 0
+  },
+  {
+    "from": 2597.88,
+    "to": 2599.52,
+    "sid": 1161,
+    "location": 2,
+    "content": "抱歉问题是when percel",
+    "music": 0
+  },
+  {
+    "from": 2599.52,
+    "to": 2600.72,
+    "sid": 1162,
+    "location": 2,
+    "content": "你会选择循环迭代",
+    "music": 0
+  },
+  {
+    "from": 2600.72,
+    "to": 2602.02,
+    "sid": 1163,
+    "location": 2,
+    "content": "而不是增加参数吗",
+    "music": 0
+  },
+  {
+    "from": 2602.02,
+    "to": 2605.76,
+    "sid": 1164,
+    "location": 2,
+    "content": "计算最优的技巧就是在给定f log预算下",
+    "music": 0
+  },
+  {
+    "from": 2605.76,
+    "to": 2608.2,
+    "sid": 1165,
+    "location": 2,
+    "content": "搞清楚你想达到什么目标",
+    "music": 0
+  },
+  {
+    "from": 2608.2,
+    "to": 2609.92,
+    "sid": 1166,
+    "location": 2,
+    "content": "这么说有点牵强",
+    "music": 0
+  },
+  {
+    "from": 2609.92,
+    "to": 2611.86,
+    "sid": 1167,
+    "location": 2,
+    "content": "毕竟想提升模型质量",
+    "music": 0
+  },
+  {
+    "from": 2611.86,
+    "to": 2614.12,
+    "sid": 1168,
+    "location": 2,
+    "content": "直接增加IPHLOX预算就行",
+    "music": 0
+  },
+  {
+    "from": 2614.12,
+    "to": 2617.86,
+    "sid": 1169,
+    "location": 2,
+    "content": "定好模型规模后就拉长训练时长",
+    "music": 0
+  },
+  {
+    "from": 2617.86,
+    "to": 2619.12,
+    "sid": 1170,
+    "location": 2,
+    "content": "要是规模受限",
+    "music": 0
+  },
+  {
+    "from": 2619.12,
+    "to": 2621.279,
+    "sid": 1171,
+    "location": 2,
+    "content": "那就多跑几轮循环",
+    "music": 0
+  },
+  {
+    "from": 2621.279,
+    "to": 2625.199,
+    "sid": 1172,
+    "location": 2,
+    "content": "数据用完了就挑个你觉得合适的模型",
+    "music": 0
+  },
+  {
+    "from": 2625.199,
+    "to": 2628.33,
+    "sid": 1173,
+    "location": 2,
+    "content": "规模在选定规模下尽量练好",
+    "music": 0
+  },
+  {
+    "from": 2628.33,
+    "to": 2629.29,
+    "sid": 1174,
+    "location": 2,
+    "content": "我觉得选择很多",
+    "music": 0
+  },
+  {
+    "from": 2629.29,
+    "to": 2631.61,
+    "sid": 1175,
+    "location": 2,
+    "content": "当然得看这东西到底能不能被采纳",
+    "music": 0
+  },
+  {
+    "from": 2631.61,
+    "to": 2632.92,
+    "sid": 1176,
+    "location": 2,
+    "content": "我该怎么部署它",
+    "music": 0
+  },
+  {
+    "from": 2632.92,
+    "to": 2633.8,
+    "sid": 1177,
+    "location": 2,
+    "content": "真要搞开源",
+    "music": 0
+  },
+  {
+    "from": 2633.8,
+    "to": 2637,
+    "sid": 1178,
+    "location": 2,
+    "content": "现在大家笔记本上跑得动多大的模型",
+    "music": 0
+  },
+  {
+    "from": 2637,
+    "to": 2639.56,
+    "sid": 1179,
+    "location": 2,
+    "content": "我觉得这些考量最终都归结为一个决定",
+    "music": 0
+  },
+  {
+    "from": 2639.56,
+    "to": 2641.74,
+    "sid": 1180,
+    "location": 2,
+    "content": "你打算训练多大的模型",
+    "music": 0
+  },
+  {
+    "from": 2641.74,
+    "to": 2644.38,
+    "sid": 1181,
+    "location": 2,
+    "content": "嗯我觉得只要模型更大",
+    "music": 0
+  },
+  {
+    "from": 2644.38,
+    "to": 2645.2,
+    "sid": 1182,
+    "location": 2,
+    "content": "数据更多",
+    "music": 0
+  },
+  {
+    "from": 2645.2,
+    "to": 2646.44,
+    "sid": 1183,
+    "location": 2,
+    "content": "性能肯定更好",
+    "music": 0
+  },
+  {
+    "from": 2646.44,
+    "to": 2650.22,
+    "sid": 1184,
+    "location": 2,
+    "content": "对我觉得这主要看那些呃设计细节",
+    "music": 0
+  },
+  {
+    "from": 2650.22,
+    "to": 2651.8,
+    "sid": 1185,
+    "location": 2,
+    "content": "谢谢",
+    "music": 0
+  },
+  {
+    "from": 2652.24,
+    "to": 2654.54,
+    "sid": 1186,
+    "location": 2,
+    "content": "也许还有一个关于协同设计的问题",
+    "music": 0
+  },
+  {
+    "from": 2654.54,
+    "to": 2657.75,
+    "sid": 1187,
+    "location": 2,
+    "content": "so你开头提到了不同的用例啊",
+    "music": 0
+  },
+  {
+    "from": 2657.75,
+    "to": 2659.15,
+    "sid": 1188,
+    "location": 2,
+    "content": "比如代理式代码生成",
+    "music": 0
+  },
+  {
+    "from": 2659.15,
+    "to": 2660.59,
+    "sid": 1189,
+    "location": 2,
+    "content": "还有批量数据处理",
+    "music": 0
+  },
+  {
+    "from": 2660.59,
+    "to": 2663,
+    "sid": 1190,
+    "location": 2,
+    "content": "就是那么不同用例之间",
+    "music": 0
+  },
+  {
+    "from": 2663,
+    "to": 2666.38,
+    "sid": 1191,
+    "location": 2,
+    "content": "你看到的最佳架构最显著的区别是什么",
+    "music": 0
+  },
+  {
+    "from": 2666.38,
+    "to": 2667.74,
+    "sid": 1192,
+    "location": 2,
+    "content": "有想归根结底",
+    "music": 0
+  },
+  {
+    "from": 2667.74,
+    "to": 2669.86,
+    "sid": 1193,
+    "location": 2,
+    "content": "模型开发者得选一个",
+    "music": 0
+  },
+  {
+    "from": 2669.86,
+    "to": 2671.36,
+    "sid": 1194,
+    "location": 2,
+    "content": "还得尽量做到合理",
+    "music": 0
+  },
+  {
+    "from": 2671.36,
+    "to": 2673.68,
+    "sid": 1195,
+    "location": 2,
+    "content": "中国有很多是的好问题",
+    "music": 0
+  },
+  {
+    "from": 2673.68,
+    "to": 2675.76,
+    "sid": 1196,
+    "location": 2,
+    "content": "我认为一个巨大的区别在于",
+    "music": 0
+  },
+  {
+    "from": 2675.76,
+    "to": 2677.54,
+    "sid": 1197,
+    "location": 2,
+    "content": "在这些代理循环工作流里",
+    "music": 0
+  },
+  {
+    "from": 2677.54,
+    "to": 2678.62,
+    "sid": 1198,
+    "location": 2,
+    "content": "有一点很重要",
+    "music": 0
+  },
+  {
+    "from": 2678.62,
+    "to": 2682.899,
+    "sid": 1199,
+    "location": 2,
+    "content": "就是要让你的KV缓存尽量保持um or there",
+    "music": 0
+  },
+  {
+    "from": 2682.899,
+    "to": 2684.139,
+    "sid": 1200,
+    "location": 2,
+    "content": "越热越好",
+    "music": 0
+  },
+  {
+    "from": 2684.139,
+    "to": 2686.899,
+    "sid": 1201,
+    "location": 2,
+    "content": "所以如果你做的是大规模批量处理",
+    "music": 0
+  },
+  {
+    "from": 2686.899,
+    "to": 2688.339,
+    "sid": 1202,
+    "location": 2,
+    "content": "每个文档只看一次",
+    "music": 0
+  },
+  {
+    "from": 2688.339,
+    "to": 2691.31,
+    "sid": 1203,
+    "location": 2,
+    "content": "然后翻译KV缓存就没那么重要了啊",
+    "music": 0
+  },
+  {
+    "from": 2691.31,
+    "to": 2693.39,
+    "sid": 1204,
+    "location": 2,
+    "content": "比如deep seek的ma啊",
+    "music": 0
+  },
+  {
+    "from": 2693.39,
+    "to": 2695.67,
+    "sid": 1205,
+    "location": 2,
+    "content": "注意力机制相比其他模型",
+    "music": 0
+  },
+  {
+    "from": 2695.67,
+    "to": 2698.149,
+    "sid": 1206,
+    "location": 2,
+    "content": "它对KV缓存做了激进的压缩",
+    "music": 0
+  },
+  {
+    "from": 2698.149,
+    "to": 2701.429,
+    "sid": 1207,
+    "location": 2,
+    "content": "或者如果模型能在FP8或者F4下",
+    "music": 0
+  },
+  {
+    "from": 2701.429,
+    "to": 2702.649,
+    "sid": 1208,
+    "location": 2,
+    "content": "处理KV缓存",
+    "music": 0
+  },
+  {
+    "from": 2702.649,
+    "to": 2705.77,
+    "sid": 1209,
+    "location": 2,
+    "content": "这在缓存大小上都是相当大的差异",
+    "music": 0
+  },
+  {
+    "from": 2705.77,
+    "to": 2707.55,
+    "sid": 1210,
+    "location": 2,
+    "content": "如果你关注智能体工作流",
+    "music": 0
+  },
+  {
+    "from": 2707.55,
+    "to": 2708.53,
+    "sid": 1211,
+    "location": 2,
+    "content": "就会注意到这点",
+    "music": 0
+  },
+  {
+    "from": 2708.53,
+    "to": 2711.49,
+    "sid": 1212,
+    "location": 2,
+    "content": "当然最关键的是因果注意力还是非因果注意力",
+    "music": 0
+  },
+  {
+    "from": 2711.49,
+    "to": 2712.33,
+    "sid": 1213,
+    "location": 2,
+    "content": "对吧嗯",
+    "music": 0
+  },
+  {
+    "from": 2712.33,
+    "to": 2714.779,
+    "sid": 1214,
+    "location": 2,
+    "content": "所以如果只是做大批量处理",
+    "music": 0
+  },
+  {
+    "from": 2714.779,
+    "to": 2716.939,
+    "sid": 1215,
+    "location": 2,
+    "content": "比如谷歌过去长期只用bird模型",
+    "music": 0
+  },
+  {
+    "from": 2716.939,
+    "to": 2718.799,
+    "sid": 1216,
+    "location": 2,
+    "content": "我想搜索里现在可能还在用",
+    "music": 0
+  },
+  {
+    "from": 2718.799,
+    "to": 2722.71,
+    "sid": 1217,
+    "location": 2,
+    "content": "但呃因为另一端其实不需要生成大量token哦",
+    "music": 0
+  },
+  {
+    "from": 2722.71,
+    "to": 2726.09,
+    "sid": 1218,
+    "location": 2,
+    "content": "所以做一次大的双向注意力",
+    "music": 0
+  },
+  {
+    "from": 2726.09,
+    "to": 2728.41,
+    "sid": 1219,
+    "location": 2,
+    "content": "就能得到向量输出结果",
+    "music": 0
+  },
+  {
+    "from": 2728.41,
+    "to": 2729.19,
+    "sid": 1220,
+    "location": 2,
+    "content": "存入数据库",
+    "music": 0
+  },
+  {
+    "from": 2729.19,
+    "to": 2730.05,
+    "sid": 1221,
+    "location": 2,
+    "content": "随你怎么用",
+    "music": 0
+  },
+  {
+    "from": 2730.05,
+    "to": 2733.58,
+    "sid": 1222,
+    "location": 2,
+    "content": "但对话工作流的处理总会包含解码这部分",
+    "music": 0
+  },
+  {
+    "from": 2733.58,
+    "to": 2736.04,
+    "sid": 1223,
+    "location": 2,
+    "content": "比如T5这类这种方案嗯",
+    "music": 0
+  },
+  {
+    "from": 2736.04,
+    "to": 2738.5,
+    "sid": 1224,
+    "location": 2,
+    "content": "人们曾选择用它先做双向处理",
+    "music": 0
+  },
+  {
+    "from": 2738.5,
+    "to": 2739.38,
+    "sid": 1225,
+    "location": 2,
+    "content": "再做生成",
+    "music": 0
+  },
+  {
+    "from": 2739.38,
+    "to": 2740.1,
+    "sid": 1226,
+    "location": 2,
+    "content": "谢谢好",
+    "music": 0
+  },
+  {
+    "from": 2740.1,
+    "to": 2741.46,
+    "sid": 1227,
+    "location": 2,
+    "content": "最后再问一个问题哦",
+    "music": 0
+  },
+  {
+    "from": 2741.46,
+    "to": 2745.85,
+    "sid": 1228,
+    "location": 2,
+    "content": "对我主要想问关于mega kernels的问题",
+    "music": 0
+  },
+  {
+    "from": 2745.85,
+    "to": 2749.15,
+    "sid": 1229,
+    "location": 2,
+    "content": "当时是想把所有东西融进一个内核",
+    "music": 0
+  },
+  {
+    "from": 2749.15,
+    "to": 2750.41,
+    "sid": 1230,
+    "location": 2,
+    "content": "但说到可移植性",
+    "music": 0
+  },
+  {
+    "from": 2750.41,
+    "to": 2752.81,
+    "sid": 1231,
+    "location": 2,
+    "content": "其实你做的是训练芯片好嘞",
+    "music": 0
+  },
+  {
+    "from": 2752.81,
+    "to": 2757.34,
+    "sid": 1232,
+    "location": 2,
+    "content": "就是想问问这些超大内核怎么跨多台机器通信",
+    "music": 0
+  },
+  {
+    "from": 2757.34,
+    "to": 2759.48,
+    "sid": 1233,
+    "location": 2,
+    "content": "还是说必须扩展到训练环节",
+    "music": 0
+  },
+  {
+    "from": 2759.48,
+    "to": 2760,
+    "sid": 1234,
+    "location": 2,
+    "content": "问得好",
+    "music": 0
+  },
+  {
+    "from": 2760,
+    "to": 2763.36,
+    "sid": 1235,
+    "location": 2,
+    "content": "你是问当多个GPU在循环里通信时",
+    "music": 0
+  },
+  {
+    "from": 2763.36,
+    "to": 2765.36,
+    "sid": 1236,
+    "location": 2,
+    "content": "超大内核怎么运作对吧",
+    "music": 0
+  },
+  {
+    "from": 2765.36,
+    "to": 2767.76,
+    "sid": 1237,
+    "location": 2,
+    "content": "我们早期做过一些初步研究",
+    "music": 0
+  },
+  {
+    "from": 2767.76,
+    "to": 2769.78,
+    "sid": 1238,
+    "location": 2,
+    "content": "发现只要设置得当",
+    "music": 0
+  },
+  {
+    "from": 2769.78,
+    "to": 2772.78,
+    "sid": 1239,
+    "location": 2,
+    "content": "也能把NC cl调用融进超大内核",
+    "music": 0
+  },
+  {
+    "from": 2772.78,
+    "to": 2775.6,
+    "sid": 1240,
+    "location": 2,
+    "content": "我觉得还没找到特别好的杀手级应用场景",
+    "music": 0
+  },
+  {
+    "from": 2775.6,
+    "to": 2779.49,
+    "sid": 1241,
+    "location": 2,
+    "content": "有时候瓶颈就在NC co调用本身的延迟上",
+    "music": 0
+  },
+  {
+    "from": 2779.49,
+    "to": 2781.55,
+    "sid": 1242,
+    "location": 2,
+    "content": "我觉得这些也能融合啊",
+    "music": 0
+  },
+  {
+    "from": 2781.55,
+    "to": 2782.89,
+    "sid": 1243,
+    "location": 2,
+    "content": "deep six c出来时",
+    "music": 0
+  },
+  {
+    "from": 2782.89,
+    "to": 2785.83,
+    "sid": 1244,
+    "location": 2,
+    "content": "他们为MOE推理层做了个超大内核",
+    "music": 0
+  },
+  {
+    "from": 2785.83,
+    "to": 2786.95,
+    "sid": 1245,
+    "location": 2,
+    "content": "专门跑这一块",
+    "music": 0
+  },
+  {
+    "from": 2786.95,
+    "to": 2789.09,
+    "sid": 1246,
+    "location": 2,
+    "content": "还真把部分通信也融了进去",
+    "music": 0
+  },
+  {
+    "from": 2789.09,
+    "to": 2792.35,
+    "sid": 1247,
+    "location": 2,
+    "content": "我觉得现在越来越能看到的趋势是",
+    "music": 0
+  },
+  {
+    "from": 2792.35,
+    "to": 2793.88,
+    "sid": 1248,
+    "location": 2,
+    "content": "模型越来越多时",
+    "music": 0
+  },
+  {
+    "from": 2793.88,
+    "to": 2797.18,
+    "sid": 1249,
+    "location": 2,
+    "content": "你会为一部分计算做个小的超大内核",
+    "music": 0
+  },
+  {
+    "from": 2797.18,
+    "to": 2798.8,
+    "sid": 1250,
+    "location": 2,
+    "content": "但不一定为整个模型做",
+    "music": 0
+  },
+  {
+    "from": 2798.8,
+    "to": 2799.24,
+    "sid": 1251,
+    "location": 2,
+    "content": "All the time",
+    "music": 0
+  },
+  {
+    "from": 2799.24,
+    "to": 2799.72,
+    "sid": 1252,
+    "location": 2,
+    "content": "We have",
+    "music": 0
+  },
+  {
+    "from": 2799.72,
+    "to": 2800.08,
+    "sid": 1253,
+    "location": 2,
+    "content": "Let's",
+    "music": 0
+  },
+  {
+    "from": 2800.08,
+    "to": 2800.94,
+    "sid": 1254,
+    "location": 2,
+    "content": "Thank dan again",
+    "music": 0
+  },
+  {
+    "from": 2800.94,
+    "to": 2802.779,
+    "sid": 1255,
+    "location": 2,
+    "content": "Thanks so much for having me",
+    "music": 0
+  },
+  {
+    "from": 2803.059,
+    "to": 2805.999,
+    "sid": 1256,
+    "location": 2,
+    "content": "除非你愿意拼尽全力把整套真正跑起来",
+    "music": 0
+  },
+  {
+    "from": 2805.999,
+    "to": 2807.259,
+    "sid": 1257,
+    "location": 2,
+    "content": "好时间差不多了",
+    "music": 0
+  },
+  {
+    "from": 2807.259,
+    "to": 2808.179,
+    "sid": 1258,
+    "location": 2,
+    "content": "再次感谢DAN",
+    "music": 0
+  },
+  {
+    "from": 2808.179,
+    "to": 2808.94,
+    "sid": 1259,
+    "location": 2,
+    "content": "谢谢邀请",
+    "music": 0
+  }
+]
