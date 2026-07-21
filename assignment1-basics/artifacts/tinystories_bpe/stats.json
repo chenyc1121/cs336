@@ -1,0 +1,13 @@
+{
+  "input": "data/TinyStoriesV2-GPT4-train.txt",
+  "vocab_size": 10000,
+  "merge_count": 9743,
+  "elapsed_seconds": 29.65699789300561,
+  "peak_rss_mb": 103.53515625,
+  "longest_token_id": 9379,
+  "longest_token_len": 15,
+  "longest_token_utf8_preview": " responsibility",
+  "special_tokens": [
+    "<|endoftext|>"
+  ]
+}
